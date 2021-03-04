@@ -1,0 +1,5 @@
+<map id="vitroio::sdk::impl::TLSCrypto::aesEncrypt" name="vitroio::sdk::impl::TLSCrypto::aesEncrypt">
+<area shape="rect" id="node1" title="Encrypt node&#39;s data with AES&#45;256&#45;CBC algorithm." alt="" coords="5,39,181,80"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#ac40bb5a0bcbe771bcf7643b1ec7ca933" title="Generate random data." alt="" coords="229,5,443,47"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#afdf2ad01913124e2aae0c1a2a05b3d23" title="Read symmetric key stored in ECC chip." alt="" coords="253,71,419,112"/>
+</map>

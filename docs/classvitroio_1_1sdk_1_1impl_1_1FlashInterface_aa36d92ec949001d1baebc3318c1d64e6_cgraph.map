@@ -1,0 +1,6 @@
+<map id="vitroio::sdk::impl::FlashInterface::FlashInterface" name="vitroio::sdk::impl::FlashInterface::FlashInterface">
+<area shape="rect" id="node1" title="Constructor intializes the interface." alt="" coords="5,79,229,120"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#af9fcd8c335dd861e0066fea4ffc0bed1" title="Function allows to obtain flash memory size in bytes." alt="" coords="280,5,495,47"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a7e639c8bdbf9116e08d5fae281df2351" title="Function allows to obtain flash memory start address." alt="" coords="294,71,481,127"/>
+<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a33d10b526dbb42d79ee8c0f0c181ba36" title="Function allows to obtain sector size of flash memory for specified address." alt="" coords="277,152,497,193"/>
+</map>

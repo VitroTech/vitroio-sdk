@@ -1,0 +1,9 @@
+<map id="vitroio::sdk::IoTBlock::make" name="vitroio::sdk::IoTBlock::make">
+<area shape="rect" id="node1" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,..." alt="" coords="5,136,164,177"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#a6bf28b372f1d43984f5e268317e50148" title="Encrypt node&#39;s data with AES&#45;256&#45;CBC algorithm." alt="" coords="212,37,388,79"/>
+<area shape="rect" id="node5" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a3c212e8420c4aaf422241e91e0197b2f" title="Count SHA&#45;256 checksum of input data." alt="" coords="215,103,385,144"/>
+<area shape="rect" id="node6" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a35cebcd77eff7fd91e112dc91a51ec02" title="Read serial number from ECC chip." alt="" coords="225,168,375,209"/>
+<area shape="rect" id="node7" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a2f4a29de3fc2c4c6d5dbdfc89f173322" title="Sign data using ECDSA algorithm." alt="" coords="229,233,371,275"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#ac40bb5a0bcbe771bcf7643b1ec7ca933" title="Generate random data." alt="" coords="436,5,649,47"/>
+<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#afdf2ad01913124e2aae0c1a2a05b3d23" title="Read symmetric key stored in ECC chip." alt="" coords="459,71,626,112"/>
+</map>

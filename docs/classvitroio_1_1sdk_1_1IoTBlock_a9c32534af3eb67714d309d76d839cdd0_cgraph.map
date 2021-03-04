@@ -1,0 +1,4 @@
+<map id="vitroio::sdk::IoTBlock::IoTBlock" name="vitroio::sdk::IoTBlock::IoTBlock">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1Canbus.html#acafc1e0ada1ad0de9512b8d960418973" title="Function allows to set callbacks which are to be called any time the frame received." alt="" coords="212,5,437,47"/>
+</map>

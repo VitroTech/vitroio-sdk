@@ -1,0 +1,4 @@
+<map id="vitroio::sdk::impl::EnvironmentInterface::save" name="vitroio::sdk::impl::EnvironmentInterface::save">
+<area shape="rect" id="node1" title="Function saves environment variables to the flash memory." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a4eec05396fc863face908a24f85b7c49" title="Function allows to obtain maximum size of sector in flash memory." alt="" coords="264,5,512,47"/>
+</map>

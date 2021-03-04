@@ -1,0 +1,7 @@
+<map id="vitroio::sdk::IoTBlock::send" name="vitroio::sdk::IoTBlock::send">
+<area shape="rect" id="node1" title="Send IoT Block by CAN bus. Before sending, the Block has to be prepared with the make() method." alt="" coords="5,104,164,145"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1CanbusFrame.html#acac5f4642764ce4533bb49999db03fc3" title="Function allows a direct access to the frame data for modifications." alt="" coords="212,5,404,47"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1Canbus.html#a0d96e84e143bb4ab3e117b78e4b305e5" title="Functions sends frame over the bus." alt="" coords="233,71,383,112"/>
+<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1CanbusFrame.html#a37695bc75a77f3e37775b58685b27081" title="Function allows to set node ID for the frame." alt="" coords="212,136,404,177"/>
+<area shape="rect" id="node5" href="$classvitroio_1_1sdk_1_1CanbusFrame.html#a5abe95672dd9afdbf1e3c08f9d46a0dc" title="Function allows to set parameter ID for the frame." alt="" coords="212,201,404,243"/>
+</map>

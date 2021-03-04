@@ -1,0 +1,10 @@
+<map id="vitroio::sdk::NodeController::NodeController" name="vitroio::sdk::NodeController::NodeController">
+<area shape="rect" id="node1" title="Contructor initializes the controller and creates internal event loop using thread with priority prio..." alt="" coords="5,199,207,241"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae08845f74ebe45e3dc807778bd01a51f" title="Function allows to get value of environment variable." alt="" coords="275,5,445,61"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a25a3281262f5eb5d1019d34a359a8592" title="Function allows to check whether the interface is in valid state." alt="" coords="273,86,447,127"/>
+<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a3c509e1f88ef4dfcc968e9d6b74ee40a" title="Function allows to check whether the interface is in valid state." alt="" coords="275,152,445,208"/>
+<area shape="rect" id="node5" href="$classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#a3c774549fc1043a0ceb9e0d074165c56" title="Function allows to check whether the controller is in valid state." alt="" coords="285,232,435,288"/>
+<area shape="rect" id="node6" href="$classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae98872ccab530494fa5033247346c987" title="Function saves environment variables to the flash memory." alt="" coords="255,313,465,354"/>
+<area shape="rect" id="node8" href="$classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a58697d2b7ccaebb95b91fcd9187467ee" title="Function allows to set value of environment variable." alt="" coords="275,379,445,435"/>
+<area shape="rect" id="node7" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a4eec05396fc863face908a24f85b7c49" title="Function allows to obtain maximum size of sector in flash memory." alt="" coords="513,313,761,354"/>
+</map>
