@@ -124,7 +124,63 @@ public:
         FlashSpace regionBFlashSpace,
         osPriority priority = osPriorityNormal, 
         uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
+    
+    /**
+     * @brief Contructor initializes the controller and creates internal event
+     * loop using thread with priority \p priority.
+     * 
+     * @details Initilization includes all of necessary components.
+     * 
+     * There is not guarantee that the object is in valid state. User should
+     * call isValid() method to determine if the object was initialized
+     * successfully. When the object is in invalid state, the behaviour is
+     * undefined. 
+     * 
+     * @param canbus Pointer to Canbus object
+     * @param fwId id of firmware
+     * @param fwVersion Version of firmware
+     * @param priority Priority of thread for handling internal events
+     * @param eventQueueSize Size of internal event queue
+     */
+    NodeController(
+        Canbus* canbus,
+        const FirmwareId& fwId,
+        const Version& fwVersion, 
+        osPriority priority, 
+        uint32_t eventQueueSize);
 
+    /**
+     * @brief Contructor initializes the controller and chains an internal
+     * event queue to the \p targetQueue.
+     * 
+     * @note Thread which handles \p targetQueue must be run before usage
+     * of this class (construction of the object can be done earlier).
+     * 
+     * @details Initilization includes all of necessary components.
+     * 
+     * There is not guarantee that the object is in valid state. User should
+     * call isValid() method to determine if the object was initialized
+     * successfully. When the object is in invalid state, the behaviour is
+     * undefined. 
+     * 
+     * The constructor uses
+     * <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a>
+     * method for connection to \p targetQueue.
+     * 
+     * @param canbus Pointer to Canbus object
+     * @param fwId id of firmware
+     * @param fwVersion Version of firmware
+     * @param targetQueue External event queue to which the internal queue is
+     * to be chained
+     * @param eventQueueSize Size of internal event queue
+     */
+    NodeController(
+        Canbus* canbus,
+        const FirmwareId& fwId,
+        const Version& fwVersion, 
+        EventQueue* targetQueue, 
+        uint32_t eventQueueSize);
+    
     ~NodeController();
 
     /**

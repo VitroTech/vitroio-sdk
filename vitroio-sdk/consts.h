@@ -14,6 +14,16 @@
  */
 #define VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE 0x02
 
+#define VITROIO_REGION_A_FLASH_OFFSET       0x10800
+#define VITROIO_REGION_B_FLASH_OFFSET       0x88000
+// Sectors sizes may differ for other targets
+#define VITROIO_REGION_FLASH_SECTORS        239
+
+#define VITROIO_ENVIRONMENT_FLASH_OFFSET    0x10000
+#define VITROIO_ENVIRONMENT_FLASH_SECTORS   1 // 1*2048=2048 (0x800)
+
+#define DEBUG    0
+
 /**
  * Variables listed below contains Shard V2 pinout adjusted to its design.
  * Names are compatible with schematics. When you create your own application
