@@ -146,8 +146,8 @@ public:
         Canbus* canbus,
         const FirmwareId& fwId,
         const Version& fwVersion, 
-        osPriority priority, 
-        uint32_t eventQueueSize);
+        osPriority priority = osPriorityNormal, 
+        uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
 
     /**
      * @brief Contructor initializes the controller and chains an internal
@@ -179,7 +179,7 @@ public:
         const FirmwareId& fwId,
         const Version& fwVersion, 
         EventQueue* targetQueue, 
-        uint32_t eventQueueSize);
+        uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
     
     ~NodeController();
 

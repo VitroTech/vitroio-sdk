@@ -1,6 +1,7 @@
 #ifndef ECC508_H
 #define ECC508_H
 
+#define AES_256_KEY_LEN     32
 #define SLOT_8_SIZE 		416
 #define ECC_DEBUG 			0
 #define CRC_WIDTH 			32
@@ -25,7 +26,6 @@ public:
 	 * @brief Configure ECC chip to communicate over I2C bus
 	 */
 	Ecc508();
-
 
 	/**
 	 * @brief Read serial number from ECC chip

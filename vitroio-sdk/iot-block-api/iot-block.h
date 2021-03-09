@@ -3,20 +3,49 @@
 
 #include <vitroio-sdk/communication/canbus.h>
 
-#define SHA256_DIGEST_SIZE      32
-#define ECDSA_SIGNATURE_SIZE    64
-#define AES_256_KEY_LEN         32
 #define AES_IV_LEN              16
 #define AES_CBC_BLOCK_SIZE      16
+
+/**
+ * @brief Size of parameter Id field
+ * 
+ */
+#define PARAMETER_ID_SIZE       2
+
+/**
+ * @brief Size of node Id field
+ * 
+ */
 #define NODE_ID_SIZE            9
 
-/* DATA_TO_ENCRYPT_SIZE is actually:
-  sizeof(IoTBlock::Frame.value) + sizeof(IoTBlock::Frame.parameterID) 
-  rounded to multiple of AES_CBC_BLOCK_SIZE.
-  In this demo it is:
-  4 bytes + 2 bytes = 6 bytes --rounded--> 16 bytes
-*/
-#define DATA_TO_ENCRYPT_SIZE    16
+/**
+ * @brief Size of timestamp
+ * 
+ */
+#define TIMESTAMP_SIZE          4
+
+/**
+ * @brief Size of SHA256 digest
+ * 
+ */
+#define SHA256_DIGEST_SIZE      32
+
+/**
+ * @brief Size of ECDSA signature
+ * 
+ */
+#define ECDSA_SIGNATURE_SIZE    64
+
+/**
+ * @brief Additional data to be sent with blob.
+ * 
+ */
+#define METADATA_SIZE (PARAMETER_ID_SIZE + NODE_ID_SIZE + TIMESTAMP_SIZE + \
+    SHA256_DIGEST_SIZE + ECDSA_SIGNATURE_SIZE) 
+
+#define MAX_BLOCK_SIZE (7 * 255)
+#define MAX_PD_SIZE (MAX_BLOCK_SIZE - METADATA_SIZE)
+
 #define DATA_BLOB_SIZE          AES_IV_LEN + DATA_TO_ENCRYPT_SIZE
 #define CAN_DATA_SIZE           147
 
@@ -61,12 +90,12 @@ public:
 
     struct __attribute__((packed)) Frame
     {
-        uint8_t blob[DATA_BLOB_SIZE];
+        uint8_t digest[SHA256_DIGEST_SIZE];
+        uint8_t signature[ECDSA_SIGNATURE_SIZE];
         uint16_t parameterID;
         uint8_t nodeID[NODE_ID_SIZE];
         uint32_t timestamp;
-        uint8_t digest[SHA256_DIGEST_SIZE];
-        uint8_t signature[ECDSA_SIGNATURE_SIZE];
+        uint8_t blob[MAX_PD_SIZE];
     };
 
     /**
@@ -85,6 +114,16 @@ public:
      * 
      */
     void make(uint32_t data, uint32_t parameter);
+
+    /**
+     * @brief Prepare IoT block consisting of the Initialize Vector, encrypted
+     * data, parameter ID, node Id, timestamp, digest, and signature
+     * 
+     * @param data Pointer to data to be encrypted
+     * @param dataLen Length of data given
+     * @param parameter Parameter ID 
+     */
+    void make(void* data, size_t dataLen, uint32_t parameter);
 
     /**
      * @brief Send IoT Block by CAN bus. Before sending, the Block has to be
@@ -117,16 +156,14 @@ public:
 private:
     Canbus* canbus_;
     uint32_t nodeid_;
-    union
-    {
-        Frame frame;
-        uint8_t frame_as_array[CAN_DATA_SIZE];
-    };
+    uint32_t frameSize;
+    uint32_t blobSize;
+    uint32_t timestamp;
+    
 
     void updateTimestamp();
     void frameReceivedCallback(const CanbusFrame& frame);
     int countCRC(uint8_t *buffer, size_t length, uint32_t *crc_value);
-
 };
 
 } // namespace sdk
