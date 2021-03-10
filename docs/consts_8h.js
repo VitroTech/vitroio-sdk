@@ -10,6 +10,7 @@ var consts_8h =
     [ "ADC1_IN9", "consts_8h.html#a79c4749930d72a8b01267aeef8a283fb", null ],
     [ "CAN_RX", "consts_8h.html#a432cd1f58398a7dbba4a3fffa9e2a151", null ],
     [ "CAN_TX", "consts_8h.html#a2e2a30d5cdfd6401500776811d46cc0a", null ],
+    [ "DEBUG", "consts_8h.html#ad72dbcf6d0153db1b8d8a58001feed83", null ],
     [ "GPIO_PC10", "consts_8h.html#a56c3ba1843ee1dea3eb14398f024f23c", null ],
     [ "GPIO_PC11", "consts_8h.html#ac7c6e701f6eb2447b0dfbfdc6ae4ffbc", null ],
     [ "HARD_3V3_EN_N_PC3", "consts_8h.html#a4532ab00612ab12cdd0f5c88655259ec", null ],
@@ -36,5 +37,10 @@ var consts_8h =
     [ "USB_OTG_OVRCR", "consts_8h.html#a69c0d8c02379807a5054a316f5598021", null ],
     [ "USB_OTG_PPWR", "consts_8h.html#a039e0d0cd1dd2258d4ac6d0ec968c05d", null ],
     [ "USB_OTG_PRDY", "consts_8h.html#ad88ca68df5c1e7249d7ccca106d973bd", null ],
-    [ "VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE", "consts_8h.html#a84394a0f3a6348ab05f607ed90a8076e", null ]
+    [ "VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE", "consts_8h.html#a84394a0f3a6348ab05f607ed90a8076e", null ],
+    [ "VITROIO_ENVIRONMENT_FLASH_OFFSET", "consts_8h.html#abd72611a4a736815937ecb9c10fbfe31", null ],
+    [ "VITROIO_ENVIRONMENT_FLASH_SECTORS", "consts_8h.html#aebacd43d26c2ea6edd6671bddc94524f", null ],
+    [ "VITROIO_REGION_A_FLASH_OFFSET", "consts_8h.html#aeeaecf61b711d3757c2c6ed25d81397f", null ],
+    [ "VITROIO_REGION_B_FLASH_OFFSET", "consts_8h.html#a0da7b88898644b928c051e014ef678c6", null ],
+    [ "VITROIO_REGION_FLASH_SECTORS", "consts_8h.html#a49d0fa96c87a63c2948e499b64debc40", null ]
 ];

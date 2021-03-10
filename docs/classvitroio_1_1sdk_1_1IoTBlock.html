@@ -106,6 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a127a1fcb002bea088c47bdba3ebb5c91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1IoTBlock.html#a127a1fcb002bea088c47bdba3ebb5c91">make</a> (uint32_t data, uint32_t parameter)</td></tr>
 <tr class="memdesc:a127a1fcb002bea088c47bdba3ebb5c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID, node Id, timestamp, digest, and signature.  <a href="classvitroio_1_1sdk_1_1IoTBlock.html#a127a1fcb002bea088c47bdba3ebb5c91">More...</a><br /></td></tr>
 <tr class="separator:a127a1fcb002bea088c47bdba3ebb5c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a607c3ca819f6d6cc0d8be71da188b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1IoTBlock.html#a5a607c3ca819f6d6cc0d8be71da188b8">make</a> (void *data, size_t dataLen, uint32_t parameter)</td></tr>
+<tr class="memdesc:a5a607c3ca819f6d6cc0d8be71da188b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID, node Id, timestamp, digest, and signature.  <a href="classvitroio_1_1sdk_1_1IoTBlock.html#a5a607c3ca819f6d6cc0d8be71da188b8">More...</a><br /></td></tr>
+<tr class="separator:a5a607c3ca819f6d6cc0d8be71da188b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7346a6d904e9d743cb965e5d50122bef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1IoTBlock.html#a7346a6d904e9d743cb965e5d50122bef">send</a> ()</td></tr>
 <tr class="memdesc:a7346a6d904e9d743cb965e5d50122bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send IoT Block by CAN bus. Before sending, the Block has to be prepared with the <a class="el" href="classvitroio_1_1sdk_1_1IoTBlock.html#a127a1fcb002bea088c47bdba3ebb5c91" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,...">make()</a> method.  <a href="classvitroio_1_1sdk_1_1IoTBlock.html#a7346a6d904e9d743cb965e5d50122bef">More...</a><br /></td></tr>
 <tr class="separator:a7346a6d904e9d743cb965e5d50122bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,7 +235,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a127a1fcb002bea088c47bdba3ebb5c91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127a1fcb002bea088c47bdba3ebb5c91">&#9670;&nbsp;</a></span>make()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a127a1fcb002bea088c47bdba3ebb5c91">&#9670;&nbsp;</a></span>make() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,11 +268,55 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5a607c3ca819f6d6cc0d8be71da188b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a607c3ca819f6d6cc0d8be71da188b8">&#9670;&nbsp;</a></span>make() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IoTBlock::make </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataLen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID, node Id, timestamp, digest, and signature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Pointer to data to be encrypted </td></tr>
+    <tr><td class="paramname">dataLen</td><td>Length of data given </td></tr>
+    <tr><td class="paramname">parameter</td><td>Parameter ID </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classvitroio_1_1sdk_1_1IoTBlock_a127a1fcb002bea088c47bdba3ebb5c91_cgraph.png" border="0" usemap="#classvitroio_1_1sdk_1_1IoTBlock_a127a1fcb002bea088c47bdba3ebb5c91_cgraph" alt=""/></div>
-<map name="classvitroio_1_1sdk_1_1IoTBlock_a127a1fcb002bea088c47bdba3ebb5c91_cgraph" id="classvitroio_1_1sdk_1_1IoTBlock_a127a1fcb002bea088c47bdba3ebb5c91_cgraph">
+<div class="center"><img src="classvitroio_1_1sdk_1_1IoTBlock_a5a607c3ca819f6d6cc0d8be71da188b8_cgraph.png" border="0" usemap="#classvitroio_1_1sdk_1_1IoTBlock_a5a607c3ca819f6d6cc0d8be71da188b8_cgraph" alt=""/></div>
+<map name="classvitroio_1_1sdk_1_1IoTBlock_a5a607c3ca819f6d6cc0d8be71da188b8_cgraph" id="classvitroio_1_1sdk_1_1IoTBlock_a5a607c3ca819f6d6cc0d8be71da188b8_cgraph">
 <area shape="rect" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,..." alt="" coords="5,136,164,177"/>
 <area shape="rect" href="classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#a6bf28b372f1d43984f5e268317e50148" title="Encrypt node&#39;s data with AES&#45;256&#45;CBC algorithm." alt="" coords="212,37,388,79"/>
 <area shape="rect" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a3c212e8420c4aaf422241e91e0197b2f" title="Count SHA&#45;256 checksum of input data." alt="" coords="215,103,385,144"/>

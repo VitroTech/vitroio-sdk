@@ -89,28 +89,28 @@ $(document).ready(function(){initNavTree('ecc508_8h_source.html',''); initResiza
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ECC508_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ECC508_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#define SLOT_8_SIZE         416</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define ECC_DEBUG           0</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define CRC_WIDTH           32</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define SERIAL_NUM_SIZE     9</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/iot-block-api/impl/mbed-cryptoauthlib/cryptoauthlib/lib/cryptoauthlib.h&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacevitroio.html">vitroio</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>sdk</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>impl</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">Ecc508</a> {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    ATCAIfaceCfg gCfg;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    uint8_t serial[SERIAL_NUM_SIZE];</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#aacaa44642e5eed8c2354ba914c890a18">Ecc508</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#define AES_256_KEY_LEN     32</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define SLOT_8_SIZE         416</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define ECC_DEBUG           0</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define CRC_WIDTH           32</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define SERIAL_NUM_SIZE     9</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/iot-block-api/impl/mbed-cryptoauthlib/cryptoauthlib/lib/cryptoauthlib.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacevitroio.html">vitroio</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>sdk</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>impl</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">Ecc508</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    ATCAIfaceCfg gCfg;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    uint8_t serial[SERIAL_NUM_SIZE];</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#aacaa44642e5eed8c2354ba914c890a18">Ecc508</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    ATCA_STATUS <a class="code" href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a35cebcd77eff7fd91e112dc91a51ec02">readSerial</a>(uint8_t *serial_num);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
@@ -131,14 +131,14 @@ $(document).ready(function(){initNavTree('ecc508_8h_source.html',''); initResiza
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif // ECC508_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a3c212e8420c4aaf422241e91e0197b2f"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a3c212e8420c4aaf422241e91e0197b2f">vitroio::sdk::impl::Ecc508::countSHA256</a></div><div class="ttdeci">ATCA_STATUS countSHA256(uint8_t *data_to_sha, uint16_t data_len, uint8_t *digest)</div><div class="ttdoc">Count SHA-256 checksum of input data.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:48</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_ae2938fa5443020524ee4c24a5ba8d3d2"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#ae2938fa5443020524ee4c24a5ba8d3d2">vitroio::sdk::impl::Ecc508::verifySignature</a></div><div class="ttdeci">ATCA_STATUS verifySignature(uint8_t *data, uint8_t *signature, bool *isVerfied)</div><div class="ttdoc">Verify previously generated signature.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:104</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a3c212e8420c4aaf422241e91e0197b2f"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a3c212e8420c4aaf422241e91e0197b2f">vitroio::sdk::impl::Ecc508::countSHA256</a></div><div class="ttdeci">ATCA_STATUS countSHA256(uint8_t *data_to_sha, uint16_t data_len, uint8_t *digest)</div><div class="ttdoc">Count SHA-256 checksum of input data.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:46</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_ae2938fa5443020524ee4c24a5ba8d3d2"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#ae2938fa5443020524ee4c24a5ba8d3d2">vitroio::sdk::impl::Ecc508::verifySignature</a></div><div class="ttdeci">ATCA_STATUS verifySignature(uint8_t *data, uint8_t *signature, bool *isVerfied)</div><div class="ttdoc">Verify previously generated signature.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:126</div></div>
 <div class="ttc" id="anamespacevitroio_html"><div class="ttname"><a href="namespacevitroio.html">vitroio</a></div><div class="ttdoc">The namespace contains all of components of vitro-shard-sdk and components based on the sdk....</div><div class="ttdef"><b>Definition:</b> canbus.h:10</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a35cebcd77eff7fd91e112dc91a51ec02"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a35cebcd77eff7fd91e112dc91a51ec02">vitroio::sdk::impl::Ecc508::readSerial</a></div><div class="ttdeci">ATCA_STATUS readSerial(uint8_t *serial_num)</div><div class="ttdoc">Read serial number from ECC chip.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:24</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_afdf2ad01913124e2aae0c1a2a05b3d23"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#afdf2ad01913124e2aae0c1a2a05b3d23">vitroio::sdk::impl::Ecc508::readSymKey</a></div><div class="ttdeci">ATCA_STATUS readSymKey(uint8_t *sym_key)</div><div class="ttdoc">Read symmetric key stored in ECC chip.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:145</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_aacaa44642e5eed8c2354ba914c890a18"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#aacaa44642e5eed8c2354ba914c890a18">vitroio::sdk::impl::Ecc508::Ecc508</a></div><div class="ttdeci">Ecc508()</div><div class="ttdoc">Configure ECC chip to communicate over I2C bus.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:13</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">vitroio::sdk::impl::Ecc508</a></div><div class="ttdef"><b>Definition:</b> ecc508.h:20</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a2f4a29de3fc2c4c6d5dbdfc89f173322"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a2f4a29de3fc2c4c6d5dbdfc89f173322">vitroio::sdk::impl::Ecc508::signData</a></div><div class="ttdeci">ATCA_STATUS signData(uint8_t *data, uint8_t *signature)</div><div class="ttdoc">Sign data using ECDSA algorithm.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:80</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a35cebcd77eff7fd91e112dc91a51ec02"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a35cebcd77eff7fd91e112dc91a51ec02">vitroio::sdk::impl::Ecc508::readSerial</a></div><div class="ttdeci">ATCA_STATUS readSerial(uint8_t *serial_num)</div><div class="ttdoc">Read serial number from ECC chip.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:23</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_afdf2ad01913124e2aae0c1a2a05b3d23"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#afdf2ad01913124e2aae0c1a2a05b3d23">vitroio::sdk::impl::Ecc508::readSymKey</a></div><div class="ttdeci">ATCA_STATUS readSymKey(uint8_t *sym_key)</div><div class="ttdoc">Read symmetric key stored in ECC chip.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:160</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_aacaa44642e5eed8c2354ba914c890a18"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#aacaa44642e5eed8c2354ba914c890a18">vitroio::sdk::impl::Ecc508::Ecc508</a></div><div class="ttdeci">Ecc508()</div><div class="ttdoc">Configure ECC chip to communicate over I2C bus.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:12</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html">vitroio::sdk::impl::Ecc508</a></div><div class="ttdef"><b>Definition:</b> ecc508.h:21</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Ecc508_html_a2f4a29de3fc2c4c6d5dbdfc89f173322"><div class="ttname"><a href="classvitroio_1_1sdk_1_1impl_1_1Ecc508.html#a2f4a29de3fc2c4c6d5dbdfc89f173322">vitroio::sdk::impl::Ecc508::signData</a></div><div class="ttdeci">ATCA_STATUS signData(uint8_t *data, uint8_t *signature)</div><div class="ttdoc">Sign data using ECDSA algorithm.</div><div class="ttdef"><b>Definition:</b> ecc508.cpp:103</div></div>
 <div class="ttc" id="anamespacevitroio_1_1sdk_1_1impl_html"><div class="ttname"><a href="namespacevitroio_1_1sdk_1_1impl.html">vitroio::sdk::impl</a></div><div class="ttdoc">The namespace contains internal components of vitro-shard-sdk. These components should not be used by...</div><div class="ttdef"><b>Definition:</b> _CAN.h:12</div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="debug_8h.html">debug.h</a></div><div class="ttdoc">The file defines debug macros.</div></div>
 <!-- start footer part -->
