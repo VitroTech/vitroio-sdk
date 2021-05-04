@@ -1,7 +1,7 @@
 var classvitroio_1_1sdk_1_1ShardEdge =
 [
-    [ "ShardEdge", "classvitroio_1_1sdk_1_1ShardEdge.html#a36c6ba8415b6c310750e8b54c8f0f712", null ],
-    [ "configureShardEdge", "classvitroio_1_1sdk_1_1ShardEdge.html#a83a0619444dd5e6e9d1f9c2968fcc6b6", null ],
-    [ "readCurrentLoop", "classvitroio_1_1sdk_1_1ShardEdge.html#a900d672cd2cffe11d29bc67365d5e823", null ],
-    [ "readVoltage", "classvitroio_1_1sdk_1_1ShardEdge.html#a0f66871aa259d22c2047ba7895734347", null ]
+    [ "ShardEdge", "classvitroio_1_1sdk_1_1ShardEdge.html#a5c33570aa458bc8b3169d16643489dd1", null ],
+    [ "configureShardEdge", "classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196", null ],
+    [ "readCurrentLoop", "classvitroio_1_1sdk_1_1ShardEdge.html#aaba0835583455eb3854169e25e994f22", null ],
+    [ "readVoltage", "classvitroio_1_1sdk_1_1ShardEdge.html#aa301e0d93e67933408ece71c6f5473fb", null ]
 ];

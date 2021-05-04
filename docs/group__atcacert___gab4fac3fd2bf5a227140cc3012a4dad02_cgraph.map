@@ -1,0 +1,4 @@
+<map id="atcacert_get_subj_public_key" name="atcacert_get_subj_public_key">
+<area shape="rect" id="node1" title="Gets the subject public key from a certificate." alt="" coords="5,5,219,32"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#gacdb102fcae9f3a822a19b2ca487b415d" title="Gets an element from a certificate." alt="" coords="267,5,463,32"/>
+</map>

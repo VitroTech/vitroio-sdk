@@ -1,6 +1,5 @@
 <map id="types.h" name="types.h">
-<area shape="rect" id="node1" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="162,5,233,32"/>
-<area shape="rect" id="node2" href="$upgrade__controller_8h_source.html" title=" " alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$node__controller_8h_source.html" title=" " alt="" coords="130,155,265,181"/>
-<area shape="rect" id="node4" href="$environment__interface_8h_source.html" title=" " alt="" coords="235,80,418,107"/>
+<area shape="rect" id="node1" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="128,5,199,32"/>
+<area shape="rect" id="node2" href="$node__controller_8h_source.html" title=" " alt="" coords="5,80,140,107"/>
+<area shape="rect" id="node3" href="$environment__interface_8h_source.html" title=" " alt="" coords="164,80,347,107"/>
 </map>

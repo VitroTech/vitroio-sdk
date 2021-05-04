@@ -1,0 +1,4 @@
+<map id="atcab_sign_internal" name="atcab_sign_internal">
+<area shape="rect" id="node1" title="Executes Sign command to sign an internally generated message." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga5c1e598bf3d4d25b522f42d6038a4268" title="Executes the Sign command, which generates a signature using the ECDSA algorithm." alt="" coords="203,5,333,32"/>
+</map>

@@ -3,8 +3,9 @@
 
 #include <vitroio-sdk/communication/canbus.h>
 
+#define AES_BLOCK_SIZE          16
+
 #define AES_IV_LEN              16
-#define AES_CBC_BLOCK_SIZE      16
 
 /**
  * @brief Size of parameter Id field
@@ -90,13 +91,24 @@ public:
 
     struct __attribute__((packed)) Frame
     {
-        uint8_t digest[SHA256_DIGEST_SIZE];
-        uint8_t signature[ECDSA_SIGNATURE_SIZE];
         uint16_t parameterID;
         uint8_t nodeID[NODE_ID_SIZE];
         uint32_t timestamp;
         uint8_t blob[MAX_PD_SIZE];
+        uint8_t digest[SHA256_DIGEST_SIZE];
+        uint8_t signature[ECDSA_SIGNATURE_SIZE];
     };
+
+    /**
+     * @brief IoTBlock predefined sizes.
+     * 
+     */
+    typedef enum{
+        SIZE_S = 16,
+        SIZE_M = 128,
+        SIZE_L = 512,
+        SIZE_XL = 1024
+    } IoTBlock_Sizes_t;
 
     /**
      * @brief Constructor
@@ -124,6 +136,17 @@ public:
      * @param parameter Parameter ID 
      */
     void make(void* data, size_t dataLen, uint32_t parameter);
+
+    /**
+     * @brief Prepare IoT block consisting of the Initialize Vector, encrypted
+     * data, parameter ID, node Id, timestamp, digest, and signature. Make sure
+     * that there is enough data for given size.
+     * 
+     * @param data Pointer to data to be encrypted
+     * @param size IoTBlock size @ref IoTBlock_Sizes_t
+     * @param parameter Parameter ID 
+     */
+    void make(void* data, IoTBlock_Sizes_t size, uint32_t parameter);
 
     /**
      * @brief Send IoT Block by CAN bus. Before sending, the Block has to be
@@ -164,6 +187,7 @@ private:
     void updateTimestamp();
     void frameReceivedCallback(const CanbusFrame& frame);
     int countCRC(uint8_t *buffer, size_t length, uint32_t *crc_value);
+    int create_blob(const uint8_t* plaintext, uint16_t plaintext_len, uint8_t* blob);
 };
 
 } // namespace sdk

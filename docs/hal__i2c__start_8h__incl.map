@@ -1,0 +1,5 @@
+<map id="hal_i2c_start.h" name="hal_i2c_start.h">
+<area shape="rect" id="node1" title="ATCA Hardware abstraction layer for SAMD21 I2C over START drivers." alt="" coords="59,5,176,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="139,80,210,107"/>
+</map>

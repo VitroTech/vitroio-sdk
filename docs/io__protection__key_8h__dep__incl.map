@@ -1,0 +1,4 @@
+<map id="io_protection_key.h" name="io_protection_key.h">
+<area shape="rect" id="node1" title="Provides required interface to access IO protection key." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$secure__boot_8c.html" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="23,80,135,107"/>
+</map>

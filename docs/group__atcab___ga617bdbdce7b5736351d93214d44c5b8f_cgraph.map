@@ -1,0 +1,4 @@
+<map id="atcab_genkey" name="atcab_genkey">
+<area shape="rect" id="node1" title="Issues GenKey command, which generates a new random private key in slot and returns the public key." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gaa8b6953ad2c7f749e61566fd38fe6903" title="Issues GenKey command, which can generate a private key, compute a public key, nd/or compute a digest..." alt="" coords="165,5,316,32"/>
+</map>

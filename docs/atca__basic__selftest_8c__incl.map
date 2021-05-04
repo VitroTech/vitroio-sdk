@@ -1,0 +1,25 @@
+<map id="atca_basic_selftest.c" name="atca_basic_selftest.c">
+<area shape="rect" id="node1" title="CryptoAuthLib Basic API methods for SelfTest command." alt="" coords="318,5,475,32"/>
+<area shape="rect" id="node2" href="$atca__basic_8h.html" title="CryptoAuthLib Basic API methods &#45; a simple crypto authentication API. These methods manage a global A..." alt="" coords="584,80,686,107"/>
+<area shape="rect" id="node23" href="$atca__execution_8h.html" title="Defines an execution handler that executes a given command on a device and returns the results." alt="" coords="25,155,157,181"/>
+<area shape="rect" id="node3" href="$cryptoauthlib_8h.html" title="Single aggregation point for all CryptoAuthLib header files." alt="" coords="575,155,695,181"/>
+<area shape="rect" id="node21" href="$atca__crypto__sw__sha2_8h.html" title="Wrapper API for software SHA 256 routines." alt="" coords="958,304,1101,345"/>
+<area shape="rect" id="node4" title=" " alt="" coords="883,468,958,495"/>
+<area shape="rect" id="node5" title=" " alt="" coords="532,229,602,256"/>
+<area shape="rect" id="node6" href="$atca__config_8h_source.html" title=" " alt="" coords="596,311,704,338"/>
+<area shape="rect" id="node7" href="$atca__hal_8h.html" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface" alt="" coords="292,229,405,256"/>
+<area shape="rect" id="node8" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="579,468,688,495"/>
+<area shape="rect" id="node13" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="208,393,342,420"/>
+<area shape="rect" id="node18" href="$atca__device_8h.html" title="Microchip Crypto Auth device object." alt="" coords="35,229,147,256"/>
+<area shape="rect" id="node19" href="$atca__cfgs_8h.html" title="a set of default configurations for various ATCA devices and interfaces" alt="" coords="171,229,267,256"/>
+<area shape="rect" id="node20" href="$atca__helpers_8h.html" title="Helpers to support the CryptoAuthLib Basic API methods." alt="" coords="627,229,782,256"/>
+<area shape="rect" id="node12" href="$atca__iface_8h.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="86,311,187,338"/>
+<area shape="rect" id="node16" href="$atca__start__config_8h_source.html" title=" " alt="" coords="212,311,357,338"/>
+<area shape="rect" id="node17" href="$atca__start__iface_8h_source.html" title=" " alt="" coords="382,311,520,338"/>
+<area shape="rect" id="node9" title=" " alt="" coords="810,543,881,569"/>
+<area shape="rect" id="node10" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="585,543,682,569"/>
+<area shape="rect" id="node11" title=" " alt="" coords="592,617,675,644"/>
+<area shape="rect" id="node14" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="136,468,262,495"/>
+<area shape="rect" id="node15" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="286,468,416,495"/>
+<area shape="rect" id="node22" href="$atca__crypto__sw_8h.html" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="748,393,882,420"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="atca_crypto_sw_sha1.c" name="atca_crypto_sw_sha1.c">
+<area shape="rect" id="node1" title="Wrapper API for SHA 1 routines." alt="" coords="191,5,363,32"/>
+<area shape="rect" id="node2" href="$atca__crypto__sw__sha1_8h.html" title="Wrapper API for SHA 1 routines." alt="" coords="91,80,265,107"/>
+<area shape="rect" id="node9" href="$sha1__routines_8h.html" title="Software implementation of the SHA1 algorithm." alt="" coords="289,80,464,107"/>
+<area shape="rect" id="node3" href="$atca__crypto__sw_8h.html" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="5,155,140,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="144,304,215,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="215,155,290,181"/>
+<area shape="rect" id="node4" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="18,229,127,256"/>
+<area shape="rect" id="node6" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="23,304,120,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="30,379,113,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="365,155,431,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="456,155,527,181"/>
+</map>

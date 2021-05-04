@@ -1,0 +1,4 @@
+<map id="atcac_sw_sha2_256_init" name="atcac_sw_sha2_256_init">
+<area shape="rect" id="node1" title="initializes the SHA256 software" alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$sha2__routines_8c.html#acfb7028e6f10d29c548cbecdbfa53ac8" title="Intialize the software SHA256." alt="" coords="232,5,355,32"/>
+</map>

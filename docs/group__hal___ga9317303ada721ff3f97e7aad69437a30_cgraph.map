@@ -1,0 +1,4 @@
+<map id="hal_i2c_idle" name="hal_i2c_idle">
+<area shape="rect" id="node1" title="idle CryptoAuth device using I2C bus" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="152,5,260,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tng_atcacert_read_signer_cert" name="tng_atcacert_read_signer_cert">
+<area shape="rect" id="node1" title="Reads the signer certificate for a TNG device." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node2" href="$group__tng__.html#ga421d9b1fd3aba60c947d6b3efb122390" title="Get the type of TNG device." alt="" coords="272,5,379,32"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#ga96c434878e1f435e2cda5b0b5fec444f" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="427,5,621,32"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="669,5,801,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="atcacert_get_device_data" name="atcacert_get_device_data">
+<area shape="rect" id="node1" title="Gets the dynamic data that would be saved to the specified device location. This function is primaril..." alt="" coords="5,35,195,61"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#gaf64c228c28f42f15e9b43457146d1504" title="Gets the certificate serial number from a certificate." alt="" coords="243,5,400,32"/>
+<area shape="rect" id="node3" href="$group__atcacert__.html#gad2e2ceb6fb7614254a94e89ba244fee7" title="Determines if the two device locations overlap." alt="" coords="250,57,393,98"/>
+</map>

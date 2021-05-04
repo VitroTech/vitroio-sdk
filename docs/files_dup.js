@@ -9,7 +9,6 @@ var files_dup =
     [ "canbus_protocol_consts.h", "canbus__protocol__consts_8h_source.html", null ],
     [ "consts.h", "consts_8h.html", "consts_8h" ],
     [ "debug.h", "debug_8h.html", "debug_8h" ],
-    [ "ecc508.h", "ecc508_8h_source.html", null ],
     [ "environment_interface.h", "environment__interface_8h_source.html", null ],
     [ "errors.h", "errors_8h.html", "errors_8h" ],
     [ "flash_interface.h", "flash__interface_8h_source.html", null ],
@@ -23,7 +22,6 @@ var files_dup =
     [ "node_controller.h", "node__controller_8h_source.html", null ],
     [ "scoped_ptr.h", "scoped__ptr_8h_source.html", null ],
     [ "shard_edge.h", "shard__edge_8h_source.html", null ],
-    [ "tls_crypto.h", "tls__crypto_8h_source.html", null ],
     [ "types.h", "types_8h.html", [
       [ "FirmwareId", "structvitroio_1_1sdk_1_1FirmwareId.html", "structvitroio_1_1sdk_1_1FirmwareId" ],
       [ "Version", "structvitroio_1_1sdk_1_1Version.html", "structvitroio_1_1sdk_1_1Version" ],

@@ -1,0 +1,8 @@
+<map id="atcacert_read_device_loc" name="atcacert_read_device_loc">
+<area shape="rect" id="node1" title="Read the data from a device location." alt="" coords="5,56,192,83"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gad2096a4618dd37c48ed48847fe63d844" title="Uses GenKey command to calculate the public key from an existing private key in a slot." alt="" coords="257,5,397,32"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="463,56,620,83"/>
+<area shape="rect" id="node5" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="240,107,415,133"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gaa8b6953ad2c7f749e61566fd38fe6903" title="Issues GenKey command, which can generate a private key, compute a public key, nd/or compute a digest..." alt="" coords="466,5,617,32"/>
+<area shape="rect" id="node6" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="475,107,607,133"/>
+</map>

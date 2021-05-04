@@ -1,0 +1,6 @@
+<map id="hal_kit_hid_post_init" name="hal_kit_hid_post_init">
+<area shape="rect" id="node1" title="HAL implementation of Kit HID post init." alt="" coords="5,56,161,83"/>
+<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="220,5,328,32"/>
+<area shape="rect" id="node3" href="$group__interface.html#ga5e4163b8882d4eb42d4d5191c8731da0" title="Returns the HAL data pointer for the device." alt="" coords="209,56,339,83"/>
+<area shape="rect" id="node4" href="$group__hal__.html#ga8fb98d1c372e7e75f99a2f7d1182b877" title="HAL implementation of kit protocol init. This function calls back to the physical protocol to send th..." alt="" coords="241,107,307,133"/>
+</map>

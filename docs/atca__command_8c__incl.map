@@ -1,0 +1,14 @@
+<map id="atca_command.c" name="atca_command.c">
+<area shape="rect" id="node1" title="Microchip CryptoAuthentication device command builder &#45; this is the main object that builds the comma..." alt="" coords="259,5,392,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="69,80,139,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="163,80,234,107"/>
+<area shape="rect" id="node4" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="258,80,393,107"/>
+<area shape="rect" id="node10" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="387,155,517,181"/>
+<area shape="rect" id="node12" href="$atca__config_8h_source.html" title=" " alt="" coords="469,80,577,107"/>
+<area shape="rect" id="node5" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node6" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="155,155,264,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="288,155,363,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="121,229,191,256"/>
+<area shape="rect" id="node8" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="215,229,313,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="223,304,305,331"/>
+</map>

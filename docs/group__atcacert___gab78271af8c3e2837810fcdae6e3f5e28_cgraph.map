@@ -1,0 +1,8 @@
+<map id="atcacert_verify_cert_sw" name="atcacert_verify_cert_sw">
+<area shape="rect" id="node1" title="Verify a certificate against its certificate authority&#39;s public key using software crypto functions...." alt="" coords="5,56,181,83"/>
+<area shape="rect" id="node2" href="$group__atcac__.html#gaa61eee6f208a1633d35cdf8d628a6835" title="return software generated ECDSA verification result and the function is currently not implemented" alt="" coords="229,5,440,32"/>
+<area shape="rect" id="node3" href="$group__atcacert__.html#gaf55b75df5e523e2d275ebb8cbe36fec6" title="Gets the signature from a certificate." alt="" coords="249,56,420,83"/>
+<area shape="rect" id="node4" href="$group__atcacert__.html#ga0b2fd4ca54a1fde2d0d669b1fc11284a" title="Get the SHA256 digest of certificate&#39;s TBS data." alt="" coords="246,107,423,133"/>
+<area shape="rect" id="node5" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="488,81,639,108"/>
+<area shape="rect" id="node6" href="$group__atcacert__.html#ga9883eaf43aa94e7a29c1bdf13514185c" title="Get a pointer to the TBS data in a certificate." alt="" coords="498,132,629,159"/>
+</map>

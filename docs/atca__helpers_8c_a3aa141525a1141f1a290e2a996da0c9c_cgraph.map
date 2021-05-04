@@ -1,0 +1,4 @@
+<map id="atcab_base64encode" name="atcab_base64encode">
+<area shape="rect" id="node1" title="Encode data as base64 string." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$atca__helpers_8c.html#aeeff0177acf29e6e7b134a14d7119d69" title="Encode data as base64 string with ruleset option." alt="" coords="212,5,379,32"/>
+</map>

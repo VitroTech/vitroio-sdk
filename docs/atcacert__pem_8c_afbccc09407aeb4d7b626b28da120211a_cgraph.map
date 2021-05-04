@@ -1,0 +1,6 @@
+<map id="atcacert_decode_pem_csr" name="atcacert_decode_pem_csr">
+<area shape="rect" id="node1" title="Extract the CSR certificate bytes from a PEM encoded CSR certificate." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$atcacert__pem_8c.html#a67998c5401898020391dc6f02b11d2bd" title="Decode PEM data into DER format." alt="" coords="244,5,409,32"/>
+<area shape="rect" id="node3" href="$atca__helpers_8c.html#a6073c5a05e0ad2e738f460e727014553" title="Decode base64 string to data." alt="" coords="457,5,616,32"/>
+<area shape="rect" id="node4" href="$atca__helpers_8c.html#a55ba8a1787f69d44d6e40db041fbd786" title="Decode base64 string to data with ruleset option." alt="" coords="664,5,831,32"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="atcab_secureboot_mac" name="atcab_secureboot_mac">
+<area shape="rect" id="node1" title="Executes Secure Boot command with encrypted digest and validated MAC response using the IO protection..." alt="" coords="5,132,177,159"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gaf8e10791759a8a5e5dcd82774f4895d6" title="Executes Nonce command, which loads a random or fixed nonce/data into the device for use by subsequen..." alt="" coords="241,5,384,32"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="225,56,400,83"/>
+<area shape="rect" id="node6" href="$group__atcab__.html#ga9506331ea7d454fe3c9b2585128c77aa" title="Executes Secure Boot command, which provides support for secure boot of an external MCU or MPU." alt="" coords="244,107,381,133"/>
+<area shape="rect" id="node7" href="$group__atcah.html#ga9ee18575f8b4c1560f9e5c741403ef1b" title="This function calculates host side nonce with the parameters passed." alt="" coords="261,157,365,184"/>
+<area shape="rect" id="node9" href="$group__atcah.html#ga4c89f8023aec521281824c0e35713baa" title="Encrypts the digest for the SecureBoot command when using the encrypted digest / validating mac optio..." alt="" coords="229,208,396,235"/>
+<area shape="rect" id="node15" href="$group__atcah.html#gaa795bec90432fbfa194913d8b4098fab" title="Calculates the expected MAC returned from the SecureBoot command when verification is a success." alt="" coords="227,259,399,285"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="471,31,628,57"/>
+<area shape="rect" id="node5" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="483,81,615,108"/>
+<area shape="rect" id="node8" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="474,157,625,184"/>
+<area shape="rect" id="node10" href="$group__atcac__.html#gae3a29931f2104cce481aa9ef1ab16fea" title="completes the final SHA256 calculation and returns the final digest/hash" alt="" coords="453,208,646,235"/>
+<area shape="rect" id="node11" href="$group__atcac__.html#ga58283666b662f084155ba693870c1077" title="initializes the SHA256 software" alt="" coords="460,259,639,285"/>
+<area shape="rect" id="node13" href="$group__atcac__.html#gab1a09fa1d854722cc667cea319ca9984" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="448,309,651,336"/>
+<area shape="rect" id="node12" href="$sha2__routines_8c.html#acfb7028e6f10d29c548cbecdbfa53ac8" title="Intialize the software SHA256." alt="" coords="711,259,833,285"/>
+<area shape="rect" id="node14" href="$sha2__routines_8c.html#a4d0c952ebe691b3337205829dc352e6e" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="699,309,845,336"/>
+</map>

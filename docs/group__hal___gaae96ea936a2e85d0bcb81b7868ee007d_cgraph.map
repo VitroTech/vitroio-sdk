@@ -1,0 +1,5 @@
+<map id="hal_swi_send_flag" name="hal_swi_send_flag">
+<area shape="rect" id="node1" title="HAL implementation of SWI send one byte over UART." alt="" coords="5,31,145,57"/>
+<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="215,5,323,32"/>
+<area shape="rect" id="node3" href="$group__hal__.html#ga4a4d491006d9683d67838963706ac9c1" title="HAL implementation of SWI UART send byte over ASF. This function send one byte over UART." alt="" coords="193,56,344,83"/>
+</map>

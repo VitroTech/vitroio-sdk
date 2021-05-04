@@ -1,0 +1,6 @@
+<map id="atcacert_set_auth_key_id" name="atcacert_set_auth_key_id">
+<area shape="rect" id="node1" title="Sets the authority key ID in a certificate. Note that this takes the actual public key creates a key ..." alt="" coords="5,31,192,57"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#gad93de2bdacdcfe04abb0e991a8401388" title="Calculates the key ID for a given public ECC P256 key." alt="" coords="261,5,413,32"/>
+<area shape="rect" id="node4" href="$group__atcacert__.html#ga5dacb3927ef7eacfaf8c4e28641f7bce" title="Sets an element in a certificate. The data_size must match the size in cert_loc." alt="" coords="240,56,435,83"/>
+<area shape="rect" id="node3" href="$group__atcac__.html#ga84b866657bf319dab2924c2db3a1e990" title="Perform SHA1 hash of data in software." alt="" coords="483,5,603,32"/>
+</map>

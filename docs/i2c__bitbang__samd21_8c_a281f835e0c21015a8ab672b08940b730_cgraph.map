@@ -1,0 +1,4 @@
+<map id="i2c_send_bytes" name="i2c_send_bytes">
+<area shape="rect" id="node1" title="Send a number of bytes." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$i2c__bitbang__samd21_8c.html#a04db7e3e2316cb43e97250a12c4eb81b" title="Send one byte." alt="" coords="176,5,291,32"/>
+</map>

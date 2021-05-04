@@ -1,0 +1,4 @@
+<map id="hal_kit_hid_send" name="hal_kit_hid_send">
+<area shape="rect" id="node1" title="HAL implementation of kit protocol send over USB HID." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#gac9dc79f9b5281fbe82c20b6af9de76b7" title="HAL implementation of kit protocol send. This function calls back to the physical protocol to send th..." alt="" coords="184,5,261,32"/>
+</map>

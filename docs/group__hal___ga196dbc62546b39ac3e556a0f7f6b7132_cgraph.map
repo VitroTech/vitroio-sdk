@@ -1,0 +1,4 @@
+<map id="hal_swi_release" name="hal_swi_release">
+<area shape="rect" id="node1" title="Manages reference count on given bus and releases resource if no more reference(s) exist." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$swi__bitbang__samd21_8c.html#a076fc28889d32327dd3372538106da92" title="Set SWI signal pin. Other functions will use this pin." alt="" coords="180,5,279,32"/>
+</map>

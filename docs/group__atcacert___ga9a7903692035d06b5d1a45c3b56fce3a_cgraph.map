@@ -1,0 +1,8 @@
+<map id="atcacert_get_comp_cert" name="atcacert_get_comp_cert">
+<area shape="rect" id="node1" title="Generate the compressed certificate for the given certificate." alt="" coords="5,81,184,108"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#ga5da5a0589a6168aafd34b4aac4e07553" title="Encode the issue and expire dates in the format used by the compressed certificate." alt="" coords="232,5,441,32"/>
+<area shape="rect" id="node3" href="$group__atcacert__.html#ga51f7b996909bc9cae783bcaf0fe7082b" title="Gets the issue date from a certificate. Will be parsed according to the date format specified in the ..." alt="" coords="247,56,427,83"/>
+<area shape="rect" id="node4" href="$group__atcacert__.html#gaf55b75df5e523e2d275ebb8cbe36fec6" title="Gets the signature from a certificate." alt="" coords="251,107,422,133"/>
+<area shape="rect" id="node5" href="$group__atcacert__.html#ga1201f3c1a20b5b105f9160bea104b102" title="Gets the signer ID from a certificate. Will be parsed as 4 upper&#45;case hex digits." alt="" coords="252,157,421,184"/>
+<area shape="rect" id="node6" href="$group__atcacert__.html#gacdb102fcae9f3a822a19b2ca487b415d" title="Gets an element from a certificate." alt="" coords="489,157,685,184"/>
+</map>

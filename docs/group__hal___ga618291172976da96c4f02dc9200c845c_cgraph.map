@@ -1,0 +1,5 @@
+<map id="hal_swi_idle" name="hal_swi_idle">
+<area shape="rect" id="node1" title="Send Idle flag via SWI." alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="156,5,264,32"/>
+<area shape="rect" id="node3" href="$swi__bitbang__samd21_8c.html#a076fc28889d32327dd3372538106da92" title="Set SWI signal pin. Other functions will use this pin." alt="" coords="161,56,259,83"/>
+</map>

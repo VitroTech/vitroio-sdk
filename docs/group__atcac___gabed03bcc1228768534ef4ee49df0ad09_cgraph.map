@@ -1,0 +1,4 @@
+<map id="atcac_sw_sha1_init" name="atcac_sw_sha1_init">
+<area shape="rect" id="node1" title="Initialize context for performing SHA1 hash in software." alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$sha1__routines_8c.html#affa9482d686cc435d640d67d7fa79772" title="Initialize context for performing SHA1 hash in software." alt="" coords="201,5,299,32"/>
+</map>

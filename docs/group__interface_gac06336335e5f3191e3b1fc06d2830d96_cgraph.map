@@ -1,0 +1,4 @@
+<map id="atsleep" name="atsleep">
+<area shape="rect" id="node1" title="Puts the device into sleep state by calling intermediate HAL wrapper function. If using the basic API..." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#ga0544f36422b5e9a8890fb9c90fc5eb55" title="Timer API for legacy implementations." alt="" coords="124,5,244,32"/>
+</map>

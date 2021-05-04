@@ -1,0 +1,4 @@
+<map id="atwake" name="atwake">
+<area shape="rect" id="node1" title="Wakes up the device by calling intermediate HAL wrapper function. If using the basic API,..." alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#ga0544f36422b5e9a8890fb9c90fc5eb55" title="Timer API for legacy implementations." alt="" coords="123,5,243,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="atcab_aes_ctr_init_rand" name="atcab_aes_ctr_init_rand">
+<area shape="rect" id="node1" title="Initialize context for AES CTR operation with a random nonce and counter set to 0 as the IV,..." alt="" coords="5,5,181,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="229,5,344,32"/>
+</map>

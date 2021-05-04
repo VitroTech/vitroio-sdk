@@ -1,0 +1,5 @@
+<map id="kit_phy_receive" name="kit_phy_receive">
+<area shape="rect" id="node1" title="HAL implementation of kit protocol receive data.It is called by the top layer." alt="" coords="5,31,131,57"/>
+<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="189,5,297,32"/>
+<area shape="rect" id="node3" href="$group__interface.html#ga5e4163b8882d4eb42d4d5191c8731da0" title="Returns the HAL data pointer for the device." alt="" coords="179,56,308,83"/>
+</map>

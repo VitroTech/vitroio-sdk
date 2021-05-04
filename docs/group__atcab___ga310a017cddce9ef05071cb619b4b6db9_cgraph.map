@@ -1,0 +1,4 @@
+<map id="atcab_sha_hmac_init" name="atcab_sha_hmac_init">
+<area shape="rect" id="node1" title="Executes SHA command to start an HMAC/SHA&#45;256 operation." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gab3a32e171ca1c30bd31a216b32c9b5a4" title="Executes SHA command, which computes a SHA&#45;256 or HMAC/SHA&#45;256 digest for general purpose use by the ..." alt="" coords="212,5,339,32"/>
+</map>

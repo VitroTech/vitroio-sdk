@@ -1,0 +1,13 @@
+<map id="symmetric_authenticate" name="symmetric_authenticate">
+<area shape="rect" id="node1" title="Function which does the authentication between the host and device." alt="" coords="5,132,187,159"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga98cb802fbb5d78cd552bb05c21d6c791" title="Executes MAC command, which computes a SHA&#45;256 digest of a key stored in the device,..." alt="" coords="285,5,379,32"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gaed67d447d547c67b7b8be6b958d1fb5c" title="Execute a Nonce command to generate a random nonce combining a host nonce (num_in) and a device rando..." alt="" coords="262,56,402,83"/>
+<area shape="rect" id="node5" href="$group__atcab__.html#ga96c434878e1f435e2cda5b0b5fec444f" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="235,107,429,133"/>
+<area shape="rect" id="node7" href="$group__atcah.html#ga02b3479eaee1bd1741675c2a1249ffda" title="This function derives a key with a key and TempKey." alt="" coords="264,157,400,184"/>
+<area shape="rect" id="node8" href="$group__atcah.html#ga44361cadf1819cea687208eeadd57059" title="This function generates an SHA&#45;256 digest (MAC) of a key, challenge, and other information." alt="" coords="285,259,379,285"/>
+<area shape="rect" id="node11" href="$group__atcah.html#ga9ee18575f8b4c1560f9e5c741403ef1b" title="This function calculates host side nonce with the parameters passed." alt="" coords="280,208,384,235"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#gaf8e10791759a8a5e5dcd82774f4895d6" title="Executes Nonce command, which loads a random or fixed nonce/data into the device for use by subsequen..." alt="" coords="481,56,624,83"/>
+<area shape="rect" id="node6" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="487,107,619,133"/>
+<area shape="rect" id="node9" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="477,208,628,235"/>
+<area shape="rect" id="node10" href="$group__atcah.html#gad456d2c1172343bb40d8cd0e391d44f4" title="This function copies otp and sn data into a command buffer." alt="" coords="479,259,627,285"/>
+</map>

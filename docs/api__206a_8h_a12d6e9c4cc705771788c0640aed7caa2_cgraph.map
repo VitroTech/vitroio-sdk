@@ -1,0 +1,4 @@
+<map id="sha206a_authenticate" name="sha206a_authenticate">
+<area shape="rect" id="node1" title="verifies the challenge and provided response using key in device" alt="" coords="5,13,172,39"/>
+<area shape="rect" id="node2" href="$api__206a_8c.html#ac28d87cbe843ea3b2b69c5a62b14872f" title="verifies the device is fully consumed or not based on Parent and Derived Key use flags." alt="" coords="220,5,391,47"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="atca_crypto_sw.h" name="atca_crypto_sw.h">
+<area shape="rect" id="node1" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="2552,5,2687,32"/>
+<area shape="rect" id="node2" href="$atca__crypto__sw__ecdsa_8h.html" title=" " alt="" coords="2232,80,2412,107"/>
+<area shape="rect" id="node5" href="$atca__crypto__sw__rand_8h.html" title=" " alt="" coords="2437,80,2608,107"/>
+<area shape="rect" id="node7" href="$atca__crypto__sw__sha1_8h.html" title="Wrapper API for SHA 1 routines." alt="" coords="2714,80,2888,107"/>
+<area shape="rect" id="node11" href="$atca__crypto__sw__sha2_8h.html" title="Wrapper API for software SHA 256 routines." alt="" coords="3290,80,3464,107"/>
+<area shape="rect" id="node3" href="$atcacert__host__sw_8c.html" title="host side methods using software implementations" alt="" coords="2267,155,2412,181"/>
+<area shape="rect" id="node4" href="$atca__crypto__sw__ecdsa_8c.html" title="API wrapper for software ECDSA verify. Currently unimplemented but could be implemented via a 3rd par..." alt="" coords="2064,155,2242,181"/>
+<area shape="rect" id="node6" href="$atca__crypto__sw__rand_8c.html" title="API wrapper for software random." alt="" coords="2437,155,2608,181"/>
+<area shape="rect" id="node8" href="$atcacert__def_8c.html" title="Main certificate definition implementation." alt="" coords="2828,155,2942,181"/>
+<area shape="rect" id="node9" href="$atca__crypto__sw__sha1_8c.html" title="Wrapper API for SHA 1 routines." alt="" coords="2632,155,2804,181"/>
+<area shape="rect" id="node10" href="$atca__crypto__sw__tests_8c.html" title="Unity tests for the CryptoAuthLib software crypto API." alt="" coords="2966,155,3140,181"/>
+<area shape="rect" id="node12" href="$atca__basic_8h.html" title="CryptoAuthLib Basic API methods &#45; a simple crypto authentication API. These methods manage a global A..." alt="" coords="3164,155,3267,181"/>
+<area shape="rect" id="node15" href="$atca__jwt_8c.html" title="Utilities to create and verify a JSON Web Token (JWT)" alt="" coords="5018,304,5106,331"/>
+<area shape="rect" id="node16" href="$test__atcacert__client_8c.html" title="cert client tests" alt="" coords="4326,304,4487,331"/>
+<area shape="rect" id="node19" href="$atcacert__host__hw_8c.html" title="host side methods using CryptoAuth hardware" alt="" coords="5198,229,5345,256"/>
+<area shape="rect" id="node48" href="$secure__boot_8h.html" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="4926,155,5039,181"/>
+<area shape="rect" id="node49" href="$atca__crypto__sw__sha2_8c.html" title="Wrapper API for software SHA 256 routines." alt="" coords="3291,155,3463,181"/>
+<area shape="rect" id="node50" href="$atca__host_8c.html" title="Host side methods to support CryptoAuth computations." alt="" coords="3488,155,3584,181"/>
+<area shape="rect" id="node13" href="$cryptoauthlib_8h.html" title="Single aggregation point for all CryptoAuthLib header files." alt="" coords="3466,229,3586,256"/>
+<area shape="rect" id="node14" href="$atcacert__client_8c.html" title="Client side cert i/o methods. These declarations deal with the client&#45;side, the node being authentica..." alt="" coords="1692,304,1822,331"/>
+<area shape="rect" id="node17" href="$secure__boot_8c.html" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="5369,229,5481,256"/>
+<area shape="rect" id="node18" href="$tng__atca_8h.html" title="TNG Helper Functions." alt="" coords="3610,229,3701,256"/>
+<area shape="rect" id="node20" href="$atca__basic_8c.html" title="CryptoAuthLib Basic API methods. These methods provide a simpler way to access the core crypto method..." alt="" coords="3726,229,3828,256"/>
+<area shape="rect" id="node21" href="$atca__basic__aes_8c.html" title="CryptoAuthLib Basic API methods for AES command." alt="" coords="3852,229,3984,256"/>
+<area shape="rect" id="node22" href="$atca__basic__aes__cbc_8c.html" title="CryptoAuthLib Basic API methods for AES CBC mode." alt="" coords="4008,229,4170,256"/>
+<area shape="rect" id="node23" href="$atca__basic__aes__cmac_8c.html" title="CryptoAuthLib Basic API methods for AES CBC_MAC mode." alt="" coords="4194,229,4368,256"/>
+<area shape="rect" id="node24" href="$atca__basic__aes__ctr_8c.html" title="CryptoAuthLib Basic API methods for AES CTR mode." alt="" coords="4444,229,4598,256"/>
+<area shape="rect" id="node25" href="$atca__basic__checkmac_8c.html" title="CryptoAuthLib Basic API methods for CheckMAC command." alt="" coords="4623,229,4798,256"/>
+<area shape="rect" id="node26" href="$atca__basic__counter_8c.html" title="CryptoAuthLib Basic API methods for Counter command." alt="" coords="4822,229,4980,256"/>
+<area shape="rect" id="node27" href="$atca__basic__derivekey_8c.html" title="CryptoAuthLib Basic API methods for DeriveKey command." alt="" coords="5004,229,5174,256"/>
+<area shape="rect" id="node28" href="$atca__basic__ecdh_8c.html" title="CryptoAuthLib Basic API methods for ECDH command." alt="" coords="24,229,164,256"/>
+<area shape="rect" id="node29" href="$atca__basic__gendig_8c.html" title="CryptoAuthLib Basic API methods for GenDig command." alt="" coords="188,229,342,256"/>
+<area shape="rect" id="node30" href="$atca__basic__genkey_8c.html" title="CryptoAuthLib Basic API methods for GenKey command." alt="" coords="366,229,521,256"/>
+<area shape="rect" id="node31" href="$atca__basic__hmac_8c.html" title="CryptoAuthLib Basic API methods for HMAC command." alt="" coords="546,229,691,256"/>
+<area shape="rect" id="node32" href="$atca__basic__info_8c.html" title="CryptoAuthLib Basic API methods for Info command." alt="" coords="715,229,850,256"/>
+<area shape="rect" id="node33" href="$atca__basic__kdf_8c.html" title="CryptoAuthLib Basic API methods for KDF command." alt="" coords="874,229,1003,256"/>
+<area shape="rect" id="node34" href="$atca__basic__lock_8c.html" title="CryptoAuthLib Basic API methods for Lock command." alt="" coords="1028,229,1164,256"/>
+<area shape="rect" id="node35" href="$atca__basic__mac_8c.html" title="CryptoAuthLib Basic API methods for MAC command." alt="" coords="1188,229,1326,256"/>
+<area shape="rect" id="node36" href="$atca__basic__nonce_8c.html" title="CryptoAuthLib Basic API methods for Nonce command." alt="" coords="1350,229,1498,256"/>
+<area shape="rect" id="node37" href="$atca__basic__privwrite_8c.html" title="CryptoAuthLib Basic API methods for PrivWrite command." alt="" coords="1522,229,1688,256"/>
+<area shape="rect" id="node38" href="$atca__basic__random_8c.html" title="CryptoAuthLib Basic API methods for Random command." alt="" coords="1712,229,1871,256"/>
+<area shape="rect" id="node39" href="$atca__basic__read_8c.html" title="CryptoAuthLib Basic API methods for Read command." alt="" coords="1896,229,2034,256"/>
+<area shape="rect" id="node40" href="$atca__basic__secureboot_8c.html" title="CryptoAuthLib Basic API methods for SecureBoot command." alt="" coords="2058,229,2240,256"/>
+<area shape="rect" id="node41" href="$atca__basic__selftest_8c.html" title="CryptoAuthLib Basic API methods for SelfTest command." alt="" coords="2264,229,2421,256"/>
+<area shape="rect" id="node42" href="$atca__basic__sha_8c.html" title="CryptoAuthLib Basic API methods for SHA command." alt="" coords="2446,229,2578,256"/>
+<area shape="rect" id="node43" href="$atca__basic__sign_8c.html" title="CryptoAuthLib Basic API methods for Sign command." alt="" coords="2602,229,2738,256"/>
+<area shape="rect" id="node44" href="$atca__basic__updateextra_8c.html" title="CryptoAuthLib Basic API methods for UpdateExtra command." alt="" coords="2763,229,2951,256"/>
+<area shape="rect" id="node45" href="$atca__basic__verify_8c.html" title="CryptoAuthLib Basic API methods for Verify command." alt="" coords="2976,229,3120,256"/>
+<area shape="rect" id="node46" href="$atca__basic__write_8c.html" title="CryptoAuthLib Basic API methods for Write command." alt="" coords="3144,229,3287,256"/>
+<area shape="rect" id="node47" href="$atca__tests__aes_8c.html" title="Unity tests for the cryptoauthlib Basic API." alt="" coords="3312,229,3442,256"/>
+</map>

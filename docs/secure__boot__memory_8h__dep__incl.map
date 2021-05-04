@@ -1,0 +1,5 @@
+<map id="secure_boot_memory.h" name="secure_boot_memory.h">
+<area shape="rect" id="node1" title="Provides interface to memory component for the secure boot." alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node2" href="$secure__boot_8h.html" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="35,80,149,107"/>
+<area shape="rect" id="node3" href="$secure__boot_8c.html" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="36,155,148,181"/>
+</map>

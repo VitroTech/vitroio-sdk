@@ -1,0 +1,7 @@
+<map id="kit_phy.h" name="kit_phy.h">
+<area shape="rect" id="node1" title="ATCA Hardware abstraction layer physical send &amp; receive function definitions." alt="" coords="283,5,363,32"/>
+<area shape="rect" id="node2" href="$hal__linux__kit__cdc_8c.html" title="ATCA Hardware abstraction layer for Linux using kit protocol over a USB CDC device." alt="" coords="5,80,151,107"/>
+<area shape="rect" id="node3" href="$hal__win__kit__cdc_8c.html" title="ATCA Hardware abstraction layer for Windows using kit protocol over a USB CDC device." alt="" coords="175,80,311,107"/>
+<area shape="rect" id="node4" href="$hal__win__kit__hid_8c.html" title="ATCA Hardware abstraction layer for Windows using kit protocol over a USB HID device." alt="" coords="336,80,471,107"/>
+<area shape="rect" id="node5" href="$kit__protocol_8c.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="495,80,605,107"/>
+</map>

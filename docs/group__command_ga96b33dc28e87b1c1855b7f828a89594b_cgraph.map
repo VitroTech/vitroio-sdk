@@ -1,0 +1,5 @@
+<map id="atGenDig" name="atGenDig">
+<area shape="rect" id="node1" title="ATCACommand Generate Digest method." alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node2" href="$group__command.html#ga54460acd927854db5d39d6d5c3e8ed7c" title="This function calculates CRC and adds it to the correct offset in the packet data." alt="" coords="136,5,220,32"/>
+<area shape="rect" id="node3" href="$group__command.html#ga53ded4ed630b6ef4d292056c2e6b34f6" title="Calculates CRC over the given raw data and returns the CRC in little&#45;endian byte order." alt="" coords="268,5,331,32"/>
+</map>

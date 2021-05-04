@@ -1,0 +1,4 @@
+<map id="i2c_bitbang_samd21.h" name="i2c_bitbang_samd21.h">
+<area shape="rect" id="node1" title="definitions for bit&#45;banged I2C" alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$i2c__bitbang__samd21_8c.html" title="Hardware Interface Functions &#45; I2C bit&#45;bang for SAMD21." alt="" coords="6,80,173,107"/>
+</map>

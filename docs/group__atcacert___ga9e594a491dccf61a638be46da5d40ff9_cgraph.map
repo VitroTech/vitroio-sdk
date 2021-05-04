@@ -1,0 +1,4 @@
+<map id="atcacert_cert_build_finish" name="atcacert_cert_build_finish">
+<area shape="rect" id="node1" title="Completes any final certificate processing required after all data from the device has been incorpora..." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#gae1f109cb8edea615c0f7126527208452" title="Sets the certificate serial number by generating it from other information in the certificate using t..." alt="" coords="200,13,360,39"/>
+</map>

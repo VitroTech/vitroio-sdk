@@ -1,0 +1,4 @@
+<map id="atcab_read_serial_number" name="atcab_read_serial_number">
+<area shape="rect" id="node1" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="248,5,380,32"/>
+</map>

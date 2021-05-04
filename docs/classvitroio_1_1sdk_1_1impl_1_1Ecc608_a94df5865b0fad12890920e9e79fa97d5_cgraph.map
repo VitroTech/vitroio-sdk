@@ -1,0 +1,6 @@
+<map id="vitroio::sdk::impl::Ecc608::verifySignature" name="vitroio::sdk::impl::Ecc608::verifySignature">
+<area shape="rect" id="node1" title="Verify previously generated signature." alt="" coords="5,23,188,65"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gad2096a4618dd37c48ed48847fe63d844" title="Uses GenKey command to calculate the public key from an existing private key in a slot." alt="" coords="241,5,381,32"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#ga2c3e18de900ba705192963d08b37f600" title="Executes the Verify command, which verifies a signature (ECDSA verify operation) with all components ..." alt="" coords="236,56,387,83"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gaa8b6953ad2c7f749e61566fd38fe6903" title="Issues GenKey command, which can generate a private key, compute a public key, nd/or compute a digest..." alt="" coords="435,5,585,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="atcacert_verify_response_hw" name="atcacert_verify_response_hw">
+<area shape="rect" id="node1" title="Verify a client&#39;s response to a challenge using the host&#39;s ATECC device for crypto functions." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga2c3e18de900ba705192963d08b37f600" title="Executes the Verify command, which verifies a signature (ECDSA verify operation) with all components ..." alt="" coords="264,5,415,32"/>
+</map>

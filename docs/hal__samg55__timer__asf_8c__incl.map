@@ -1,0 +1,18 @@
+<map id="hal_samg55_timer_asf.c" name="hal_samg55_timer_asf.c">
+<area shape="rect" id="node1" title="Prerequisite: add &quot;Delay routines (service)&quot; module to application in Atmel Studio." alt="" coords="47,5,227,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="25,80,78,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="103,80,171,107"/>
+<area shape="rect" id="node4" href="$atca__hal_8h.html" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface" alt="" coords="195,80,284,107"/>
+<area shape="rect" id="node5" href="$atca__config_8h_source.html" title=" " alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node6" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="78,304,187,331"/>
+<area shape="rect" id="node10" href="$atca__iface_8h.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="189,155,290,181"/>
+<area shape="rect" id="node15" href="$atca__start__config_8h_source.html" title=" " alt="" coords="315,155,460,181"/>
+<area shape="rect" id="node16" href="$atca__start__iface_8h_source.html" title=" " alt="" coords="485,155,623,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="44,379,115,405"/>
+<area shape="rect" id="node8" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="139,379,236,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="146,453,229,480"/>
+<area shape="rect" id="node11" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="207,229,341,256"/>
+<area shape="rect" id="node12" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="211,304,337,331"/>
+<area shape="rect" id="node13" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="361,304,491,331"/>
+<area shape="rect" id="node14" title=" " alt="" coords="515,304,590,331"/>
+</map>

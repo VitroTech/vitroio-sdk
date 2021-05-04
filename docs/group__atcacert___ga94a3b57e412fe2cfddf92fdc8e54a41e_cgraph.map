@@ -1,0 +1,4 @@
+<map id="atcacert_set_auth_key_id_raw" name="atcacert_set_auth_key_id_raw">
+<area shape="rect" id="node1" title="Sets the authority key ID in a certificate." alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#ga5dacb3927ef7eacfaf8c4e28641f7bce" title="Sets an element in a certificate. The data_size must match the size in cert_loc." alt="" coords="221,13,416,39"/>
+</map>

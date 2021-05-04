@@ -1,0 +1,5 @@
+<map id="isBase64Digit" name="isBase64Digit">
+<area shape="rect" id="node1" title="Returns true if this character is a valid base 64 character." alt="" coords="5,31,117,57"/>
+<area shape="rect" id="node2" href="$atca__helpers_8c.html#a592c23e94097ad5e212beb6390aa88c6" title="Checks to see if a character is an ASCII representation of hex ((c &gt;= &#39;A&#39;) and (c &lt;= &#39;F&#39;)) || ((c &gt;= ..." alt="" coords="165,5,236,32"/>
+<area shape="rect" id="node3" href="$atca__helpers_8c.html#a7a929bf65cbc777bab7e533a2755cfad" title="Checks to see if a character is an ASCII representation of a digit ((c ge &#39;0&#39;) and (c le &#39;9&#39;))" alt="" coords="169,56,233,83"/>
+</map>

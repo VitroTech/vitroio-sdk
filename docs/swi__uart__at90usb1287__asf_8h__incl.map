@@ -1,0 +1,26 @@
+<map id="swi_uart_at90usb1287_asf.h" name="swi_uart_at90usb1287_asf.h">
+<area shape="rect" id="node1" title="ATMEGA&#39;s ATCA Hardware abstraction layer for SWI interface over AT90USB1287 UART drivers." alt="" coords="607,5,775,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="554,95,607,121"/>
+<area shape="rect" id="node3" href="$cryptoauthlib_8h.html" title="Single aggregation point for all CryptoAuthLib header files." alt="" coords="631,95,751,121"/>
+<area shape="rect" id="node24" title=" " alt="" coords="776,95,846,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="794,408,868,435"/>
+<area shape="rect" id="node5" title=" " alt="" coords="184,169,254,196"/>
+<area shape="rect" id="node6" href="$atca__config_8h_source.html" title=" " alt="" coords="32,251,140,278"/>
+<area shape="rect" id="node7" href="$atca__hal_8h.html" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface" alt="" coords="330,169,444,196"/>
+<area shape="rect" id="node8" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="356,408,466,435"/>
+<area shape="rect" id="node13" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="524,333,658,360"/>
+<area shape="rect" id="node18" href="$atca__device_8h.html" title="Microchip Crypto Auth device object." alt="" coords="588,169,700,196"/>
+<area shape="rect" id="node19" href="$atca__cfgs_8h.html" title="a set of default configurations for various ATCA devices and interfaces" alt="" coords="468,169,564,196"/>
+<area shape="rect" id="node20" href="$atca__basic_8h.html" title="CryptoAuthLib Basic API methods &#45; a simple crypto authentication API. These methods manage a global A..." alt="" coords="775,169,916,196"/>
+<area shape="rect" id="node23" href="$atca__helpers_8h.html" title="Helpers to support the CryptoAuthLib Basic API methods." alt="" coords="994,169,1148,196"/>
+<area shape="rect" id="node12" href="$atca__iface_8h.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="548,251,650,278"/>
+<area shape="rect" id="node16" href="$atca__start__config_8h_source.html" title=" " alt="" coords="378,251,524,278"/>
+<area shape="rect" id="node17" href="$atca__start__iface_8h_source.html" title=" " alt="" coords="164,251,303,278"/>
+<area shape="rect" id="node9" title=" " alt="" coords="677,483,748,509"/>
+<area shape="rect" id="node10" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="362,483,460,509"/>
+<area shape="rect" id="node11" title=" " alt="" coords="370,557,452,584"/>
+<area shape="rect" id="node14" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="490,408,615,435"/>
+<area shape="rect" id="node15" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="640,408,769,435"/>
+<area shape="rect" id="node21" href="$atca__crypto__sw__sha2_8h.html" title="Wrapper API for software SHA 256 routines." alt="" coords="776,244,918,285"/>
+<area shape="rect" id="node22" href="$atca__crypto__sw_8h.html" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="682,333,817,360"/>
+</map>

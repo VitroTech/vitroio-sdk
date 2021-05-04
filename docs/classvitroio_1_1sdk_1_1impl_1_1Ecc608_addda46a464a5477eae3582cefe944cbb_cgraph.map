@@ -1,0 +1,5 @@
+<map id="vitroio::sdk::impl::Ecc608::readSerial" name="vitroio::sdk::impl::Ecc608::readSerial">
+<area shape="rect" id="node1" title="Read serial number from ECC chip." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga96c434878e1f435e2cda5b0b5fec444f" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="204,13,399,39"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="447,13,579,39"/>
+</map>

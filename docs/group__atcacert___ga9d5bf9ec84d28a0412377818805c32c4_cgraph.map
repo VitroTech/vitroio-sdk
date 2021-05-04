@@ -1,0 +1,4 @@
+<map id="atcacert_verify_response_sw" name="atcacert_verify_response_sw">
+<area shape="rect" id="node1" title="Verify a client&#39;s response to a challenge using software crypto functions.The function is currently n..." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$group__atcac__.html#gaa61eee6f208a1633d35cdf8d628a6835" title="return software generated ECDSA verification result and the function is currently not implemented" alt="" coords="264,5,475,32"/>
+</map>

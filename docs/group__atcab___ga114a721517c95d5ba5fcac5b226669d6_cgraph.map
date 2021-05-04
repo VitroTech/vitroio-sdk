@@ -1,0 +1,4 @@
+<map id="atcab_challenge" name="atcab_challenge">
+<area shape="rect" id="node1" title="Execute a Nonce command in pass&#45;through mode to initialize TempKey to a specified value." alt="" coords="5,5,133,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gaf8e10791759a8a5e5dcd82774f4895d6" title="Executes Nonce command, which loads a random or fixed nonce/data into the device for use by subsequen..." alt="" coords="181,5,324,32"/>
+</map>

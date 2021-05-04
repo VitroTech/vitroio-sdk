@@ -1,0 +1,4 @@
+<map id="atcab_base64decode" name="atcab_base64decode">
+<area shape="rect" id="node1" title="Decode base64 string to data." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$atca__helpers_8c.html#a55ba8a1787f69d44d6e40db041fbd786" title="Decode base64 string to data with ruleset option." alt="" coords="212,5,379,32"/>
+</map>

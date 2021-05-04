@@ -1,0 +1,4 @@
+<map id="atcacert_set_subj_public_key" name="atcacert_set_subj_public_key">
+<area shape="rect" id="node1" title="Sets the subject public key and subject key ID in a certificate." alt="" coords="5,5,217,32"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#ga5dacb3927ef7eacfaf8c4e28641f7bce" title="Sets an element in a certificate. The data_size must match the size in cert_loc." alt="" coords="265,5,460,32"/>
+</map>

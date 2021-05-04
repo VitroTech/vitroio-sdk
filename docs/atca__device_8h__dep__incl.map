@@ -1,0 +1,52 @@
+<map id="atca_device.h" name="atca_device.h">
+<area shape="rect" id="node1" title="Microchip Crypto Auth device object." alt="" coords="1644,5,1756,32"/>
+<area shape="rect" id="node2" href="$cryptoauthlib_8h.html" title="Single aggregation point for all CryptoAuthLib header files." alt="" coords="3487,87,3607,114"/>
+<area shape="rect" id="node18" href="$atca__cfgs_8c.html" title="a set of default configurations for various ATCA devices and interfaces" alt="" coords="5706,177,5801,203"/>
+<area shape="rect" id="node34" href="$atca__device_8c.html" title="Microchip CryptoAuth device object." alt="" coords="3682,87,3793,114"/>
+<area shape="rect" id="node35" href="$atca__execution_8c.html" title="Implements an execution handler that executes a given command on a device and returns the results." alt="" coords="5,177,136,203"/>
+<area shape="rect" id="node36" href="$atca__execution_8h.html" title="Defines an execution handler that executes a given command on a device and returns the results." alt="" coords="959,87,1091,114"/>
+<area shape="rect" id="node37" href="$hal__at90usb1287__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for AT90USB1287 I2C over ASF drivers." alt="" coords="161,169,319,211"/>
+<area shape="rect" id="node38" href="$hal__i2c__bitbang_8c.html" title="ATCA Hardware abstraction layer for I2C bit banging." alt="" coords="343,177,478,203"/>
+<area shape="rect" id="node39" href="$hal__i2c__harmony_8c.html" title="ATCA Hardware abstraction layer for SAMD21 I2C over Harmony PLIB." alt="" coords="502,177,645,203"/>
+<area shape="rect" id="node40" href="$hal__i2c__start_8c.html" title="ATCA Hardware abstraction layer for SAMD21 I2C over START drivers." alt="" coords="669,177,785,203"/>
+<area shape="rect" id="node41" href="$hal__sam4s__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAM4S I2C over ASF drivers." alt="" coords="1063,177,1217,203"/>
+<area shape="rect" id="node42" href="$hal__samb11__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAMB11 I2C over ASF drivers." alt="" coords="1242,177,1406,203"/>
+<area shape="rect" id="node43" href="$hal__samd21__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAMD21 I2C over ASF drivers." alt="" coords="1430,177,1594,203"/>
+<area shape="rect" id="node44" href="$hal__samg55__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAMG55 I2C over ASF drivers." alt="" coords="1618,177,1782,203"/>
+<area shape="rect" id="node45" href="$hal__samv71__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAMV71 I2C over ASF drivers." alt="" coords="1806,177,1970,203"/>
+<area shape="rect" id="node46" href="$hal__swi__uart_8c.html" title="ATCA Hardware abstraction layer for SWI over UART drivers." alt="" coords="1995,177,2109,203"/>
+<area shape="rect" id="node47" href="$hal__uc3__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for SAMV71 I2C over ASF drivers." alt="" coords="2134,177,2269,203"/>
+<area shape="rect" id="node48" href="$hal__xmega__a3bu__i2c__asf_8c.html" title="ATCA Hardware abstraction layer for XMEGA&#45;A3BU I2C over ASF drivers." alt="" coords="2293,169,2451,211"/>
+<area shape="rect" id="node49" href="$hal__pic32mz2048efm__i2c_8c.html" title="ATCA Hardware abstraction layer for PIC32MZ2048." alt="" coords="3817,80,3980,121"/>
+<area shape="rect" id="node50" href="$hal__swi__bitbang_8c.html" title="ATCA Hardware abstraction layer for SWI bit banging." alt="" coords="4004,87,4143,114"/>
+<area shape="rect" id="node3" href="$ecc608_8h_source.html" title=" " alt="" coords="5551,177,5631,203"/>
+<area shape="rect" id="node4" href="$atca__basic_8h.html" title="CryptoAuthLib Basic API methods &#45; a simple crypto authentication API. These methods manage a global A..." alt="" coords="2475,177,2578,203"/>
+<area shape="rect" id="node5" href="$atcacert__client_8c.html" title="Client side cert i/o methods. These declarations deal with the client&#45;side, the node being authentica..." alt="" coords="2381,259,2510,285"/>
+<area shape="rect" id="node10" href="$test__atcacert__client_8c.html" title="cert client tests" alt="" coords="2534,259,2695,285"/>
+<area shape="rect" id="node11" href="$atca__helpers_8h.html" title="Helpers to support the CryptoAuthLib Basic API methods." alt="" coords="3208,177,3325,203"/>
+<area shape="rect" id="node12" href="$atca__helpers_8c.html" title="Helpers to support the CryptoAuthLib Basic API methods." alt="" coords="3161,259,3277,285"/>
+<area shape="rect" id="node13" href="$atca__jwt_8c.html" title="Utilities to create and verify a JSON Web Token (JWT)" alt="" coords="4388,259,4476,285"/>
+<area shape="rect" id="node14" href="$api__206a_8c.html" title="Provides APIs to use with ATSHA206A device." alt="" coords="3350,177,3442,203"/>
+<area shape="rect" id="node15" href="$symmetric__authentication_8c.html" title="Contains API for performing the symmetric Authentication between the Host and the device." alt="" coords="2881,259,3085,285"/>
+<area shape="rect" id="node16" href="$symmetric__authentication_8h.html" title="Contains API for performing the symmetric Authentication between the Host and the device." alt="" coords="2877,177,3083,203"/>
+<area shape="rect" id="node17" href="$cryptoauthlib__main_8h_source.html" title=" " alt="" coords="3467,177,3627,203"/>
+<area shape="rect" id="node19" href="$atca__basic__aes__gcm_8h.html" title="Unity tests for the cryptoauthlib AES GCM functions." alt="" coords="3651,177,3819,203"/>
+<area shape="rect" id="node20" href="$atca__hal_8c.html" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface. this level does the di..." alt="" coords="3843,177,3931,203"/>
+<area shape="rect" id="node21" href="$kit__phy_8h.html" title="ATCA Hardware abstraction layer physical send &amp; receive function definitions." alt="" coords="3955,177,4035,203"/>
+<area shape="rect" id="node22" href="$kit__protocol_8h.html" title=" " alt="" coords="4059,177,4170,203"/>
+<area shape="rect" id="node23" href="$swi__uart__at90usb1287__asf_8h.html" title="ATMEGA&#39;s ATCA Hardware abstraction layer for SWI interface over AT90USB1287 UART drivers." alt="" coords="4195,169,4363,211"/>
+<area shape="rect" id="node24" href="$swi__uart__samd21__asf_8h.html" title="ATXMEGA&#39;s ATCA Hardware abstraction layer for SWI interface over UART drivers." alt="" coords="4501,177,4675,203"/>
+<area shape="rect" id="node25" href="$swi__uart__start_8h.html" title=" " alt="" coords="4699,177,4826,203"/>
+<area shape="rect" id="node26" href="$swi__uart__xmega__a3bu__asf_8h.html" title="ATXMEGA&#39;s ATCA Hardware abstraction layer for SWI interface over XMEGA UART drivers." alt="" coords="4851,169,5019,211"/>
+<area shape="rect" id="node27" href="$atca__host_8h.html" title="Definitions and Prototypes for ATCA Utility Functions." alt="" coords="2755,177,2853,203"/>
+<area shape="rect" id="node28" href="$atca__utils__sizes_8c.html" title="API to Return structure sizes of cryptoauthlib structures." alt="" coords="2720,259,2856,285"/>
+<area shape="rect" id="node29" href="$atca__jwt_8h.html" title="Utilities to create and verify a JSON Web Token (JWT)" alt="" coords="4387,177,4477,203"/>
+<area shape="rect" id="node30" href="$atca__mbedtls__wrap_8c.html" title="Wrapper functions to replace cryptoauthlib software crypto functions with the mbedTLS equivalent." alt="" coords="5043,177,5203,203"/>
+<area shape="rect" id="node31" href="$atca__test_8h.html" title="Tests for the Cryptoauthlib Basic API." alt="" coords="5278,177,5373,203"/>
+<area shape="rect" id="node32" href="$cmd-processor_8c.html" title="simple command processor for test console" alt="" coords="5397,259,5525,285"/>
+<area shape="rect" id="node33" href="$cmd-processor_8h.html" title="simple command processor for test console" alt="" coords="5397,177,5526,203"/>
+<area shape="rect" id="node6" href="$atca__basic__aes_8c.html" title="CryptoAuthLib Basic API methods for AES command." alt="" coords="2167,259,2299,285"/>
+<area shape="rect" id="node7" href="$atca__basic__checkmac_8c.html" title="CryptoAuthLib Basic API methods for CheckMAC command." alt="" coords="1446,259,1621,285"/>
+<area shape="rect" id="node8" href="$atca__basic__counter_8c.html" title="CryptoAuthLib Basic API methods for Counter command." alt="" coords="1872,259,2029,285"/>
+<area shape="rect" id="node9" href="$atca__basic__derivekey_8c.html" title="CryptoAuthLib Basic API methods for DeriveKey command." alt="" coords="797,259,968,285"/>
+</map>

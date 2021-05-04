@@ -1,0 +1,5 @@
+<map id="atcab_aes_cbc_encrypt_block" name="atcab_aes_cbc_encrypt_block">
+<area shape="rect" id="node1" title="Encrypt a block of data using CBC mode and a key within the ATECC608A. atcab_aes_cbc_init() should be..." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gacc9a58dc49f91674213f34fa7bbd05e1" title="Perform an AES&#45;128 encrypt operation with a key in the device." alt="" coords="227,13,371,39"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gad115ce255664a48b80e90ea19c156b79" title="Compute the AES&#45;128 encrypt, decrypt, or GFM calculation." alt="" coords="419,13,507,39"/>
+</map>

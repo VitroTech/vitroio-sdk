@@ -1,0 +1,4 @@
+<map id="atcab_aes_cmac_init" name="atcab_aes_cmac_init">
+<area shape="rect" id="node1" title="Initialize a CMAC calculation using an AES&#45;128 key in the ATECC608A." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gabc41b824cdc9b10efa46bcbf74850184" title="Initialize context for AES CBC operation." alt="" coords="212,5,357,32"/>
+</map>

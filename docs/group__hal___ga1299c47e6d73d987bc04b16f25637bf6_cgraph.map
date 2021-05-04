@@ -1,0 +1,4 @@
+<map id="hal_kit_cdc_sleep" name="hal_kit_cdc_sleep">
+<area shape="rect" id="node1" title="Call the sleep for kit protocol over USB CDC." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#gaf6054a0c971830411d5008b94923bdd8" title="Call the sleep for kit protocol." alt="" coords="191,5,272,32"/>
+</map>

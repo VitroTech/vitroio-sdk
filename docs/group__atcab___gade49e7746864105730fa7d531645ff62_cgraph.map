@@ -1,0 +1,5 @@
+<map id="atcab_hw_sha2_256_init" name="atcab_hw_sha2_256_init">
+<area shape="rect" id="node1" title="Initialize a SHA context for performing a hardware SHA&#45;256 operation on a device. Note that only one ..." alt="" coords="5,5,187,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gae0a7ef89fce4cbd0ee1c76759cd93b9a" title="Executes SHA command to initialize SHA&#45;256 calculation engine." alt="" coords="235,5,360,32"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gab3a32e171ca1c30bd31a216b32c9b5a4" title="Executes SHA command, which computes a SHA&#45;256 or HMAC/SHA&#45;256 digest for general purpose use by the ..." alt="" coords="408,5,535,32"/>
+</map>

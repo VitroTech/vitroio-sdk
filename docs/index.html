@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </li>
 <li><a href="#typical-cooperation-of-objects">Typical cooperation of objects</a></li>
 <li><a href="#closed-source-static-library">Closed source static library</a></li>
+<li><a href="#known-issues">Known issues</a></li>
 </ul>
 </li>
 </ul>
@@ -158,7 +159,17 @@ Building</h2>
  Build using docker. Output library and header files will be available in <code>Vitro-SDK-Lib</code> directory.</p>
 <h2><a class="anchor" id="autotoc_md11"></a>
 Using</h2>
-<p>Copy static library and header files from <code>Vitro-SDK-Lib</code> to directory with source code of your project. </p>
+<p>Copy static library and header files from <code>Vitro-SDK-Lib</code> to directory with source code of your project.</p>
+<h2><a class="anchor" id="autotoc_md12"></a>
+Known issues</h2>
+<ul>
+<li>To compile properly, application should be compiled with mbed taken from commit <a href="https://github.com/ARMmbed/mbed-os/#5e23fbaa8398f1a455ba882bb154655b04d183a7">#5e23fbaa8398f1a455ba882bb154655b04d183a7</a></li>
+<li>When including files to your application, <code>mbed.h</code> has to be included before <code>shard-sdk.h</code>.</li>
+<li>User application should contain object of type <code>Serial</code> named <code>pc</code> defined simmiliar to this:</li>
+</ul>
+<div class="fragment"><div class="line"><span class="preprocessor">#define SERIAL_BAUDRATE 115200</span></div>
+<div class="line"><span class="preprocessor">Serial pc(UART_DEBUG_TX, UART_DEBUG_RX, SERIAL_BAUDRATE);</span></div>
+</div><!-- fragment --><p>This serial port is used for application console. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

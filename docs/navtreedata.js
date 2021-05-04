@@ -35,7 +35,8 @@ var NAVTREE =
       [ "Typical cooperation of objects", "index.html#autotoc_md8", null ],
       [ "Closed source static library", "index.html#autotoc_md9", [
         [ "Building", "index.html#autotoc_md10", null ],
-        [ "Using", "index.html#autotoc_md11", null ]
+        [ "Using", "index.html#autotoc_md11", null ],
+        [ "Known issues", "index.html#autotoc_md12", null ]
       ] ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
@@ -67,7 +68,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "__CAN_8h_source.html",
-"group__measurement-api.html"
+"index.html#autotoc_md10"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

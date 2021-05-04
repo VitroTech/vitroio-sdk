@@ -1,0 +1,4 @@
+<map id="atcacert_gen_challenge_sw" name="atcacert_gen_challenge_sw">
+<area shape="rect" id="node1" title="Generate a random challenge to be sent to the client using a software PRNG.The function is currently ..." alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node2" href="$group__atcac__.html#ga0710d8bf5e92403c4026c32af39ad79e" title="return software generated random number and the function is currently not implemented" alt="" coords="255,5,393,32"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="secure_boot.h" name="secure_boot.h">
+<area shape="rect" id="node1" title="Provides required APIs to manage secure boot under various scenarios." alt="" coords="237,5,350,32"/>
+<area shape="rect" id="node2" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="5,244,115,271"/>
+<area shape="rect" id="node6" href="$secure__boot__memory_8h.html" title="Provides interface to memory component for the secure boot." alt="" coords="145,87,319,114"/>
+<area shape="rect" id="node7" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="289,169,423,196"/>
+<area shape="rect" id="node11" href="$atca__crypto__sw__sha2_8h.html" title="Wrapper API for software SHA 256 routines." alt="" coords="401,80,543,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="326,319,397,345"/>
+<area shape="rect" id="node4" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="11,319,109,345"/>
+<area shape="rect" id="node5" title=" " alt="" coords="19,393,101,420"/>
+<area shape="rect" id="node8" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="293,244,419,271"/>
+<area shape="rect" id="node9" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="139,244,269,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="443,244,517,271"/>
+<area shape="rect" id="node12" href="$atca__crypto__sw_8h.html" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="130,169,265,196"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="deleteATCADevice" name="deleteATCADevice">
+<area shape="rect" id="node1" title="destructor for a device NULLs reference after object is freed" alt="" coords="5,31,147,57"/>
+<area shape="rect" id="node2" href="$group__command.html#ga9404883f6b81e6356862a9bb4b42d4a9" title="ATCACommand destructor." alt="" coords="195,5,357,32"/>
+<area shape="rect" id="node3" href="$group__device.html#gab729e6c838c0a247d4f226fb92492d96" title="Release any resources associated with the device." alt="" coords="202,56,350,83"/>
+<area shape="rect" id="node4" href="$group__interface.html#gab9ee16357a8e397a72eda7e9c8553fb3" title="Instruct the HAL driver to release any resources associated with this interface." alt="" coords="405,56,540,83"/>
+<area shape="rect" id="node5" href="$group__hal__.html#ga4be1afccb41f28f6ce620b1d5197befc" title="releases a physical interface, HAL knows how to interpret hal_data" alt="" coords="588,56,724,83"/>
+</map>

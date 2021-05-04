@@ -1,0 +1,4 @@
+<map id="atcacert_get_key_id" name="atcacert_get_key_id">
+<area shape="rect" id="node1" title="Calculates the key ID for a given public ECC P256 key." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node2" href="$group__atcac__.html#ga84b866657bf319dab2924c2db3a1e990" title="Perform SHA1 hash of data in software." alt="" coords="205,5,325,32"/>
+</map>

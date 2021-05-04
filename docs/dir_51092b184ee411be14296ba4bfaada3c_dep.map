@@ -1,0 +1,13 @@
+<map id="hidapi" name="hidapi">
+<area shape="rect" id="node2" href="dir_c31fc9f39ce35f73de8d9c5fd7494bca.html" title="hidapi" alt="" coords="189,159,261,207"/>
+<area shape="rect" id="node3" href="dir_2c1661fa737d6bba888b2b0018c80e4a.html" title="libusb" alt="" coords="333,63,405,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000034_000038.html" title="1" alt="" coords="276,148,285,163"/>
+<area shape="rect" id="node4" href="dir_2aaf56385a57b9795d16da1b1154dd8c.html" title="linux" alt="" coords="237,63,309,111"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000035_000038.html" title="1" alt="" coords="248,139,258,154"/>
+<area shape="rect" id="node5" href="dir_d2683a2ac7c3d2aa808075f2be9b136f.html" title="mac" alt="" coords="141,63,213,111"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000036_000038.html" title="1" alt="" coords="208,131,217,146"/>
+<area shape="rect" id="node6" href="dir_45f53a80e939182451cac5f71bb9abaf.html" title="windows" alt="" coords="38,63,117,111"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000037_000038.html" title="1" alt="" coords="173,134,183,149"/>
+<area shape="rect" id="clust2" href="dir_51092b184ee411be14296ba4bfaada3c.html" alt="" coords="27,52,512,217"/>
+<area shape="rect" id="clust1" href="dir_4df11052d3f6b08cdff3b57629698b1a.html" title="third_party" alt="" coords="16,16,523,228"/>
+</map>

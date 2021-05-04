@@ -1,0 +1,26 @@
+<map id="atcacert_def.h" name="atcacert_def.h">
+<area shape="rect" id="node1" title="Declarations for certificates related to ECC CryptoAuthentication devices. These are the definitions ..." alt="" coords="171,5,285,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="241,468,316,495"/>
+<area shape="rect" id="node3" title=" " alt="" coords="273,543,343,569"/>
+<area shape="rect" id="node4" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="1243,468,1368,495"/>
+<area shape="rect" id="node5" href="$atcacert_8h.html" title="Declarations common to all atcacert code." alt="" coords="78,393,165,420"/>
+<area shape="rect" id="node6" href="$atcacert__date_8h.html" title="Declarations for date handling with regard to certificates." alt="" coords="93,311,216,338"/>
+<area shape="rect" id="node7" href="$atca__helpers_8h.html" title="Helpers to support the CryptoAuthLib Basic API methods." alt="" coords="668,80,823,107"/>
+<area shape="rect" id="node8" href="$cryptoauthlib_8h.html" title="Single aggregation point for all CryptoAuthLib header files." alt="" coords="685,155,805,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="637,229,707,256"/>
+<area shape="rect" id="node10" href="$atca__config_8h_source.html" title=" " alt="" coords="509,311,617,338"/>
+<area shape="rect" id="node11" href="$atca__hal_8h.html" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface" alt="" coords="783,229,897,256"/>
+<area shape="rect" id="node12" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="932,468,1041,495"/>
+<area shape="rect" id="node16" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="1077,393,1211,420"/>
+<area shape="rect" id="node20" href="$atca__device_8h.html" title="Microchip Crypto Auth device object." alt="" coords="1041,229,1153,256"/>
+<area shape="rect" id="node21" href="$atca__cfgs_8h.html" title="a set of default configurations for various ATCA devices and interfaces" alt="" coords="921,229,1017,256"/>
+<area shape="rect" id="node22" href="$atca__basic_8h.html" title="CryptoAuthLib Basic API methods &#45; a simple crypto authentication API. These methods manage a global A..." alt="" coords="471,229,612,256"/>
+<area shape="rect" id="node15" href="$atca__iface_8h.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="1024,311,1125,338"/>
+<area shape="rect" id="node18" href="$atca__start__config_8h_source.html" title=" " alt="" coords="641,311,786,338"/>
+<area shape="rect" id="node19" href="$atca__start__iface_8h_source.html" title=" " alt="" coords="811,311,949,338"/>
+<area shape="rect" id="node13" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="938,543,1035,569"/>
+<area shape="rect" id="node14" title=" " alt="" coords="945,617,1028,644"/>
+<area shape="rect" id="node17" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="1079,468,1209,495"/>
+<area shape="rect" id="node23" href="$atca__crypto__sw__sha2_8h.html" title="Wrapper API for software SHA 256 routines." alt="" coords="342,304,485,345"/>
+<area shape="rect" id="node24" href="$atca__crypto__sw_8h.html" title="Common defines for CryptoAuthLib software crypto wrappers." alt="" coords="631,393,766,420"/>
+</map>

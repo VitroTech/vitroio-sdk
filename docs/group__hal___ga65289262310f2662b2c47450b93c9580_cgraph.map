@@ -1,0 +1,4 @@
+<map id="hal_kit_hid_wake" name="hal_kit_hid_wake">
+<area shape="rect" id="node1" title="Call the wake for kit protocol." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#gaf7ce58d02b067b956abd32127f5519e9" title="Call the wake for kit protocol." alt="" coords="188,5,268,32"/>
+</map>

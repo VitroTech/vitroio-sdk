@@ -1,0 +1,7 @@
+<map id="sha206a_check_pk_useflag_validity" name="sha206a_check_pk_useflag_validity">
+<area shape="rect" id="node1" title="verifies Parent Key use flags for consumption" alt="" coords="5,23,204,65"/>
+<area shape="rect" id="node2" href="$api__206a_8c.html#a4415f1d4d84a1ccea935cad493dd5074" title="calculates available Parent Key use counts" alt="" coords="252,23,435,65"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="483,31,657,57"/>
+<area shape="rect" id="node4" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="705,5,863,32"/>
+<area shape="rect" id="node5" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="718,56,850,83"/>
+</map>

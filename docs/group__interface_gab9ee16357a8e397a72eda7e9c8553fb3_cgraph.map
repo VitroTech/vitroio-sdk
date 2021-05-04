@@ -1,0 +1,4 @@
+<map id="releaseATCAIface" name="releaseATCAIface">
+<area shape="rect" id="node1" title="Instruct the HAL driver to release any resources associated with this interface." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#ga4be1afccb41f28f6ce620b1d5197befc" title="releases a physical interface, HAL knows how to interpret hal_data" alt="" coords="188,5,324,32"/>
+</map>

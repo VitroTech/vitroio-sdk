@@ -1,0 +1,5 @@
+<map id="atca_mbedtls_pk_init" name="atca_mbedtls_pk_init">
+<area shape="rect" id="node1" title="Initializes an mbedtls pk context for use with EC operations." alt="" coords="5,5,167,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gad2096a4618dd37c48ed48847fe63d844" title="Uses GenKey command to calculate the public key from an existing private key in a slot." alt="" coords="215,5,355,32"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#gaa8b6953ad2c7f749e61566fd38fe6903" title="Issues GenKey command, which can generate a private key, compute a public key, nd/or compute a digest..." alt="" coords="403,5,553,32"/>
+</map>

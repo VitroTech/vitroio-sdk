@@ -1,0 +1,6 @@
+<map id="sha206a_generate_challenge_response_pair" name="sha206a_generate_challenge_response_pair">
+<area shape="rect" id="node1" title="Generates the response based on Key and Challenge provided." alt="" coords="5,23,217,65"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga96c434878e1f435e2cda5b0b5fec444f" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="265,5,460,32"/>
+<area shape="rect" id="node4" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="287,56,438,83"/>
+<area shape="rect" id="node3" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="508,5,640,32"/>
+</map>

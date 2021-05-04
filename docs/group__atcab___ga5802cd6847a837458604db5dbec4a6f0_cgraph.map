@@ -1,0 +1,4 @@
+<map id="_atcab_exit" name="_atcab_exit">
+<area shape="rect" id="node1" title="common cleanup code which idles the device after any operation" alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#gaf47433a371b9fcb8d65a4214cd9e4fa0" title="idle the CryptoAuth device" alt="" coords="151,5,240,32"/>
+</map>

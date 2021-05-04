@@ -1,0 +1,4 @@
+<map id="hal_kit_cdc_idle" name="hal_kit_cdc_idle">
+<area shape="rect" id="node1" title="Call the idle for kit protocol over USB CDC." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#gaeaee19ff7623f0eab9839e68dae583af" title="Call the idle for kit protocol." alt="" coords="180,5,251,32"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="atca_hal.h" name="atca_hal.h">
+<area shape="rect" id="node1" title="low&#45;level HAL &#45; methods used to setup indirection to physical layer interface" alt="" coords="195,5,284,32"/>
+<area shape="rect" id="node2" href="$atca__config_8h_source.html" title=" " alt="" coords="5,80,113,107"/>
+<area shape="rect" id="node3" href="$atca__status_8h.html" title="Microchip Crypto Auth status codes." alt="" coords="78,229,187,256"/>
+<area shape="rect" id="node7" href="$atca__iface_8h.html" title="Microchip Crypto Auth hardware interface object." alt="" coords="189,80,290,107"/>
+<area shape="rect" id="node12" href="$atca__start__config_8h_source.html" title=" " alt="" coords="315,80,460,107"/>
+<area shape="rect" id="node13" href="$atca__start__iface_8h_source.html" title=" " alt="" coords="485,80,623,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="44,304,115,331"/>
+<area shape="rect" id="node5" href="$atca__bool_8h.html" title="bool define for systems that don&#39;t have it" alt="" coords="139,304,236,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="146,379,229,405"/>
+<area shape="rect" id="node8" href="$atca__command_8h.html" title="Microchip Crypto Auth device command object &#45; this is a command builder only, it does not send the co..." alt="" coords="207,155,341,181"/>
+<area shape="rect" id="node9" href="$atca__compiler_8h.html" title="CryptoAuthLiub is meant to be portable across architectures, even non&#45;Microchip architectures and com..." alt="" coords="211,229,337,256"/>
+<area shape="rect" id="node10" href="$atca__devtypes_8h.html" title="Microchip Crypto Auth." alt="" coords="361,229,491,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="515,229,590,256"/>
+</map>

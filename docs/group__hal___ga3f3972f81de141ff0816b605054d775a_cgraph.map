@@ -1,0 +1,4 @@
+<map id="hal_kit_cdc_receive" name="hal_kit_cdc_receive">
+<area shape="rect" id="node1" title="HAL implementation of kit protocol receive over USB CDC." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$group__hal__.html#ga09a86ccc517208f9c9a057ea569e2a18" title="HAL implementation to receive bytes and unwrap from kit protocol. This function calls back to the phy..." alt="" coords="204,5,299,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="atcab_verify_validate" name="atcab_verify_validate">
+<area shape="rect" id="node1" title="Executes the Verify command in Validate mode to validate a public key stored in a slot." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga694d921c7bc17a0e158ef96e3d476700" title="Executes the Verify command, which takes an ECDSA [R,S] signature and verifies that it is correctly g..." alt="" coords="216,5,319,32"/>
+</map>

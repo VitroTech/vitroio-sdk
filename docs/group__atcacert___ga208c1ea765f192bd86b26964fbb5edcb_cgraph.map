@@ -1,0 +1,4 @@
+<map id="atcacert_gen_challenge_hw" name="atcacert_gen_challenge_hw">
+<area shape="rect" id="node1" title="Generate a random challenge to be sent to the client using the RNG on the host&#39;s ATECC device." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="256,5,371,32"/>
+</map>

@@ -7,7 +7,6 @@ var hierarchy =
       [ "vitroio::sdk::impl::_CAN", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html", null ]
     ] ],
     [ "vitroio::sdk::CanbusFrame", "classvitroio_1_1sdk_1_1CanbusFrame.html", null ],
-    [ "vitroio::sdk::impl::Ecc508", "classvitroio_1_1sdk_1_1impl_1_1Ecc508.html", null ],
     [ "vitroio::sdk::FirmwareId", "structvitroio_1_1sdk_1_1FirmwareId.html", null ],
     [ "vitroio::sdk::FlashSpace", "structvitroio_1_1sdk_1_1FlashSpace.html", null ],
     [ "vitroio::sdk::impl::IOExpander", "classvitroio_1_1sdk_1_1impl_1_1IOExpander.html", null ],
@@ -28,7 +27,6 @@ var hierarchy =
     ] ],
     [ "vitroio::sdk::SensorParameterValue", "structvitroio_1_1sdk_1_1SensorParameterValue.html", null ],
     [ "vitroio::sdk::ShardEdge", "classvitroio_1_1sdk_1_1ShardEdge.html", null ],
-    [ "vitroio::sdk::impl::TLSCrypto", "classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html", null ],
     [ "vitroio::sdk::Version", "structvitroio_1_1sdk_1_1Version.html", null ],
     [ "vitroio::sdk::Watchdog", "classvitroio_1_1sdk_1_1Watchdog.html", null ]
 ];

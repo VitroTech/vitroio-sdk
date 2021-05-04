@@ -123,33 +123,33 @@ typedef Callback&lt; void(const <a class="el" href="classvitroio_1_1sdk_1_1Canbu
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab76d6c3736586a58d06cc8a662394c54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#ab76d6c3736586a58d06cc8a662394c54">Canbus</a> (PinName rd, PinName td, EventQueue *targetQueue, uint32_t eventQueueSize=<a class="el" href="group__communication.html#gabada5561d84871db8e6510ba26d0142c">VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE</a>, int hz=<a class="el" href="group__communication.html#gaa7c0872b35dc8ecb92460ab0d4594bf3">VITROIO_CANBUS_DEFAULT_FREQUENCY</a>)</td></tr>
-<tr class="memdesc:ab76d6c3736586a58d06cc8a662394c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor initializes CAN bus and chains an internal event queue to the <code>targetQueue</code>.  <a href="classvitroio_1_1sdk_1_1Canbus.html#ab76d6c3736586a58d06cc8a662394c54">More...</a><br /></td></tr>
-<tr class="separator:ab76d6c3736586a58d06cc8a662394c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3186de82ccb328e28179a5f661383e1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a3186de82ccb328e28179a5f661383e1c">Canbus</a> (PinName rd, PinName td, osPriority priority=osPriorityNormal, uint32_t eventQueueSize=<a class="el" href="group__communication.html#gabada5561d84871db8e6510ba26d0142c">VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE</a>, int hz=<a class="el" href="group__communication.html#gaa7c0872b35dc8ecb92460ab0d4594bf3">VITROIO_CANBUS_DEFAULT_FREQUENCY</a>)</td></tr>
-<tr class="memdesc:a3186de82ccb328e28179a5f661383e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor initializes CAN bus and creates internal event loop using thread with priority <code>priority</code>.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a3186de82ccb328e28179a5f661383e1c">More...</a><br /></td></tr>
-<tr class="separator:a3186de82ccb328e28179a5f661383e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7582b2a26e80c5c4765a33bd1712985a"><td class="memItemLeft" align="right" valign="top"><a id="a7582b2a26e80c5c4765a33bd1712985a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a7582b2a26e80c5c4765a33bd1712985a">~Canbus</a> ()</td></tr>
-<tr class="memdesc:a7582b2a26e80c5c4765a33bd1712985a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:a7582b2a26e80c5c4765a33bd1712985a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad207505872aec345f7656e87eed540"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a3ad207505872aec345f7656e87eed540">isValid</a> () const</td></tr>
-<tr class="memdesc:a3ad207505872aec345f7656e87eed540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to check whether the bus is in valid state.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a3ad207505872aec345f7656e87eed540">More...</a><br /></td></tr>
-<tr class="separator:a3ad207505872aec345f7656e87eed540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d96e84e143bb4ab3e117b78e4b305e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a0d96e84e143bb4ab3e117b78e4b305e5">sendFrame</a> (const <a class="el" href="classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a> &amp;frame)</td></tr>
-<tr class="memdesc:a0d96e84e143bb4ab3e117b78e4b305e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions sends frame over the bus.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a0d96e84e143bb4ab3e117b78e4b305e5">More...</a><br /></td></tr>
-<tr class="separator:a0d96e84e143bb4ab3e117b78e4b305e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acafc1e0ada1ad0de9512b8d960418973"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#acafc1e0ada1ad0de9512b8d960418973">setOnFrameReceivedCallback</a> (<a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0">OnFrameReceivedCallback</a> callback, int handle=-1)</td></tr>
-<tr class="memdesc:acafc1e0ada1ad0de9512b8d960418973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to set callbacks which are to be called any time the frame received.  <a href="classvitroio_1_1sdk_1_1Canbus.html#acafc1e0ada1ad0de9512b8d960418973">More...</a><br /></td></tr>
-<tr class="separator:acafc1e0ada1ad0de9512b8d960418973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7d07fd0b2fb9aac82fec22f799026f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a5c7d07fd0b2fb9aac82fec22f799026f">Canbus</a> (PinName rd, PinName td, EventQueue *targetQueue, uint32_t eventQueueSize=<a class="el" href="group__communication.html#gabada5561d84871db8e6510ba26d0142c">VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE</a>, int hz=<a class="el" href="group__communication.html#gaa7c0872b35dc8ecb92460ab0d4594bf3">VITROIO_CANBUS_DEFAULT_FREQUENCY</a>)</td></tr>
+<tr class="memdesc:a5c7d07fd0b2fb9aac82fec22f799026f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor initializes CAN bus and chains an internal event queue to the <code>targetQueue</code>.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a5c7d07fd0b2fb9aac82fec22f799026f">More...</a><br /></td></tr>
+<tr class="separator:a5c7d07fd0b2fb9aac82fec22f799026f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48c35f85a9b920951425486927b62b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#af48c35f85a9b920951425486927b62b8">Canbus</a> (PinName rd, PinName td, osPriority priority=osPriorityNormal, uint32_t eventQueueSize=<a class="el" href="group__communication.html#gabada5561d84871db8e6510ba26d0142c">VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE</a>, int hz=<a class="el" href="group__communication.html#gaa7c0872b35dc8ecb92460ab0d4594bf3">VITROIO_CANBUS_DEFAULT_FREQUENCY</a>)</td></tr>
+<tr class="memdesc:af48c35f85a9b920951425486927b62b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor initializes CAN bus and creates internal event loop using thread with priority <code>priority</code>.  <a href="classvitroio_1_1sdk_1_1Canbus.html#af48c35f85a9b920951425486927b62b8">More...</a><br /></td></tr>
+<tr class="separator:af48c35f85a9b920951425486927b62b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24bbdd33afdb56f89508cd17529c4f93"><td class="memItemLeft" align="right" valign="top"><a id="a24bbdd33afdb56f89508cd17529c4f93"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a24bbdd33afdb56f89508cd17529c4f93">~Canbus</a> ()</td></tr>
+<tr class="memdesc:a24bbdd33afdb56f89508cd17529c4f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="separator:a24bbdd33afdb56f89508cd17529c4f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d7f874c32e5ddd0e9ee8344e8dede6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a10d7f874c32e5ddd0e9ee8344e8dede6">isValid</a> () const</td></tr>
+<tr class="memdesc:a10d7f874c32e5ddd0e9ee8344e8dede6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to check whether the bus is in valid state.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a10d7f874c32e5ddd0e9ee8344e8dede6">More...</a><br /></td></tr>
+<tr class="separator:a10d7f874c32e5ddd0e9ee8344e8dede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c150614583eea5ad517bae73ca3e1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#ab5c150614583eea5ad517bae73ca3e1f">sendFrame</a> (const <a class="el" href="classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a> &amp;frame)</td></tr>
+<tr class="memdesc:ab5c150614583eea5ad517bae73ca3e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions sends frame over the bus.  <a href="classvitroio_1_1sdk_1_1Canbus.html#ab5c150614583eea5ad517bae73ca3e1f">More...</a><br /></td></tr>
+<tr class="separator:ab5c150614583eea5ad517bae73ca3e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2887cce31fed7ad7fe0aa6fbb768c9e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a2887cce31fed7ad7fe0aa6fbb768c9e5">setOnFrameReceivedCallback</a> (<a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0">OnFrameReceivedCallback</a> callback, int handle=-1)</td></tr>
+<tr class="memdesc:a2887cce31fed7ad7fe0aa6fbb768c9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to set callbacks which are to be called any time the frame received.  <a href="classvitroio_1_1sdk_1_1Canbus.html#a2887cce31fed7ad7fe0aa6fbb768c9e5">More...</a><br /></td></tr>
+<tr class="separator:a2887cce31fed7ad7fe0aa6fbb768c9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class is a wrapper for <a href="https://os.mbed.com/docs/latest/apis/can.html">mbed::CAN</a> class and provides interface for <a class="el" href="classvitroio_1_1sdk_1_1CanbusFrame.html" title="Class is a wrapper for mbed::CANMessage. It provides interface allowing creation of frames complied w...">CanbusFrame</a> type. </p>
 <p>Read of incoming frames is possible only by callbacks because of thread safety - the frames are read using RX IRQ.</p>
 <p>The class uses an event queue for reading incoming frames. The event queue can be managed by external queue specified by user or by internal queue with thread of specifed priority. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab76d6c3736586a58d06cc8a662394c54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab76d6c3736586a58d06cc8a662394c54">&#9670;&nbsp;</a></span>Canbus() <span class="overload">[1/2]</span></h2>
+<a id="a5c7d07fd0b2fb9aac82fec22f799026f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7d07fd0b2fb9aac82fec22f799026f">&#9670;&nbsp;</a></span>Canbus() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +158,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Canbus::Canbus </td>
+          <td class="memname">vitroio::sdk::Canbus::Canbus </td>
           <td>(</td>
           <td class="paramtype">PinName&#160;</td>
           <td class="paramname"><em>rd</em>, </td>
@@ -201,7 +201,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor initializes CAN bus and chains an internal event queue to the <code>targetQueue</code>. </p>
-<p>There is not guarantee that the object is in valid state. User should call <a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a3ad207505872aec345f7656e87eed540" title="Function allows to check whether the bus is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
+<p>There is not guarantee that the object is in valid state. User should call <a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a10d7f874c32e5ddd0e9ee8344e8dede6" title="Function allows to check whether the bus is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <p>The contructor uses <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a> method for connection to <code>targetQueue</code>.</p>
 <dl class="section note"><dt>Note</dt><dd>Thread which handles <code>targetQueue</code> must be run before usage of this class (construction of the object can be done earlier).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -217,8 +217,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3186de82ccb328e28179a5f661383e1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3186de82ccb328e28179a5f661383e1c">&#9670;&nbsp;</a></span>Canbus() <span class="overload">[2/2]</span></h2>
+<a id="af48c35f85a9b920951425486927b62b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af48c35f85a9b920951425486927b62b8">&#9670;&nbsp;</a></span>Canbus() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Canbus::Canbus </td>
+          <td class="memname">vitroio::sdk::Canbus::Canbus </td>
           <td>(</td>
           <td class="paramtype">PinName&#160;</td>
           <td class="paramname"><em>rd</em>, </td>
@@ -270,7 +270,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor initializes CAN bus and creates internal event loop using thread with priority <code>priority</code>. </p>
-<p>There is not guarantee that the object is in valid state. User should call <a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a3ad207505872aec345f7656e87eed540" title="Function allows to check whether the bus is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
+<p>There is not guarantee that the object is in valid state. User should call <a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a10d7f874c32e5ddd0e9ee8344e8dede6" title="Function allows to check whether the bus is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rd</td><td>RD pin of the CAN interface </td></tr>
@@ -285,14 +285,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3ad207505872aec345f7656e87eed540"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad207505872aec345f7656e87eed540">&#9670;&nbsp;</a></span>isValid()</h2>
+<a id="a10d7f874c32e5ddd0e9ee8344e8dede6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d7f874c32e5ddd0e9ee8344e8dede6">&#9670;&nbsp;</a></span>isValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Canbus::isValid </td>
+          <td class="memname">bool vitroio::sdk::Canbus::isValid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -306,14 +306,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d96e84e143bb4ab3e117b78e4b305e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d96e84e143bb4ab3e117b78e4b305e5">&#9670;&nbsp;</a></span>sendFrame()</h2>
+<a id="ab5c150614583eea5ad517bae73ca3e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c150614583eea5ad517bae73ca3e1f">&#9670;&nbsp;</a></span>sendFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Canbus::sendFrame </td>
+          <td class="memname">int vitroio::sdk::Canbus::sendFrame </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a> &amp;&#160;</td>
           <td class="paramname"><em>frame</em></td><td>)</td>
@@ -333,14 +333,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acafc1e0ada1ad0de9512b8d960418973"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acafc1e0ada1ad0de9512b8d960418973">&#9670;&nbsp;</a></span>setOnFrameReceivedCallback()</h2>
+<a id="a2887cce31fed7ad7fe0aa6fbb768c9e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2887cce31fed7ad7fe0aa6fbb768c9e5">&#9670;&nbsp;</a></span>setOnFrameReceivedCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Canbus::setOnFrameReceivedCallback </td>
+          <td class="memname">int vitroio::sdk::Canbus::setOnFrameReceivedCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0">OnFrameReceivedCallback</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>

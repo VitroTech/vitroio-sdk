@@ -1,0 +1,8 @@
+<map id="atcacert_write_cert" name="atcacert_write_cert">
+<area shape="rect" id="node1" title="Take a full certificate and write it to the ATECC508A device according to the certificate definition." alt="" coords="5,93,152,120"/>
+<area shape="rect" id="node2" href="$group__atcacert__.html#ga240f94a03feb298e5c618677f2962a5a" title="Gets the dynamic data that would be saved to the specified device location. This function is primaril..." alt="" coords="200,64,389,91"/>
+<area shape="rect" id="node5" href="$group__atcacert__.html#ga84f1aeed7b88889d5bf01f21dbaaf398" title="Add all the device locations required to rebuild the specified certificate (cert_def) to a device loc..." alt="" coords="201,119,388,145"/>
+<area shape="rect" id="node3" href="$group__atcacert__.html#gaf64c228c28f42f15e9b43457146d1504" title="Gets the certificate serial number from a certificate." alt="" coords="459,5,616,32"/>
+<area shape="rect" id="node4" href="$group__atcacert__.html#gad2e2ceb6fb7614254a94e89ba244fee7" title="Determines if the two device locations overlap." alt="" coords="466,57,609,98"/>
+<area shape="rect" id="node6" href="$group__atcacert__.html#ga593780a1837f517ce75bb19d9c5c9db7" title="Merge a new device location into a list of device locations. If the new location overlaps with an exi..." alt="" coords="437,123,637,149"/>
+</map>

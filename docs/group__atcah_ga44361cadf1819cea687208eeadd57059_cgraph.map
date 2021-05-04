@@ -1,0 +1,5 @@
+<map id="atcah_mac" name="atcah_mac">
+<area shape="rect" id="node1" title="This function generates an SHA&#45;256 digest (MAC) of a key, challenge, and other information." alt="" coords="5,31,99,57"/>
+<area shape="rect" id="node2" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="147,5,297,32"/>
+<area shape="rect" id="node3" href="$group__atcah.html#gad456d2c1172343bb40d8cd0e391d44f4" title="This function copies otp and sn data into a command buffer." alt="" coords="148,56,296,83"/>
+</map>

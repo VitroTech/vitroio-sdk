@@ -1,0 +1,17 @@
+<map id="vitroio::sdk::IoTBlock::make" name="vitroio::sdk::IoTBlock::make">
+<area shape="rect" id="node1" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,..." alt="" coords="5,168,164,209"/>
+<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#a6bf28b372f1d43984f5e268317e50148" title="Encrypt node&#39;s data with AES&#45;256&#45;CBC algorithm." alt="" coords="212,69,388,111"/>
+<area shape="rect" id="node9" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#a66d01f1e38e91643158f69dbb61f7fb4" title="Count SHA&#45;256 checksum of input data." alt="" coords="215,135,385,176"/>
+<area shape="rect" id="node10" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#addda46a464a5477eae3582cefe944cbb" title="Read serial number from ECC chip." alt="" coords="225,200,375,241"/>
+<area shape="rect" id="node12" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#a5c702680dc0b770b02922744989894bf" title="Sign data using ECDSA algorithm." alt="" coords="229,265,371,307"/>
+<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#ac40bb5a0bcbe771bcf7643b1ec7ca933" title="Generate random data." alt="" coords="436,5,649,47"/>
+<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#a9ef507a3b1caa0351971b872c5c89e94" title="Returns ECC instance." alt="" coords="463,71,623,112"/>
+<area shape="rect" id="node5" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#abfbb80dee74fd96b99155b7e94a6de6d" title="Read symmetric key stored in ECC chip." alt="" coords="459,137,626,179"/>
+<area shape="rect" id="node6" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="707,146,882,173"/>
+<area shape="rect" id="node7" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="940,146,1097,173"/>
+<area shape="rect" id="node8" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="953,199,1085,226"/>
+<area shape="rect" id="node11" href="$group__atcab__.html#ga96c434878e1f435e2cda5b0b5fec444f" title="Executes Read command, which reads the 9 byte serial number of the device from the config zone." alt="" coords="697,205,892,231"/>
+<area shape="rect" id="node13" href="$group__atcab__.html#gaeb4a36bc6992612cc3b1f950c0d020b7" title="Executes the SelfTest command, which performs a test of one or more of the cryptographic engines with..." alt="" coords="486,267,599,294"/>
+<area shape="rect" id="node14" href="$group__atcab__.html#ga69b8282d1b1e0c54b9a7d286fed503b8" title="Executes Sign command, to sign a 32&#45;byte external message using the private key in the specified slot..." alt="" coords="497,318,589,345"/>
+<area shape="rect" id="node15" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="737,318,852,345"/>
+</map>

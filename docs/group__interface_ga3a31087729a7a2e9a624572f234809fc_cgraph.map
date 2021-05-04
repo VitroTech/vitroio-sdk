@@ -1,0 +1,4 @@
+<map id="initATCAIface" name="initATCAIface">
+<area shape="rect" id="node1" title="Initializer for ATCAIface objects." alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node2" href="$group__interface.html#ga386353e8700eec35e4548dfa29f13b8d" title="Performs the HAL initialization by calling intermediate HAL wrapper function. If using the basic API,..." alt="" coords="161,5,217,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="vitroio::sdk::impl::Ecc608::get_random" name="vitroio::sdk::impl::Ecc608::get_random">
+<area shape="rect" id="node1" title="Get specified number of random bytes." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="216,13,331,39"/>
+</map>
