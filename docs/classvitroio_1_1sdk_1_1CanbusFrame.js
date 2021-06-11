@@ -1,15 +1,15 @@
 var classvitroio_1_1sdk_1_1CanbusFrame =
 [
-    [ "CanbusFrame", "classvitroio_1_1sdk_1_1CanbusFrame.html#ab8211f5c3dc791d8045e2bb1fb443eaf", null ],
-    [ "~CanbusFrame", "classvitroio_1_1sdk_1_1CanbusFrame.html#ae0be2a60d6ae09a7d86337f30edb261f", null ],
-    [ "data", "classvitroio_1_1sdk_1_1CanbusFrame.html#a21c2360308d774fc91e0d1c286102643", null ],
+    [ "CanbusFrame", "classvitroio_1_1sdk_1_1CanbusFrame.html#aa929047bc9b91d37a986a7958645d3d2", null ],
+    [ "~CanbusFrame", "classvitroio_1_1sdk_1_1CanbusFrame.html#a46151e2ad2b2d2eb5de8ff9ee5b5df91", null ],
+    [ "data", "classvitroio_1_1sdk_1_1CanbusFrame.html#acac5f4642764ce4533bb49999db03fc3", null ],
     [ "data", "classvitroio_1_1sdk_1_1CanbusFrame.html#aa6b84dd56f046ebbc9a1875b44d9d5a1", null ],
-    [ "dataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#a8a1552bcf1a0da0f58b3f77623c3858f", null ],
-    [ "maxDataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#a58ca8412895daa8a0e7c396e69b229e9", null ],
-    [ "nodeId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a94729ecb86178da229f0fbcfd1cca670", null ],
-    [ "parameterId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a6cb111249a0b2eb356543dc567d0a975", null ],
-    [ "setDataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#af738a53f8bdf6cfed4e244dd23d6e866", null ],
-    [ "setNodeId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a3cf63ec9470333aab69636dc50b9e29c", null ],
-    [ "setParameterId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a7173ecbf7ce82365d4cd4657588005c0", null ],
+    [ "dataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#abb0db768e109bbfc19b78abd0f54157f", null ],
+    [ "maxDataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#a1fba118ce855c7d28811f31b01359b53", null ],
+    [ "nodeId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a96c102645b9037679a18c37cf4d88649", null ],
+    [ "parameterId", "classvitroio_1_1sdk_1_1CanbusFrame.html#ab8a8dde00eb1e1091ae341af1db47f4c", null ],
+    [ "setDataLength", "classvitroio_1_1sdk_1_1CanbusFrame.html#a6c1ddac1e86938964ed851b057c18999", null ],
+    [ "setNodeId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a37695bc75a77f3e37775b58685b27081", null ],
+    [ "setParameterId", "classvitroio_1_1sdk_1_1CanbusFrame.html#a5abe95672dd9afdbf1e3c08f9d46a0dc", null ],
     [ "Canbus", "classvitroio_1_1sdk_1_1CanbusFrame.html#a716b650e299090503dcf04a25ae6c031", null ]
 ];

@@ -1,0 +1,4 @@
+<map id="vitroio::sdk::Canbus" name="vitroio::sdk::Canbus">
+<area shape="rect" id="node1" title="Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type." alt="" coords="21,80,155,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,171,32"/>
+</map>

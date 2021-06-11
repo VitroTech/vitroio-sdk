@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "vitroio", "namespacevitroio.html", "namespacevitroio" ]
+    [ "vitroio", "d0/dbb/namespacevitroio.html", "d0/dbb/namespacevitroio" ]
 ];

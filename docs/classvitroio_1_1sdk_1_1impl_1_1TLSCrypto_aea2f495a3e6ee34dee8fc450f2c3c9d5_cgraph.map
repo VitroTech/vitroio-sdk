@@ -2,7 +2,4 @@
 <area shape="rect" id="node1" title="Decrypt data with AES&#45;256&#45;CBC algorithm." alt="" coords="5,39,184,80"/>
 <area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#a9ef507a3b1caa0351971b872c5c89e94" title="Returns ECC instance." alt="" coords="235,5,395,47"/>
 <area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1Ecc608.html#abfbb80dee74fd96b99155b7e94a6de6d" title="Read symmetric key stored in ECC chip." alt="" coords="232,71,399,112"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="447,78,621,105"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="669,53,827,79"/>
-<area shape="rect" id="node6" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="682,103,814,130"/>
 </map>
