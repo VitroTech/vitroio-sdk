@@ -1,6 +1,6 @@
 var classvitroio_1_1sdk_1_1impl_1_1__CAN =
 [
-    [ "_CAN", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a6724a7c5c43d6d26026d3d6830d9da31", null ],
-    [ "~_CAN", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a2d372e26af94e2fbf83a443261c01ae4", null ],
-    [ "read_from_irq", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f", null ]
+    [ "_CAN", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a732b5e18f9367ff2e188f5c30ec4349f", null ],
+    [ "~_CAN", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#adc4f0d338329c03cf6b3b3efa9581d91", null ],
+    [ "read_from_irq", "classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a707168757c8bba1ec4d4d91f1421b5de", null ]
 ];
