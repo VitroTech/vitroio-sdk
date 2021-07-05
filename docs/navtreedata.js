@@ -39,8 +39,7 @@ var NAVTREE =
         [ "Building", "index.html#autotoc_md10", null ],
         [ "Using", "index.html#autotoc_md11", null ],
         [ "Known issues", "index.html#autotoc_md12", null ]
-      ] ],
-      [ "Releasing SDK", "index.html#autotoc_md13", null ]
+      ] ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [

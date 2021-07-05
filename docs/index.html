@@ -103,7 +103,6 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="#known-issues">Known issues</a></li>
 </ul>
 </li>
-<li><a href="#releasing-sdk">Release SDK process description</a></li>
 </ul>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Introduction</h1>
@@ -171,31 +170,7 @@ Known issues</h2>
 </ul>
 <div class="fragment"><div class="line"><span class="preprocessor">#define SERIAL_BAUDRATE 115200</span></div>
 <div class="line"><span class="preprocessor">Serial pc(UART_DEBUG_TX, UART_DEBUG_RX, SERIAL_BAUDRATE);</span></div>
-</div><!-- fragment --><p>This serial port is used for application console.</p>
-<h1><a class="anchor" id="autotoc_md13"></a>
-Releasing SDK</h1>
-<p>To release the SDK from private repo to the public - take the following steps:</p>
-<ol type="1">
-<li>Introduce the changes to CHANGELOG.md in the private repository.</li>
-</ol>
-<blockquote class="doxtable">
-<p><b>Warning!!</b> Make sure no sensitive information is provided in the release notes or changelog. These changes will be copied over to public CHANGELOG.md repo. </p>
-</blockquote>
-<ol type="1">
-<li>Create a temp release branch and commit your changes (private repository)</li>
-<li>Push your changes (private repository)</li>
-<li>Merge to master (private repository)</li>
-<li>Checkout locally on the origin/master and pull changes including merge commit (private repository)</li>
-<li>Place a tag on the merge commit (private repository)</li>
-<li>Push the tag with:</li>
-</ol>
-<div class="fragment"><div class="line">git push origin --tags</div>
-</div><!-- fragment --><p>Pushing the tag will trigger the CI/CD pipeline.</p>
-<p>The pipeline will compile the library, generate docs and push the changes to public repository on <code>cicd-from-private</code> branch.</p>
-<ol type="1">
-<li>Go to public repo on github checkout on <code>cicd-from-private</code> branch.</li>
-<li>Create pull request, review changes and merge. </li>
-</ol>
+</div><!-- fragment --><p>This serial port is used for application console. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
