@@ -6,7 +6,7 @@ var classvitroio_1_1sdk_1_1IoTBlock =
       [ "SIZE_L", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aacdcd4f3398ee2f1e865d28fb6f1ea500", null ],
       [ "SIZE_XL", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aaa8fef1a9cb12edc7146b8890e7253e12", null ]
     ] ],
-    [ "IoTBlock", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ab49e872797406f79329f326cb24ae010", null ],
+    [ "IoTBlock", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a", null ],
     [ "__attribute__", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa69e19e5b58402ea0c1421a79261b996", null ],
     [ "get_frame", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a75844f333399823e62e4b59aa46b8d2b", null ],
     [ "get_frame_as_array", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ac6c3021a0829d7b711f4920e802b0a3a", null ],
