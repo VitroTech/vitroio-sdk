@@ -99,11 +99,15 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </ul>
 </li>
 <li><a href="#typical-cooperation-of-objects">Typical cooperation of objects</a></li>
-<li><a href="#closed-source-static-library">Closed source static library</a></li>
+<li><a href="#closed-source-static-library">Closed source static library</a><ul>
+<li><a href="#building">Building</a></li>
+<li><a href="#using">Using</a></li>
 <li><a href="#known-issues">Known issues</a></li>
 </ul>
 </li>
-<li><a href="#releasing-sdk">Release SDK process description</a></li>
+<li><a href="#releasing-sdk">Releasing SDK</a></li>
+</ul>
+</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Introduction</h1>
@@ -183,8 +187,10 @@ Releasing SDK</h1>
 </blockquote>
 <ol type="1">
 <li>Create a temp release branch and commit your changes (private repository)</li>
-<li>Push your changes (private repository)</li>
-<li>Merge to master (private repository)</li>
+<li>Push your changes (private repository) <blockquote class="doxtable">
+<p><b>Remeber to update SDK verison <a href="vitroio-sdk/version.h">here</a></b> </p>
+</blockquote>
+4. Merge to master (private repository)</li>
 <li>Checkout locally on the origin/master and pull changes including merge commit (private repository)</li>
 <li>Place a tag on the merge commit (private repository)</li>
 <li>Push the tag with:</li>
