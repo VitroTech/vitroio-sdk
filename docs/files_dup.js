@@ -4,6 +4,7 @@ var files_dup =
     [ "abstract_sensor_driver.h", "d7/d99/abstract__sensor__driver_8h_source.html", null ],
     [ "abstract_sensor_interface.h", "df/d63/abstract__sensor__interface_8h_source.html", null ],
     [ "buffer.h", "d5/d08/buffer_8h_source.html", null ],
+    [ "can_layer.h", "df/dce/can__layer_8h_source.html", null ],
     [ "canbus.h", "d1/dd8/canbus_8h_source.html", null ],
     [ "canbus_frame.h", "d9/d8c/canbus__frame_8h_source.html", null ],
     [ "canbus_protocol_consts.h", "dc/d8f/canbus__protocol__consts_8h_source.html", null ],
@@ -22,6 +23,7 @@ var files_dup =
     [ "scoped_ptr.h", "d0/d44/scoped__ptr_8h_source.html", null ],
     [ "shard-sdk.h", "d4/d3e/shard-sdk_8h_source.html", null ],
     [ "shard_edge.h", "dc/dce/shard__edge_8h_source.html", null ],
+    [ "transport_layer.h", "d6/d7f/transport__layer_8h_source.html", null ],
     [ "types.h", "d9/d49/types_8h.html", [
       [ "FirmwareId", "dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html", "dc/d49/structvitroio_1_1sdk_1_1FirmwareId" ],
       [ "Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", "de/d6b/structvitroio_1_1sdk_1_1Version" ],

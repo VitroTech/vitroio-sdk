@@ -2,6 +2,7 @@
 #define IOT_BLOCK_H
 
 #include <vitroio-sdk/communication/canbus.h>
+#include <vitroio-sdk/communication/transport_layer.h>
 
 #define AES_BLOCK_SIZE          16
 
@@ -49,8 +50,6 @@
 
 #define DATA_BLOB_SIZE          AES_IV_LEN + DATA_TO_ENCRYPT_SIZE
 #define CAN_DATA_SIZE           147
-
-#define CHUNK_SIZE              7
 
 #define TIMESTAMP_REQUEST_PARAMETER_ID 0x40
 
@@ -114,7 +113,7 @@ public:
      * @brief Constructor
      *
      */
-    IoTBlock(Canbus* canbus, uint32_t nodeid);
+    IoTBlock(Transport_layer *comm);
 
     /**
      * @brief Prepare IoT block consisting of the Initialize Vector, encrypted
@@ -177,16 +176,10 @@ public:
     void print();
 
 private:
-    Canbus* canbus_;
-    uint32_t nodeid_;
+    Transport_layer* comm_port;
     uint32_t frameSize;
     uint32_t blobSize;
-    uint32_t timestamp;
     
-
-    void updateTimestamp();
-    void frameReceivedCallback(const CanbusFrame& frame);
-    int countCRC(uint8_t *buffer, size_t length, uint32_t *crc_value);
     int create_blob(const uint8_t* plaintext, uint16_t plaintext_len, uint8_t* blob);
 };
 

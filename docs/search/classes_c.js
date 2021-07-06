@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_138',['Version',['../de/d6b/structvitroio_1_1sdk_1_1Version.html',1,'vitroio::sdk']]]
+  ['upgradecontroller_143',['UpgradeController',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html',1,'vitroio::sdk::impl']]]
 ];

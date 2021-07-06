@@ -11,6 +11,7 @@ var hierarchy =
     [ "vitroio::sdk::FlashSpace", "de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html", null ],
     [ "vitroio::sdk::impl::IOExpander", "dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html", null ],
     [ "vitroio::sdk::IoTBlock", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html", null ],
+    [ "vitroio::sdk::IoVec", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html", null ],
     [ "vitroio::sdk::impl::List< T >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
     [ "vitroio::sdk::impl::List< vitroio::sdk::AbstractSensorInterface * >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
     [ "vitroio::sdk::impl::ListNode< T >", "d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html", null ],
@@ -26,6 +27,9 @@ var hierarchy =
     ] ],
     [ "vitroio::sdk::SensorParameterValue", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html", null ],
     [ "vitroio::sdk::ShardEdge", "d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html", null ],
+    [ "vitroio::sdk::Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
+      [ "vitroio::sdk::Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", null ]
+    ] ],
     [ "vitroio::sdk::Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", null ],
     [ "vitroio::sdk::Watchdog", "d6/d81/classvitroio_1_1sdk_1_1Watchdog.html", null ]
 ];

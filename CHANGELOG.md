@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
+## [1.5.0]
+
+### Changed
+
+- IO expander port used for board revision check
+- Attenuation values for ADC count to voltage conversion
+- IoT Blocks are now send using provided communication layer
+
+## Added 
+
+- Communication abstraction layer for IoT Blocks
 
 ## [1.4.0]
 
@@ -110,6 +121,3 @@ for now
 [1.0.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v0.1.1...v1.0.0
 [0.1.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/2878a10257f0f173faee504bc5243e140d36b477...v0.1.0
-
-
-## test-ci
