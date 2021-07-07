@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parameter_225',['parameter',['../de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html#a4b8cc0d481013e7fdb880d6840705737',1,'vitroio::sdk::SensorParameterValue']]]
+  ['offset_233',['offset',['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html#a63459787896831de281593396a987162',1,'vitroio::sdk::FlashSpace']]]
 ];

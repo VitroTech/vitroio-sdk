@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['can_5flayer_6',['Can_layer',['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html',1,'vitroio::sdk']]],
+  ['can_5flayer_6',['Can_layer',['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a4d1268ca0ae9356302a19f802a378d13',1,'vitroio::sdk::Can_layer::Can_layer()'],['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html',1,'vitroio::sdk::Can_layer']]],
   ['canbus_7',['Canbus',['../da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a5c7d07fd0b2fb9aac82fec22f799026f',1,'vitroio::sdk::Canbus::Canbus(PinName rd, PinName td, EventQueue *targetQueue, uint32_t eventQueueSize=VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE, int hz=VITROIO_CANBUS_DEFAULT_FREQUENCY)'],['../da/d0e/classvitroio_1_1sdk_1_1Canbus.html#af48c35f85a9b920951425486927b62b8',1,'vitroio::sdk::Canbus::Canbus(PinName rd, PinName td, osPriority priority=osPriorityNormal, uint32_t eventQueueSize=VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE, int hz=VITROIO_CANBUS_DEFAULT_FREQUENCY)'],['../da/d0e/classvitroio_1_1sdk_1_1Canbus.html',1,'vitroio::sdk::Canbus']]],
   ['canbusframe_8',['CanbusFrame',['../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html',1,'vitroio::sdk']]],
   ['close_9',['close',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f',1,'vitroio::sdk::AbstractSensorDriver']]],

@@ -91,32 +91,37 @@ $(document).ready(function(){initNavTree('d6/dd0/classvitroio_1_1sdk_1_1Transpor
 <div class="title">vitroio::sdk::Transport_layer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Virtual class providing interface for communication interfaces.  
+ <a href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d6/d7f/transport__layer_8h_source.html">transport_layer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for vitroio::sdk::Transport_layer:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/dbe/classvitroio_1_1sdk_1_1Transport__layer__inherit__graph.png" border="0" usemap="#avitroio_1_1sdk_1_1Transport__layer_inherit__map" alt="Inheritance graph"/></div>
 <map name="avitroio_1_1sdk_1_1Transport__layer_inherit__map" id="avitroio_1_1sdk_1_1Transport__layer_inherit__map">
-<area shape="rect" title=" " alt="" coords="6,5,151,47"/>
-<area shape="rect" href="../../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html" title=" " alt="" coords="5,95,152,121"/>
+<area shape="rect" title="Virtual class providing interface for communication interfaces." alt="" coords="6,5,151,47"/>
+<area shape="rect" href="../../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html" title="This class implements CAN bus transport layer for IoT Blockss." alt="" coords="5,95,152,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f374614c715238efaa12664a269bab4"><td class="memItemLeft" align="right" valign="top"><a id="a6f374614c715238efaa12664a269bab4"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>send</b> (uint32_t parameterId, const <a class="el" href="../../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html">IoVec</a> *iov, int iovcnt)</td></tr>
+<tr class="memitem:a6f374614c715238efaa12664a269bab4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a6f374614c715238efaa12664a269bab4">send</a> (uint32_t parameterId, const <a class="el" href="../../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html">IoVec</a> *iov, int iovcnt)</td></tr>
+<tr class="memdesc:a6f374614c715238efaa12664a269bab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function sends given data.  <a href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a6f374614c715238efaa12664a269bab4">More...</a><br /></td></tr>
 <tr class="separator:a6f374614c715238efaa12664a269bab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafb698cab7f21249010357ca22669b8e"><td class="memItemLeft" align="right" valign="top"><a id="aafb698cab7f21249010357ca22669b8e"></a>
-virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>timestamp</b> ()</td></tr>
-<tr class="separator:aafb698cab7f21249010357ca22669b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72f98b851b6c15f589559e696817a2fb"><td class="memItemLeft" align="right" valign="top"><a id="a72f98b851b6c15f589559e696817a2fb"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeId</b> ()</td></tr>
+<tr class="memitem:a9b6e75ccb4aa92b3d183d07f219e6298"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9b6e75ccb4aa92b3d183d07f219e6298">getTimestamp</a> ()</td></tr>
+<tr class="memdesc:a9b6e75ccb4aa92b3d183d07f219e6298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function sends timestamp request and returns timestamp value.  <a href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9b6e75ccb4aa92b3d183d07f219e6298">More...</a><br /></td></tr>
+<tr class="separator:a9b6e75ccb4aa92b3d183d07f219e6298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f98b851b6c15f589559e696817a2fb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a72f98b851b6c15f589559e696817a2fb">nodeId</a> ()</td></tr>
+<tr class="memdesc:a72f98b851b6c15f589559e696817a2fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns node ID.  <a href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a72f98b851b6c15f589559e696817a2fb">More...</a><br /></td></tr>
 <tr class="separator:a72f98b851b6c15f589559e696817a2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0b48f4aebfccccb9fb4e2d6f84d6af8b"><td class="memItemLeft" align="right" valign="top"><a id="a0b48f4aebfccccb9fb4e2d6f84d6af8b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Transport_layer</b> (uint32_t nodeId)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Transport_layer</b> (uint32_t <a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a72f98b851b6c15f589559e696817a2fb">nodeId</a>)</td></tr>
 <tr class="separator:a0b48f4aebfccccb9fb4e2d6f84d6af8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -125,6 +130,123 @@ Protected Attributes</h2></td></tr>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeId_</b></td></tr>
 <tr class="separator:a9390b67af47c0f0adbbe1d7b16c9a0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Virtual class providing interface for communication interfaces. </p>
+<p>tha im of this class is to provide interfaces for basic communication with other devices, for sending IoT Blocks. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9b6e75ccb4aa92b3d183d07f219e6298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b6e75ccb4aa92b3d183d07f219e6298">&#9670;&nbsp;</a></span>getTimestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint32_t vitroio::sdk::Transport_layer::getTimestamp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function sends timestamp request and returns timestamp value. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t Received timestamp </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a8d97c23e125e03b6cac67f10a0cf0ff0">vitroio::sdk::Can_layer</a>.</p>
+
+</div>
+</div>
+<a id="a72f98b851b6c15f589559e696817a2fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72f98b851b6c15f589559e696817a2fb">&#9670;&nbsp;</a></span>nodeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t vitroio::sdk::Transport_layer::nodeId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns node ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t node ID </dd></dl>
+
+</div>
+</div>
+<a id="a6f374614c715238efaa12664a269bab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f374614c715238efaa12664a269bab4">&#9670;&nbsp;</a></span>send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int vitroio::sdk::Transport_layer::send </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>parameterId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html">IoVec</a> *&#160;</td>
+          <td class="paramname"><em>iov</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iovcnt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function sends given data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterId</td><td>Id of parameter sent </td></tr>
+    <tr><td class="paramname">iov</td><td>Pointer to first <a class="el" href="../../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html" title="Structure for delaing with fragmentation of IoTBlocks.">IoVec</a> with data to be sent <a class="el" href="../../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html">IoVec</a> </td></tr>
+    <tr><td class="paramname">iovcnt</td><td>Count of IoVects to read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int Status of sending </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#abdfca25f948ea7eddf976ac8e155157b">vitroio::sdk::Can_layer</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
