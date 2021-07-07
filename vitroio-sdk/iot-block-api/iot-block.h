@@ -110,8 +110,9 @@ public:
     } IoTBlock_Sizes_t;
 
     /**
-     * @brief Constructor
-     *
+     * @brief Construct a new IoT Block object
+     * 
+     * @param comm Pointer to transport layer to be used.
      */
     IoTBlock(Transport_layer *comm);
 
@@ -174,6 +175,13 @@ public:
      * 
      */
     void print();
+
+    /**
+     * @brief Get the blob size
+     * 
+     * @return uint32_t 
+     */
+    uint32_t get_blob_size();
 
 private:
     Transport_layer* comm_port;

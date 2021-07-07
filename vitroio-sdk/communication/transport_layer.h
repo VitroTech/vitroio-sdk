@@ -6,11 +6,21 @@
 namespace vitroio {
 namespace sdk {
 
+/**
+ * @brief Structure for delaing with fragmentation of IoTBlocks
+ * 
+ */
 struct IoVec {
-    void *iov_base;
-    size_t iov_len;
+    void *iov_base; /**<Pointer to chunk */
+    size_t iov_len; /**<Length of chunl */
 };
 
+/**
+ * @brief Virtual class providing interface for communication interfaces
+ * 
+ * @details tha im of this class is to provide interfaces for basic 
+ * communication with other devices, for sending IoT Blocks.
+ */
 class Transport_layer {
     protected:
         uint32_t nodeId_;
@@ -21,8 +31,28 @@ class Transport_layer {
         }
 
     public:
+        /**
+         * @brief Function sends given data
+         * 
+         * @param parameterId Id of parameter sent
+         * @param iov Pointer to first IoVec with data to be sent @ref IoVec
+         * @param iovcnt Count of IoVects to read
+         * @return int Status of sending
+         */
         virtual int send(uint32_t parameterId, const IoVec* iov, int iovcnt);
-        virtual uint32_t timestamp();
+
+        /**
+         * @brief Function sends timestamp request and returns timestamp value
+         * 
+         * @return uint32_t Received timestamp
+         */
+        virtual uint32_t getTimestamp();
+
+        /**
+         * @brief Returns node ID.
+         * 
+         * @return uint32_t node ID
+         */
         inline uint32_t nodeId() { return nodeId_; }
 };
 

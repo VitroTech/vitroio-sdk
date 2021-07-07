@@ -111,9 +111,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa69e19e5b58402ea0c1421a79261b996"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa69e19e5b58402ea0c1421a79261b996">__attribute__</a> ((packed)) Frame</td></tr>
 <tr class="memdesc:aa69e19e5b58402ea0c1421a79261b996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure contains node's data needed for encryption and final CAN frame.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa69e19e5b58402ea0c1421a79261b996">More...</a><br /></td></tr>
 <tr class="separator:aa69e19e5b58402ea0c1421a79261b996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa64cf1ff3b2894fdc793eddbc4a5a78a"><td class="memItemLeft" align="right" valign="top"><a id="aa64cf1ff3b2894fdc793eddbc4a5a78a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a">IoTBlock</a> (<a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *comm)</td></tr>
-<tr class="memdesc:aa64cf1ff3b2894fdc793eddbc4a5a78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="memitem:aa64cf1ff3b2894fdc793eddbc4a5a78a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a">IoTBlock</a> (<a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *comm)</td></tr>
+<tr class="memdesc:aa64cf1ff3b2894fdc793eddbc4a5a78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new IoT Block object.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a">More...</a><br /></td></tr>
 <tr class="separator:aa64cf1ff3b2894fdc793eddbc4a5a78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9361c60452016218650363bc81acea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2">make</a> (uint32_t data, uint32_t parameter)</td></tr>
 <tr class="memdesc:ad9361c60452016218650363bc81acea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID, node Id, timestamp, digest, and signature.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2">More...</a><br /></td></tr>
@@ -140,11 +139,41 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f">print</a> ()</td></tr>
 <tr class="memdesc:a0e4e43e5360f199b517feae25699137f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints whole Iot Block data. <br /></td></tr>
 <tr class="separator:a0e4e43e5360f199b517feae25699137f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c08601dd7dd8dad72b344911f2ce19"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a91c08601dd7dd8dad72b344911f2ce19">get_blob_size</a> ()</td></tr>
+<tr class="memdesc:a91c08601dd7dd8dad72b344911f2ce19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the blob size.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a91c08601dd7dd8dad72b344911f2ce19">More...</a><br /></td></tr>
+<tr class="separator:a91c08601dd7dd8dad72b344911f2ce19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class is an API for creating and sending IoT Blocks. </p>
 <p>The class wraps all crypto operations needed for creating IoT blocks. The last prepared block is stored in an object of this class and the pointer to the block can be acquired with get_iot(). </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa64cf1ff3b2894fdc793eddbc4a5a78a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64cf1ff3b2894fdc793eddbc4a5a78a">&#9670;&nbsp;</a></span>IoTBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vitroio::sdk::IoTBlock::IoTBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *&#160;</td>
+          <td class="paramname"><em>comm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new IoT Block object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comm</td><td>Pointer to transport layer to be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa69e19e5b58402ea0c1421a79261b996"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa69e19e5b58402ea0c1421a79261b996">&#9670;&nbsp;</a></span>__attribute__()</h2>
 
@@ -172,6 +201,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <p>Structure contains node's data needed for encryption and final CAN frame. </p>
 <p>All members of structure are required to be sent in CAN frame. Sensor's value is encrypted and together with Intialization Vector creates blob. nodeID, parameterID and timestamp are evident and placed at the top of encrypted data. digest is a result of SHA256 hash function on blob + parameterID + nodeID + timestamp. signature is created only on digest.</p>
 <dl class="section note"><dt>Note</dt><dd>Structure has packed attribute to ensure that it is placed in non-padded, contiguous memory area </dd></dl>
+
+</div>
+</div>
+<a id="a91c08601dd7dd8dad72b344911f2ce19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c08601dd7dd8dad72b344911f2ce19">&#9670;&nbsp;</a></span>get_blob_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t vitroio::sdk::IoTBlock::get_blob_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the blob size. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint32_t </dd></dl>
 
 </div>
 </div>
