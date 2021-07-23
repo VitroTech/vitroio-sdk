@@ -127,12 +127,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af23821ecfa010b8dccddc22c12100b65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">NodeController</a> (<a class="el" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a> *canbus, const <a class="el" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a> &amp;fwId, const <a class="el" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a> &amp;fwVersion, EventQueue *targetQueue, uint32_t eventQueueSize=<a class="el" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>)</td></tr>
 <tr class="memdesc:af23821ecfa010b8dccddc22c12100b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contructor initializes the controller and chains an internal event queue to the <code>targetQueue</code>.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">More...</a><br /></td></tr>
 <tr class="separator:af23821ecfa010b8dccddc22c12100b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e30665433eafaebde41eee8072fde25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a7e30665433eafaebde41eee8072fde25">~NodeController</a> ()</td></tr>
+<tr class="separator:a7e30665433eafaebde41eee8072fde25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ee31f014a7852affd8cff3ed915ea4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">isValid</a> ()</td></tr>
 <tr class="memdesc:a37ee31f014a7852affd8cff3ed915ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to check whether the controller is in valid state.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">More...</a><br /></td></tr>
 <tr class="separator:a37ee31f014a7852affd8cff3ed915ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabe313c060420ebcdb01a695fcbfb184"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aabe313c060420ebcdb01a695fcbfb184">initCommunication</a> ()</td></tr>
-<tr class="memdesc:aabe313c060420ebcdb01a695fcbfb184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function initializes communication with gateway. This method blocks until the communication is not initialized and no error occurred.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aabe313c060420ebcdb01a695fcbfb184">More...</a><br /></td></tr>
-<tr class="separator:aabe313c060420ebcdb01a695fcbfb184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb8d3d852d06110ef3058b459ce08bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd">initCommunication</a> (<a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *layer)</td></tr>
+<tr class="memdesc:afcb8d3d852d06110ef3058b459ce08bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function initializes communication with gateway. This method blocks until the communication is not initialized and no error occurred.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd">More...</a><br /></td></tr>
+<tr class="separator:afcb8d3d852d06110ef3058b459ce08bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35772bf24f9a368bb0be6a10b302b75a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a">initCommunication</a> (uint32_t sync_time, <a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *layer)</td></tr>
+<tr class="memdesc:a35772bf24f9a368bb0be6a10b302b75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function initializes communication with gateway. This method blocks until the communication is not initialized and no error occurred.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a">More...</a><br /></td></tr>
+<tr class="separator:a35772bf24f9a368bb0be6a10b302b75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a320b3b7abbf87556306c33e9c7881"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">nodeId</a> ()</td></tr>
 <tr class="memdesc:a05a320b3b7abbf87556306c33e9c7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to obtain node ID assigned by gateway during initialization of communication.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">More...</a><br /></td></tr>
 <tr class="separator:a05a320b3b7abbf87556306c33e9c7881"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,9 +451,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7e30665433eafaebde41eee8072fde25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e30665433eafaebde41eee8072fde25">&#9670;&nbsp;</a></span>~NodeController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vitroio::sdk::NodeController::~NodeController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aabe313c060420ebcdb01a695fcbfb184"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabe313c060420ebcdb01a695fcbfb184">&#9670;&nbsp;</a></span>initCommunication()</h2>
+<a id="afcb8d3d852d06110ef3058b459ce08bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb8d3d852d06110ef3058b459ce08bd">&#9670;&nbsp;</a></span>initCommunication() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,8 +478,40 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">int vitroio::sdk::NodeController::initCommunication </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function initializes communication with gateway. This method blocks until the communication is not initialized and no error occurred. </p>
+<dl class="section return"><dt>Returns</dt><dd>Function returns VITROIO_ERR_SUCCESS when the communication was initialized successfully or appropriate error code otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a35772bf24f9a368bb0be6a10b302b75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35772bf24f9a368bb0be6a10b302b75a">&#9670;&nbsp;</a></span>initCommunication() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int vitroio::sdk::NodeController::initCommunication </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>sync_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,0 +1,7 @@
+<map id="vitroio::sdk::impl::Timestamp" name="vitroio::sdk::impl::Timestamp">
+<area shape="rect" id="node1" title="Class for maintaining timestamp tracking." alt="" coords="543,71,657,112"/>
+<area shape="rect" id="node2" href="$d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html" title="Virtual class providing interface for communication interfaces." alt="" coords="255,5,401,47"/>
+<area shape="rect" id="node3" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="253,71,403,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,71,188,112"/>
+<area shape="rect" id="node5" href="$d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html" title=" " alt="" coords="237,136,419,177"/>
+</map>

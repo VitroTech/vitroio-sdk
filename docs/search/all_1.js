@@ -1,5 +1,19 @@
 var searchData=
 [
-  ['abstractsensordriver_2',['AbstractSensorDriver',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html',1,'vitroio::sdk']]],
-  ['abstractsensorinterface_3',['AbstractSensorInterface',['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#ade0f5927c2b5489793942bca3f61bbb2',1,'vitroio::sdk::AbstractSensorInterface::AbstractSensorInterface()'],['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html',1,'vitroio::sdk::AbstractSensorInterface']]]
+  ['abstract_5fsensor_5fdriver_2eh_3',['abstract_sensor_driver.h',['../d7/d99/abstract__sensor__driver_8h.html',1,'']]],
+  ['abstract_5fsensor_5finterface_2eh_4',['abstract_sensor_interface.h',['../df/d63/abstract__sensor__interface_8h.html',1,'']]],
+  ['abstractsensordriver_5',['AbstractSensorDriver',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af80535a60b7f990bd4fc5008d4325c42',1,'vitroio::sdk::AbstractSensorDriver::AbstractSensorDriver()'],['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html',1,'vitroio::sdk::AbstractSensorDriver']]],
+  ['abstractsensorinterface_6',['AbstractSensorInterface',['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#ade0f5927c2b5489793942bca3f61bbb2',1,'vitroio::sdk::AbstractSensorInterface::AbstractSensorInterface()'],['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html',1,'vitroio::sdk::AbstractSensorInterface']]],
+  ['adc1_5fin1_7',['ADC1_IN1',['../d8/db5/consts_8h.html#af6ba21e79bc3f04720384c775415b958',1,'consts.h']]],
+  ['adc1_5fin10_8',['ADC1_IN10',['../d8/db5/consts_8h.html#a0730944e930cafcf40fb88aa485b3507',1,'consts.h']]],
+  ['adc1_5fin11_9',['ADC1_IN11',['../d8/db5/consts_8h.html#aef1ed833310e07c95ad3ab42d9f92874',1,'consts.h']]],
+  ['adc1_5fin12_10',['ADC1_IN12',['../d8/db5/consts_8h.html#ad08ecf5ec71366d2bf25f22b3c761441',1,'consts.h']]],
+  ['adc1_5fin2_11',['ADC1_IN2',['../d8/db5/consts_8h.html#aeaeaffee082f5bc0857cefce7844fb4e',1,'consts.h']]],
+  ['adc1_5fin5_12',['ADC1_IN5',['../d8/db5/consts_8h.html#ab575740a02334a5967b68fa9f609ffe5',1,'consts.h']]],
+  ['adc1_5fin6_13',['ADC1_IN6',['../d8/db5/consts_8h.html#a6dda7537a5ff4088fd25db4f6937fd8d',1,'consts.h']]],
+  ['adc1_5fin9_14',['ADC1_IN9',['../d8/db5/consts_8h.html#a79c4749930d72a8b01267aeef8a283fb',1,'consts.h']]],
+  ['aes_5fblock_5fsize_15',['AES_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#af19ab913a847ad1e91c5291215116de1',1,'iot-block.h']]],
+  ['aes_5fiv_5flen_16',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]],
+  ['alloc_17',['alloc',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e',1,'vitroio::sdk::impl::Buffer']]],
+  ['availablesize_18',['availableSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285',1,'vitroio::sdk::impl::Buffer']]]
 ];

@@ -115,18 +115,99 @@ Collaboration diagram for vitroio::sdk::impl::_CAN:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6724a7c5c43d6d26026d3d6830d9da31"><td class="memItemLeft" align="right" valign="top"><a id="a6724a7c5c43d6d26026d3d6830d9da31"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>_CAN</b> (PinName rd, PinName td, int hz)</td></tr>
+<tr class="memitem:a6724a7c5c43d6d26026d3d6830d9da31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a6724a7c5c43d6d26026d3d6830d9da31">_CAN</a> (PinName rd, PinName td, int hz)</td></tr>
 <tr class="separator:a6724a7c5c43d6d26026d3d6830d9da31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae042d1c2bb8239f7c4b9e025aa6f6c7f"><td class="memItemLeft" align="right" valign="top"><a id="ae042d1c2bb8239f7c4b9e025aa6f6c7f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>read_from_irq</b> (CANMessage &amp;msg, int handle=0)</td></tr>
+<tr class="memitem:a2d372e26af94e2fbf83a443261c01ae4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a2d372e26af94e2fbf83a443261c01ae4">~_CAN</a> ()</td></tr>
+<tr class="separator:a2d372e26af94e2fbf83a443261c01ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae042d1c2bb8239f7c4b9e025aa6f6c7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f">read_from_irq</a> (CANMessage &amp;msg, int handle=0)</td></tr>
 <tr class="separator:ae042d1c2bb8239f7c4b9e025aa6f6c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html" title="The _CAN class is a simple extenstion of mbed::CAN class.">_CAN</a> class is a simple extenstion of <a href="https://os.mbed.com/docs/latest/apis/can.html">mbed::CAN</a> class. </p>
-<p>The class inherits from <a href="https://os.mbed.com/docs/latest/apis/can.html">mbed::CAN</a> class. The aim of this class is to provide read_from_irq() method which does not use mutex, because mutexes cannot be used from ISR context. When we want to read messages using IRQ, the only way to clear IRQ is reading of the data. There is an issue on mbed-os github: <a href="https://github.com/ARMmbed/mbed-os/issues/5374">https://github.com/ARMmbed/mbed-os/issues/5374</a></p>
-<dl class="section note"><dt>Note</dt><dd>When the read_from_irq() method is in use, the read() method should not be used in code, because the read_from_irq() method does not guarantee thread safety. </dd></dl>
-</div></div><!-- contents -->
+<p>The class inherits from <a href="https://os.mbed.com/docs/latest/apis/can.html">mbed::CAN</a> class. The aim of this class is to provide <a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f">read_from_irq()</a> method which does not use mutex, because mutexes cannot be used from ISR context. When we want to read messages using IRQ, the only way to clear IRQ is reading of the data. There is an issue on mbed-os github: <a href="https://github.com/ARMmbed/mbed-os/issues/5374">https://github.com/ARMmbed/mbed-os/issues/5374</a></p>
+<dl class="section note"><dt>Note</dt><dd>When the <a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f">read_from_irq()</a> method is in use, the read() method should not be used in code, because the <a class="el" href="../../df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f">read_from_irq()</a> method does not guarantee thread safety. </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6724a7c5c43d6d26026d3d6830d9da31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6724a7c5c43d6d26026d3d6830d9da31">&#9670;&nbsp;</a></span>_CAN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vitroio::sdk::impl::_CAN::_CAN </td>
+          <td>(</td>
+          <td class="paramtype">PinName&#160;</td>
+          <td class="paramname"><em>rd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PinName&#160;</td>
+          <td class="paramname"><em>td</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d372e26af94e2fbf83a443261c01ae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d372e26af94e2fbf83a443261c01ae4">&#9670;&nbsp;</a></span>~_CAN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vitroio::sdk::impl::_CAN::~_CAN </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae042d1c2bb8239f7c4b9e025aa6f6c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae042d1c2bb8239f7c4b9e025aa6f6c7f">&#9670;&nbsp;</a></span>read_from_irq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int vitroio::sdk::impl::_CAN::read_from_irq </td>
+          <td>(</td>
+          <td class="paramtype">CANMessage &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>handle</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

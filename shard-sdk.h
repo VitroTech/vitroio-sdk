@@ -22,5 +22,7 @@
 //communication
 #include <vitroio-sdk/communication/canbus_frame.h>
 #include <vitroio-sdk/communication/canbus.h>
+#include <vitroio-sdk/communication/transport_layer.h>
+#include <vitroio-sdk/communication/can_layer.h>
 
 #endif // SHARD_SDK_H

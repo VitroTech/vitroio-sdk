@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['iov_5fbase_231',['iov_base',['../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#a6cb6b207241e612e18faea9b1ed70de8',1,'vitroio::sdk::IoVec']]],
-  ['iov_5flen_232',['iov_len',['../dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#aed3fc672f1e38234c9402dae5b3ca912',1,'vitroio::sdk::IoVec']]]
+  ['comm_5fport_458',['comm_port',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a9657fb19b29976c1dc7e45c6849071f4',1,'vitroio::sdk::impl::Timestamp']]],
+  ['current_5ftime_459',['current_time',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a1857aa2f9de1e63200be273a9ca60466',1,'vitroio::sdk::impl::Timestamp']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['vitroio_5fconsts_5fenvironment_5frequired_5fflash_5fsize_245',['VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE',['../d8/db5/consts_8h.html#a84394a0f3a6348ab05f607ed90a8076e',1,'consts.h']]],
-  ['vitroio_5fsdk_5fversion_246',['VITROIO_SDK_VERSION',['../df/dfc/version_8h.html#a9159d0d9e3b8ea8a8c03a4831801ceaa',1,'version.h']]]
+  ['can_5fdata_5fsize_504',['CAN_DATA_SIZE',['../dd/d88/iot-block_8h.html#acf897332482a87a49a6f253f42b3456d',1,'iot-block.h']]],
+  ['can_5frx_505',['CAN_RX',['../d8/db5/consts_8h.html#a432cd1f58398a7dbba4a3fffa9e2a151',1,'consts.h']]],
+  ['can_5ftx_506',['CAN_TX',['../d8/db5/consts_8h.html#a2e2a30d5cdfd6401500776811d46cc0a',1,'consts.h']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['max_5fswi_5fbuses_2946',['MAX_SWI_BUSES',['../swi__bitbang__samd21_8h.html#af9d9d027ce20f528edea144203141714',1,'swi_bitbang_samd21.h']]]
+  ['gpio_5fpc10_510',['GPIO_PC10',['../d8/db5/consts_8h.html#a56c3ba1843ee1dea3eb14398f024f23c',1,'consts.h']]],
+  ['gpio_5fpc11_511',['GPIO_PC11',['../d8/db5/consts_8h.html#ac7c6e701f6eb2447b0dfbfdc6ae4ffbc',1,'consts.h']]]
 ];

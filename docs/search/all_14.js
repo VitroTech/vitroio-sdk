@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['_7eabstractsensorinterface_117',['~AbstractSensorInterface',['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a939a307315a8d01a81ae9f7a6051c2bc',1,'vitroio::sdk::AbstractSensorInterface']]],
-  ['_7ecanbus_118',['~Canbus',['../da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a24bbdd33afdb56f89508cd17529c4f93',1,'vitroio::sdk::Canbus']]],
-  ['_7eenvironmentinterface_119',['~EnvironmentInterface',['../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#adc7dabb6fceafb9d474b32bfb8f5d391',1,'vitroio::sdk::impl::EnvironmentInterface']]],
-  ['_7eflashinterface_120',['~FlashInterface',['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a981cb65a9558fde90e50f5bb9dcb37c9',1,'vitroio::sdk::impl::FlashInterface']]],
-  ['_7emeasurementapi_121',['~MeasurementApi',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a82e2d9a881ea1b570c5b302e9663162a',1,'vitroio::sdk::MeasurementApi']]],
-  ['_7eupgradecontroller_122',['~UpgradeController',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#afa5b06259fcdbcaed2c4730d68d0e9ad',1,'vitroio::sdk::impl::UpgradeController']]]
+  ['watchdog_267',['Watchdog',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html',1,'vitroio::sdk::Watchdog'],['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#a11218a8d06f5694cdfa3419ef79a2422',1,'vitroio::sdk::Watchdog::Watchdog()'],['../d8/d25/group__watchdog.html',1,'(Global Namespace)']]],
+  ['watchdog_2eh_268',['watchdog.h',['../d9/da3/watchdog_8h.html',1,'']]],
+  ['watchdogcausedreset_269',['WatchdogCausedReset',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#a02ccceee56e705f2a04f80fdd6754fe9',1,'vitroio::sdk::Watchdog']]],
+  ['write_270',['write',['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#ae77eafd3bc1113cb80bd8083b02bb438',1,'vitroio::sdk::impl::FlashInterface::write()'],['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a19521720a6d42511aa0ee9977c40c956',1,'vitroio::sdk::AbstractSensorDriver::write()']]],
+  ['writeoutputport_271',['writeOutputPort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#a4d124f72c11a7b86879151b4bb1425a7',1,'vitroio::sdk::impl::IOExpander']]]
 ];

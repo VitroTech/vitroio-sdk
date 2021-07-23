@@ -1,11 +1,4 @@
 var searchData=
 [
-  ['mac_2758',['mac',['../structatca__verify__mac.html#afc99cd20d6193df126ae2b32b42f7546',1,'atca_verify_mac::mac()'],['../structatca__secureboot__mac__in__out.html#aeb4c9a28028bd625ac3650b39392cf07',1,'atca_secureboot_mac_in_out::mac()'],['../structatca__derive__key__mac__in__out.html#a0576f1886490bbb3656b420f5bb65e65',1,'atca_derive_key_mac_in_out::mac()']]],
-  ['manufacturer_5fstring_2759',['manufacturer_string',['../structhid__device__info.html#a484eebf746220cd2910954cc861759b7',1,'hid_device_info']]],
-  ['max_5fcert_5fsize_2760',['max_cert_size',['../structatcacert__build__state__s.html#a6e1cb79d9215a84f1e74c989bd0c9987',1,'atcacert_build_state_s']]],
-  ['mcommands_2761',['mCommands',['../structatca__device.html#aea83e71111f7dea60cf9b7e19fdca394',1,'atca_device']]],
-  ['message_2762',['message',['../structatca__sign__internal__in__out.html#a5649ccf733b2512db9917036a102fb14',1,'atca_sign_internal_in_out']]],
-  ['miface_2763',['mIface',['../structatca__device.html#aa70a0b392c09af2804730cb3743ab011',1,'atca_device']]],
-  ['mode_2764',['mode',['../group__atcah.html#gabaedd7126cc73449d73843ef3b8958c0',1,'atca_nonce_in_out::mode()'],['../structatca__verify__mac.html#ac90559108804dc16ac1ac91a0212bff9',1,'atca_verify_mac::mode()'],['../structatca__secureboot__mac__in__out.html#a2c6c43889156357aee27b3b09657ebd2',1,'atca_secureboot_mac_in_out::mode()'],['../group__atcah.html#ga25187965ed87f828c98e4a20c93166e8',1,'atca_mac_in_out::mode()'],['../group__atcah.html#ga1616d5efe59851d97fed27b47923c786',1,'atca_hmac_in_out::mode()'],['../structatca__derive__key__in__out.html#a81da1f6ee5cdd6f3270f68b4df7ee8d9',1,'atca_derive_key_in_out::mode()'],['../structatca__derive__key__mac__in__out.html#ae33f3603840fd0bb8ada551ff168ea58',1,'atca_derive_key_mac_in_out::mode()'],['../structatca__check__mac__in__out.html#a0619aaead2b82313d761804f40c24926',1,'atca_check_mac_in_out::mode()'],['../structatca__gen__key__in__out.html#afa39cec9e8d332618910a0f519b5b48d',1,'atca_gen_key_in_out::mode()'],['../structatca__sign__internal__in__out.html#a2145615f3148fb8a428657fa8020aad1',1,'atca_sign_internal_in_out::mode()']]],
-  ['msg_5fdig_5fbuf_2765',['msg_dig_buf',['../structatca__verify__mac.html#acb0498448f486070d33e121ade525c64',1,'atca_verify_mac']]]
+  ['updater_476',['updater',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#ab05ad7af70883e760dd7f64e1d873eca',1,'vitroio::sdk::impl::Timestamp']]]
 ];

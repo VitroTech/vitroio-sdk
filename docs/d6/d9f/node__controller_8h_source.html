@@ -86,139 +86,152 @@ $(document).ready(function(){initNavTree('d6/d9f/node__controller_8h_source.html
 <div class="title">node_controller.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_NODE_CONTROLLER_H</span></div>
+<a href="../../d6/d9f/node__controller_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_NODE_CONTROLLER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VITROIO_SDK_NODE_CONTROLLER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/control/node_controller.h&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/communication/canbus_frame.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d9f/node__controller_8h.html">vitroio-sdk/control/node_controller.h</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d8c/canbus__frame_8h.html">vitroio-sdk/communication/canbus_frame.h</a>&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d49/types_8h.html">vitroio-sdk/types.h</a>&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/utils/impl/scoped_ptr.h&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/interfaces/impl/flash_interface.h&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/interfaces/impl/environment_interface.h&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/control/impl/upgrade_controller.h&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d0/dbb/namespacevitroio.html">vitroio</a></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>sdk</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">   32</a></span>&#160;<span class="preprocessor">#define VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE 32</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span>Canbus;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">   51</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">NodeController</a> : <span class="keyword">private</span> NonCopyable&lt;NodeController&gt;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae7c36bdf32fe5d42d41c05007f57911a">   85</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae7c36bdf32fe5d42d41c05007f57911a">NodeController</a>(</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> environmentFlashSpace,</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        EventQueue* targetQueue, </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae2ae8621356a5bf7ada38ddd6302c559">  118</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae2ae8621356a5bf7ada38ddd6302c559">NodeController</a>(</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> environmentFlashSpace,</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace,</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace,</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        osPriority priority = osPriorityNormal, </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    </div>
-<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a694d5ef213e84341ab55d26e2b97c98c">  145</a></span>&#160;    <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a694d5ef213e84341ab55d26e2b97c98c">NodeController</a>(</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        osPriority priority = osPriorityNormal, </div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">  177</a></span>&#160;    <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">NodeController</a>(</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        EventQueue* targetQueue, </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    </div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    ~<a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">NodeController</a>();</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">  192</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">isValid</a>();</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aabe313c060420ebcdb01a695fcbfb184">  201</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aabe313c060420ebcdb01a695fcbfb184">initCommunication</a>();</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>
-<div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">  212</a></span>&#160;    uint32_t <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">nodeId</a>();</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordtype">bool</span> valid_;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    EventQueue evQueue_;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">impl::ScopedPtr&lt;Thread&gt;</a> evQueueThread_;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="../../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html">impl::FlashInterface</a> flash_;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html">impl::EnvironmentInterface</a> env_;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="../../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html">impl::UpgradeController</a> upg_;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus_;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a> fwId_;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a> fwVer_;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    uint64_t id_;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    uint32_t nodeId_;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace_;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace_;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    Mutex mutex_;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordtype">void</span> setNodeId(uint32_t <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordtype">int</span> onFrameReceivedCallbackHandle_;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordtype">void</span> onFrameReceivedCallback(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp;);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordtype">void</span> handleNodeIdResponseFrame(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp; frame);</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">void</span> handleUpgradeFrame(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp; frame);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">void</span> onNewFirmwareAvailableCallback();</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    uint64_t getHardwareId();</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;};</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d44/scoped__ptr_8h.html">vitroio-sdk/utils/impl/scoped_ptr.h</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d4d/flash__interface_8h.html">vitroio-sdk/interfaces/impl/flash_interface.h</a>&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d4f/environment__interface_8h.html">vitroio-sdk/interfaces/impl/environment_interface.h</a>&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d8a/upgrade__controller_8h.html">vitroio-sdk/control/impl/upgrade_controller.h</a>&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d7f/transport__layer_8h.html">vitroio-sdk/communication/transport_layer.h</a>&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d0/dbb/namespacevitroio.html">vitroio</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span>sdk</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">   33</a></span>&#160;<span class="preprocessor">#define VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE 32</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">class </span>Canbus;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">   52</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">NodeController</a> : <span class="keyword">private</span> NonCopyable&lt;NodeController&gt;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae7c36bdf32fe5d42d41c05007f57911a">   86</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae7c36bdf32fe5d42d41c05007f57911a">NodeController</a>(</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> environmentFlashSpace,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        EventQueue* targetQueue, </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae2ae8621356a5bf7ada38ddd6302c559">  119</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae2ae8621356a5bf7ada38ddd6302c559">NodeController</a>(</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> environmentFlashSpace,</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace,</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace,</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        osPriority priority = osPriorityNormal, </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    </div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a694d5ef213e84341ab55d26e2b97c98c">  146</a></span>&#160;    <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a694d5ef213e84341ab55d26e2b97c98c">NodeController</a>(</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        osPriority priority = osPriorityNormal, </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">  178</a></span>&#160;    <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">NodeController</a>(</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus,</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a>&amp; fwId,</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a>&amp; fwVersion, </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        EventQueue* targetQueue, </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        uint32_t eventQueueSize = <a class="code" href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a>);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    </div>
+<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a7e30665433eafaebde41eee8072fde25">  185</a></span>&#160;    <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a7e30665433eafaebde41eee8072fde25">~NodeController</a>();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">  193</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">isValid</a>();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd">  202</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd">initCommunication</a>(<a class="code" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a>* layer);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a">  211</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a">initCommunication</a>(uint32_t sync_time, <a class="code" href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">Transport_layer</a>* layer);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
+<div class="line"><a name="l00222"></a><span class="lineno"><a class="line" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">  222</a></span>&#160;    uint32_t <a class="code" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">nodeId</a>();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordtype">bool</span> valid_;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    EventQueue evQueue_;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">impl::ScopedPtr&lt;Thread&gt;</a> evQueueThread_;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="../../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html">impl::FlashInterface</a> flash_;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <a class="code" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html">impl::EnvironmentInterface</a> env_;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="../../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html">impl::UpgradeController</a> upg_;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">Canbus</a>* canbus_;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <a class="code" href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">FirmwareId</a> fwId_;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">Version</a> fwVer_;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    uint64_t id_;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    uint32_t nodeId_;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionAFlashSpace_;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">FlashSpace</a> regionBFlashSpace_;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    Mutex mutex_;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">void</span> setNodeId(uint32_t <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">int</span> onFrameReceivedCallbackHandle_;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;} <span class="comment">// namespace sdk</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;} <span class="comment">// namespace vitroio</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VITROIO_SDK_NODE_CONTROLLER_H</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">void</span> onFrameReceivedCallback(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp;);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordtype">void</span> handleNodeIdResponseFrame(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp; frame);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">void</span> handleUpgradeFrame(<span class="keyword">const</span> <a class="code" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a>&amp; frame);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordtype">void</span> onNewFirmwareAvailableCallback();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    uint64_t getHardwareId();</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;};</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;} <span class="comment">// namespace sdk</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;} <span class="comment">// namespace vitroio</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VITROIO_SDK_NODE_CONTROLLER_H</span></div>
+<div class="ttc" id="acanbus__frame_8h_html"><div class="ttname"><a href="../../d9/d8c/canbus__frame_8h.html">canbus_frame.h</a></div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1CanbusFrame_html"><div class="ttname"><a href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">vitroio::sdk::CanbusFrame</a></div><div class="ttdoc">Class is a wrapper for mbed::CANMessage. It provides interface allowing creation of frames complied w...</div><div class="ttdef"><b>Definition:</b> canbus_frame.h:24</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1Canbus_html"><div class="ttname"><a href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html">vitroio::sdk::Canbus</a></div><div class="ttdoc">Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type.</div><div class="ttdef"><b>Definition:</b> canbus.h:50</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">vitroio::sdk::NodeController</a></div><div class="ttdoc">Class is a main component of the node firmware.</div><div class="ttdef"><b>Definition:</b> node_controller.h:52</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html">vitroio::sdk::NodeController</a></div><div class="ttdoc">Class is a main component of the node firmware.</div><div class="ttdef"><b>Definition:</b> node_controller.h:53</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_a05a320b3b7abbf87556306c33e9c7881"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">vitroio::sdk::NodeController::nodeId</a></div><div class="ttdeci">uint32_t nodeId()</div><div class="ttdoc">Function allows to obtain node ID assigned by gateway during initialization of communication.</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_a35772bf24f9a368bb0be6a10b302b75a"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a">vitroio::sdk::NodeController::initCommunication</a></div><div class="ttdeci">int initCommunication(uint32_t sync_time, Transport_layer *layer)</div><div class="ttdoc">Function initializes communication with gateway. This method blocks until the communication is not in...</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_a37ee31f014a7852affd8cff3ed915ea4"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4">vitroio::sdk::NodeController::isValid</a></div><div class="ttdeci">bool isValid()</div><div class="ttdoc">Function allows to check whether the controller is in valid state.</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_a694d5ef213e84341ab55d26e2b97c98c"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a694d5ef213e84341ab55d26e2b97c98c">vitroio::sdk::NodeController::NodeController</a></div><div class="ttdeci">NodeController(Canbus *canbus, const FirmwareId &amp;fwId, const Version &amp;fwVersion, osPriority priority=osPriorityNormal, uint32_t eventQueueSize=VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE)</div><div class="ttdoc">Contructor initializes the controller and creates internal event loop using thread with priority prio...</div></div>
-<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_aabe313c060420ebcdb01a695fcbfb184"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aabe313c060420ebcdb01a695fcbfb184">vitroio::sdk::NodeController::initCommunication</a></div><div class="ttdeci">int initCommunication()</div><div class="ttdoc">Function initializes communication with gateway. This method blocks until the communication is not in...</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_a7e30665433eafaebde41eee8072fde25"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a7e30665433eafaebde41eee8072fde25">vitroio::sdk::NodeController::~NodeController</a></div><div class="ttdeci">~NodeController()</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_ae2ae8621356a5bf7ada38ddd6302c559"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae2ae8621356a5bf7ada38ddd6302c559">vitroio::sdk::NodeController::NodeController</a></div><div class="ttdeci">NodeController(Canbus *canbus, const FirmwareId &amp;fwId, const Version &amp;fwVersion, FlashSpace environmentFlashSpace, FlashSpace regionAFlashSpace, FlashSpace regionBFlashSpace, osPriority priority=osPriorityNormal, uint32_t eventQueueSize=VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE)</div><div class="ttdoc">Contructor initializes the controller and creates internal event loop using thread with priority prio...</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_ae7c36bdf32fe5d42d41c05007f57911a"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#ae7c36bdf32fe5d42d41c05007f57911a">vitroio::sdk::NodeController::NodeController</a></div><div class="ttdeci">NodeController(Canbus *canbus, const FirmwareId &amp;fwId, const Version &amp;fwVersion, FlashSpace environmentFlashSpace, FlashSpace regionAFlashSpace, FlashSpace regionBFlashSpace, EventQueue *targetQueue, uint32_t eventQueueSize=VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE)</div><div class="ttdoc">Contructor initializes the controller and chains an internal event queue to the targetQueue.</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_af23821ecfa010b8dccddc22c12100b65"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#af23821ecfa010b8dccddc22c12100b65">vitroio::sdk::NodeController::NodeController</a></div><div class="ttdeci">NodeController(Canbus *canbus, const FirmwareId &amp;fwId, const Version &amp;fwVersion, EventQueue *targetQueue, uint32_t eventQueueSize=VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE)</div><div class="ttdoc">Contructor initializes the controller and chains an internal event queue to the targetQueue.</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1NodeController_html_afcb8d3d852d06110ef3058b459ce08bd"><div class="ttname"><a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd">vitroio::sdk::NodeController::initCommunication</a></div><div class="ttdeci">int initCommunication(Transport_layer *layer)</div><div class="ttdoc">Function initializes communication with gateway. This method blocks until the communication is not in...</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1Transport__layer_html"><div class="ttname"><a href="../../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html">vitroio::sdk::Transport_layer</a></div><div class="ttdoc">Virtual class providing interface for communication interfaces.</div><div class="ttdef"><b>Definition:</b> transport_layer.h:29</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface_html"><div class="ttname"><a href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html">vitroio::sdk::impl::EnvironmentInterface</a></div><div class="ttdoc">Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me...</div><div class="ttdef"><b>Definition:</b> environment_interface.h:33</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1FlashInterface_html"><div class="ttname"><a href="../../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html">vitroio::sdk::impl::FlashInterface</a></div><div class="ttdoc">Class is a wrapper for mbed::FlashIAP module.</div><div class="ttdef"><b>Definition:</b> flash_interface.h:26</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">vitroio::sdk::impl::ScopedPtr&lt; Thread &gt;</a></div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1UpgradeController_html"><div class="ttname"><a href="../../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html">vitroio::sdk::impl::UpgradeController</a></div><div class="ttdoc">Class is responsible for handling upgrade data.</div><div class="ttdef"><b>Definition:</b> upgrade_controller.h:39</div></div>
-<div class="ttc" id="agroup__control_html_gae5ca044e3b17d38d7ff04bf6140a6157"><div class="ttname"><a href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a></div><div class="ttdeci">#define VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</div><div class="ttdoc">Defines default size of internal event queue for NodeController .</div><div class="ttdef"><b>Definition:</b> node_controller.h:32</div></div>
+<div class="ttc" id="aenvironment__interface_8h_html"><div class="ttname"><a href="../../de/d4f/environment__interface_8h.html">environment_interface.h</a></div></div>
+<div class="ttc" id="aflash__interface_8h_html"><div class="ttname"><a href="../../d6/d4d/flash__interface_8h.html">flash_interface.h</a></div></div>
+<div class="ttc" id="agroup__control_html_gae5ca044e3b17d38d7ff04bf6140a6157"><div class="ttname"><a href="../../df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157">VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</a></div><div class="ttdeci">#define VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE</div><div class="ttdoc">Defines default size of internal event queue for NodeController .</div><div class="ttdef"><b>Definition:</b> node_controller.h:33</div></div>
 <div class="ttc" id="anamespacevitroio_html"><div class="ttname"><a href="../../d0/dbb/namespacevitroio.html">vitroio</a></div><div class="ttdoc">The namespace contains all of components of vitro-shard-sdk and components based on the sdk....</div><div class="ttdef"><b>Definition:</b> can_layer.h:9</div></div>
+<div class="ttc" id="anode__controller_8h_html"><div class="ttname"><a href="../../d6/d9f/node__controller_8h.html">node_controller.h</a></div></div>
+<div class="ttc" id="ascoped__ptr_8h_html"><div class="ttname"><a href="../../d0/d44/scoped__ptr_8h.html">scoped_ptr.h</a></div></div>
 <div class="ttc" id="astructvitroio_1_1sdk_1_1FirmwareId_html"><div class="ttname"><a href="../../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html">vitroio::sdk::FirmwareId</a></div><div class="ttdef"><b>Definition:</b> types.h:20</div></div>
 <div class="ttc" id="astructvitroio_1_1sdk_1_1FlashSpace_html"><div class="ttname"><a href="../../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html">vitroio::sdk::FlashSpace</a></div><div class="ttdoc">Structure representing space of flash memory.</div><div class="ttdef"><b>Definition:</b> types.h:77</div></div>
 <div class="ttc" id="astructvitroio_1_1sdk_1_1Version_html"><div class="ttname"><a href="../../de/d6b/structvitroio_1_1sdk_1_1Version.html">vitroio::sdk::Version</a></div><div class="ttdoc">Structure representing version in format major.minor.patch.</div><div class="ttdef"><b>Definition:</b> types.h:45</div></div>
+<div class="ttc" id="atransport__layer_8h_html"><div class="ttname"><a href="../../d6/d7f/transport__layer_8h.html">transport_layer.h</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="../../d9/d49/types_8h.html">types.h</a></div><div class="ttdoc">The file contains types used by vitro-shard-sdk.</div></div>
+<div class="ttc" id="aupgrade__controller_8h_html"><div class="ttname"><a href="../../da/d8a/upgrade__controller_8h.html">upgrade_controller.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_ff5dfe7d6dc4f8bbbd7e7af810a8478d.html">control</a></li><li class="navelem"><b>node_controller.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_ff5dfe7d6dc4f8bbbd7e7af810a8478d.html">control</a></li><li class="navelem"><a class="el" href="../../d6/d9f/node__controller_8h.html">node_controller.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('db/d23/classvitroio_1_1sdk_1_1IoTBlock
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d5/d89/classvitroio_1_1sdk_1_1IoTBlock-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">vitroio::sdk::IoTBlock Class Reference</div>  </div>
+<div class="title">vitroio::sdk::IoTBlock Class Reference<div class="ingroups"><a class="el" href="../../d8/d1c/group__iot-block-api.html">Iot-block-api</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -98,12 +98,12 @@ $(document).ready(function(){initNavTree('db/d23/classvitroio_1_1sdk_1_1IoTBlock
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a36f5e9c6756cc15a61b61dea9615eb1a"><td class="memItemLeft" align="right" valign="top"><a id="a36f5e9c6756cc15a61b61dea9615eb1a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1a">IoTBlock_Sizes_t</a> { <b>SIZE_S</b> = 16
-, <b>SIZE_M</b> = 128
-, <b>SIZE_L</b> = 512
-, <b>SIZE_XL</b> = 1024
+<tr class="memitem:a36f5e9c6756cc15a61b61dea9615eb1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1a">IoTBlock_Sizes_t</a> { <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aa290f3b3f9dc54a33f6acd5b4f4cc0dab">SIZE_S</a> = 16
+, <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aa415e244185d784d9d120cdcc4ede25d4">SIZE_M</a> = 128
+, <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aacdcd4f3398ee2f1e865d28fb6f1ea500">SIZE_L</a> = 512
+, <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aaa8fef1a9cb12edc7146b8890e7253e12">SIZE_XL</a> = 1024
  }</td></tr>
-<tr class="memdesc:a36f5e9c6756cc15a61b61dea9615eb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html" title="Class is an API for creating and sending IoT Blocks.">IoTBlock</a> predefined sizes. <br /></td></tr>
+<tr class="memdesc:a36f5e9c6756cc15a61b61dea9615eb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html" title="Class is an API for creating and sending IoT Blocks.">IoTBlock</a> predefined sizes.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1a">More...</a><br /></td></tr>
 <tr class="separator:a36f5e9c6756cc15a61b61dea9615eb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -123,21 +123,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25fba5b224a1535ccb8a07bed64af171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a25fba5b224a1535ccb8a07bed64af171">make</a> (void *data, <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1a">IoTBlock_Sizes_t</a> size, uint32_t parameter)</td></tr>
 <tr class="memdesc:a25fba5b224a1535ccb8a07bed64af171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID, node Id, timestamp, digest, and signature. Make sure that there is enough data for given size.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a25fba5b224a1535ccb8a07bed64af171">More...</a><br /></td></tr>
 <tr class="separator:a25fba5b224a1535ccb8a07bed64af171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2da263727c8d3d841792771f8b548c1"><td class="memItemLeft" align="right" valign="top"><a id="ae2da263727c8d3d841792771f8b548c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ae2da263727c8d3d841792771f8b548c1">send</a> ()</td></tr>
-<tr class="memdesc:ae2da263727c8d3d841792771f8b548c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send IoT Block by CAN bus. Before sending, the Block has to be prepared with the <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,...">make()</a> method. <br /></td></tr>
+<tr class="memitem:ae2da263727c8d3d841792771f8b548c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ae2da263727c8d3d841792771f8b548c1">send</a> ()</td></tr>
+<tr class="memdesc:ae2da263727c8d3d841792771f8b548c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send IoT Block by chosen transport layer. Before sending, the Block has to be prepared with the <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,...">make()</a> method.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ae2da263727c8d3d841792771f8b548c1">More...</a><br /></td></tr>
 <tr class="separator:ae2da263727c8d3d841792771f8b548c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75844f333399823e62e4b59aa46b8d2b"><td class="memItemLeft" align="right" valign="top"><a id="a75844f333399823e62e4b59aa46b8d2b"></a>
-Frame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a75844f333399823e62e4b59aa46b8d2b">get_frame</a> ()</td></tr>
-<tr class="memdesc:a75844f333399823e62e4b59aa46b8d2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to Frame structure. The structure contains whole IoT block. <br /></td></tr>
+<tr class="memitem:a75844f333399823e62e4b59aa46b8d2b"><td class="memItemLeft" align="right" valign="top">Frame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a75844f333399823e62e4b59aa46b8d2b">get_frame</a> ()</td></tr>
+<tr class="memdesc:a75844f333399823e62e4b59aa46b8d2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to Frame structure. The structure contains whole IoT block.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a75844f333399823e62e4b59aa46b8d2b">More...</a><br /></td></tr>
 <tr class="separator:a75844f333399823e62e4b59aa46b8d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6c3021a0829d7b711f4920e802b0a3a"><td class="memItemLeft" align="right" valign="top"><a id="ac6c3021a0829d7b711f4920e802b0a3a"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ac6c3021a0829d7b711f4920e802b0a3a">get_frame_as_array</a> ()</td></tr>
-<tr class="memdesc:ac6c3021a0829d7b711f4920e802b0a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to uint8_t array of CAN_DATA_SIZE size. The array contains whole IoT block. <br /></td></tr>
+<tr class="memitem:ac6c3021a0829d7b711f4920e802b0a3a"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ac6c3021a0829d7b711f4920e802b0a3a">get_frame_as_array</a> ()</td></tr>
+<tr class="memdesc:ac6c3021a0829d7b711f4920e802b0a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to uint8_t array of CAN_DATA_SIZE size. The array contains whole IoT block.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ac6c3021a0829d7b711f4920e802b0a3a">More...</a><br /></td></tr>
 <tr class="separator:ac6c3021a0829d7b711f4920e802b0a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e4e43e5360f199b517feae25699137f"><td class="memItemLeft" align="right" valign="top"><a id="a0e4e43e5360f199b517feae25699137f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f">print</a> ()</td></tr>
-<tr class="memdesc:a0e4e43e5360f199b517feae25699137f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints whole Iot Block data. <br /></td></tr>
+<tr class="memitem:a0e4e43e5360f199b517feae25699137f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f">print</a> ()</td></tr>
+<tr class="memdesc:a0e4e43e5360f199b517feae25699137f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints whole Iot Block data.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f">More...</a><br /></td></tr>
 <tr class="separator:a0e4e43e5360f199b517feae25699137f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c08601dd7dd8dad72b344911f2ce19"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a91c08601dd7dd8dad72b344911f2ce19">get_blob_size</a> ()</td></tr>
 <tr class="memdesc:a91c08601dd7dd8dad72b344911f2ce19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the blob size.  <a href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a91c08601dd7dd8dad72b344911f2ce19">More...</a><br /></td></tr>
@@ -146,7 +142,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class is an API for creating and sending IoT Blocks. </p>
 <p>The class wraps all crypto operations needed for creating IoT blocks. The last prepared block is stored in an object of this class and the pointer to the block can be acquired with get_iot(). </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a36f5e9c6756cc15a61b61dea9615eb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f5e9c6756cc15a61b61dea9615eb1a">&#9670;&nbsp;</a></span>IoTBlock_Sizes_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1a">vitroio::sdk::IoTBlock::IoTBlock_Sizes_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html" title="Class is an API for creating and sending IoT Blocks.">IoTBlock</a> predefined sizes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a36f5e9c6756cc15a61b61dea9615eb1aa290f3b3f9dc54a33f6acd5b4f4cc0dab"></a>SIZE_S&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f5e9c6756cc15a61b61dea9615eb1aa415e244185d784d9d120cdcc4ede25d4"></a>SIZE_M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f5e9c6756cc15a61b61dea9615eb1aacdcd4f3398ee2f1e865d28fb6f1ea500"></a>SIZE_L&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f5e9c6756cc15a61b61dea9615eb1aaa8fef1a9cb12edc7146b8890e7253e12"></a>SIZE_XL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa64cf1ff3b2894fdc793eddbc4a5a78a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa64cf1ff3b2894fdc793eddbc4a5a78a">&#9670;&nbsp;</a></span>IoTBlock()</h2>
 
@@ -221,6 +240,44 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 
 <p>Get the blob size. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t </dd></dl>
+
+</div>
+</div>
+<a id="a75844f333399823e62e4b59aa46b8d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75844f333399823e62e4b59aa46b8d2b">&#9670;&nbsp;</a></span>get_frame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Frame* vitroio::sdk::IoTBlock::get_frame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return pointer to Frame structure. The structure contains whole IoT block. </p>
+
+</div>
+</div>
+<a id="ac6c3021a0829d7b711f4920e802b0a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c3021a0829d7b711f4920e802b0a3a">&#9670;&nbsp;</a></span>get_frame_as_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* vitroio::sdk::IoTBlock::get_frame_as_array </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return pointer to uint8_t array of CAN_DATA_SIZE size. The array contains whole IoT block. </p>
 
 </div>
 </div>
@@ -346,6 +403,44 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0e4e43e5360f199b517feae25699137f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e4e43e5360f199b517feae25699137f">&#9670;&nbsp;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vitroio::sdk::IoTBlock::print </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints whole Iot Block data. </p>
+
+</div>
+</div>
+<a id="ae2da263727c8d3d841792771f8b548c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2da263727c8d3d841792771f8b548c1">&#9670;&nbsp;</a></span>send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vitroio::sdk::IoTBlock::send </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send IoT Block by chosen transport layer. Before sending, the Block has to be prepared with the <a class="el" href="../../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2" title="Prepare IoT block consisting of the Initialize Vector, encrypted data, parameter ID,...">make()</a> method. </p>
 
 </div>
 </div>

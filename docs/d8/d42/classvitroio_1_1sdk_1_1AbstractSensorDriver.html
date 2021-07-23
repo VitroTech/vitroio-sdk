@@ -97,12 +97,15 @@ $(document).ready(function(){initNavTree('d8/d42/classvitroio_1_1sdk_1_1Abstract
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af80535a60b7f990bd4fc5008d4325c42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af80535a60b7f990bd4fc5008d4325c42">AbstractSensorDriver</a> ()</td></tr>
+<tr class="separator:af80535a60b7f990bd4fc5008d4325c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358c0b74af289efc35501ccdf400922c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a358c0b74af289efc35501ccdf400922c">~AbstractSensorDriver</a> ()</td></tr>
+<tr class="separator:a358c0b74af289efc35501ccdf400922c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad60eea41badf1bfce7d918c6c248162f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#ad60eea41badf1bfce7d918c6c248162f">open</a> ()=0</td></tr>
 <tr class="memdesc:ad60eea41badf1bfce7d918c6c248162f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function initializes the sensor.  <a href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#ad60eea41badf1bfce7d918c6c248162f">More...</a><br /></td></tr>
 <tr class="separator:ad60eea41badf1bfce7d918c6c248162f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10d3f96a14dab801642ec41b7de01c1f"><td class="memItemLeft" align="right" valign="top"><a id="a10d3f96a14dab801642ec41b7de01c1f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f">close</a> ()=0</td></tr>
-<tr class="memdesc:a10d3f96a14dab801642ec41b7de01c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function deinitializes the sensor. <br /></td></tr>
+<tr class="memitem:a10d3f96a14dab801642ec41b7de01c1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f">close</a> ()=0</td></tr>
+<tr class="memdesc:a10d3f96a14dab801642ec41b7de01c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function deinitializes the sensor.  <a href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f">More...</a><br /></td></tr>
 <tr class="separator:a10d3f96a14dab801642ec41b7de01c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84e975960a2ab1ffdc2809f3702d702"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af84e975960a2ab1ffdc2809f3702d702">read</a> (char *buffer, uint32_t address, uint32_t bytes)=0</td></tr>
 <tr class="memdesc:af84e975960a2ab1ffdc2809f3702d702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to read specified amount of data from provided address.  <a href="../../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af84e975960a2ab1ffdc2809f3702d702">More...</a><br /></td></tr>
@@ -117,7 +120,85 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Virtual class providing interface for sensor drivers. </p>
 <p>The aim of this class is to provide interface for basic communication with sensor i.e. initialization, deinitialization, reading, writing and optionally performing sensor specific operations. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af80535a60b7f990bd4fc5008d4325c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80535a60b7f990bd4fc5008d4325c42">&#9670;&nbsp;</a></span>AbstractSensorDriver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vitroio::sdk::AbstractSensorDriver::AbstractSensorDriver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a358c0b74af289efc35501ccdf400922c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358c0b74af289efc35501ccdf400922c">&#9670;&nbsp;</a></span>~AbstractSensorDriver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vitroio::sdk::AbstractSensorDriver::~AbstractSensorDriver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a10d3f96a14dab801642ec41b7de01c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d3f96a14dab801642ec41b7de01c1f">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vitroio::sdk::AbstractSensorDriver::close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function deinitializes the sensor. </p>
+
+</div>
+</div>
 <a id="ad5f84fb629d722f7ebcc4260c1564a7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5f84fb629d722f7ebcc4260c1564a7c">&#9670;&nbsp;</a></span>ioctl()</h2>
 
