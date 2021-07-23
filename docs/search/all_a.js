@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['make_52',['make',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2',1,'vitroio::sdk::IoTBlock::make(uint32_t data, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad110e16570b62200942485c485312e9c',1,'vitroio::sdk::IoTBlock::make(void *data, size_t dataLen, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a25fba5b224a1535ccb8a07bed64af171',1,'vitroio::sdk::IoTBlock::make(void *data, IoTBlock_Sizes_t size, uint32_t parameter)']]],
-  ['maxdatalength_53',['maxDataLength',['../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a58ca8412895daa8a0e7c396e69b229e9',1,'vitroio::sdk::CanbusFrame']]],
-  ['measurement_2dapi_54',['Measurement-api',['../dc/d94/group__measurement-api.html',1,'']]],
-  ['measurementapi_55',['MeasurementApi',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a734320ac5662390bf61233427c33f224',1,'vitroio::sdk::MeasurementApi::MeasurementApi(EventQueue *targetQueue, uint32_t eventQueueSize=VITROIO_MEASUREMENT_API_DEFAULT_EVENT_QUEUE_SIZE)'],['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a187abe751c3f43d4c95abdd484a14f59',1,'vitroio::sdk::MeasurementApi::MeasurementApi(osPriority priority=osPriorityNormal, uint32_t eventQueueSize=VITROIO_MEASUREMENT_API_DEFAULT_EVENT_QUEUE_SIZE)'],['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html',1,'vitroio::sdk::MeasurementApi&lt; MaxParams &gt;']]]
+  ['last_109',['last',['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html#a35000531c33af942a2554933e892bbcc',1,'vitroio::sdk::impl::List']]],
+  ['last_5ftimestamp_110',['last_timestamp',['../d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#af0cefcd218c01ad2d11024db29a058fb',1,'vitroio::sdk::impl::Timestamp::CurrentTime_t']]],
+  ['list_111',['List',['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html#aa8077eeca83633aa444c951f58274822',1,'vitroio::sdk::impl::List::List()'],['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html',1,'vitroio::sdk::impl::List&lt; T &gt;']]],
+  ['list_2eh_112',['list.h',['../da/d23/list_8h.html',1,'']]],
+  ['list_3c_20vitroio_3a_3asdk_3a_3aabstractsensorinterface_20_2a_20_3e_113',['List&lt; vitroio::sdk::AbstractSensorInterface * &gt;',['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html',1,'vitroio::sdk::impl']]],
+  ['listnode_114',['ListNode',['../d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html',1,'vitroio::sdk::impl']]]
 ];

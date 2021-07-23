@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['certtype_5fcustom_2898',['CERTTYPE_CUSTOM',['../group__atcacert__.html#gga5430f01929cd7269e04db08d1f28642fa92c401741edaf606af7056851db7dddb',1,'atcacert_def.h']]],
-  ['certtype_5fx509_2899',['CERTTYPE_X509',['../group__atcacert__.html#gga5430f01929cd7269e04db08d1f28642fa82bc16ac5283813ee3ffe7cddf8e2b44',1,'atcacert_def.h']]]
+  ['size_5fl_489',['SIZE_L',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aacdcd4f3398ee2f1e865d28fb6f1ea500',1,'vitroio::sdk::IoTBlock']]],
+  ['size_5fm_490',['SIZE_M',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aa415e244185d784d9d120cdcc4ede25d4',1,'vitroio::sdk::IoTBlock']]],
+  ['size_5fs_491',['SIZE_S',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aa290f3b3f9dc54a33f6acd5b4f4cc0dab',1,'vitroio::sdk::IoTBlock']]],
+  ['size_5fxl_492',['SIZE_XL',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aaa8fef1a9cb12edc7146b8890e7253e12',1,'vitroio::sdk::IoTBlock']]]
 ];

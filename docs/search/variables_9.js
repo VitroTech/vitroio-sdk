@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['j0_2752',['j0',['../structatca__aes__gcm__ctx.html#a5b1cfde10f5c3fbf2d709ea57185eb3d',1,'atca_aes_gcm_ctx']]]
+  ['sectors_473',['sectors',['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html#a463e6cc1d239c3ba63db5461661e3f68',1,'vitroio::sdk::FlashSpace']]],
+  ['sync_5finterval_474',['sync_interval',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a4743731e939c0a72d63e2c666ee79b26',1,'vitroio::sdk::impl::Timestamp']]]
 ];

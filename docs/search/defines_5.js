@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rx_5ftx_5fdelay_2947',['RX_TX_DELAY',['../swi__bitbang__samd21_8h.html#a60ba93807a2c0ea2ce1432245f3f7da0',1,'swi_bitbang_samd21.h']]]
+  ['hard_5f3v3_5fen_5fn_5fpc3_512',['HARD_3V3_EN_N_PC3',['../d8/db5/consts_8h.html#a4532ab00612ab12cdd0f5c88655259ec',1,'consts.h']]]
 ];

@@ -86,7 +86,7 @@ $(document).ready(function(){initNavTree('d0/d44/scoped__ptr_8h_source.html','..
 <div class="title">scoped_ptr.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_SCOPED_PTR_H</span></div>
+<a href="../../d0/d44/scoped__ptr_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_SCOPED_PTR_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VITROIO_SDK_SCOPED_PTR_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
@@ -104,14 +104,14 @@ $(document).ready(function(){initNavTree('d0/d44/scoped__ptr_8h_source.html','..
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">ScopedPtr</a> : <span class="keyword">private</span> NonCopyable&lt; ScopedPtr&lt;T&gt; &gt;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">typedef</span> Callback&lt;void(<span class="keywordtype">void</span>*)&gt; Deleter;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">   19</a></span>&#160;    <span class="keyword">typedef</span> Callback&lt;void(<span class="keywordtype">void</span>*)&gt; <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">Deleter</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">ScopedPtr</a>(T* ptr, Deleter deleter = Deleter(NULL)) : </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#adb954e0739bee4fdc46d8c1657f0bd8d">   21</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#adb954e0739bee4fdc46d8c1657f0bd8d">ScopedPtr</a>(T* ptr, <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">Deleter</a> deleter = <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">Deleter</a>(NULL)) : </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ptr_(ptr),</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        deleter_(deleter)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    ~<a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">ScopedPtr</a>()</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a630c76953d09127af2e5a5b6d0772c3b">   26</a></span>&#160;    <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a630c76953d09127af2e5a5b6d0772c3b">~ScopedPtr</a>()</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    { </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span>(!ptr_){ </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">return</span>;</div>
@@ -125,32 +125,32 @@ $(document).ready(function(){initNavTree('d0/d44/scoped__ptr_8h_source.html','..
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    T* get()</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ab5a7462f07628479641cb93aa3ca1f8e">   40</a></span>&#160;    T* <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ab5a7462f07628479641cb93aa3ca1f8e">get</a>()</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> ptr_;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">const</span> T* get()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#af920804317d8d96cd7c2266236345f86">   45</a></span>&#160;    <span class="keyword">const</span> T* <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#af920804317d8d96cd7c2266236345f86">get</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> ptr_;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    T* operator-&gt;() {</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a572c4582cdbc0227ef080edeb8c6a49e">   50</a></span>&#160;    T* <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a572c4582cdbc0227ef080edeb8c6a49e">operator-&gt;</a>() {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> ptr_;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    T&amp; operator*() {</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aa1c6783b7d96eb4e3962d95947faeadd">   54</a></span>&#160;    T&amp; <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aa1c6783b7d96eb4e3962d95947faeadd">operator*</a>() {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> *ptr_;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a56a0c0066299e769cea196d8d97eca7b">   58</a></span>&#160;    <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">return</span> ptr_;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    T* ptr_;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    Deleter deleter_;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">Deleter</a> deleter_;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;} <span class="comment">// namespace impl </span></div>
@@ -161,13 +161,20 @@ $(document).ready(function(){initNavTree('d0/d44/scoped__ptr_8h_source.html','..
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VITROIO_SDK_SCOPED_PTR_H</span></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html">vitroio::sdk::impl::ScopedPtr</a></div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:17</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_a572c4582cdbc0227ef080edeb8c6a49e"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a572c4582cdbc0227ef080edeb8c6a49e">vitroio::sdk::impl::ScopedPtr::operator-&gt;</a></div><div class="ttdeci">T * operator-&gt;()</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:50</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_a630c76953d09127af2e5a5b6d0772c3b"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a630c76953d09127af2e5a5b6d0772c3b">vitroio::sdk::impl::ScopedPtr::~ScopedPtr</a></div><div class="ttdeci">~ScopedPtr()</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:26</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_aa1c6783b7d96eb4e3962d95947faeadd"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aa1c6783b7d96eb4e3962d95947faeadd">vitroio::sdk::impl::ScopedPtr::operator*</a></div><div class="ttdeci">T &amp; operator*()</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:54</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_ab5a7462f07628479641cb93aa3ca1f8e"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ab5a7462f07628479641cb93aa3ca1f8e">vitroio::sdk::impl::ScopedPtr::get</a></div><div class="ttdeci">T * get()</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:40</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_ad52377f799bdc6d54c631288aff09077"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077">vitroio::sdk::impl::ScopedPtr::Deleter</a></div><div class="ttdeci">Callback&lt; void(void *)&gt; Deleter</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:19</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_adb954e0739bee4fdc46d8c1657f0bd8d"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#adb954e0739bee4fdc46d8c1657f0bd8d">vitroio::sdk::impl::ScopedPtr::ScopedPtr</a></div><div class="ttdeci">ScopedPtr(T *ptr, Deleter deleter=Deleter(NULL))</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:21</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1ScopedPtr_html_af920804317d8d96cd7c2266236345f86"><div class="ttname"><a href="../../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#af920804317d8d96cd7c2266236345f86">vitroio::sdk::impl::ScopedPtr::get</a></div><div class="ttdeci">const T * get() const</div><div class="ttdef"><b>Definition:</b> scoped_ptr.h:45</div></div>
 <div class="ttc" id="anamespacevitroio_html"><div class="ttname"><a href="../../d0/dbb/namespacevitroio.html">vitroio</a></div><div class="ttdoc">The namespace contains all of components of vitro-shard-sdk and components based on the sdk....</div><div class="ttdef"><b>Definition:</b> can_layer.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_1b12a0d0374ef2985ceda562fcdc37b3.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_a156f9ec862380ebc0b45a05c2581940.html">impl</a></li><li class="navelem"><b>scoped_ptr.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_1b12a0d0374ef2985ceda562fcdc37b3.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_a156f9ec862380ebc0b45a05c2581940.html">impl</a></li><li class="navelem"><a class="el" href="../../d0/d44/scoped__ptr_8h.html">scoped_ptr.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

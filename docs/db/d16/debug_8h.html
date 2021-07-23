@@ -107,9 +107,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="../../dc/dc8/debug_8h__dep__incl.png" border="0" usemap="#adebug_8hdep" alt=""/></div>
 <map name="adebug_8hdep" id="adebug_8hdep">
 <area shape="rect" title="The file defines debug macros." alt="" coords="147,5,213,32"/>
-<area shape="rect" href="../../d8/dc5/io__expander_8h_source.html" title=" " alt="" coords="5,80,107,107"/>
-<area shape="rect" href="../../dc/dce/shard__edge_8h_source.html" title=" " alt="" coords="131,80,229,107"/>
-<area shape="rect" href="../../d4/d3e/shard-sdk_8h_source.html" title=" " alt="" coords="178,155,267,181"/>
+<area shape="rect" href="../../d8/dc5/io__expander_8h.html" title=" " alt="" coords="5,80,107,107"/>
+<area shape="rect" href="../../dc/dce/shard__edge_8h.html" title=" " alt="" coords="131,80,229,107"/>
+<area shape="rect" href="../../d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="178,155,267,181"/>
 </map>
 </div>
 </div>
@@ -117,17 +117,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a43c719a9aa26a69ae3509303f26d5f18"><td class="memItemLeft" align="right" valign="top"><a id="a43c719a9aa26a69ae3509303f26d5f18"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VITROIO_DEBUG_HINFO</b>(module,  format, ...)</td></tr>
+<tr class="memitem:a43c719a9aa26a69ae3509303f26d5f18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a43c719a9aa26a69ae3509303f26d5f18">VITROIO_DEBUG_HINFO</a>(module,  format, ...)</td></tr>
 <tr class="separator:a43c719a9aa26a69ae3509303f26d5f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e7f2a15c239667310a459fb91e657d"><td class="memItemLeft" align="right" valign="top"><a id="a67e7f2a15c239667310a459fb91e657d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VITROIO_DEBUG_INFO</b>(module,  format, ...)</td></tr>
+<tr class="memitem:a67e7f2a15c239667310a459fb91e657d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a67e7f2a15c239667310a459fb91e657d">VITROIO_DEBUG_INFO</a>(module,  format, ...)</td></tr>
 <tr class="separator:a67e7f2a15c239667310a459fb91e657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad248c262253ea5359e686a2f56d09b"><td class="memItemLeft" align="right" valign="top"><a id="a0ad248c262253ea5359e686a2f56d09b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VITROIO_DEBUG_WARNING</b>(module,  format, ...)</td></tr>
+<tr class="memitem:a0ad248c262253ea5359e686a2f56d09b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a0ad248c262253ea5359e686a2f56d09b">VITROIO_DEBUG_WARNING</a>(module,  format, ...)</td></tr>
 <tr class="separator:a0ad248c262253ea5359e686a2f56d09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae70be99b7cfae981fc4ae29ad906d9a9"><td class="memItemLeft" align="right" valign="top"><a id="ae70be99b7cfae981fc4ae29ad906d9a9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>VITROIO_DEBUG_ERROR</b>(module,  format, ...)</td></tr>
+<tr class="memitem:ae70be99b7cfae981fc4ae29ad906d9a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ae70be99b7cfae981fc4ae29ad906d9a9">VITROIO_DEBUG_ERROR</a>(module,  format, ...)</td></tr>
 <tr class="separator:ae70be99b7cfae981fc4ae29ad906d9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -139,7 +135,144 @@ Macros</h2></td></tr>
 <li>ERROR When some level is defined, the defined one and all of lower levels are enabled.</li>
 </ul>
 <dl class="section attention"><dt>Attention</dt><dd>Definition of debug level have to define the name of mbed serial port global variable. For instance, when the WARNING level is to be enabled, the user should define: VITROIO_DEBUG_WARNING_LEVEL=pc where pc is a variable name of mbed serial port declared in another file. </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae70be99b7cfae981fc4ae29ad906d9a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae70be99b7cfae981fc4ae29ad906d9a9">&#9670;&nbsp;</a></span>VITROIO_DEBUG_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VITROIO_DEBUG_ERROR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43c719a9aa26a69ae3509303f26d5f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c719a9aa26a69ae3509303f26d5f18">&#9670;&nbsp;</a></span>VITROIO_DEBUG_HINFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VITROIO_DEBUG_HINFO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67e7f2a15c239667310a459fb91e657d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e7f2a15c239667310a459fb91e657d">&#9670;&nbsp;</a></span>VITROIO_DEBUG_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VITROIO_DEBUG_INFO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ad248c262253ea5359e686a2f56d09b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad248c262253ea5359e686a2f56d09b">&#9670;&nbsp;</a></span>VITROIO_DEBUG_WARNING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VITROIO_DEBUG_WARNING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

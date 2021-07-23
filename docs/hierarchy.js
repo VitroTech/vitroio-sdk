@@ -7,6 +7,7 @@ var hierarchy =
       [ "vitroio::sdk::impl::_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html", null ]
     ] ],
     [ "vitroio::sdk::CanbusFrame", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html", null ],
+    [ "vitroio::sdk::impl::Timestamp::CurrentTime_t", "d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html", null ],
     [ "vitroio::sdk::FirmwareId", "dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html", null ],
     [ "vitroio::sdk::FlashSpace", "de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html", null ],
     [ "vitroio::sdk::impl::IOExpander", "dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html", null ],
@@ -27,6 +28,7 @@ var hierarchy =
     ] ],
     [ "vitroio::sdk::SensorParameterValue", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html", null ],
     [ "vitroio::sdk::ShardEdge", "d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html", null ],
+    [ "vitroio::sdk::impl::Timestamp", "da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html", null ],
     [ "vitroio::sdk::Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
       [ "vitroio::sdk::Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", null ]
     ] ],

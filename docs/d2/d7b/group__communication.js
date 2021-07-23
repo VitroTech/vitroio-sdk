@@ -1,5 +1,10 @@
 var group__communication =
 [
+    [ "Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", [
+      [ "Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a4d1268ca0ae9356302a19f802a378d13", null ],
+      [ "getTimestamp", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a8d97c23e125e03b6cac67f10a0cf0ff0", null ],
+      [ "send", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#abdfca25f948ea7eddf976ac8e155157b", null ]
+    ] ],
     [ "Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html", [
       [ "OnFrameReceivedCallback", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0", null ],
       [ "Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a5c7d07fd0b2fb9aac82fec22f799026f", null ],
@@ -27,6 +32,17 @@ var group__communication =
       [ "_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a6724a7c5c43d6d26026d3d6830d9da31", null ],
       [ "~_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a2d372e26af94e2fbf83a443261c01ae4", null ],
       [ "read_from_irq", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f", null ]
+    ] ],
+    [ "IoVec", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html", [
+      [ "iov_base", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#a6cb6b207241e612e18faea9b1ed70de8", null ],
+      [ "iov_len", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#aed3fc672f1e38234c9402dae5b3ca912", null ]
+    ] ],
+    [ "Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
+      [ "Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a0b48f4aebfccccb9fb4e2d6f84d6af8b", null ],
+      [ "getTimestamp", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9b6e75ccb4aa92b3d183d07f219e6298", null ],
+      [ "nodeId", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a72f98b851b6c15f589559e696817a2fb", null ],
+      [ "send", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a6f374614c715238efaa12664a269bab4", null ],
+      [ "nodeId_", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9390b67af47c0f0adbbe1d7b16c9a0c9", null ]
     ] ],
     [ "VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE", "d2/d7b/group__communication.html#gabada5561d84871db8e6510ba26d0142c", null ],
     [ "VITROIO_CANBUS_DEFAULT_FREQUENCY", "d2/d7b/group__communication.html#gaa7c0872b35dc8ecb92460ab0d4594bf3", null ]

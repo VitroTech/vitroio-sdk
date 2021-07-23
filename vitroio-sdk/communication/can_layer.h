@@ -9,7 +9,10 @@
 namespace vitroio {
 
 namespace sdk {
-
+/**
+ * @addtogroup communication
+ * @{
+ */
     /**
      * @brief This class implements CAN bus transport layer for IoT Blockss
      * 
@@ -62,6 +65,9 @@ namespace sdk {
              */
             uint32_t getTimestamp();
     };
+/**
+ * @}
+ */
 }
 
 }

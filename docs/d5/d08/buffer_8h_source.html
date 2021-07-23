@@ -86,7 +86,7 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="title">buffer.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_BUFFER_H</span></div>
+<a href="../../d5/d08/buffer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_BUFFER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VITROIO_SDK_BUFFER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html">Buffer</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html">Buffer</a>() :</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#aee2dd3f2f793959e9bffc982685e3d07">   18</a></span>&#160;    <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#aee2dd3f2f793959e9bffc982685e3d07">Buffer</a>() :</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        buff_(NULL),</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        availableSize_(0),</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        workingSize_(0),</div>
@@ -111,24 +111,24 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        freeOffset_(0)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    ~<a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html">Buffer</a>()</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ae300ede961b0101fa49240c0fee8549d">   26</a></span>&#160;    <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ae300ede961b0101fa49240c0fee8549d">~Buffer</a>()</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        free();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f">free</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">bool</span> alloc(uint32_t size, uint8_t defaultValue = 0)</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e">   31</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e">alloc</a>(uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>, uint8_t defaultValue = 0)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>( (buff_ = <span class="keyword">new</span> (nothrow) uint8_t[size]) ){</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            availableSize_ = size;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            workingSize_ = size;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>( (buff_ = <span class="keyword">new</span> (nothrow) uint8_t[<a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>]) ){</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            availableSize_ = <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            workingSize_ = <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            usedSize_ = 0;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            memset(buff_, defaultValue, size);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            memset(buff_, defaultValue, <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> free()</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f">   43</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f">free</a>()</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">if</span>(buff_){ </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keyword">delete</span> buff_;</div>
@@ -140,46 +140,46 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        freeOffset_ = 0;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    uint32_t availableSize()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285">   55</a></span>&#160;    uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285">availableSize</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> availableSize_;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    uint32_t size()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">   60</a></span>&#160;    uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> workingSize_;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    uint32_t freeSize()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606">   65</a></span>&#160;    uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606">freeSize</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> workingSize_ - usedSize_;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">bool</span> resize(uint32_t size)</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599">   70</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599">resize</a>(uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span>(size &gt; availableSize_){</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a> &gt; availableSize_){</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        workingSize_ = size;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        workingSize_ = <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        usedSize_ = (usedSize_ &gt; workingSize_) ? workingSize_ : usedSize_;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    uint8_t* get()</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ab907ded6cf05860261265a0338ccdb9d">   82</a></span>&#160;    uint8_t* <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ab907ded6cf05860261265a0338ccdb9d">get</a>()</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> buff_;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">const</span> uint8_t* get()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a0863ea506b430286861a3c08e23c64b7">   87</a></span>&#160;    <span class="keyword">const</span> uint8_t* <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a0863ea506b430286861a3c08e23c64b7">get</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> buff_;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    uint32_t set(uint8_t* data, uint32_t size)</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5">   92</a></span>&#160;    uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5">set</a>(uint8_t* data, uint32_t <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>)</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        uint32_t bytesToSet = (size &gt; freeSize()) ? freeSize() : size;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        uint32_t bytesToSet = (<a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a> &gt; <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606">freeSize</a>()) ? <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606">freeSize</a>() : <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">size</a>;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        memcpy(buff_ + freeOffset_, data, bytesToSet);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        usedSize_ += bytesToSet;</div>
@@ -188,24 +188,24 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> bytesToSet;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span> clear(uint32_t newSize = 0, uint8_t defaultValue = 0)</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#af51d17ae771ebfb4b96a3fb4562f2292">  103</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#af51d17ae771ebfb4b96a3fb4562f2292">clear</a>(uint32_t newSize = 0, uint8_t defaultValue = 0)</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        usedSize_ = 0;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        freeOffset_ = 0;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        memset(buff_, defaultValue, availableSize_);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">bool</span> isEmpty()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6ea350f6e745928976dfd42164dce4b9">  110</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6ea350f6e745928976dfd42164dce4b9">isEmpty</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> !usedSize_;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">bool</span> isFull()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a4cf3e93f13f3fd5df5823b6c7ffd94da">  115</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a4cf3e93f13f3fd5df5823b6c7ffd94da">isFull</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> (usedSize_ == workingSize_) ? true : <span class="keyword">false</span>; </div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ae0c56da66257ab720ae9742f0a86824a">  120</a></span>&#160;    <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">return</span> buff_;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
@@ -226,13 +226,27 @@ $(document).ready(function(){initNavTree('d5/d08/buffer_8h_source.html','../../'
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VITROIO_SDK_BUFFER_H</span></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html">vitroio::sdk::impl::Buffer</a></div><div class="ttdef"><b>Definition:</b> buffer.h:16</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a0863ea506b430286861a3c08e23c64b7"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a0863ea506b430286861a3c08e23c64b7">vitroio::sdk::impl::Buffer::get</a></div><div class="ttdeci">const uint8_t * get() const</div><div class="ttdef"><b>Definition:</b> buffer.h:87</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a18ad54c9de9e50b5623896014f050b6f"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f">vitroio::sdk::impl::Buffer::free</a></div><div class="ttdeci">void free()</div><div class="ttdef"><b>Definition:</b> buffer.h:43</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a2e59790372d82b5d9fbc766021efb606"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606">vitroio::sdk::impl::Buffer::freeSize</a></div><div class="ttdeci">uint32_t freeSize() const</div><div class="ttdef"><b>Definition:</b> buffer.h:65</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a4cf3e93f13f3fd5df5823b6c7ffd94da"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a4cf3e93f13f3fd5df5823b6c7ffd94da">vitroio::sdk::impl::Buffer::isFull</a></div><div class="ttdeci">bool isFull() const</div><div class="ttdef"><b>Definition:</b> buffer.h:115</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a6bb1cff9096aab6e58c62fe243c127d5"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5">vitroio::sdk::impl::Buffer::set</a></div><div class="ttdeci">uint32_t set(uint8_t *data, uint32_t size)</div><div class="ttdef"><b>Definition:</b> buffer.h:92</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a6ea350f6e745928976dfd42164dce4b9"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6ea350f6e745928976dfd42164dce4b9">vitroio::sdk::impl::Buffer::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdef"><b>Definition:</b> buffer.h:110</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a91681158fd6528a8fe22d1473c27e32e"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e">vitroio::sdk::impl::Buffer::alloc</a></div><div class="ttdeci">bool alloc(uint32_t size, uint8_t defaultValue=0)</div><div class="ttdef"><b>Definition:</b> buffer.h:31</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_a97c0e8e2f6499b0004a4772b8d8348cd"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd">vitroio::sdk::impl::Buffer::size</a></div><div class="ttdeci">uint32_t size() const</div><div class="ttdef"><b>Definition:</b> buffer.h:60</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_ab907ded6cf05860261265a0338ccdb9d"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ab907ded6cf05860261265a0338ccdb9d">vitroio::sdk::impl::Buffer::get</a></div><div class="ttdeci">uint8_t * get()</div><div class="ttdef"><b>Definition:</b> buffer.h:82</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_ad673a5dc93fb8b471b17aa88d2332599"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599">vitroio::sdk::impl::Buffer::resize</a></div><div class="ttdeci">bool resize(uint32_t size)</div><div class="ttdef"><b>Definition:</b> buffer.h:70</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_adf5a5850a7b7d5421671e5057be31285"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285">vitroio::sdk::impl::Buffer::availableSize</a></div><div class="ttdeci">uint32_t availableSize() const</div><div class="ttdef"><b>Definition:</b> buffer.h:55</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_ae300ede961b0101fa49240c0fee8549d"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ae300ede961b0101fa49240c0fee8549d">vitroio::sdk::impl::Buffer::~Buffer</a></div><div class="ttdeci">~Buffer()</div><div class="ttdef"><b>Definition:</b> buffer.h:26</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_aee2dd3f2f793959e9bffc982685e3d07"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#aee2dd3f2f793959e9bffc982685e3d07">vitroio::sdk::impl::Buffer::Buffer</a></div><div class="ttdeci">Buffer()</div><div class="ttdef"><b>Definition:</b> buffer.h:18</div></div>
+<div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1Buffer_html_af51d17ae771ebfb4b96a3fb4562f2292"><div class="ttname"><a href="../../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#af51d17ae771ebfb4b96a3fb4562f2292">vitroio::sdk::impl::Buffer::clear</a></div><div class="ttdeci">void clear(uint32_t newSize=0, uint8_t defaultValue=0)</div><div class="ttdef"><b>Definition:</b> buffer.h:103</div></div>
 <div class="ttc" id="anamespacevitroio_html"><div class="ttname"><a href="../../d0/dbb/namespacevitroio.html">vitroio</a></div><div class="ttdoc">The namespace contains all of components of vitro-shard-sdk and components based on the sdk....</div><div class="ttdef"><b>Definition:</b> can_layer.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_1b12a0d0374ef2985ceda562fcdc37b3.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_a156f9ec862380ebc0b45a05c2581940.html">impl</a></li><li class="navelem"><b>buffer.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_1b12a0d0374ef2985ceda562fcdc37b3.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_a156f9ec862380ebc0b45a05c2581940.html">impl</a></li><li class="navelem"><a class="el" href="../../d5/d08/buffer_8h.html">buffer.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

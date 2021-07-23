@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sectors_235',['sectors',['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html#a463e6cc1d239c3ba63db5461661e3f68',1,'vitroio::sdk::FlashSpace']]]
+  ['last_5ftimestamp_464',['last_timestamp',['../d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#af0cefcd218c01ad2d11024db29a058fb',1,'vitroio::sdk::impl::Timestamp::CurrentTime_t']]]
 ];

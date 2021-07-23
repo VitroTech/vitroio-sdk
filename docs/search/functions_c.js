@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['read_200',['read',['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a549aa181bbfbec41e4daf08c8581ce89',1,'vitroio::sdk::impl::FlashInterface::read()'],['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af84e975960a2ab1ffdc2809f3702d702',1,'vitroio::sdk::AbstractSensorDriver::read()']]],
-  ['readcurrentloop_201',['readCurrentLoop',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aaba0835583455eb3854169e25e994f22',1,'vitroio::sdk::ShardEdge']]],
-  ['readinputport_202',['readInputPort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#a7993ec211dd02e7cd639b9b2c5834409',1,'vitroio::sdk::impl::IOExpander']]],
-  ['readvoltage_203',['readVoltage',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa301e0d93e67933408ece71c6f5473fb',1,'vitroio::sdk::ShardEdge']]],
-  ['registersensor_204',['registerSensor',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a9957bb7261e157231c932c940e4b650d',1,'vitroio::sdk::MeasurementApi']]]
+  ['open_401',['open',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#ad60eea41badf1bfce7d918c6c248162f',1,'vitroio::sdk::AbstractSensorDriver']]],
+  ['operator_20bool_402',['operator bool',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ae0c56da66257ab720ae9742f0a86824a',1,'vitroio::sdk::impl::Buffer::operator bool()'],['../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a56a0c0066299e769cea196d8d97eca7b',1,'vitroio::sdk::impl::ScopedPtr::operator bool()']]],
+  ['operator_21_3d_403',['operator!=',['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html#adbacc8dc01d09933ae97db94d89e22e3',1,'vitroio::sdk::FirmwareId']]],
+  ['operator_2a_404',['operator*',['../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aa1c6783b7d96eb4e3962d95947faeadd',1,'vitroio::sdk::impl::ScopedPtr']]],
+  ['operator_2d_3e_405',['operator-&gt;',['../d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a572c4582cdbc0227ef080edeb8c6a49e',1,'vitroio::sdk::impl::ScopedPtr']]],
+  ['operator_3e_406',['operator&gt;',['../de/d6b/structvitroio_1_1sdk_1_1Version.html#a144094c4b528d167faf8f214f24792d5',1,'vitroio::sdk::Version']]]
 ];

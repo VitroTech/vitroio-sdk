@@ -12,7 +12,7 @@
  * @brief Defines required flash memory size in bytes for storing environment
  * variables.
  */
-#define VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE 0x02
+#define VITROIO_CONSTS_ENVIRONMENT_REQUIRED_FLASH_SIZE 0x08
 
 #define VITROIO_REGION_A_FLASH_OFFSET       0x10800
 #define VITROIO_REGION_B_FLASH_OFFSET       0x88000

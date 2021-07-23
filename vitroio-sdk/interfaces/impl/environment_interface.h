@@ -38,7 +38,8 @@ public:
     enum Variable
     {
         ENVVAR_CURRENT_BOOT_REGION,
-        ENVVAR_NEXT_BOOT_REGION
+        ENVVAR_NEXT_BOOT_REGION,
+        ENVVAR_TIMESTAMP
     };
 
     /**

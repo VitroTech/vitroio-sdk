@@ -1,0 +1,30 @@
+<map id="shard&#45;sdk.h" name="shard&#45;sdk.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1515,5,1604,32"/>
+<area shape="rect" id="node2" href="$d8/db5/consts_8h.html" title="The file contains constants of vitro&#45;shard&#45;sdk for user usage." alt="" coords="1407,281,1541,307"/>
+<area shape="rect" id="node3" href="$db/d16/debug_8h.html" title="The file defines debug macros." alt="" coords="1617,281,1747,307"/>
+<area shape="rect" id="node5" href="$de/d45/errors_8h.html" title="The file defines error codes." alt="" coords="2164,87,2293,114"/>
+<area shape="rect" id="node6" href="$d9/d49/types_8h.html" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="1204,281,1331,307"/>
+<area shape="rect" id="node7" href="$df/dfc/version_8h.html" title="The file defines version of vitro&#45;shard&#45;sdk." alt="" coords="2318,87,2457,114"/>
+<area shape="rect" id="node8" href="$d9/da3/watchdog_8h.html" title=" " alt="" coords="1705,80,1848,121"/>
+<area shape="rect" id="node9" href="$dc/dce/shard__edge_8h.html" title=" " alt="" coords="1543,177,1693,218"/>
+<area shape="rect" id="node10" href="$d7/d99/abstract__sensor__driver_8h.html" title=" " alt="" coords="1873,273,2062,315"/>
+<area shape="rect" id="node12" href="$df/d63/abstract__sensor__interface_8h.html" title=" " alt="" coords="1924,177,2131,218"/>
+<area shape="rect" id="node13" href="$d4/d99/measurement__api_8h.html" title=" " alt="" coords="1974,80,2139,121"/>
+<area shape="rect" id="node17" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="329,80,464,121"/>
+<area shape="rect" id="node18" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="204,177,379,218"/>
+<area shape="rect" id="node19" href="$d9/d8c/canbus__frame_8h.html" title=" " alt="" coords="204,273,379,315"/>
+<area shape="rect" id="node21" href="$d6/d7f/transport__layer_8h.html" title=" " alt="" coords="455,177,629,218"/>
+<area shape="rect" id="node22" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="951,80,1077,121"/>
+<area shape="rect" id="node28" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="488,80,663,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="918,363,982,389"/>
+<area shape="rect" id="node11" title=" " alt="" coords="2001,363,2065,389"/>
+<area shape="rect" id="node14" href="$da/d23/list_8h.html" title=" " alt="" coords="2155,177,2294,218"/>
+<area shape="rect" id="node16" title=" " alt="" coords="2318,169,2483,225"/>
+<area shape="rect" id="node15" title=" " alt="" coords="2192,281,2257,307"/>
+<area shape="rect" id="node20" href="$d7/de9/__CAN_8h.html" title=" " alt="" coords="5,273,180,315"/>
+<area shape="rect" id="node23" href="$d0/d44/scoped__ptr_8h.html" title=" " alt="" coords="1041,273,1179,315"/>
+<area shape="rect" id="node24" href="$d6/d4d/flash__interface_8h.html" title=" " alt="" coords="705,177,853,218"/>
+<area shape="rect" id="node25" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="1275,177,1467,218"/>
+<area shape="rect" id="node26" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="929,177,1099,218"/>
+<area shape="rect" id="node27" href="$d5/d08/buffer_8h.html" title=" " alt="" coords="827,273,966,315"/>
+</map>

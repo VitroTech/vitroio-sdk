@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['i2c_5fack_5ftimeout_2944',['I2C_ACK_TIMEOUT',['../i2c__bitbang__samd21_8h.html#a4f8a83ae9459703637408a0a194445ac',1,'i2c_bitbang_samd21.h']]],
-  ['i2c_5fhold_5fdelay_2945',['I2C_HOLD_DELAY',['../i2c__bitbang__samd21_8h.html#afcbe5a222e1facc4e8023c326ca8430c',1,'i2c_bitbang_samd21.h']]]
+  ['ecdsa_5fsignature_5fsize_509',['ECDSA_SIGNATURE_SIZE',['../dd/d88/iot-block_8h.html#aee3c940e69e46e1140b0fab9e66afc0c',1,'iot-block.h']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hid_5fapi_5fcall_2941',['HID_API_CALL',['../hidapi_8h.html#af140a25716604e86096670a505a58ee0',1,'hidapi.h']]],
-  ['hid_5fapi_5fexport_2942',['HID_API_EXPORT',['../hidapi_8h.html#aa60150016800ccb88fdf140e8553ae13',1,'hidapi.h']]],
-  ['hid_5fapi_5fexport_5fcall_2943',['HID_API_EXPORT_CALL',['../hidapi_8h.html#a70c49eda5025c1bc455af77da19ca312',1,'hidapi.h']]]
+  ['data_5fblob_5fsize_507',['DATA_BLOB_SIZE',['../dd/d88/iot-block_8h.html#a51c26cda857b61d6631e045f47e00778',1,'iot-block.h']]],
+  ['debug_508',['DEBUG',['../d8/db5/consts_8h.html#ad72dbcf6d0153db1b8d8a58001feed83',1,'consts.h']]]
 ];

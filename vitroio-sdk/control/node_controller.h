@@ -11,6 +11,7 @@
 #include <vitroio-sdk/interfaces/impl/flash_interface.h>
 #include <vitroio-sdk/interfaces/impl/environment_interface.h>
 #include <vitroio-sdk/control/impl/upgrade_controller.h>
+#include <vitroio-sdk/communication/transport_layer.h>
 
 namespace vitroio
 {
@@ -198,7 +199,16 @@ public:
      * @return Function returns VITROIO_ERR_SUCCESS when the communication was
      * initialized successfully or appropriate error code otherwise.
      */
-    int initCommunication();
+    int initCommunication(Transport_layer* layer);
+
+    /**
+     * @brief Function initializes communication with gateway. This method
+     * blocks until the communication is not initialized and no error occurred.
+     *
+     * @return Function returns VITROIO_ERR_SUCCESS when the communication was
+     * initialized successfully or appropriate error code otherwise.
+     */
+    int initCommunication(uint32_t sync_time, Transport_layer* layer);
 
     /**
      * @brief Function allows to obtain node ID assigned by gateway during

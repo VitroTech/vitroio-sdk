@@ -86,14 +86,14 @@ $(document).ready(function(){initNavTree('d4/d99/measurement__api_8h_source.html
 <div class="title">measurement_api.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_MEASUREMENT_API_H</span></div>
+<a href="../../d4/d99/measurement__api_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VITROIO_SDK_MEASUREMENT_API_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VITROIO_SDK_MEASUREMENT_API_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;mbed.h&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/measurement-api/abstract_sensor_interface.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d63/abstract__sensor__interface_8h.html">vitroio-sdk/measurement-api/abstract_sensor_interface.h</a>&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vitroio-sdk/utils/impl/list.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d23/list_8h.html">vitroio-sdk/utils/impl/list.h</a>&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d0/dbb/namespacevitroio.html">vitroio</a></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
@@ -158,6 +158,7 @@ $(document).ready(function(){initNavTree('d4/d99/measurement__api_8h_source.html
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;} <span class="comment">// namespace vitroio</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VITROIO_SDK_MEASUREMENT_API_H</span></div>
+<div class="ttc" id="aabstract__sensor__interface_8h_html"><div class="ttname"><a href="../../df/d63/abstract__sensor__interface_8h.html">abstract_sensor_interface.h</a></div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1AbstractSensorInterface_html"><div class="ttname"><a href="../../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html">vitroio::sdk::AbstractSensorInterface</a></div><div class="ttdoc">Virtual class providing interface for sensor interfaces classes.</div><div class="ttdef"><b>Definition:</b> abstract_sensor_interface.h:50</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1MeasurementApi_html"><div class="ttname"><a href="../../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html">vitroio::sdk::MeasurementApi</a></div><div class="ttdoc">Class is responsible for cycling readings of measurement data using registered sensors.</div><div class="ttdef"><b>Definition:</b> measurement_api.h:42</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1MeasurementApi_html_a00f19c0d9995b50827c94ae72807a3c0"><div class="ttname"><a href="../../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a00f19c0d9995b50827c94ae72807a3c0">vitroio::sdk::MeasurementApi::setOnNewValuesCallback</a></div><div class="ttdeci">void setOnNewValuesCallback(OnNewValuesCallback callback)</div><div class="ttdoc">Function sets callback which will be called when the new values are read.</div></div>
@@ -172,6 +173,7 @@ $(document).ready(function(){initNavTree('d4/d99/measurement__api_8h_source.html
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1MeasurementApi_html_ae1d4cb83aefc7c4271f0d2835d0b6e90"><div class="ttname"><a href="../../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#ae1d4cb83aefc7c4271f0d2835d0b6e90">vitroio::sdk::MeasurementApi::OnNewValuesCallback</a></div><div class="ttdeci">Callback&lt; void(SensorParameterValue *, int)&gt; OnNewValuesCallback</div><div class="ttdoc">Type defines signature of callback function which is to be called when a new measurement values are r...</div><div class="ttdef"><b>Definition:</b> measurement_api.h:48</div></div>
 <div class="ttc" id="aclassvitroio_1_1sdk_1_1impl_1_1List_html"><div class="ttname"><a href="../../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html">vitroio::sdk::impl::List</a></div><div class="ttdef"><b>Definition:</b> list.h:24</div></div>
 <div class="ttc" id="agroup__measurement-api_html_ga8a64baa7a1248856042600c872318a8d"><div class="ttname"><a href="../../dc/d94/group__measurement-api.html#ga8a64baa7a1248856042600c872318a8d">VITROIO_MEASUREMENT_API_DEFAULT_EVENT_QUEUE_SIZE</a></div><div class="ttdeci">#define VITROIO_MEASUREMENT_API_DEFAULT_EVENT_QUEUE_SIZE</div><div class="ttdoc">Defines default size of internal event queue for MeasurementApi .</div><div class="ttdef"><b>Definition:</b> measurement_api.h:27</div></div>
+<div class="ttc" id="alist_8h_html"><div class="ttname"><a href="../../da/d23/list_8h.html">list.h</a></div></div>
 <div class="ttc" id="anamespacevitroio_html"><div class="ttname"><a href="../../d0/dbb/namespacevitroio.html">vitroio</a></div><div class="ttdoc">The namespace contains all of components of vitro-shard-sdk and components based on the sdk....</div><div class="ttdef"><b>Definition:</b> can_layer.h:9</div></div>
 <div class="ttc" id="astructvitroio_1_1sdk_1_1SensorParameterValue_html"><div class="ttname"><a href="../../de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html">vitroio::sdk::SensorParameterValue</a></div><div class="ttdoc">Structure representing sensor parameters values.</div><div class="ttdef"><b>Definition:</b> abstract_sensor_interface.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -179,7 +181,7 @@ $(document).ready(function(){initNavTree('d4/d99/measurement__api_8h_source.html
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_a677399aa2bf57795f0443cdbf17eb14.html">measurement-api</a></li><li class="navelem"><b>measurement_api.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_171f5be7832b2d0bfd1182f219a0da8b.html">Vitro-SDK-Lib</a></li><li class="navelem"><a class="el" href="../../dir_b453a13ecd6a58102e84b08cbc28f36e.html">vitroio-sdk</a></li><li class="navelem"><a class="el" href="../../dir_a677399aa2bf57795f0443cdbf17eb14.html">measurement-api</a></li><li class="navelem"><a class="el" href="../../d4/d99/measurement__api_8h.html">measurement_api.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -3,7 +3,8 @@ var group__interfaces =
     [ "EnvironmentInterface", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html", [
       [ "Variable", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3a", [
         [ "ENVVAR_CURRENT_BOOT_REGION", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaa4bcf133877271a6f72e61c4ebb1c2e1", null ],
-        [ "ENVVAR_NEXT_BOOT_REGION", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaeebb499920da008037ad25ea73677971", null ]
+        [ "ENVVAR_NEXT_BOOT_REGION", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaeebb499920da008037ad25ea73677971", null ],
+        [ "ENVVAR_TIMESTAMP", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aae38561051102e5184605c89ab737397f", null ]
       ] ],
       [ "EnvironmentInterface", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a23bcf791905091f3d97629dbbe362fc0", null ],
       [ "~EnvironmentInterface", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#adc7dabb6fceafb9d474b32bfb8f5d391", null ],
@@ -22,5 +23,7 @@ var group__interfaces =
       [ "isValid", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#af7ca60e6b0cd37ef047508c9902623d0", null ],
       [ "read", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a549aa181bbfbec41e4daf08c8581ce89", null ],
       [ "write", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#ae77eafd3bc1113cb80bd8083b02bb438", null ]
-    ] ]
+    ] ],
+    [ "VITROIO_ENVIRONMENT_INTERFACE_BOOT_REGION_A", "d5/d4f/group__interfaces.html#ga9cbaa187d0c2128dd25740bce60552e7", null ],
+    [ "VITROIO_ENVIRONMENT_INTERFACE_BOOT_REGION_B", "d5/d4f/group__interfaces.html#ga7d1e41ec1d32892114f59f18da1bfe47", null ]
 ];
