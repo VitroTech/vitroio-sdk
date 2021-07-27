@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd":[3,0,0,0,0,6,14],
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ab907ded6cf05860261265a0338ccdb9d":[3,0,0,0,0,6,7],
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599":[3,0,0,0,0,6,12],
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285":[3,0,0,0,0,6,3],
@@ -106,8 +107,8 @@ var NAVTREEINDEX1 =
 "df/d63/abstract__sensor__interface_8h.html":[4,0,2],
 "df/d63/abstract__sensor__interface_8h_source.html":[4,0,2],
 "df/da7/group__control.html":[1,2],
-"df/da7/group__control.html#gab5ae2159579d80956447e3ad484d14fa":[1,2,4],
 "df/da7/group__control.html#gab5ae2159579d80956447e3ad484d14fa":[4,0,26,0],
+"df/da7/group__control.html#gab5ae2159579d80956447e3ad484d14fa":[1,2,4],
 "df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157":[4,0,19,0],
 "df/da7/group__control.html#gae5ca044e3b17d38d7ff04bf6140a6157":[1,2,3],
 "df/dce/can__layer_8h.html":[4,0,4],
@@ -126,8 +127,8 @@ var NAVTREEINDEX1 =
 "globals.html":[4,1,0],
 "globals_defs.html":[4,1,1],
 "hierarchy.html":[3,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#autotoc_md1":[0,0],
 "index.html#autotoc_md10":[0,6,0],
 "index.html#autotoc_md11":[0,6,1],

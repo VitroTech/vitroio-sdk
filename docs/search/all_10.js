@@ -34,5 +34,5 @@ var searchData=
   ['start_191',['start',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a44fcc7ac91958cf65528723bf4918b5f',1,'vitroio::sdk::impl::Timestamp::start(Transport_layer *comm, EnvironmentInterface *env_if)'],['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a5bbaa52aea5ae6e295feb11e11227f5d',1,'vitroio::sdk::impl::Timestamp::start(uint32_t sync_time, Transport_layer *comm, EnvironmentInterface *env_if)']]],
   ['startmeasurements_192',['startMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a778d15664d289f4fc9916c074f190408',1,'vitroio::sdk::MeasurementApi']]],
   ['stopmeasurements_193',['stopMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a51d92e2e16daae2072aab60daac111f8',1,'vitroio::sdk::MeasurementApi']]],
-  ['sync_5finterval_194',['sync_interval',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a4743731e939c0a72d63e2c666ee79b26',1,'vitroio::sdk::impl::Timestamp']]]
+  ['sync_5finterval_194',['sync_interval',['../d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#a82c5fd627c25c6281a6214e755b39f1e',1,'vitroio::sdk::impl::Timestamp::CurrentTime_t']]]
 ];
