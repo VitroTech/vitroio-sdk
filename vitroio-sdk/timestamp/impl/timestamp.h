@@ -50,6 +50,7 @@ class Timestamp{
 
         static void updater_runner();
         typedef struct {
+            uint32_t sync_interval;
             uint32_t last_timestamp;
             Timer ticker;
         } CurrentTime_t;
@@ -57,8 +58,6 @@ class Timestamp{
         static Thread updater;
         static Transport_layer* comm_port;
         static EnvironmentInterface* env;
-        static uint32_t sync_interval;
-
     private:
         static void set_timestamp(uint32_t timestamp);
 };

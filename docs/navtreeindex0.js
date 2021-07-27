@@ -49,7 +49,8 @@ var NAVTREEINDEX0 =
 "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aae38561051102e5184605c89ab737397f":[1,4,0,0,2],
 "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaeebb499920da008037ad25ea73677971":[1,4,0,0,1],
 "d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html":[1,2,2,0],
-"d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#a2a741d497d5b233327894a2ab685b1ad":[1,2,2,0,1],
+"d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#a2a741d497d5b233327894a2ab685b1ad":[1,2,2,0,2],
+"d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#a82c5fd627c25c6281a6214e755b39f1e":[1,2,2,0,1],
 "d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html#af0cefcd218c01ad2d11024db29a058fb":[1,2,2,0,0],
 "d2/dd5/group__shard-edge-lib.html":[1,7],
 "d3/d61/modules_8h.html":[4,0,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a4cf3e93f13f3fd5df5823b6c7ffd94da":[3,0,0,0,0,6,10],
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5":[3,0,0,0,0,6,13],
 "db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6ea350f6e745928976dfd42164dce4b9":[3,0,0,0,0,6,9],
-"db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e":[3,0,0,0,0,6,2],
-"db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd":[3,0,0,0,0,6,14]
+"db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e":[3,0,0,0,0,6,2]
 };
