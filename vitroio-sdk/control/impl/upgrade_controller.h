@@ -151,6 +151,7 @@ private:
     FlashSpace currentFlashSpace_;
     uint32_t flashedBytes_;
     bool upgradeProcessRunning_;
+    bool breakIncorrectUpdate;
     //
     // TODO:
     // - consider make sizes of these queues configurable

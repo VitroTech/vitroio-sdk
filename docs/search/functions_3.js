@@ -5,8 +5,8 @@ var searchData=
   ['canbusframe_356',['CanbusFrame',['../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#ab8211f5c3dc791d8045e2bb1fb443eaf',1,'vitroio::sdk::CanbusFrame']]],
   ['clear_357',['clear',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#af51d17ae771ebfb4b96a3fb4562f2292',1,'vitroio::sdk::impl::Buffer']]],
   ['close_358',['close',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f',1,'vitroio::sdk::AbstractSensorDriver']]],
-  ['configure_359',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
-  ['configure_360',['Configure',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#aa811ac934190cf688a26831cf7ba9beb',1,'vitroio::sdk::Watchdog']]],
+  ['configure_359',['Configure',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#aa811ac934190cf688a26831cf7ba9beb',1,'vitroio::sdk::Watchdog']]],
+  ['configure_360',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
   ['configureport_361',['configurePort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#acd168c64806fab355ebcdbb306ae50a0',1,'vitroio::sdk::impl::IOExpander']]],
   ['configureshardedge_362',['configureShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196',1,'vitroio::sdk::ShardEdge']]]
 ];

@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.5.4]
+
+### Added
+
+- Now OTA update do not override firmware on Shard with different fwID
+
 ## [1.5.3]
 
 ### Fixed
@@ -144,7 +150,8 @@ for now
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.3...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.4...HEAD
+[1.5.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.3...v1.5.4
 [1.5.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.2...v1.5.3
 [1.5.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.1...v1.5.2
 [1.5.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.0...v1.5.1
