@@ -1,5 +1,0 @@
-<map id="i2c_receive_bytes" name="i2c_receive_bytes">
-<area shape="rect" id="node1" title="Receive a number of bytes." alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$i2c__bitbang__samd21_8c.html#a2f6cabfafc11c56ea8335f54fac20343" title="Receive one byte (MSB first)." alt="" coords="192,5,355,32"/>
-<area shape="rect" id="node3" href="$i2c__bitbang__samd21_8c.html#a28d871f938b84b40a153a806c55d6aef" title="Send a STOP condition." alt="" coords="216,56,331,83"/>
-</map>

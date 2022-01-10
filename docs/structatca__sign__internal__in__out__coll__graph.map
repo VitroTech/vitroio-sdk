@@ -1,4 +1,0 @@
-<map id="atca_sign_internal_in_out" name="atca_sign_internal_in_out">
-<area shape="rect" id="node1" title="Input/output parameters for calculating the message and digest used by the Sign(internal) command...." alt="" coords="5,95,147,136"/>
-<area shape="rect" id="node2" href="$structatca__temp__key.html" title="Structure to hold TempKey fields." alt="" coords="15,5,137,32"/>
-</map>

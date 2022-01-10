@@ -1,6 +1,0 @@
-<map id="atca_device" name="atca_device">
-<area shape="rect" id="node1" title="atca_device is the C object backing ATCADevice. See the atca_device.h file for details on the ATCADev..." alt="" coords="78,184,178,211"/>
-<area shape="rect" id="node2" href="$structatca__command.html" title="atca_command is the C object backing ATCACommand." alt="" coords="5,95,128,121"/>
-<area shape="rect" id="node3" href="$structatca__iface.html" title="atca_iface is the C object backing ATCAIface. See the atca_iface.h file for details on the ATCAIface ..." alt="" coords="153,95,242,121"/>
-<area shape="rect" id="node4" href="$structATCAIfaceCfg.html" title=" " alt="" coords="143,5,252,32"/>
-</map>

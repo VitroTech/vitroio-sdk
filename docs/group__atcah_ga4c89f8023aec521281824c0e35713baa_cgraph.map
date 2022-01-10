@@ -1,8 +1,0 @@
-<map id="atcah_secureboot_enc" name="atcah_secureboot_enc">
-<area shape="rect" id="node1" title="Encrypts the digest for the SecureBoot command when using the encrypted digest / validating mac optio..." alt="" coords="5,56,172,83"/>
-<area shape="rect" id="node2" href="$group__atcac__.html#gae3a29931f2104cce481aa9ef1ab16fea" title="completes the final SHA256 calculation and returns the final digest/hash" alt="" coords="225,5,418,32"/>
-<area shape="rect" id="node3" href="$group__atcac__.html#ga58283666b662f084155ba693870c1077" title="initializes the SHA256 software" alt="" coords="232,56,411,83"/>
-<area shape="rect" id="node5" href="$group__atcac__.html#gab1a09fa1d854722cc667cea319ca9984" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="220,107,423,133"/>
-<area shape="rect" id="node4" href="$sha2__routines_8c.html#acfb7028e6f10d29c548cbecdbfa53ac8" title="Intialize the software SHA256." alt="" coords="483,56,605,83"/>
-<area shape="rect" id="node6" href="$sha2__routines_8c.html#a4d0c952ebe691b3337205829dc352e6e" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="471,107,617,133"/>
-</map>

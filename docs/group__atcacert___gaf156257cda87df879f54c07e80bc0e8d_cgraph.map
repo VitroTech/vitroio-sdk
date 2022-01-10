@@ -1,4 +1,0 @@
-<map id="atcacert_der_enc_integer" name="atcacert_der_enc_integer">
-<area shape="rect" id="node1" title="Encode an ASN.1 integer in DER format, including tag and length fields." alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#gaafc9ef8e0164226481b670fde0223e13" title="Encode a length in DER format." alt="" coords="240,5,421,32"/>
-</map>

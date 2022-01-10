@@ -1,4 +1,0 @@
-<map id="atcacert_get_signer_id" name="atcacert_get_signer_id">
-<area shape="rect" id="node1" title="Gets the signer ID from a certificate. Will be parsed as 4 upper&#45;case hex digits." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#gacdb102fcae9f3a822a19b2ca487b415d" title="Gets an element from a certificate." alt="" coords="223,5,419,32"/>
-</map>

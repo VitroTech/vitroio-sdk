@@ -1,5 +1,0 @@
-<map id="atcab_ecdh" name="atcab_ecdh">
-<area shape="rect" id="node1" title="ECDH command with a private key in a slot and the premaster secret is returned in the clear." alt="" coords="5,5,101,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga211c9405bb5049dd4a5da92d25c83f3c" title="Base function for generating premaster secret key using ECDH." alt="" coords="149,5,284,32"/>
-<area shape="rect" id="node3" href="$group__command.html#ga5460e5bb2178eb95a3b8db8018d30617" title="ATCACommand ECDH method." alt="" coords="332,5,404,32"/>
-</map>

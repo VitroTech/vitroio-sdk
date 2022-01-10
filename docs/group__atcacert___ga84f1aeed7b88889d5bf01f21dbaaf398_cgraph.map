@@ -1,4 +1,0 @@
-<map id="atcacert_get_device_locs" name="atcacert_get_device_locs">
-<area shape="rect" id="node1" title="Add all the device locations required to rebuild the specified certificate (cert_def) to a device loc..." alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#ga593780a1837f517ce75bb19d9c5c9db7" title="Merge a new device location into a list of device locations. If the new location overlaps with an exi..." alt="" coords="240,5,440,32"/>
-</map>

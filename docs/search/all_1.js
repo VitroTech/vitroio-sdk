@@ -12,8 +12,13 @@ var searchData=
   ['adc1_5fin5_12',['ADC1_IN5',['../d8/db5/consts_8h.html#ab575740a02334a5967b68fa9f609ffe5',1,'consts.h']]],
   ['adc1_5fin6_13',['ADC1_IN6',['../d8/db5/consts_8h.html#a6dda7537a5ff4088fd25db4f6937fd8d',1,'consts.h']]],
   ['adc1_5fin9_14',['ADC1_IN9',['../d8/db5/consts_8h.html#a79c4749930d72a8b01267aeef8a283fb',1,'consts.h']]],
-  ['aes_5fblock_5fsize_15',['AES_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#af19ab913a847ad1e91c5291215116de1',1,'iot-block.h']]],
-  ['aes_5fiv_5flen_16',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]],
-  ['alloc_17',['alloc',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e',1,'vitroio::sdk::impl::Buffer']]],
-  ['availablesize_18',['availableSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285',1,'vitroio::sdk::impl::Buffer']]]
+  ['aes_5f256_5fkey_5flen_15',['AES_256_KEY_LEN',['../d4/d29/ecc608_8h.html#afdc3c9f91fda0de0029266fa37157fc5',1,'ecc608.h']]],
+  ['aes_5fblock_5fsize_16',['AES_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#af19ab913a847ad1e91c5291215116de1',1,'iot-block.h']]],
+  ['aes_5fcbc_5fblock_5fsize_17',['AES_CBC_BLOCK_SIZE',['../d4/d29/ecc608_8h.html#a15621f604c012021a2217f4dc46467ea',1,'ecc608.h']]],
+  ['aes_5fiv_5flen_18',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]],
+  ['aes_5fkey_5fslot_19',['AES_KEY_SLOT',['../d4/d29/ecc608_8h.html#a65f41a1dcf6c945812334f58e09d2e5c',1,'ecc608.h']]],
+  ['aesdecrypt_20',['aesDecrypt',['../da/d1f/classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#a41111120d39b9a05c12d377e7b80220a',1,'vitroio::sdk::impl::TLSCrypto']]],
+  ['aesencrypt_21',['aesEncrypt',['../da/d1f/classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html#a68c5c167854d5b24f600368a45663d67',1,'vitroio::sdk::impl::TLSCrypto']]],
+  ['alloc_22',['alloc',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e',1,'vitroio::sdk::impl::Buffer']]],
+  ['availablesize_23',['availableSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285',1,'vitroio::sdk::impl::Buffer']]]
 ];

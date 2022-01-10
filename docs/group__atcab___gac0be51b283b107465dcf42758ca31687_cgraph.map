@@ -1,5 +1,0 @@
-<map id="atcab_aes_cmac_finish" name="atcab_aes_cmac_finish">
-<area shape="rect" id="node1" title="Finish a CMAC operation returning the CMAC value." alt="" coords="5,5,177,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gacc9a58dc49f91674213f34fa7bbd05e1" title="Perform an AES&#45;128 encrypt operation with a key in the device." alt="" coords="225,5,369,32"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#gad115ce255664a48b80e90ea19c156b79" title="Compute the AES&#45;128 encrypt, decrypt, or GFM calculation." alt="" coords="417,5,505,32"/>
-</map>

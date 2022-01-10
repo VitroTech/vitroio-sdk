@@ -1,4 +1,0 @@
-<map id="atcac_sw_sha2_256_update" name="atcac_sw_sha2_256_update">
-<area shape="rect" id="node1" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node2" href="$sha2__routines_8c.html#a4d0c952ebe691b3337205829dc352e6e" title="updates the running hash with the next block of data, called iteratively for the entire stream of dat..." alt="" coords="256,5,403,32"/>
-</map>

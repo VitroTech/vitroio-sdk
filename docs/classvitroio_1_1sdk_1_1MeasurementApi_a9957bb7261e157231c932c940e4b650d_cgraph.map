@@ -1,4 +1,0 @@
-<map id="vitroio::sdk::MeasurementApi::registerSensor" name="vitroio::sdk::MeasurementApi::registerSensor">
-<area shape="rect" id="node1" title="Function registers sensor from which the measurement data is to be read." alt="" coords="5,5,199,47"/>
-<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a6cd700d8a6c769b3705a5ec3084c98a0" title="Function allows to obtain count of parameters measured by the sensor." alt="" coords="247,5,468,47"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="atcab_nonce_load" name="atcab_nonce_load">
-<area shape="rect" id="node1" title="Execute a Nonce command in pass&#45;through mode to load one of the device&#39;s internal buffers with a fixe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gaf8e10791759a8a5e5dcd82774f4895d6" title="Executes Nonce command, which loads a random or fixed nonce/data into the device for use by subsequen..." alt="" coords="192,5,335,32"/>
-</map>

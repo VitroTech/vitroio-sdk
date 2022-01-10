@@ -1,5 +1,0 @@
-<map id="tng_atcacert_signer_public_key" name="tng_atcacert_signer_public_key">
-<area shape="rect" id="node1" title="Reads the signer public key." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#gab4fac3fd2bf5a227140cc3012a4dad02" title="Gets the subject public key from a certificate." alt="" coords="204,13,417,39"/>
-<area shape="rect" id="node3" href="$group__atcacert__.html#gacdb102fcae9f3a822a19b2ca487b415d" title="Gets an element from a certificate." alt="" coords="465,13,661,39"/>
-</map>

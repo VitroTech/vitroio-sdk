@@ -1,7 +1,0 @@
-<map id="atca_mbedtls_cert_add" name="atca_mbedtls_cert_add">
-<area shape="rect" id="node1" title="Rebuild a certificate from an atcacert_def_t structure, and then add it to an mbedtls cert chain." alt="" coords="5,31,179,57"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gad2096a4618dd37c48ed48847fe63d844" title="Uses GenKey command to calculate the public key from an existing private key in a slot." alt="" coords="231,5,371,32"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#ga782ca1e5b1574b2b6793c841be22b28b" title="Executes Read command to read an ECC P256 public key from a slot configured for clear reads." alt="" coords="227,56,375,83"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#gaa8b6953ad2c7f749e61566fd38fe6903" title="Issues GenKey command, which can generate a private key, compute a public key, nd/or compute a digest..." alt="" coords="423,5,573,32"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="432,56,564,83"/>
-</map>

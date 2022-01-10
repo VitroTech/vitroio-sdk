@@ -1,7 +1,0 @@
-<map id="vitroio::sdk::impl::Ecc608::decrypt_data" name="vitroio::sdk::impl::Ecc608::decrypt_data">
-<area shape="rect" id="node1" title="Decrypt ciphertext of given length using AES&#45;CBC 128, the key stored in data zone 9 and provided IV." alt="" coords="5,35,175,76"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga7c66e1b8b31bb87be3de6c9a9084c21e" title="Decrypt a block of data using CBC mode and a key within the ATECC608A. atcab_aes_cbc_init() should be..." alt="" coords="223,5,396,47"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#gabc41b824cdc9b10efa46bcbf74850184" title="Initialize context for AES CBC operation." alt="" coords="237,71,382,98"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga9658e84055727e6357cf7ef636b4e398" title="Perform an AES&#45;128 decrypt operation with a key in the device." alt="" coords="444,13,588,39"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#gad115ce255664a48b80e90ea19c156b79" title="Compute the AES&#45;128 encrypt, decrypt, or GFM calculation." alt="" coords="636,13,724,39"/>
-</map>

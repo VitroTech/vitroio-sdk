@@ -1,6 +1,0 @@
-<map id="vitroio::sdk::impl::Ecc608::readSymKey" name="vitroio::sdk::impl::Ecc608::readSymKey">
-<area shape="rect" id="node1" title="Read symmetric key stored in ECC chip." alt="" coords="5,23,172,65"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="220,31,395,57"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="443,5,600,32"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="455,56,587,83"/>
-</map>

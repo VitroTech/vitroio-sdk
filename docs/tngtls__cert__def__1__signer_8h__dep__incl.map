@@ -1,9 +1,0 @@
-<map id="tngtls_cert_def_1_signer.h" name="tngtls_cert_def_1_signer.h">
-<area shape="rect" id="node1" title="TNG TLS signer certificate definition." alt="" coords="461,5,653,32"/>
-<area shape="rect" id="node2" href="$tng__atcacert__client_8c.html" title="Client side certificate I/O functions for TNG devices." alt="" coords="5,87,163,114"/>
-<area shape="rect" id="node3" href="$tnglora__cert__def__1__signer_8c.html" title="TNG LORA signer certificate definition." alt="" coords="187,80,330,121"/>
-<area shape="rect" id="node4" href="$tngtls__cert__def__1__signer_8c.html" title="TNG TLS signer certificate definition." alt="" coords="354,87,545,114"/>
-<area shape="rect" id="node5" href="$tngtls__cert__def__2__device_8c.html" title="TNG TLS device certificate definition." alt="" coords="569,87,764,114"/>
-<area shape="rect" id="node6" href="$tngtls__cert__def__3__device_8c.html" title="TNG TLS device certificate definition." alt="" coords="788,87,983,114"/>
-<area shape="rect" id="node7" href="$tng__atcacert__client__test_8c.html" title=" " alt="" coords="1007,80,1153,121"/>
-</map>

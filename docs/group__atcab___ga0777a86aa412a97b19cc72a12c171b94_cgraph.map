@@ -1,9 +1,0 @@
-<map id="atcab_write_config_zone" name="atcab_write_config_zone">
-<area shape="rect" id="node1" title="Executes the Write command, which writes the configuration zone." alt="" coords="5,31,188,57"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="463,5,620,32"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga416e4aeacf3acc35b1d5b76028c6947d" title="Executes UpdateExtra command to update the values of the two extra bytes within the Configuration zon..." alt="" coords="253,31,397,57"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#gac395a7e195aa3cf28b48de345755feb0" title="Executes the Write command, which writes data into the configuration, otp, or data zones with a given..." alt="" coords="236,81,415,108"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#ga1f5a6bbcf4f840803635fb8951b3a7e2" title="Executes the Write command, which writes either 4 or 32 bytes of data into a device zone." alt="" coords="473,81,609,108"/>
-<area shape="rect" id="node6" href="$group__atcab__.html#gabdfeb1f8d28039e9b30d4e39b8caa33a" title="Compute the address given the zone, slot, block, and offset." alt="" coords="668,56,791,83"/>
-<area shape="rect" id="node7" href="$group__atcab__.html#gabf2b29b4d3ae926b63c403d084380dbe" title="Executes the Write command, which writes either one four byte word or a 32&#45;byte block to one of the E..." alt="" coords="680,107,779,133"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="atca_crypto_sw_ecdsa.h" name="atca_crypto_sw_ecdsa.h">
-<area shape="rect" id="node1" title=" " alt="" coords="81,5,261,32"/>
-<area shape="rect" id="node2" href="$atcacert__host__sw_8c.html" title="host side methods using software implementations" alt="" coords="5,80,151,107"/>
-<area shape="rect" id="node3" href="$atca__crypto__sw__ecdsa_8c.html" title="API wrapper for software ECDSA verify. Currently unimplemented but could be implemented via a 3rd par..." alt="" coords="175,80,354,107"/>
-</map>

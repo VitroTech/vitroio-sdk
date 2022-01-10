@@ -1,4 +1,0 @@
-<map id="hid_init" name="hid_init">
-<area shape="rect" id="node1" title="Initialize the HIDAPI library." alt="" coords="5,5,76,32"/>
-<area shape="rect" id="node2" href="$group__API.html#gacf5da9ce37132eba69fc259f17f13023" title="Finalize the HIDAPI library." alt="" coords="124,5,199,32"/>
-</map>

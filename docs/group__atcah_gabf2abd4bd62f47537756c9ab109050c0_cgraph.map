@@ -1,4 +1,0 @@
-<map id="atcah_gen_key_msg" name="atcah_gen_key_msg">
-<area shape="rect" id="node1" title="Calculate the PubKey digest created by GenKey and saved to TempKey." alt="" coords="5,5,160,32"/>
-<area shape="rect" id="node2" href="$group__atcac__.html#ga63412270c4629874f2764171200c1b5c" title="single call convenience function which computes Hash of given data using SHA256 software" alt="" coords="208,5,359,32"/>
-</map>

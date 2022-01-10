@@ -1,4 +1,0 @@
-<map id="atcab_read_pubkey" name="atcab_read_pubkey">
-<area shape="rect" id="node1" title="Executes Read command to read an ECC P256 public key from a slot configured for clear reads." alt="" coords="5,5,153,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="201,5,333,32"/>
-</map>

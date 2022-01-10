@@ -12,6 +12,7 @@ var files_dup =
     [ "canbus_protocol_consts.h", "dc/d8f/canbus__protocol__consts_8h.html", "dc/d8f/canbus__protocol__consts_8h" ],
     [ "consts.h", "d8/db5/consts_8h.html", "d8/db5/consts_8h" ],
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
+    [ "ecc608.h", "d4/d29/ecc608_8h.html", "d4/d29/ecc608_8h" ],
     [ "environment_interface.h", "de/d4f/environment__interface_8h.html", "de/d4f/environment__interface_8h" ],
     [ "errors.h", "de/d45/errors_8h.html", "de/d45/errors_8h" ],
     [ "flash_interface.h", "d6/d4d/flash__interface_8h.html", null ],
@@ -34,6 +35,9 @@ var files_dup =
     ] ],
     [ "timestamp.h", "d2/d02/timestamp_8h.html", [
       [ "CurrentTime_t", "d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html", "d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t" ]
+    ] ],
+    [ "tls_crypto.h", "df/dd8/tls__crypto_8h.html", [
+      [ "TLSCrypto", "da/d1f/classvitroio_1_1sdk_1_1impl_1_1TLSCrypto.html", "da/d1f/classvitroio_1_1sdk_1_1impl_1_1TLSCrypto" ]
     ] ],
     [ "transport_layer.h", "d6/d7f/transport__layer_8h.html", null ],
     [ "types.h", "d9/d49/types_8h.html", [

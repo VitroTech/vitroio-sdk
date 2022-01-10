@@ -1,4 +1,0 @@
-<map id="atcab_ecdh_base" name="atcab_ecdh_base">
-<area shape="rect" id="node1" title="Base function for generating premaster secret key using ECDH." alt="" coords="5,5,140,32"/>
-<area shape="rect" id="node2" href="$group__command.html#ga5460e5bb2178eb95a3b8db8018d30617" title="ATCACommand ECDH method." alt="" coords="188,5,260,32"/>
-</map>

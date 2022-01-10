@@ -1,6 +1,0 @@
-<map id="packHex" name="packHex">
-<area shape="rect" id="node1" title="Remove white space from a ASCII hex string." alt="" coords="5,31,84,57"/>
-<area shape="rect" id="node2" href="$atca__helpers_8c.html#a39003da4dc8a0b8999f1325c2f96f641" title="Returns true if this character is a valid hex character." alt="" coords="132,31,223,57"/>
-<area shape="rect" id="node3" href="$atca__helpers_8c.html#a7a929bf65cbc777bab7e533a2755cfad" title="Checks to see if a character is an ASCII representation of a digit ((c ge &#39;0&#39;) and (c le &#39;9&#39;))" alt="" coords="287,5,351,32"/>
-<area shape="rect" id="node4" href="$atca__helpers_8c.html#a78abefc293c0a04d8ef649c94c8a1057" title="Checks to see if a character is an ASCII representation of hex ((c &gt;= &#39;A&#39;) and (c &lt;= &#39;F&#39;)) || ((c &gt;= ..." alt="" coords="271,56,367,83"/>
-</map>

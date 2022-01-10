@@ -1,7 +1,0 @@
-<map id="tng_atca.h" name="tng_atca.h">
-<area shape="rect" id="node1" title="TNG Helper Functions." alt="" coords="227,5,318,32"/>
-<area shape="rect" id="node2" href="$tng__atca_8c.html" title="TNG Helper Functions." alt="" coords="5,80,95,107"/>
-<area shape="rect" id="node3" href="$tng__atcacert__client_8c.html" title="Client side certificate I/O functions for TNG devices." alt="" coords="119,80,277,107"/>
-<area shape="rect" id="node4" href="$atca__test_8c.html" title="Cryptoauthlib Testing: Common Resources &amp; Functions." alt="" coords="301,80,394,107"/>
-<area shape="rect" id="node5" href="$tng__atca__test_8c.html" title=" " alt="" coords="419,80,540,107"/>
-</map>

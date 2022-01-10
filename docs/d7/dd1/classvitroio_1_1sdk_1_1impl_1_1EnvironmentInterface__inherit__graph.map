@@ -1,4 +1,4 @@
 <map id="vitroio::sdk::impl::EnvironmentInterface" name="vitroio::sdk::impl::EnvironmentInterface">
-<area shape="rect" id="node1" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="21,95,172,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node1" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="23,95,194,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,212,47"/>
 </map>

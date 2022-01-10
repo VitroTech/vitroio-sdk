@@ -1,8 +1,0 @@
-<map id="atcacert_der.h" name="atcacert_der.h">
-<area shape="rect" id="node1" title="function declarations required to work with DER encoded data related to X.509 certificates." alt="" coords="313,5,427,32"/>
-<area shape="rect" id="node2" href="$atcacert__def_8c.html" title="Main certificate definition implementation." alt="" coords="5,87,119,114"/>
-<area shape="rect" id="node3" href="$atcacert__der_8c.html" title="functions required to work with DER encoded data related to X.509 certificates." alt="" coords="143,87,256,114"/>
-<area shape="rect" id="node4" href="$test__atcacert__der__ecdsa__sig__value_8c.html" title="cert ecdsa tests" alt="" coords="280,80,460,121"/>
-<area shape="rect" id="node5" href="$test__atcacert__der__integer_8c.html" title="cert DER format tests" alt="" coords="484,87,683,114"/>
-<area shape="rect" id="node6" href="$test__atcacert__der__length_8c.html" title="cert DER length tests" alt="" coords="707,87,902,114"/>
-</map>

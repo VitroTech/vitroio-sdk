@@ -1,5 +1,0 @@
-<map id="atcab_init_device" name="atcab_init_device">
-<area shape="rect" id="node1" title="Initialize the global ATCADevice object to point to one of your choosing for use with all the atcab_ ..." alt="" coords="5,31,141,57"/>
-<area shape="rect" id="node2" href="$group__device.html#gabf51c08f1928fc5ec44936f3117a9f7e" title="returns a reference to the ATCACommand object for the device" alt="" coords="189,5,321,32"/>
-<area shape="rect" id="node3" href="$group__device.html#ga3f98e29cffa06446fc91b329703606af" title="returns a reference to the ATCAIface interface object for the device" alt="" coords="210,56,301,83"/>
-</map>

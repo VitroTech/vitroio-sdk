@@ -1,6 +1,0 @@
-<map id="hid_open" name="hid_open">
-<area shape="rect" id="node1" title="Open a HID device using a Vendor ID (VID), Product ID (PID) and optionally a serial number." alt="" coords="5,56,87,83"/>
-<area shape="rect" id="node2" href="$group__API.html#ga135931e04d48078a9fb7aebf663676f9" title="Enumerate the HID Devices." alt="" coords="157,5,277,32"/>
-<area shape="rect" id="node3" href="$group__API.html#gafc2d2adf71db3784b783b9a554527aa4" title="Free an enumeration Linked List." alt="" coords="135,56,300,83"/>
-<area shape="rect" id="node4" href="$group__API.html#ga1e87518670f88540c920dc451df608ee" title="Open a HID device by its path name." alt="" coords="159,107,276,133"/>
-</map>

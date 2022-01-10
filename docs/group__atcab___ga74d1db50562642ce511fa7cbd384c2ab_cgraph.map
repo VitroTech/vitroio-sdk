@@ -1,4 +1,0 @@
-<map id="atcab_sha_read_context" name="atcab_sha_read_context">
-<area shape="rect" id="node1" title="Executes SHA command to read the SHA&#45;256 context back. Only for ATECC608A with SHA&#45;256 contexts...." alt="" coords="5,5,185,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gab3a32e171ca1c30bd31a216b32c9b5a4" title="Executes SHA command, which computes a SHA&#45;256 or HMAC/SHA&#45;256 digest for general purpose use by the ..." alt="" coords="233,5,360,32"/>
-</map>
