@@ -1,4 +1,0 @@
-<map id="atcab_bin2hex" name="atcab_bin2hex">
-<area shape="rect" id="node1" title="Convert a binary buffer to a hex string for easy reading." alt="" coords="5,5,123,32"/>
-<area shape="rect" id="node2" href="$atca__helpers_8c.html#a40b70cfab865fa4fd9a5e7a29ca59d38" title="Function that converts a binary buffer to a hex string suitable for easy reading." alt="" coords="171,5,295,32"/>
-</map>

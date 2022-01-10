@@ -1,4 +1,0 @@
-<map id="atca_decrypt_in_out" name="atca_decrypt_in_out">
-<area shape="rect" id="node1" title="Input/output parameters for function atca_decrypt()." alt="" coords="5,95,159,121"/>
-<area shape="rect" id="node2" href="$structatca__temp__key.html" title="Structure to hold TempKey fields." alt="" coords="21,5,143,32"/>
-</map>

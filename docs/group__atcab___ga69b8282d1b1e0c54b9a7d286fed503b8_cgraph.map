@@ -1,4 +1,0 @@
-<map id="atcab_sign" name="atcab_sign">
-<area shape="rect" id="node1" title="Executes Sign command, to sign a 32&#45;byte external message using the private key in the specified slot..." alt="" coords="5,5,97,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="145,5,260,32"/>
-</map>

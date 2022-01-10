@@ -1,6 +1,0 @@
-<map id="sha206a_get_dk_update_count" name="sha206a_get_dk_update_count">
-<area shape="rect" id="node1" title="Read Derived Key slot update count. It will be wraps around 256." alt="" coords="5,23,185,65"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga750704332198726725a327344f4f7dd5" title="Used to read an arbitrary number of bytes from any zone configured for clear reads." alt="" coords="233,31,408,57"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga7a823d2a391bf80ff336eb2ccbd37412" title="Gets the size of the specified zone in bytes." alt="" coords="456,5,613,32"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="469,56,601,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="hal_kit_cdc_post_init" name="hal_kit_cdc_post_init">
-<area shape="rect" id="node1" title="HAL implementation of Kit USB CDC post init." alt="" coords="5,31,164,57"/>
-<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="223,5,331,32"/>
-<area shape="rect" id="node3" href="$group__interface.html#ga5e4163b8882d4eb42d4d5191c8731da0" title="Returns the HAL data pointer for the device." alt="" coords="212,56,341,83"/>
-</map>

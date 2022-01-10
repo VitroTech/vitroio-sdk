@@ -1,7 +1,0 @@
-<map id="atcab_sha_hmac" name="atcab_sha_hmac">
-<area shape="rect" id="node1" title="Use the SHA command to compute an HMAC/SHA&#45;256 operation." alt="" coords="5,56,136,83"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gaa4be9972396b7cadb08dd8e2199daf08" title="Executes SHA command to complete a HMAC/SHA&#45;256 operation." alt="" coords="189,5,362,32"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga310a017cddce9ef05071cb619b4b6db9" title="Executes SHA command to start an HMAC/SHA&#45;256 operation." alt="" coords="196,56,355,83"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#gae3343c160e80365b7e96bdfdc9b6365c" title="Executes SHA command to add an arbitrary amount of message data to a HMAC/SHA&#45;256 operation." alt="" coords="184,107,367,133"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#gab3a32e171ca1c30bd31a216b32c9b5a4" title="Executes SHA command, which computes a SHA&#45;256 or HMAC/SHA&#45;256 digest for general purpose use by the ..." alt="" coords="415,56,541,83"/>
-</map>

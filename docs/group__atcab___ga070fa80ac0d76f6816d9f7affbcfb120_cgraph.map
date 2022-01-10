@@ -1,4 +1,0 @@
-<map id="atcab_sha_write_context" name="atcab_sha_write_context">
-<area shape="rect" id="node1" title="Executes SHA command to write (restore) a SHA&#45;256 context into the the device. Only supported for ATE..." alt="" coords="5,5,189,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gab3a32e171ca1c30bd31a216b32c9b5a4" title="Executes SHA command, which computes a SHA&#45;256 or HMAC/SHA&#45;256 digest for general purpose use by the ..." alt="" coords="237,5,364,32"/>
-</map>

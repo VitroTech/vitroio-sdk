@@ -1,4 +1,0 @@
-<map id="swi_send_byte" name="swi_send_byte">
-<area shape="rect" id="node1" title="Send one byte." alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node2" href="$swi__bitbang__samd21_8c.html#af0382e26c4d83b0762b39d12c772dd2e" title="Send a number of bytes.This function should not be called directly ,instead should use hal_swi_send()..." alt="" coords="172,5,297,32"/>
-</map>

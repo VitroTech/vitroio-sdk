@@ -1,6 +1,0 @@
-<map id="initATCADevice" name="initATCADevice">
-<area shape="rect" id="node1" title="Initializer for an Microchip CryptoAuth device." alt="" coords="5,31,127,57"/>
-<area shape="rect" id="node2" href="$group__command.html#gaf4177bd66c5981ba86511608150c024e" title="Initializer for ATCACommand." alt="" coords="175,5,317,32"/>
-<area shape="rect" id="node3" href="$group__interface.html#ga3a31087729a7a2e9a624572f234809fc" title="Initializer for ATCAIface objects." alt="" coords="192,56,300,83"/>
-<area shape="rect" id="node4" href="$group__interface.html#ga386353e8700eec35e4548dfa29f13b8d" title="Performs the HAL initialization by calling intermediate HAL wrapper function. If using the basic API,..." alt="" coords="365,56,421,83"/>
-</map>

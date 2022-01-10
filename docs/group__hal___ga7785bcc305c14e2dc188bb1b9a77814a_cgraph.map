@@ -1,4 +1,0 @@
-<map id="hal_i2c_receive" name="hal_i2c_receive">
-<area shape="rect" id="node1" title="HAL implementation of I2C receive function for ASF I2C." alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="176,5,284,32"/>
-</map>

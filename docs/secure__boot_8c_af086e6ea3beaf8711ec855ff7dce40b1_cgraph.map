@@ -1,9 +1,0 @@
-<map id="bind_host_and_secure_element_with_io_protection" name="bind_host_and_secure_element_with_io_protection">
-<area shape="rect" id="node1" title="Binds host MCU and Secure element with IO protection key." alt="" coords="5,49,216,90"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga802de50265ff91dc30dd7c93d9e026e1" title="Executes Read command, which reads the configuration zone to see if the specified slot is locked." alt="" coords="264,5,420,32"/>
-<area shape="rect" id="node4" href="$group__atcab__.html#ga4fa442396dfbb89e59dfca837b565cec" title="Executes Random command, which generates a 32 byte random number from the CryptoAuth device." alt="" coords="285,56,399,83"/>
-<area shape="rect" id="node5" href="$group__atcab__.html#ga1f5a6bbcf4f840803635fb8951b3a7e2" title="Executes the Write command, which writes either 4 or 32 bytes of data into a device zone." alt="" coords="274,107,410,133"/>
-<area shape="rect" id="node3" href="$group__atcab__.html#ga3ce01f02f456c08891ca1d67cd3ed0eb" title="Executes Read command, which reads either 4 or 32 bytes of data from a given slot,..." alt="" coords="468,5,600,32"/>
-<area shape="rect" id="node6" href="$group__atcab__.html#gabdfeb1f8d28039e9b30d4e39b8caa33a" title="Compute the address given the zone, slot, block, and offset." alt="" coords="473,81,595,108"/>
-<area shape="rect" id="node7" href="$group__atcab__.html#gabf2b29b4d3ae926b63c403d084380dbe" title="Executes the Write command, which writes either one four byte word or a 32&#45;byte block to one of the E..." alt="" coords="485,132,583,159"/>
-</map>

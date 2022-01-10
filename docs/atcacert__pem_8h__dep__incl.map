@@ -1,6 +1,0 @@
-<map id="atcacert_pem.h" name="atcacert_pem.h">
-<area shape="rect" id="node1" title="Functions for converting between DER and PEM formats." alt="" coords="159,5,282,32"/>
-<area shape="rect" id="node2" href="$atcacert__client_8c.html" title="Client side cert i/o methods. These declarations deal with the client&#45;side, the node being authentica..." alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$atcacert__pem_8c.html" title="Functions required to work with PEM encoded data related to X.509 certificates." alt="" coords="159,80,282,107"/>
-<area shape="rect" id="node4" href="$test__atcacert__client_8c.html" title="cert client tests" alt="" coords="307,80,468,107"/>
-</map>

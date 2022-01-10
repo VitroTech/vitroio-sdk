@@ -1,6 +1,0 @@
-<map id="atcab_release" name="atcab_release">
-<area shape="rect" id="node1" title="release (free) the global ATCADevice instance. This must be called in order to release or free up the..." alt="" coords="5,5,119,32"/>
-<area shape="rect" id="node2" href="$group__device.html#gab729e6c838c0a247d4f226fb92492d96" title="Release any resources associated with the device." alt="" coords="167,5,315,32"/>
-<area shape="rect" id="node3" href="$group__interface.html#gab9ee16357a8e397a72eda7e9c8553fb3" title="Instruct the HAL driver to release any resources associated with this interface." alt="" coords="363,5,497,32"/>
-<area shape="rect" id="node4" href="$group__hal__.html#ga4be1afccb41f28f6ce620b1d5197befc" title="releases a physical interface, HAL knows how to interpret hal_data" alt="" coords="545,5,681,32"/>
-</map>

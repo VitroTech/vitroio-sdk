@@ -1,4 +1,0 @@
-<map id="hal_kit_cdc_wake" name="hal_kit_cdc_wake">
-<area shape="rect" id="node1" title="Call the wake for kit protocol over USB CDC." alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node2" href="$group__hal__.html#gaf7ce58d02b067b956abd32127f5519e9" title="Call the wake for kit protocol." alt="" coords="189,5,269,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="atcab_aes_gfm" name="atcab_aes_gfm">
-<area shape="rect" id="node1" title="Perform a Galois Field Multiply (GFM) operation." alt="" coords="5,5,127,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gad115ce255664a48b80e90ea19c156b79" title="Compute the AES&#45;128 encrypt, decrypt, or GFM calculation." alt="" coords="175,5,263,32"/>
-</map>

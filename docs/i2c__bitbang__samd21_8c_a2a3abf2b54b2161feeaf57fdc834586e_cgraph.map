@@ -1,4 +1,0 @@
-<map id="i2c_receive_byte" name="i2c_receive_byte">
-<area shape="rect" id="node1" title="Receive one byte and send ACK." alt="" coords="5,5,137,32"/>
-<area shape="rect" id="node2" href="$i2c__bitbang__samd21_8c.html#a2f6cabfafc11c56ea8335f54fac20343" title="Receive one byte (MSB first)." alt="" coords="185,5,348,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="atca_jwt_add_claim_string" name="atca_jwt_add_claim_string">
-<area shape="rect" id="node1" title="Add a string claim to a token." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$group__jwt.html#ga167fe35631a0dd191293c6ad3a6485aa" title="Check the provided context to see what character needs to be added in order to append a claim." alt="" coords="204,5,385,47"/>
-</map>

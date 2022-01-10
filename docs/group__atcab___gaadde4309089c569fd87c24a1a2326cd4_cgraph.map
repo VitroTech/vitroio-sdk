@@ -1,4 +1,0 @@
-<map id="atcab_challenge_seed_update" name="atcab_challenge_seed_update">
-<area shape="rect" id="node1" title="Execute a Nonce command to generate a random challenge combining a host nonce (num_in) and a device r..." alt="" coords="5,5,172,47"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#gaf8e10791759a8a5e5dcd82774f4895d6" title="Executes Nonce command, which loads a random or fixed nonce/data into the device for use by subsequen..." alt="" coords="220,13,363,39"/>
-</map>

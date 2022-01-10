@@ -1,6 +1,0 @@
-<map id="atca_crypto_sw_sha1.h" name="atca_crypto_sw_sha1.h">
-<area shape="rect" id="node1" title="Wrapper API for SHA 1 routines." alt="" coords="142,5,315,32"/>
-<area shape="rect" id="node2" href="$atcacert__def_8c.html" title="Main certificate definition implementation." alt="" coords="5,80,119,107"/>
-<area shape="rect" id="node3" href="$atca__crypto__sw__sha1_8c.html" title="Wrapper API for SHA 1 routines." alt="" coords="143,80,315,107"/>
-<area shape="rect" id="node4" href="$atca__crypto__sw__tests_8c.html" title="Unity tests for the CryptoAuthLib software crypto API." alt="" coords="339,80,513,107"/>
-</map>

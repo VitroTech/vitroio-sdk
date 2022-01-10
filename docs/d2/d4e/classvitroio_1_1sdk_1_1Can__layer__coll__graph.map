@@ -1,4 +1,4 @@
 <map id="vitroio::sdk::Can_layer" name="vitroio::sdk::Can_layer">
-<area shape="rect" id="node1" title="This class implements CAN bus transport layer for IoT Blockss." alt="" coords="5,95,152,121"/>
-<area shape="rect" id="node2" href="$d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html" title="Virtual class providing interface for communication interfaces." alt="" coords="6,5,151,47"/>
+<area shape="rect" id="node1" title="This class implements CAN bus transport layer for IoT Blockss." alt="" coords="5,95,173,121"/>
+<area shape="rect" id="node2" href="$d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html" title="Virtual class providing interface for communication interfaces." alt="" coords="8,5,171,47"/>
 </map>

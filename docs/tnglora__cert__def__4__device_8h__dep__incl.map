@@ -1,6 +1,0 @@
-<map id="tnglora_cert_def_4_device.h" name="tnglora_cert_def_4_device.h">
-<area shape="rect" id="node1" title="TNG LORA device certificate definition." alt="" coords="127,5,269,47"/>
-<area shape="rect" id="node2" href="$tng__atca_8c.html" title="TNG Helper Functions." alt="" coords="5,102,95,129"/>
-<area shape="rect" id="node3" href="$tng__atcacert__client_8c.html" title="Client side certificate I/O functions for TNG devices." alt="" coords="119,102,277,129"/>
-<area shape="rect" id="node4" href="$tnglora__cert__def__4__device_8c.html" title="TNG LORA device certificate definition." alt="" coords="301,95,444,136"/>
-</map>

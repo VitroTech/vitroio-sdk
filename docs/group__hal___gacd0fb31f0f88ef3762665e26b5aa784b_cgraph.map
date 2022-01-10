@@ -1,4 +1,0 @@
-<map id="hal_i2c_send" name="hal_i2c_send">
-<area shape="rect" id="node1" title="HAL implementation of I2C send over ASF." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$group__interface.html#gac88ba81abfd42df65c6c0c64414dfc6e" title="Returns the logical interface configuration for the device." alt="" coords="160,5,268,32"/>
-</map>

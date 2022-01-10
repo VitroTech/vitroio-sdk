@@ -1,5 +1,0 @@
-<map id="deleteATCAIface" name="deleteATCAIface">
-<area shape="rect" id="node1" title="Instruct the HAL driver to release any resources associated with this interface, then delete the obje..." alt="" coords="5,5,133,32"/>
-<area shape="rect" id="node2" href="$group__interface.html#gab9ee16357a8e397a72eda7e9c8553fb3" title="Instruct the HAL driver to release any resources associated with this interface." alt="" coords="181,5,316,32"/>
-<area shape="rect" id="node3" href="$group__hal__.html#ga4be1afccb41f28f6ce620b1d5197befc" title="releases a physical interface, HAL knows how to interpret hal_data" alt="" coords="364,5,500,32"/>
-</map>

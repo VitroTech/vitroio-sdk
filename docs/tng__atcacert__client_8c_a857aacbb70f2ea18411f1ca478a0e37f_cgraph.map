@@ -1,4 +1,0 @@
-<map id="tng_atcacert_max_signer_cert_size" name="tng_atcacert_max_signer_cert_size">
-<area shape="rect" id="node1" title="Return the maximum possible certificate size in bytes for a TNG signer certificate...." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#ga2e29c301e8378aeb99ec3675a4b9d7a0" title="Return the maximum possible certificate size in bytes for a given cert def. Certificate can be variab..." alt="" coords="240,13,416,39"/>
-</map>

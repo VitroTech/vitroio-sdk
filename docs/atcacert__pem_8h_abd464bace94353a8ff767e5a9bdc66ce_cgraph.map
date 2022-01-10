@@ -1,5 +1,0 @@
-<map id="atcacert_encode_pem" name="atcacert_encode_pem">
-<area shape="rect" id="node1" title="Encode a DER data in PEM format." alt="" coords="5,5,171,32"/>
-<area shape="rect" id="node2" href="$atca__helpers_8c.html#a3aa141525a1141f1a290e2a996da0c9c" title="Encode data as base64 string." alt="" coords="219,5,377,32"/>
-<area shape="rect" id="node3" href="$atca__helpers_8c.html#aeeff0177acf29e6e7b134a14d7119d69" title="Encode data as base64 string with ruleset option." alt="" coords="425,5,592,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="atca_write_mac_in_out" name="atca_write_mac_in_out">
-<area shape="rect" id="node1" title="Input/output parameters for function atcah_write_auth_mac() and atcah_privwrite_auth_mac()." alt="" coords="5,95,177,121"/>
-<area shape="rect" id="node2" href="$structatca__temp__key.html" title="Structure to hold TempKey fields." alt="" coords="31,5,152,32"/>
-</map>

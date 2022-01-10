@@ -1,7 +1,0 @@
-<map id="vitroio::sdk::impl::EnvironmentInterface::EnvironmentInterface" name="vitroio::sdk::impl::EnvironmentInterface::EnvironmentInterface">
-<area shape="rect" id="node1" title="Constructor initializes the interface." alt="" coords="5,97,176,153"/>
-<area shape="rect" id="node2" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a4eec05396fc863face908a24f85b7c49" title="Function allows to obtain maximum size of sector in flash memory." alt="" coords="224,5,472,47"/>
-<area shape="rect" id="node3" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a33d10b526dbb42d79ee8c0f0c181ba36" title="Function allows to obtain sector size of flash memory for specified address." alt="" coords="238,71,458,112"/>
-<area shape="rect" id="node4" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a25a3281262f5eb5d1019d34a359a8592" title="Function allows to check whether the interface is in valid state." alt="" coords="261,136,435,177"/>
-<area shape="rect" id="node5" href="$classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a8388571ed0d22905bb276cf5dc5d09ea" title="Function reads data from flash memory." alt="" coords="268,201,428,243"/>
-</map>

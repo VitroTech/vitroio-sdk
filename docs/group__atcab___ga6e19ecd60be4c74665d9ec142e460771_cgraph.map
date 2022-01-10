@@ -1,4 +1,0 @@
-<map id="atcab_info" name="atcab_info">
-<area shape="rect" id="node1" title="Use the Info command to get the device revision (DevRev)." alt="" coords="5,5,96,32"/>
-<area shape="rect" id="node2" href="$group__atcab__.html#ga806d07982fda5c30755af6b5b4ef9314" title="Issues an Info command, which return internal device information and can control GPIO and the persist..." alt="" coords="144,5,272,32"/>
-</map>

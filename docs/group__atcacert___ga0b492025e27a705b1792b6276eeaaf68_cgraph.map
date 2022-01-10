@@ -1,8 +1,0 @@
-<map id="atcacert_create_csr_pem" name="atcacert_create_csr_pem">
-<area shape="rect" id="node1" title="Creates a CSR specified by the CSR definition from the ATECC508A device. This process involves readin..." alt="" coords="5,31,191,57"/>
-<area shape="rect" id="node2" href="$group__atcacert__.html#gabd66cb9a5c50c7c62e3bc0a8ff0fc4d6" title="Creates a CSR specified by the CSR definition from the ATECC508A device. This process involves readin..." alt="" coords="259,5,409,32"/>
-<area shape="rect" id="node3" href="$atcacert__pem_8c.html#ab148948a885c6a7c9c95494e48e45cb1" title="Encode a DER CSR in PEM format." alt="" coords="239,56,429,83"/>
-<area shape="rect" id="node4" href="$atcacert__pem_8c.html#abd464bace94353a8ff767e5a9bdc66ce" title="Encode a DER data in PEM format." alt="" coords="477,56,643,83"/>
-<area shape="rect" id="node5" href="$atca__helpers_8c.html#a3aa141525a1141f1a290e2a996da0c9c" title="Encode data as base64 string." alt="" coords="691,56,849,83"/>
-<area shape="rect" id="node6" href="$atca__helpers_8c.html#aeeff0177acf29e6e7b134a14d7119d69" title="Encode data as base64 string with ruleset option." alt="" coords="897,56,1064,83"/>
-</map>
