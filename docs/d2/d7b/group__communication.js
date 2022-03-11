@@ -1,11 +1,11 @@
 var group__communication =
 [
-    [ "Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", [
+    [ "vitroio::sdk::Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", [
       [ "Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a4d1268ca0ae9356302a19f802a378d13", null ],
       [ "getTimestamp", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a8d97c23e125e03b6cac67f10a0cf0ff0", null ],
       [ "send", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#abdfca25f948ea7eddf976ac8e155157b", null ]
     ] ],
-    [ "Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html", [
+    [ "vitroio::sdk::Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html", [
       [ "OnFrameReceivedCallback", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0", null ],
       [ "Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a5c7d07fd0b2fb9aac82fec22f799026f", null ],
       [ "Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#af48c35f85a9b920951425486927b62b8", null ],
@@ -14,11 +14,11 @@ var group__communication =
       [ "sendFrame", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#ab5c150614583eea5ad517bae73ca3e1f", null ],
       [ "setOnFrameReceivedCallback", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a2887cce31fed7ad7fe0aa6fbb768c9e5", null ]
     ] ],
-    [ "CanbusFrame", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html", [
+    [ "vitroio::sdk::CanbusFrame", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html", [
       [ "CanbusFrame", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#ab8211f5c3dc791d8045e2bb1fb443eaf", null ],
       [ "~CanbusFrame", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#ae0be2a60d6ae09a7d86337f30edb261f", null ],
-      [ "data", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a21c2360308d774fc91e0d1c286102643", null ],
-      [ "data", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#aa6b84dd56f046ebbc9a1875b44d9d5a1", null ],
+      [ "data", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a8ae2f292c67f356c50668440772420bc", null ],
+      [ "data", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#ae23a68d612f195f3d79b3346bef6682b", null ],
       [ "dataLength", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a8a1552bcf1a0da0f58b3f77623c3858f", null ],
       [ "maxDataLength", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a58ca8412895daa8a0e7c396e69b229e9", null ],
       [ "nodeId", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a94729ecb86178da229f0fbcfd1cca670", null ],
@@ -28,16 +28,16 @@ var group__communication =
       [ "setParameterId", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a7173ecbf7ce82365d4cd4657588005c0", null ],
       [ "Canbus", "dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a716b650e299090503dcf04a25ae6c031", null ]
     ] ],
-    [ "_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html", [
+    [ "vitroio::sdk::impl::_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html", [
       [ "_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a6724a7c5c43d6d26026d3d6830d9da31", null ],
       [ "~_CAN", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#a2d372e26af94e2fbf83a443261c01ae4", null ],
       [ "read_from_irq", "df/d29/classvitroio_1_1sdk_1_1impl_1_1__CAN.html#ae042d1c2bb8239f7c4b9e025aa6f6c7f", null ]
     ] ],
-    [ "IoVec", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html", [
+    [ "vitroio::sdk::IoVec", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html", [
       [ "iov_base", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#a6cb6b207241e612e18faea9b1ed70de8", null ],
       [ "iov_len", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html#aed3fc672f1e38234c9402dae5b3ca912", null ]
     ] ],
-    [ "Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
+    [ "vitroio::sdk::Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
       [ "Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a0b48f4aebfccccb9fb4e2d6f84d6af8b", null ],
       [ "getTimestamp", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9b6e75ccb4aa92b3d183d07f219e6298", null ],
       [ "nodeId", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a72f98b851b6c15f589559e696817a2fb", null ],

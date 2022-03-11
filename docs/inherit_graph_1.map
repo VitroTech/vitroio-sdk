@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html" title="Virtual class providing interface for sensor interfaces classes." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,218,104,245"/>
+<area shape="rect" id="node2" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="165,5,315,47"/>
+<area shape="rect" id="node3" href="$da/d0e/classvitroio_1_1sdk_1_1Canbus.html" title="Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type." alt="" coords="173,71,307,98"/>
+<area shape="rect" id="node4" href="$d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html" title="Class is responsible for cycling readings of measurement data using registered sensors." alt="" coords="155,123,325,164"/>
+<area shape="rect" id="node5" href="$d0/dc8/classvitroio_1_1sdk_1_1NodeController.html" title="Class is a main component of the node firmware." alt="" coords="152,189,328,215"/>
+<area shape="rect" id="node6" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="165,240,315,281"/>
+<area shape="rect" id="node7" href="$d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html" title="Class is a wrapper for mbed::FlashIAP module." alt="" coords="183,305,297,347"/>
+<area shape="rect" id="node8" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="181,371,299,412"/>
+<area shape="rect" id="node9" href="$db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html" title="Class is responsible for handling upgrade data." alt="" coords="174,436,306,477"/>
 </map>

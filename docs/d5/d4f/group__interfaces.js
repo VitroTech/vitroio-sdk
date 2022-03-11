@@ -1,6 +1,6 @@
 var group__interfaces =
 [
-    [ "EnvironmentInterface", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html", [
+    [ "vitroio::sdk::impl::EnvironmentInterface", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html", [
       [ "Variable", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3a", [
         [ "ENVVAR_CURRENT_BOOT_REGION", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaa4bcf133877271a6f72e61c4ebb1c2e1", null ],
         [ "ENVVAR_NEXT_BOOT_REGION", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3aaeebb499920da008037ad25ea73677971", null ],
@@ -13,7 +13,7 @@ var group__interfaces =
       [ "save", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a48360e089f90e3270f3808bfc049d887", null ],
       [ "setVariable", "d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a5b09d424207191ad9b28259e4081e2ff", null ]
     ] ],
-    [ "FlashInterface", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html", [
+    [ "vitroio::sdk::impl::FlashInterface", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html", [
       [ "FlashInterface", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#ac7362cc341d896192d6e808b241efb42", null ],
       [ "~FlashInterface", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a981cb65a9558fde90e50f5bb9dcb37c9", null ],
       [ "getFlashSize", "d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#a238c3fddd665e983a9884c577ba6783b", null ],
