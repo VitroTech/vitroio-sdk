@@ -32,7 +32,7 @@ public:
      * 2, 4, 8, 16, 30 V. Default value is 30V.
      */
     ShardEdge(bool i2c3Enabled, bool uartUserEnabled, bool spi1Enabled,
-        bool rs232Enabled, uint8_t adc1_range, uint8_t adc2_range, 
+        bool rs232Enabled, uint8_t adc1_range, uint8_t adc2_range,
         uint8_t adc3_range, uint8_t adc4_range);
 
     /**
@@ -62,6 +62,20 @@ public:
      * @return Function returns current already scaled in mA.
      */
     double readCurrentLoop(int cl_port);
+
+
+
+
+
+    /**
+     * @brief Function manage Shard Edge 24V output
+     *
+     * @param state definition for the 24V output. Variable can only take values
+     * 0 for "OFF", 1 for "ON". Default value is 0.
+     *
+     * @return Function returns 0 on success or -1 on error.
+     */
+    int manageShardEdge24V(bool state);
 
 private:
     /**

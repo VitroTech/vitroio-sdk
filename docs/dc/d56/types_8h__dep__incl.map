@@ -1,8 +1,8 @@
 <map id="types.h" name="types.h">
-<area shape="rect" id="node1" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="125,5,188,32"/>
-<area shape="rect" id="node2" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="34,80,173,107"/>
-<area shape="rect" id="node3" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="78,155,198,181"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="5,229,95,256"/>
-<area shape="rect" id="node5" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="247,80,407,107"/>
-<area shape="rect" id="node6" href="$d2/d02/timestamp_8h.html" title=" " alt="" coords="281,155,374,181"/>
+<area shape="rect" id="node1" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="148,5,210,32"/>
+<area shape="rect" id="node2" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="186,80,346,107"/>
+<area shape="rect" id="node3" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="42,155,162,181"/>
+<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="193,229,282,256"/>
+<area shape="rect" id="node6" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="23,80,162,107"/>
+<area shape="rect" id="node5" href="$d2/d02/timestamp_8h.html" title=" " alt="" coords="219,155,312,181"/>
 </map>

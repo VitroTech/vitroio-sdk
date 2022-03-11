@@ -248,6 +248,7 @@ private:
 
     void handleNodeIdResponseFrame(const CanbusFrame& frame);
     void handleUpgradeFrame(const CanbusFrame& frame);
+    void handleProvisioningFrame(const CanbusFrame& frame);
 
     void onNewFirmwareAvailableCallback();
 

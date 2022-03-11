@@ -1,6 +1,6 @@
 var group__measurement_api =
 [
-    [ "AbstractSensorDriver", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html", [
+    [ "vitroio::sdk::AbstractSensorDriver", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html", [
       [ "AbstractSensorDriver", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af80535a60b7f990bd4fc5008d4325c42", null ],
       [ "~AbstractSensorDriver", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a358c0b74af289efc35501ccdf400922c", null ],
       [ "close", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f", null ],
@@ -9,21 +9,21 @@ var group__measurement_api =
       [ "read", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#af84e975960a2ab1ffdc2809f3702d702", null ],
       [ "write", "d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a19521720a6d42511aa0ee9977c40c956", null ]
     ] ],
-    [ "SensorParameterValue", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html", [
+    [ "vitroio::sdk::SensorParameterValue", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html", [
       [ "ParameterT", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html#ac577c36e19809cd24cb1c8e3188353c2", null ],
       [ "ValueT", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html#ad28aca647075a963cd66bbd1af174c77", null ],
       [ "parameter", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html#a4b8cc0d481013e7fdb880d6840705737", null ],
       [ "value", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html#a060356736acfd7e3548cc9eee65d9e66", null ]
     ] ],
-    [ "AbstractSensorInterface", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html", [
+    [ "vitroio::sdk::AbstractSensorInterface", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html", [
       [ "AbstractSensorInterface", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#ade0f5927c2b5489793942bca3f61bbb2", null ],
       [ "~AbstractSensorInterface", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a939a307315a8d01a81ae9f7a6051c2bc", null ],
-      [ "driver", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a9d63c7c4a4a7af755f3202e330b6f083", null ],
-      [ "getParameters", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a8e1e7bfda00a037d7cee6b4fa61c3c58", null ],
+      [ "driver", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#aae1d3887fc5176ffae4bf8851f616163", null ],
+      [ "getParameters", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a51c6db39951208c7f9f27de4524d2773", null ],
       [ "getParametersCount", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a6cd700d8a6c769b3705a5ec3084c98a0", null ],
       [ "getValues", "d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a9677452e611a42d3525073f323c3067d", null ]
     ] ],
-    [ "MeasurementApi", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html", [
+    [ "vitroio::sdk::MeasurementApi< MaxParams >", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html", [
       [ "OnNewValuesCallback", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#ae1d4cb83aefc7c4271f0d2835d0b6e90", null ],
       [ "MeasurementApi", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a734320ac5662390bf61233427c33f224", null ],
       [ "MeasurementApi", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a187abe751c3f43d4c95abdd484a14f59", null ],

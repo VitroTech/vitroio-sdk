@@ -3,7 +3,7 @@
 
 /**
  * @file consts.h
- * 
+ *
  * @brief The file contains constants of vitro-shard-sdk for user usage.
  */
 
@@ -80,4 +80,3 @@
 #define HARD_3V3_EN_N_PC3   PC_3
 
 #endif // VITROIO_SDK_CONSTS_H
-

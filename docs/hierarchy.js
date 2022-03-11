@@ -16,6 +16,7 @@ var hierarchy =
     [ "vitroio::sdk::impl::List< T >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
     [ "vitroio::sdk::impl::List< vitroio::sdk::AbstractSensorInterface * >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
     [ "vitroio::sdk::impl::ListNode< T >", "d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html", null ],
+    [ "vitroio::sdk::impl::ListNode< vitroio::sdk::AbstractSensorInterface * >", "d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html", null ],
     [ "NonCopyable", null, [
       [ "vitroio::sdk::impl::ScopedPtr< Thread >", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html", null ],
       [ "vitroio::sdk::Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html", null ],
