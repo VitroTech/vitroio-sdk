@@ -28,16 +28,6 @@ namespace sdk {
              */
             void frameReceivedCallback(const CanbusFrame& frame);
 
-            /**
-             * @brief Function computes CRC of data send via CAN bus to Crystal
-             * 
-             * @param iov Chunks of data 
-             * @param iovcnt Count of chunks 
-             * @param crc_value Pointer to save CRC
-             * @return int Status
-             */
-            int computeCRC(const IoVec *iov, int iovcnt, uint32_t *crc_value);
-
         public:
 
             /**
@@ -64,6 +54,16 @@ namespace sdk {
              * @return uint32_t Received timestamp
              */
             uint32_t getTimestamp();
+
+             /**
+             * @brief Function computes CRC of data send via CAN bus to Crystal
+             * 
+             * @param iov Chunks of data 
+             * @param iovcnt Count of chunks 
+             * @param crc_value Pointer to save CRC
+             * @return int Status
+             */
+            int computeCRC(const IoVec *iov, int iovcnt, uint32_t *crc_value);
     };
 /**
  * @}

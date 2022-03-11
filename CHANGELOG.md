@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.7.1]
+
+### Added
+
+- Counting and sending checksum for provisioning response data
+
 ## [1.7.0]
 
 ### Added
@@ -162,7 +168,8 @@ for now
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.0...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.1...HEAD
+[1.7.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.4...v1.6.0
 [1.5.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.3...v1.5.4

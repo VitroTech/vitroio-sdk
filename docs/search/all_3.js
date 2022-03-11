@@ -14,12 +14,13 @@ var searchData=
   ['close_11',['close',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f',1,'vitroio::sdk::AbstractSensorDriver']]],
   ['comm_5fport_12',['comm_port',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a9657fb19b29976c1dc7e45c6849071f4',1,'vitroio::sdk::impl::Timestamp']]],
   ['communication_13',['Communication',['../d2/d7b/group__communication.html',1,'']]],
-  ['configure_14',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
-  ['configure_15',['Configure',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#aa811ac934190cf688a26831cf7ba9beb',1,'vitroio::sdk::Watchdog']]],
-  ['configureport_16',['configurePort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#acd168c64806fab355ebcdbb306ae50a0',1,'vitroio::sdk::impl::IOExpander']]],
-  ['configureshardedge_17',['configureShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196',1,'vitroio::sdk::ShardEdge']]],
-  ['consts_2eh_18',['consts.h',['../d8/db5/consts_8h.html',1,'']]],
-  ['control_19',['Control',['../df/da7/group__control.html',1,'']]],
-  ['current_5ftime_20',['current_time',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a1857aa2f9de1e63200be273a9ca60466',1,'vitroio::sdk::impl::Timestamp']]],
-  ['currenttime_5ft_21',['CurrentTime_t',['../d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html',1,'vitroio::sdk::impl::Timestamp']]]
+  ['computecrc_14',['computeCRC',['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#ae431151a7040958f2ff4cbf3fd53733e',1,'vitroio::sdk::Can_layer']]],
+  ['configure_15',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
+  ['configure_16',['Configure',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#aa811ac934190cf688a26831cf7ba9beb',1,'vitroio::sdk::Watchdog']]],
+  ['configureport_17',['configurePort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#acd168c64806fab355ebcdbb306ae50a0',1,'vitroio::sdk::impl::IOExpander']]],
+  ['configureshardedge_18',['configureShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196',1,'vitroio::sdk::ShardEdge']]],
+  ['consts_2eh_19',['consts.h',['../d8/db5/consts_8h.html',1,'']]],
+  ['control_20',['Control',['../df/da7/group__control.html',1,'']]],
+  ['current_5ftime_21',['current_time',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a1857aa2f9de1e63200be273a9ca60466',1,'vitroio::sdk::impl::Timestamp']]],
+  ['currenttime_5ft_22',['CurrentTime_t',['../d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html',1,'vitroio::sdk::impl::Timestamp']]]
 ];
