@@ -15,5 +15,6 @@ var searchData=
   ['aes_5fblock_5fsize_12',['AES_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#af19ab913a847ad1e91c5291215116de1',1,'iot-block.h']]],
   ['aes_5fiv_5flen_13',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]],
   ['alloc_14',['alloc',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e',1,'vitroio::sdk::impl::Buffer']]],
-  ['availablesize_15',['availableSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285',1,'vitroio::sdk::impl::Buffer']]]
+  ['atca_5fecc_5fconfig_5fsize_15',['ATCA_ECC_CONFIG_SIZE',['../d9/d49/types_8h.html#ae8b9077022cc706947fdc8b45a573d81',1,'types.h']]],
+  ['availablesize_16',['availableSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#adf5a5850a7b7d5421671e5057be31285',1,'vitroio::sdk::impl::Buffer']]]
 ];

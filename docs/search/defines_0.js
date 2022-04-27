@@ -9,5 +9,6 @@ var searchData=
   ['adc1_5fin6_6',['ADC1_IN6',['../d8/db5/consts_8h.html#a6dda7537a5ff4088fd25db4f6937fd8d',1,'consts.h']]],
   ['adc1_5fin9_7',['ADC1_IN9',['../d8/db5/consts_8h.html#a79c4749930d72a8b01267aeef8a283fb',1,'consts.h']]],
   ['aes_5fblock_5fsize_8',['AES_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#af19ab913a847ad1e91c5291215116de1',1,'iot-block.h']]],
-  ['aes_5fiv_5flen_9',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]]
+  ['aes_5fiv_5flen_9',['AES_IV_LEN',['../dd/d88/iot-block_8h.html#a6d106764807220b4ecdac582dd0f4547',1,'iot-block.h']]],
+  ['atca_5fecc_5fconfig_5fsize_10',['ATCA_ECC_CONFIG_SIZE',['../d9/d49/types_8h.html#ae8b9077022cc706947fdc8b45a573d81',1,'types.h']]]
 ];

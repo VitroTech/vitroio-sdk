@@ -13,9 +13,10 @@ var searchData=
   ['setparameterid_10',['setParameterId',['../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html#a7173ecbf7ce82365d4cd4657588005c0',1,'vitroio::sdk::CanbusFrame']]],
   ['setpolltime_11',['setPollTime',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#ab3761e63bb8ac976ed6f4b0cb4f3fad8',1,'vitroio::sdk::MeasurementApi']]],
   ['setvariable_12',['setVariable',['../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a5b09d424207191ad9b28259e4081e2ff',1,'vitroio::sdk::impl::EnvironmentInterface']]],
-  ['shardedge_13',['ShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#a5c33570aa458bc8b3169d16643489dd1',1,'vitroio::sdk::ShardEdge']]],
-  ['size_14',['size',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd',1,'vitroio::sdk::impl::Buffer']]],
-  ['start_15',['start',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a44fcc7ac91958cf65528723bf4918b5f',1,'vitroio::sdk::impl::Timestamp::start(Transport_layer *comm, EnvironmentInterface *env_if)'],['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a5bbaa52aea5ae6e295feb11e11227f5d',1,'vitroio::sdk::impl::Timestamp::start(uint32_t sync_time, Transport_layer *comm, EnvironmentInterface *env_if)']]],
-  ['startmeasurements_16',['startMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a778d15664d289f4fc9916c074f190408',1,'vitroio::sdk::MeasurementApi']]],
-  ['stopmeasurements_17',['stopMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a51d92e2e16daae2072aab60daac111f8',1,'vitroio::sdk::MeasurementApi']]]
+  ['setvariableiokeys_13',['setVariableIOKeys',['../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a8a6b07d8a590258ec098f7ad43fdd164',1,'vitroio::sdk::impl::EnvironmentInterface']]],
+  ['shardedge_14',['ShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#a5c33570aa458bc8b3169d16643489dd1',1,'vitroio::sdk::ShardEdge']]],
+  ['size_15',['size',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd',1,'vitroio::sdk::impl::Buffer']]],
+  ['start_16',['start',['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a44fcc7ac91958cf65528723bf4918b5f',1,'vitroio::sdk::impl::Timestamp::start(Transport_layer *comm, EnvironmentInterface *env_if)'],['../da/d87/classvitroio_1_1sdk_1_1impl_1_1Timestamp.html#a5bbaa52aea5ae6e295feb11e11227f5d',1,'vitroio::sdk::impl::Timestamp::start(uint32_t sync_time, Transport_layer *comm, EnvironmentInterface *env_if)']]],
+  ['startmeasurements_17',['startMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a778d15664d289f4fc9916c074f190408',1,'vitroio::sdk::MeasurementApi']]],
+  ['stopmeasurements_18',['stopMeasurements',['../d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html#a51d92e2e16daae2072aab60daac111f8',1,'vitroio::sdk::MeasurementApi']]]
 ];

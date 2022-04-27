@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.8.0]
+
+### Added
+
+- Added IO protection keys to increase security which is described
+  [here](https://github.com/VitroTech/shared-docs/blob/main/shard-v2-provisioning-v2.md#benefits-of-the-new-provisioning-process),
+  more info [here](https://cloud.3mdeb.com/index.php/s/pGxZ5rdXStobSWx) in
+  paragraph 2.2.10
+
+## [1.7.2]
+
+### Added
+
+- Added ID/number to CRC frame (provisioning response)
+
 ## [1.7.1]
 
 ### Added
@@ -168,7 +183,9 @@ for now
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.1...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.2...v1.8.0
+[1.7.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.1...v1.7.2
 [1.7.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.5.4...v1.6.0

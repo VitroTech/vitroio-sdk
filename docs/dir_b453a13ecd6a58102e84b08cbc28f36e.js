@@ -14,10 +14,6 @@ var dir_b453a13ecd6a58102e84b08cbc28f36e =
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "errors.h", "de/d45/errors_8h.html", "de/d45/errors_8h" ],
     [ "shard-sdk.h", "d4/d3e/shard-sdk_8h.html", null ],
-    [ "types.h", "d9/d49/types_8h.html", [
-      [ "vitroio::sdk::FirmwareId", "dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html", "dc/d49/structvitroio_1_1sdk_1_1FirmwareId" ],
-      [ "vitroio::sdk::Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", "de/d6b/structvitroio_1_1sdk_1_1Version" ],
-      [ "vitroio::sdk::FlashSpace", "de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html", "de/d1a/structvitroio_1_1sdk_1_1FlashSpace" ]
-    ] ],
+    [ "types.h", "d9/d49/types_8h.html", "d9/d49/types_8h" ],
     [ "version.h", "df/dfc/version_8h.html", "df/dfc/version_8h" ]
 ];
