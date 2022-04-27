@@ -1,6 +1,8 @@
 #ifndef VITROIO_SDK_TYPES_H
 #define VITROIO_SDK_TYPES_H
 
+#define ATCA_ECC_CONFIG_SIZE        (128)        //!< size of configuration zone
+
 /**
  * @file vitroio-sdk/types.h
  * 
@@ -101,5 +103,7 @@ struct FlashSpace
 } // namespace sdk
 
 } // namespace vitroio
+
+extern const uint8_t test_ecc_configdata[ATCA_ECC_CONFIG_SIZE];
 
 #endif // VITROIO_SDK_TYPES_H

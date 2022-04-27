@@ -14,6 +14,7 @@ var searchData=
   ['gettimestamp_11',['getTimestamp',['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#a8d97c23e125e03b6cac67f10a0cf0ff0',1,'vitroio::sdk::Can_layer::getTimestamp()'],['../d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html#a9b6e75ccb4aa92b3d183d07f219e6298',1,'vitroio::sdk::Transport_layer::getTimestamp()']]],
   ['getvalues_12',['getValues',['../d7/d99/classvitroio_1_1sdk_1_1AbstractSensorInterface.html#a9677452e611a42d3525073f323c3067d',1,'vitroio::sdk::AbstractSensorInterface']]],
   ['getvariable_13',['getVariable',['../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a4699bff4e23ee28050529332497906d1',1,'vitroio::sdk::impl::EnvironmentInterface']]],
-  ['gpio_5fpc10_14',['GPIO_PC10',['../d8/db5/consts_8h.html#a56c3ba1843ee1dea3eb14398f024f23c',1,'consts.h']]],
-  ['gpio_5fpc11_15',['GPIO_PC11',['../d8/db5/consts_8h.html#ac7c6e701f6eb2447b0dfbfdc6ae4ffbc',1,'consts.h']]]
+  ['getvariableiokeys_14',['getVariableIOKeys',['../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a053b32b96d6f1f34103962021b1a792b',1,'vitroio::sdk::impl::EnvironmentInterface']]],
+  ['gpio_5fpc10_15',['GPIO_PC10',['../d8/db5/consts_8h.html#a56c3ba1843ee1dea3eb14398f024f23c',1,'consts.h']]],
+  ['gpio_5fpc11_16',['GPIO_PC11',['../d8/db5/consts_8h.html#ac7c6e701f6eb2447b0dfbfdc6ae4ffbc',1,'consts.h']]]
 ];

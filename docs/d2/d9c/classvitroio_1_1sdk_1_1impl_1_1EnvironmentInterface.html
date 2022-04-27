@@ -140,9 +140,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4699bff4e23ee28050529332497906d1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a4699bff4e23ee28050529332497906d1">getVariable</a> (<a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3a">Variable</a> variable) const</td></tr>
 <tr class="memdesc:a4699bff4e23ee28050529332497906d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to get value of environment <code>variable</code>.  <a href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a4699bff4e23ee28050529332497906d1">More...</a><br /></td></tr>
 <tr class="separator:a4699bff4e23ee28050529332497906d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053b32b96d6f1f34103962021b1a792b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a053b32b96d6f1f34103962021b1a792b">getVariableIOKeys</a> (uint8_t *retValue, uint32_t offset, uint32_t bytes) const</td></tr>
+<tr class="separator:a053b32b96d6f1f34103962021b1a792b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b09d424207191ad9b28259e4081e2ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a5b09d424207191ad9b28259e4081e2ff">setVariable</a> (<a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3a">Variable</a> variable, uint32_t value)</td></tr>
 <tr class="memdesc:a5b09d424207191ad9b28259e4081e2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to set value of environment <code>variable</code>.  <a href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a5b09d424207191ad9b28259e4081e2ff">More...</a><br /></td></tr>
 <tr class="separator:a5b09d424207191ad9b28259e4081e2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6b07d8a590258ec098f7ad43fdd164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#a8a6b07d8a590258ec098f7ad43fdd164">setVariableIOKeys</a> (uint8_t *value, uint32_t offset, uint32_t bytes)</td></tr>
+<tr class="separator:a8a6b07d8a590258ec098f7ad43fdd164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Class is wrapper for <a class="el" href="../../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html" title="Class is a wrapper for mbed::FlashIAP module.">FlashInterface</a>. It allows to read/write environment variables stored in flash memory. </p>
@@ -264,6 +268,40 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a053b32b96d6f1f34103962021b1a792b" name="a053b32b96d6f1f34103962021b1a792b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053b32b96d6f1f34103962021b1a792b">&#9670;&nbsp;</a></span>getVariableIOKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vitroio::sdk::impl::EnvironmentInterface::getVariableIOKeys </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>retValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>bytes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac1d7a4c8841762e626fff06e10246b5c" name="ac1d7a4c8841762e626fff06e10246b5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1d7a4c8841762e626fff06e10246b5c">&#9670;&nbsp;</a></span>isValid()</h2>
 
@@ -340,6 +378,40 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If the <code>variable</code> is unknown the function will just return. Therefore it is important to use variables defined in <a class="el" href="../../d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html#ae06d590b1cf351d04abbdf0405754d3a">Variable </a> enum. </dd></dl>
+
+</div>
+</div>
+<a id="a8a6b07d8a590258ec098f7ad43fdd164" name="a8a6b07d8a590258ec098f7ad43fdd164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a6b07d8a590258ec098f7ad43fdd164">&#9670;&nbsp;</a></span>setVariableIOKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vitroio::sdk::impl::EnvironmentInterface::setVariableIOKeys </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>bytes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

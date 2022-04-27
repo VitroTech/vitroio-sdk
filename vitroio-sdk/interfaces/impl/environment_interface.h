@@ -95,7 +95,7 @@ public:
      * @link EnvironmentInterface::Variable Variable @endlink enum.
      */
     uint32_t getVariable(Variable variable) const;
-
+    void getVariableIOKeys(uint8_t* retValue, uint32_t offset, uint32_t bytes) const;
     /**
      * @brief Function allows to set value of environment \p variable.
      * 
@@ -108,6 +108,7 @@ public:
      * @link EnvironmentInterface::Variable Variable @endlink enum.
      */
     void setVariable(Variable variable, uint32_t value);
+    void setVariableIOKeys(uint8_t* value, uint32_t offset, uint32_t bytes);
 
 private:
     bool valid_;

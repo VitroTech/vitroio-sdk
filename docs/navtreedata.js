@@ -64,6 +64,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -73,7 +74,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a36f5e9c6756cc15a61b61dea9615eb1aa290f3b3f9dc54a33f6acd5b4f4cc0dab"
+"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
