@@ -9,7 +9,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- New funtion for [`TransportLayer`] which update `nodeID_` used by `Can_layer` to set
+- New funtion for `TransportLayer` which update `nodeID_` used by `Can_layer` to set
   `NodeID` for each send frame.
 
 ## [1.8.0]
