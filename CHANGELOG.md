@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.8.1]
+
+### Added
+
+- New funtion for [`TransportLayer`](vitroio-sdk/communication/transport_layer.h#68)
+  which update `nodeID_` used by `Can_layer` to set `NodeID` for each send frame.
+
 ## [1.8.0]
 
 ### Added

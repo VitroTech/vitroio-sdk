@@ -54,6 +54,13 @@ class Transport_layer {
         virtual uint32_t getTimestamp();
 
         /**
+         * @brief Update node ID.
+         *
+         * @param nodeId New ID value
+         */
+        inline void updateNodeId(uint32_t nodeId) { nodeId_ = nodeId; }
+
+        /**
          * @brief Returns node ID.
          *
          * @return uint32_t node ID

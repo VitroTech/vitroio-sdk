@@ -74,7 +74,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f"
+"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
