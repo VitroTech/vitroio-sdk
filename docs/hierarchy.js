@@ -14,8 +14,11 @@ var hierarchy =
     [ "vitroio::sdk::IoTBlock", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html", null ],
     [ "vitroio::sdk::IoVec", "dd/d8a/structvitroio_1_1sdk_1_1IoVec.html", null ],
     [ "vitroio::sdk::impl::List< T >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
+    [ "vitroio::sdk::impl::List< vitroio::sdk::AbstractSensorInterface * >", "d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html", null ],
     [ "vitroio::sdk::impl::ListNode< T >", "d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html", null ],
+    [ "vitroio::sdk::impl::ListNode< vitroio::sdk::AbstractSensorInterface * >", "d1/da3/structvitroio_1_1sdk_1_1impl_1_1ListNode.html", null ],
     [ "NonCopyable", null, [
+      [ "vitroio::sdk::impl::ScopedPtr< Thread >", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html", null ],
       [ "vitroio::sdk::Canbus", "da/d0e/classvitroio_1_1sdk_1_1Canbus.html", null ],
       [ "vitroio::sdk::MeasurementApi< MaxParams >", "d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html", null ],
       [ "vitroio::sdk::NodeController", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html", null ],

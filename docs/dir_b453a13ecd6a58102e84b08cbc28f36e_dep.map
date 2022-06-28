@@ -1,25 +1,27 @@
 <map id="vitroio&#45;sdk" name="vitroio&#45;sdk">
-<area shape="rect" id="node6" href="dir_e1e32f118fa249959e93622cd8142ec2.html" title="iot&#45;block&#45;api" alt="" coords="38,159,130,207"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000001_000009.html" title="1" alt="" coords="146,158,154,173"/>
-<area shape="rect" id="node7" href="dir_a677399aa2bf57795f0443cdbf17eb14.html" title="measurement&#45;api" alt="" coords="357,159,480,207"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000001_000010.html" title="3" alt="" coords="449,142,457,156"/>
-<area shape="rect" id="node8" href="dir_c9993fe2b08c4b7ebe293f59669f5b6f.html" title="shard&#45;edge&#45;lib" alt="" coords="505,159,607,207"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000001_000011.html" title="1" alt="" coords="531,132,539,146"/>
-<area shape="rect" id="node11" href="dir_8294e9641379c3ac3545642bee632695.html" title="watchdog" alt="" coords="631,159,710,207"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000001_000017.html" title="1" alt="" coords="615,138,623,153"/>
-<area shape="rect" id="node2" href="dir_6fbfbf854e4a1c350f1d64e7a6f381ca.html" title="communication" alt="" coords="123,255,234,303"/>
-<area shape="rect" id="node3" href="dir_ff5dfe7d6dc4f8bbbd7e7af810a8478d.html" title="control" alt="" coords="261,159,333,207"/>
-<area shape="rect" id="edge10-headlabel" href="dir_000004_000002.html" title="2" alt="" coords="223,243,231,257"/>
-<area shape="rect" id="node5" href="dir_d54a608e4330dfd461c2b5c20b836ca6.html" title="interfaces" alt="" coords="258,255,337,303"/>
-<area shape="rect" id="edge11-headlabel" href="dir_000004_000007.html" title="2" alt="" coords="302,229,310,244"/>
-<area shape="rect" id="node10" href="dir_1b12a0d0374ef2985ceda562fcdc37b3.html" title="utils" alt="" coords="372,255,444,303"/>
-<area shape="rect" id="edge9-headlabel" href="dir_000004_000015.html" title="3" alt="" coords="369,229,377,244"/>
-<area shape="rect" id="node4" href="dir_4084fa310106910604a879e55b53fed8.html" title="doc" alt="" coords="228,63,300,111"/>
-<area shape="rect" id="edge8-headlabel" href="dir_000009_000002.html" title="2" alt="" coords="145,228,153,243"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000010_000015.html" title="1" alt="" coords="417,230,425,245"/>
-<area shape="rect" id="node9" href="dir_709b0542ff3c6fab92174772592689eb.html" title="timestamp" alt="" coords="155,159,237,207"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000013_000002.html" title="1" alt="" coords="191,231,199,246"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000013_000007.html" title="1" alt="" coords="261,229,269,243"/>
-<area shape="rect" id="clust2" href="dir_b453a13ecd6a58102e84b08cbc28f36e.html" alt="" coords="27,52,721,313"/>
-<area shape="rect" id="clust1" href="dir_171f5be7832b2d0bfd1182f219a0da8b.html" title="Vitro&#45;SDK&#45;Lib" alt="" coords="16,16,732,324"/>
+<area shape="rect" id="node2" href="dir_6fbfbf854e4a1c350f1d64e7a6f381ca.html" title="communication" alt="" coords="166,255,277,303"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000016_000000.html" title="10" alt="" coords="143,251,157,265"/>
+<area shape="rect" id="node3" href="dir_ff5dfe7d6dc4f8bbbd7e7af810a8478d.html" title="control" alt="" coords="517,159,589,207"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000016_000001.html" title="2" alt="" coords="499,142,507,156"/>
+<area shape="rect" id="node6" href="dir_e1e32f118fa249959e93622cd8142ec2.html" title="iot&#45;block&#45;api" alt="" coords="65,159,157,207"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000016_000010.html" title="1" alt="" coords="170,150,178,165"/>
+<area shape="rect" id="node7" href="dir_a677399aa2bf57795f0443cdbf17eb14.html" title="measurement&#45;api" alt="" coords="613,159,736,207"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000016_000011.html" title="3" alt="" coords="594,142,602,156"/>
+<area shape="rect" id="node8" href="dir_c9993fe2b08c4b7ebe293f59669f5b6f.html" title="shard&#45;edge&#45;lib" alt="" coords="181,159,283,207"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000016_000012.html" title="1" alt="" coords="259,140,267,155"/>
+<area shape="rect" id="node11" href="dir_8294e9641379c3ac3545642bee632695.html" title="watchdog" alt="" coords="307,159,386,207"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000016_000017.html" title="1" alt="" coords="326,131,334,146"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000001_000000.html" title="2" alt="" coords="292,264,300,279"/>
+<area shape="rect" id="node5" href="dir_d54a608e4330dfd461c2b5c20b836ca6.html" title="interfaces" alt="" coords="443,255,522,303"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000001_000009.html" title="2" alt="" coords="514,238,522,253"/>
+<area shape="rect" id="node10" href="dir_1b12a0d0374ef2985ceda562fcdc37b3.html" title="utils" alt="" coords="577,255,649,303"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000001_000014.html" title="3" alt="" coords="592,227,600,242"/>
+<area shape="rect" id="node4" href="dir_4084fa310106910604a879e55b53fed8.html" title="doc" alt="" coords="124,63,196,111"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000010_000000.html" title="2" alt="" coords="182,229,190,244"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000011_000014.html" title="1" alt="" coords="641,237,649,251"/>
+<area shape="rect" id="node9" href="dir_709b0542ff3c6fab92174772592689eb.html" title="timestamp" alt="" coords="411,159,493,207"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000013_000000.html" title="1" alt="" coords="293,249,301,264"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000013_000009.html" title="1" alt="" coords="474,227,482,242"/>
+<area shape="rect" id="clust2" href="dir_b453a13ecd6a58102e84b08cbc28f36e.html" alt="" coords="27,52,747,313"/>
+<area shape="rect" id="clust1" href="dir_171f5be7832b2d0bfd1182f219a0da8b.html" title="Vitro&#45;SDK&#45;Lib" alt="" coords="16,16,757,324"/>
 </map>
