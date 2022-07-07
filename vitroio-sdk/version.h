@@ -12,6 +12,6 @@
  *
  * @brief Defines current version of vitro-shard-sdk.
  */
-#define VITROIO_SDK_VERSION "1.8.2"
+#define VITROIO_SDK_VERSION "1.8.3"
 
 #endif // VITROIO_SDK_VERSION_H
