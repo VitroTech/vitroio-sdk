@@ -133,7 +133,7 @@ Features</h1>
 </ul>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Dependencies</h1>
-<p >The library requires <code>mbed-os</code> version <code>5.8.0</code> or later.</p>
+<p >The library requires <code>mbedOS</code> version <code>6.16.0</code></p>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Usage</h1>
 <ul>
@@ -150,7 +150,7 @@ Division into modules</h2>
 <p >The <code>sdk</code> is divided into functional modules. It allows to disable compilation of particular modules using <code>.mbedignore</code> file. However, some modules can require another ones for internal usage. For more information see detailed documentation.</p>
 <h2><a class="anchor" id="autotoc_md7"></a>
 Event queues and callbacks</h2>
-<p >All of modules which do some real time stuff, operate on an event queue. The user can choose if an object is to use external or internal event queue. However, on both cases the internal event queue is created but it is chained into external queue or handled by internal thread respectively. Priority of internal thread and size of internal queue determines the user. For more information about event queues of mbed please see <a href="https://docs.mbed.com/docs/mbed-os-handbook/en/5.1/concepts/events/">About the mbed OS event loop</a>.</p>
+<p >All of modules which do some real time stuff, operate on an event queue. The user can choose if an object is to use external or internal event queue. However, on both cases the internal event queue is created but it is chained into external queue or handled by internal thread respectively. Priority of internal thread and size of internal queue determines the user. For more information about event queues of mbed please see <a href="https://os.mbed.com/docs/mbed-os/v6.15/apis/scheduling-tutorials.html">About the mbed OS event loop</a>.</p>
 <p >All of events that the particular object can generate are handled by callbacks registered by the user.</p>
 <h1><a class="anchor" id="autotoc_md8"></a>
 Typical cooperation of objects</h1>
@@ -162,23 +162,32 @@ Closed source static library</h1>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Building</h2>
 <p >Make sure to run <code>git submodule update --init --recursive</code> before building <br  />
- Build using docker. Output library and header files will be available in <code>Vitro-SDK-Lib</code> directory.</p>
+ Build using <code>./docker_build_lib.sh</code> script. Output library and header files will be available in <code>Vitro-SDK-Lib</code> directory.</p>
 <h2><a class="anchor" id="autotoc_md11"></a>
 Using</h2>
 <p >Copy static library and header files from <code>Vitro-SDK-Lib</code> to directory with source code of your project.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Known issues</h2>
+<blockquote class="doxtable">
+<p >&zwj;NOTE: There is a few differences in SDK older than 2.0.0. Change branch to </p>
+</blockquote>
+<p>see old guides</p>
 <ul>
-<li>To compile properly, application should be compiled with mbed taken from commit <a href="https://github.com/ARMmbed/mbed-os/#5e23fbaa8398f1a455ba882bb154655b04d183a7">#5e23fbaa8398f1a455ba882bb154655b04d183a7</a></li>
+<li>To compile properly, application should be builded with mbed taken from commit <a href="https://github.com/ARMmbed/mbed-os/commit/54e8693ef4ff7e025018094f290a1d5cf380941f">#54e8693ef4ff7e025018094f290a1d5cf380941f</a> (mbedOS release 6.16)</li>
 <li>When including files to your application, <code>mbed.h</code> has to be included before <code><a class="el" href="d4/d3e/shard-sdk_8h.html">shard-sdk.h</a></code>.</li>
-<li><p class="startli">User application should contain object of type <code>Serial</code> named <code>pc</code> defined simmiliar to this:</p>
+<li><p class="startli">User application should contain object of type <code>BufferedSerial</code> named <code>pc</code> and console override handler defined simmiliar to this:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#define SERIAL_BAUDRATE 115200</span></div>
-<div class="line">Serial pc(<a class="code hl_define" href="d8/db5/consts_8h.html#a7dc4d3c455fac095b4812a64808ebb8f">UART_DEBUG_TX</a>, <a class="code hl_define" href="d8/db5/consts_8h.html#a7cc3b7bc5e0bbe103b1dfe650fcfec2f">UART_DEBUG_RX</a>, SERIAL_BAUDRATE);</div>
+<div class="line">BufferedSerial pc(<a class="code hl_define" href="d8/db5/consts_8h.html#a7dc4d3c455fac095b4812a64808ebb8f">UART_DEBUG_TX</a>, <a class="code hl_define" href="d8/db5/consts_8h.html#a7cc3b7bc5e0bbe103b1dfe650fcfec2f">UART_DEBUG_RX</a>, SERIAL_BAUDRATE);</div>
+<div class="line"> </div>
+<div class="line">FileHandle *mbed::mbed_override_console(<span class="keywordtype">int</span> fd)</div>
+<div class="line">{</div>
+<div class="line">   <span class="keywordflow">return</span> &amp;pc;</div>
+<div class="line">}</div>
 <div class="ttc" id="aconsts_8h_html_a7cc3b7bc5e0bbe103b1dfe650fcfec2f"><div class="ttname"><a href="d8/db5/consts_8h.html#a7cc3b7bc5e0bbe103b1dfe650fcfec2f">UART_DEBUG_RX</a></div><div class="ttdeci">#define UART_DEBUG_RX</div><div class="ttdef"><b>Definition:</b> consts.h:35</div></div>
 <div class="ttc" id="aconsts_8h_html_a7dc4d3c455fac095b4812a64808ebb8f"><div class="ttname"><a href="d8/db5/consts_8h.html#a7dc4d3c455fac095b4812a64808ebb8f">UART_DEBUG_TX</a></div><div class="ttdeci">#define UART_DEBUG_TX</div><div class="ttdef"><b>Definition:</b> consts.h:34</div></div>
-</div><!-- fragment --><p class="startli">This serial port is used for application console.</p>
-</li>
+</div><!-- fragment --></li>
 </ul>
+<p >This serial port is used for application console.</p>
 <h1><a class="anchor" id="autotoc_md13"></a>
 Releasing SDK</h1>
 <p >To release the SDK from private repo to the public - take the following steps:</p>

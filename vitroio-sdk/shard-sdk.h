@@ -7,8 +7,6 @@
 #include <vitroio-sdk/errors.h>
 #include <vitroio-sdk/types.h>
 #include <vitroio-sdk/version.h>
-//watchdog
-#include <vitroio-sdk/watchdog/watchdog.h>
 //shard-edge-lib
 #include <vitroio-sdk/shard-edge-lib/shard_edge.h>
 //measurement-api

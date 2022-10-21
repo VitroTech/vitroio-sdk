@@ -28,8 +28,7 @@ var annotated_dup =
         [ "SensorParameterValue", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue.html", "de/deb/structvitroio_1_1sdk_1_1SensorParameterValue" ],
         [ "ShardEdge", "d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html", "d9/d30/classvitroio_1_1sdk_1_1ShardEdge" ],
         [ "Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer" ],
-        [ "Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", "de/d6b/structvitroio_1_1sdk_1_1Version" ],
-        [ "Watchdog", "d6/d81/classvitroio_1_1sdk_1_1Watchdog.html", "d6/d81/classvitroio_1_1sdk_1_1Watchdog" ]
+        [ "Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", "de/d6b/structvitroio_1_1sdk_1_1Version" ]
       ] ]
     ] ]
 ];

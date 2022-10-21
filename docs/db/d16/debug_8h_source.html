@@ -96,13 +96,13 @@ $(document).ready(function(){initNavTree('db/d16/debug_8h_source.html','../../')
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">    defined(VITROIO_DEBUG_WARNING_LEVEL) || \</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">    defined(VITROIO_DEBUG_ERROR_LEVEL)</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">    #define _VITROIO_DEBUG_PRINTF_(serial, level, module, format, ...) serial.printf(&quot;[%s][%s]: &quot;</span> format &quot;\n\r&quot;, level, module, ##__VA_ARGS__);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">    #define _VITROIO_DEBUG_PRINTF_(serial, level, module, format, ...) printf(&quot;[%s][%s]: &quot;</span> format &quot;\n\r&quot;, level, module, ##__VA_ARGS__);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#if defined(VITROIO_DEBUG_HINFO_LEVEL)</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">extern</span> Serial VITROIO_DEBUG_HINFO_LEVEL;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">extern</span> BufferedSerial VITROIO_DEBUG_HINFO_LEVEL;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">    #define VITROIO_DEBUG_HINFO(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_HINFO_LEVEL, &quot;INFO&quot;</span>, module, format, ##__VA_ARGS__)</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('db/d16/debug_8h_source.html','../../')
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#if defined(VITROIO_DEBUG_INFO_LEVEL)</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    #ifndef VITROIO_DEBUG_HINFO_LEVEL</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">extern</span> Serial VITROIO_DEBUG_INFO_LEVEL;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">extern</span> BufferedSerial VITROIO_DEBUG_INFO_LEVEL;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">    #define VITROIO_DEBUG_INFO(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_INFO_LEVEL, &quot;INFO&quot;</span>, module, format, ##__VA_ARGS__)</div>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('db/d16/debug_8h_source.html','../../')
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#if defined(VITROIO_DEBUG_WARNING_LEVEL)</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">    #ifndef VITROIO_DEBUG_INFO_LEVEL</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keyword">extern</span> Serial VITROIO_DEBUG_WARNING_LEVEL;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keyword">extern</span> BufferedSerial VITROIO_DEBUG_WARNING_LEVEL;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">    #define VITROIO_DEBUG_WARNING(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_WARNING_LEVEL, &quot;WARNING&quot;</span>, module, format, ##__VA_ARGS__)</div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('db/d16/debug_8h_source.html','../../')
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#if defined(VITROIO_DEBUG_ERROR_LEVEL)</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">    #ifndef VITROIO_DEBUG_WARNING_LEVEL</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">extern</span> Serial VITROIO_DEBUG_ERROR_LEVEL;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">extern</span> BufferedSerial VITROIO_DEBUG_ERROR_LEVEL;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">    #define VITROIO_DEBUG_ERROR(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_ERROR_LEVEL, &quot;ERROR&quot;</span>, module, format, ##__VA_ARGS__)</div>

@@ -33,6 +33,5 @@ var hierarchy =
     [ "vitroio::sdk::Transport_layer", "d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html", [
       [ "vitroio::sdk::Can_layer", "dd/de4/classvitroio_1_1sdk_1_1Can__layer.html", null ]
     ] ],
-    [ "vitroio::sdk::Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", null ],
-    [ "vitroio::sdk::Watchdog", "d6/d81/classvitroio_1_1sdk_1_1Watchdog.html", null ]
+    [ "vitroio::sdk::Version", "de/d6b/structvitroio_1_1sdk_1_1Version.html", null ]
 ];
