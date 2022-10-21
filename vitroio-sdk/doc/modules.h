@@ -73,10 +73,3 @@
  * 
  * @details The module is only for internal usage by vitro-shard-sdk.
  */
- 
- /**
- * @defgroup watchdog
- * 
- * @brief Provides watchdog class.
- * 
- */

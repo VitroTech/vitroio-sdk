@@ -9,7 +9,6 @@ var dir_b453a13ecd6a58102e84b08cbc28f36e =
     [ "shard-edge-lib", "dir_c9993fe2b08c4b7ebe293f59669f5b6f.html", "dir_c9993fe2b08c4b7ebe293f59669f5b6f" ],
     [ "timestamp", "dir_709b0542ff3c6fab92174772592689eb.html", "dir_709b0542ff3c6fab92174772592689eb" ],
     [ "utils", "dir_1b12a0d0374ef2985ceda562fcdc37b3.html", "dir_1b12a0d0374ef2985ceda562fcdc37b3" ],
-    [ "watchdog", "dir_8294e9641379c3ac3545642bee632695.html", "dir_8294e9641379c3ac3545642bee632695" ],
     [ "consts.h", "d8/db5/consts_8h.html", "d8/db5/consts_8h" ],
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "errors.h", "de/d45/errors_8h.html", "de/d45/errors_8h" ],

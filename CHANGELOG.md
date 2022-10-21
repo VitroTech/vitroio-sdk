@@ -5,11 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.0]
+
+### Changed
+
+- SDK updated to work with mbedOS release 6.16.0
+
 ## [1.8.3]
 
 ### Fixed
 
 - Fix formatting for ECC ID printing
+
 ## [1.8.2]
 
 ### Added

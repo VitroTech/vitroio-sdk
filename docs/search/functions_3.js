@@ -6,8 +6,7 @@ var searchData=
   ['clear_3',['clear',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#af51d17ae771ebfb4b96a3fb4562f2292',1,'vitroio::sdk::impl::Buffer']]],
   ['close_4',['close',['../d8/d42/classvitroio_1_1sdk_1_1AbstractSensorDriver.html#a10d3f96a14dab801642ec41b7de01c1f',1,'vitroio::sdk::AbstractSensorDriver']]],
   ['computecrc_5',['computeCRC',['../dd/de4/classvitroio_1_1sdk_1_1Can__layer.html#ae431151a7040958f2ff4cbf3fd53733e',1,'vitroio::sdk::Can_layer']]],
-  ['configure_6',['Configure',['../d6/d81/classvitroio_1_1sdk_1_1Watchdog.html#aa811ac934190cf688a26831cf7ba9beb',1,'vitroio::sdk::Watchdog']]],
-  ['configure_7',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
-  ['configureport_8',['configurePort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#acd168c64806fab355ebcdbb306ae50a0',1,'vitroio::sdk::impl::IOExpander']]],
-  ['configureshardedge_9',['configureShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196',1,'vitroio::sdk::ShardEdge']]]
+  ['configure_6',['configure',['../db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c',1,'vitroio::sdk::impl::UpgradeController']]],
+  ['configureport_7',['configurePort',['../dc/da9/classvitroio_1_1sdk_1_1impl_1_1IOExpander.html#acd168c64806fab355ebcdbb306ae50a0',1,'vitroio::sdk::impl::IOExpander']]],
+  ['configureshardedge_8',['configureShardEdge',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#aa359779400501babd83eff3a11d4b196',1,'vitroio::sdk::ShardEdge']]]
 ];

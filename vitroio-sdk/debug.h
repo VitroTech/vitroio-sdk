@@ -28,13 +28,13 @@
     defined(VITROIO_DEBUG_WARNING_LEVEL) || \
     defined(VITROIO_DEBUG_ERROR_LEVEL)
 
-    #define _VITROIO_DEBUG_PRINTF_(serial, level, module, format, ...) serial.printf("[%s][%s]: " format "\n\r", level, module, ##__VA_ARGS__);
+    #define _VITROIO_DEBUG_PRINTF_(serial, level, module, format, ...) printf("[%s][%s]: " format "\n\r", level, module, ##__VA_ARGS__);
 
 #endif
 
 #if defined(VITROIO_DEBUG_HINFO_LEVEL)
 
-    extern Serial VITROIO_DEBUG_HINFO_LEVEL;
+    extern BufferedSerial VITROIO_DEBUG_HINFO_LEVEL;
 
     #define VITROIO_DEBUG_HINFO(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_HINFO_LEVEL, "INFO", module, format, ##__VA_ARGS__)
 
@@ -49,7 +49,7 @@
 #if defined(VITROIO_DEBUG_INFO_LEVEL)
 
     #ifndef VITROIO_DEBUG_HINFO_LEVEL
-        extern Serial VITROIO_DEBUG_INFO_LEVEL;
+        extern BufferedSerial VITROIO_DEBUG_INFO_LEVEL;
     #endif
 
     #define VITROIO_DEBUG_INFO(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_INFO_LEVEL, "INFO", module, format, ##__VA_ARGS__)
@@ -65,7 +65,7 @@
 #if defined(VITROIO_DEBUG_WARNING_LEVEL)
 
     #ifndef VITROIO_DEBUG_INFO_LEVEL
-        extern Serial VITROIO_DEBUG_WARNING_LEVEL;
+        extern BufferedSerial VITROIO_DEBUG_WARNING_LEVEL;
     #endif
 
     #define VITROIO_DEBUG_WARNING(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_WARNING_LEVEL, "WARNING", module, format, ##__VA_ARGS__)
@@ -81,7 +81,7 @@
 #if defined(VITROIO_DEBUG_ERROR_LEVEL)
 
     #ifndef VITROIO_DEBUG_WARNING_LEVEL
-        extern Serial VITROIO_DEBUG_ERROR_LEVEL;
+        extern BufferedSerial VITROIO_DEBUG_ERROR_LEVEL;
     #endif
 
     #define VITROIO_DEBUG_ERROR(module, format, ...) _VITROIO_DEBUG_PRINTF_(VITROIO_DEBUG_ERROR_LEVEL, "ERROR", module, format, ##__VA_ARGS__)
