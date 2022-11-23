@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.1]
+
+### Fixed
+
+- Fix receiving and requesting timestamps from Crystal
+
 ## [2.0.0]
 
 ### Changed
@@ -79,9 +85,7 @@ upgraded partition
 - Fixed printing fw version and ID
 
 ## [1.5.2]
-
-### Changed
-
+## [2.0.0]
 - Node controller initializes timestamp along with communication
 
 ## Added
@@ -210,7 +214,9 @@ for now
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.3...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.3...v2.0.0
 [1.8.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.2...v1.8.3
 [1.8.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.1...v1.8.2
 [1.8.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.0...v1.8.1
