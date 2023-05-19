@@ -1,7 +1,7 @@
 <map id="vitroio::sdk::impl::Timestamp" name="vitroio::sdk::impl::Timestamp">
-<area shape="rect" id="node1" title="Class for maintaining timestamp tracking." alt="" coords="543,71,657,112"/>
-<area shape="rect" id="node2" href="$d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html" title=" " alt="" coords="237,5,419,47"/>
-<area shape="rect" id="node3" href="$d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html" title="Virtual class providing interface for communication interfaces." alt="" coords="255,71,401,112"/>
-<area shape="rect" id="node4" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="253,136,403,177"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,136,188,177"/>
+<area shape="rect" id="node1" title="Class for maintaining timestamp tracking." alt="" coords="543,69,657,109"/>
+<area shape="rect" id="node2" href="$d2/db8/structvitroio_1_1sdk_1_1impl_1_1Timestamp_1_1CurrentTime__t.html" title=" " alt="" coords="237,5,419,45"/>
+<area shape="rect" id="node3" href="$d6/dd0/classvitroio_1_1sdk_1_1Transport__layer.html" title="Virtual class providing interface for communication interfaces." alt="" coords="255,69,401,109"/>
+<area shape="rect" id="node4" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="253,133,403,173"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,133,188,173"/>
 </map>

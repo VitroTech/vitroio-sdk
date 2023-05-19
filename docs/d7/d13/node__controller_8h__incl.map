@@ -1,13 +1,13 @@
 <map id="node_controller.h" name="node_controller.h">
 <area shape="rect" id="node1" title=" " alt="" coords="453,8,573,34"/>
-<area shape="rect" id="node2" title=" " alt="" coords="515,261,579,288"/>
-<area shape="rect" id="node3" href="$d9/d8c/canbus__frame_8h.html" title=" " alt="" coords="982,172,1157,213"/>
-<area shape="rect" id="node4" href="$d9/d49/types_8h.html" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="382,179,509,206"/>
-<area shape="rect" id="node5" href="$d0/d44/scoped__ptr_8h.html" title=" " alt="" coords="5,172,144,213"/>
-<area shape="rect" id="node6" href="$d6/d4d/flash__interface_8h.html" title=" " alt="" coords="342,82,490,124"/>
-<area shape="rect" id="node7" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="515,82,707,124"/>
-<area shape="rect" id="node9" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="96,82,267,124"/>
-<area shape="rect" id="node11" href="$d6/d7f/transport__layer_8h.html" title=" " alt="" coords="731,82,906,124"/>
-<area shape="rect" id="node8" href="$d8/db5/consts_8h.html" title="The file contains constants of vitro&#45;shard&#45;sdk for user usage." alt="" coords="635,179,770,206"/>
-<area shape="rect" id="node10" href="$d5/d08/buffer_8h.html" title=" " alt="" coords="219,172,357,213"/>
+<area shape="rect" id="node2" title=" " alt="" coords="515,258,579,283"/>
+<area shape="rect" id="node3" href="$d9/d8c/canbus__frame_8h.html" title=" " alt="" coords="982,170,1157,210"/>
+<area shape="rect" id="node4" href="$d9/d49/types_8h.html" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="382,177,509,202"/>
+<area shape="rect" id="node5" href="$d0/d44/scoped__ptr_8h.html" title=" " alt="" coords="5,170,144,210"/>
+<area shape="rect" id="node6" href="$d6/d4d/flash__interface_8h.html" title=" " alt="" coords="342,82,490,122"/>
+<area shape="rect" id="node7" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="515,82,707,122"/>
+<area shape="rect" id="node9" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="96,82,267,122"/>
+<area shape="rect" id="node11" href="$d6/d7f/transport__layer_8h.html" title=" " alt="" coords="731,82,906,122"/>
+<area shape="rect" id="node8" href="$d8/db5/consts_8h.html" title="The file contains constants of vitro&#45;shard&#45;sdk for user usage." alt="" coords="635,177,770,202"/>
+<area shape="rect" id="node10" href="$d5/d08/buffer_8h.html" title=" " alt="" coords="219,170,357,210"/>
 </map>
