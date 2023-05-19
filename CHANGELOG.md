@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this
 project adheres to [Semantic Versioning](https://semver.org/).
 
+<!--
+
+TEMPLATE
+
+## [x.y.z] YYYY-MM-DD
+
+### Added
+
+- New features/things that were not available
+- ABC
+
+### Changed
+
+- Old features/things that now look/work in different way
+
+### Fixed
+
+- Old features/things that now work as they should
+
+### Removed
+
+- Removed features/things
+
+-->
+
+## [2.0.2] 2023-05-19
+
+### Fixed
+
+- CAN Bus can recover by restarting itself after shutting down permanently due
+  to errors.
+- CAN Bus initialization now exits properly after encountering errors.
+
+
 ## [2.0.1]
 
 ### Fixed
@@ -29,7 +63,7 @@ project adheres to [Semantic Versioning](https://semver.org/).
 
 - Serial number print in ECC608 constructor. Number is printed on shard start.
 - Added debug prints in `node_controller.cpp` informing about OTA status and
-upgraded partition
+  upgraded partition
 
 ## [1.8.1]
 
@@ -85,35 +119,34 @@ upgraded partition
 - Fixed printing fw version and ID
 
 ## [1.5.2]
-## [2.0.0]
-- Node controller initializes timestamp along with communication
 
-## Added
+### Added
 
 - Timestamp for internal usage in SDK
 - Setting of timestamp synchronization interval in node controlller methods
+- Node controller initializes timestamp along with communication
 
 ## [1.5.1]
+
+### Added
+
+- IoTBlock blob size getter
 
 ### Changed
 
 - Improved documentation
 
-## Added
-
-- IoTBlock blob size getter
-
 ## [1.5.0]
+
+### Added
+
+- Communication abstraction layer for IoT Blocks
 
 ### Changed
 
 - IO expander port used for board revision check
 - Attenuation values for ADC count to voltage conversion
 - IoT Blocks are now send using provided communication layer
-
-## Added
-
-- Communication abstraction layer for IoT Blocks
 
 ## [1.4.0]
 
@@ -129,10 +162,12 @@ upgraded partition
 
 ## [1.3.0]
 
-###  Added
+### Added
+
 - Support for variable size IoT Block creating and sending.
 
-###  Changed
+### Changed
+
 - IoT block data fields order.
 - ECC508.countSHA256 method, to count SHA of more than 64 bytes of data.
 - cryptoauthlib ECC init function is now called only once.
@@ -140,7 +175,8 @@ upgraded partition
 
 ## [1.2.2]
 
-###  Added
+### Added
+
 - mbed-cryptoauthlib as submodule
 - Patches for mbed-cryptoauthlib
 - IoTBlock api
@@ -148,8 +184,9 @@ upgraded partition
 - Watchdog class which provides the interface to the Watchdog feature
 
 ### Changed
+
 - Memory regions are now defined in SDK,no need to define them in application
-   files.
+  files.
 - Node controller doen't need memory regions in constructor.
 - Extracted bootloader from vitroio-sdk.
 - Extracted ecc508-api from vitroio-sdk.
@@ -158,15 +195,18 @@ upgraded partition
 
 ## [1.2.1] - 2020-05-25
 
-###  Added
+### Added
+
 - Support for closed source static version of Vitro Shard SDK.
 
 ## [1.2.0] - 2019-02-10
 
-###  Added
+### Added
+
 - Support for new protocol communication protocol - firmware ID handling.
 
 ## Changed
+
 - Support for new protocol communication protocol - firmware version handling.
 
 ## [1.1.0] - 2018-11-26
@@ -185,8 +225,8 @@ upgraded partition
 ### Changed
 
 - Removed abstraction layer for communication buses - only CAN Bus is supported
-for now
-- Parameter ID for frame with firmware version changed to `0x30`
+  for now.
+- Parameter ID for frame with firmware version changed to `0x30`.
 
 ### Fixed
 

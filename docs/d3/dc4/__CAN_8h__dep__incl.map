@@ -1,7 +1,7 @@
 <map id="_CAN.h" name="_CAN.h">
-<area shape="rect" id="node1" title=" " alt="" coords="97,5,163,32"/>
-<area shape="rect" id="node2" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="93,80,167,107"/>
-<area shape="rect" id="node3" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,155,92,181"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="85,229,175,256"/>
-<area shape="rect" id="node5" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="168,155,249,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="97,5,163,31"/>
+<area shape="rect" id="node2" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="93,79,167,104"/>
+<area shape="rect" id="node3" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,152,92,177"/>
+<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="85,225,175,251"/>
+<area shape="rect" id="node5" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="168,152,249,177"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="canbus.h" name="canbus.h">
-<area shape="rect" id="node1" title=" " alt="" coords="75,5,149,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="80,169,144,196"/>
-<area shape="rect" id="node3" href="$d9/d8c/canbus__frame_8h.html" title=" " alt="" coords="25,80,199,121"/>
-<area shape="rect" id="node4" href="$d7/de9/__CAN_8h.html" title=" " alt="" coords="223,80,398,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="75,5,149,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="80,167,144,192"/>
+<area shape="rect" id="node3" href="$d9/d8c/canbus__frame_8h.html" title=" " alt="" coords="25,79,199,119"/>
+<area shape="rect" id="node4" href="$d7/de9/__CAN_8h.html" title=" " alt="" coords="223,79,398,119"/>
 </map>

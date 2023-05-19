@@ -1,10 +1,10 @@
 <map id="measurement_api.h" name="measurement_api.h">
-<area shape="rect" id="node1" title=" " alt="" coords="229,5,363,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,69,121"/>
-<area shape="rect" id="node3" href="$df/d63/abstract__sensor__interface_8h.html" title=" " alt="" coords="94,87,301,129"/>
-<area shape="rect" id="node6" href="$da/d23/list_8h.html" title=" " alt="" coords="325,87,464,129"/>
-<area shape="rect" id="node8" title=" " alt="" coords="488,80,653,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="121,273,185,300"/>
-<area shape="rect" id="node5" href="$d7/d99/abstract__sensor__driver_8h.html" title=" " alt="" coords="125,184,315,225"/>
-<area shape="rect" id="node7" title=" " alt="" coords="362,191,427,218"/>
+<area shape="rect" id="node1" title=" " alt="" coords="229,5,363,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,93,69,119"/>
+<area shape="rect" id="node3" href="$df/d63/abstract__sensor__interface_8h.html" title=" " alt="" coords="94,86,301,126"/>
+<area shape="rect" id="node6" href="$da/d23/list_8h.html" title=" " alt="" coords="325,86,464,126"/>
+<area shape="rect" id="node8" title=" " alt="" coords="488,79,653,133"/>
+<area shape="rect" id="node4" title=" " alt="" coords="121,269,185,295"/>
+<area shape="rect" id="node5" href="$d7/d99/abstract__sensor__driver_8h.html" title=" " alt="" coords="125,181,315,221"/>
+<area shape="rect" id="node7" title=" " alt="" coords="362,189,427,214"/>
 </map>
