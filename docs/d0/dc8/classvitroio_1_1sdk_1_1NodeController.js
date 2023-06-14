@@ -8,5 +8,6 @@ var classvitroio_1_1sdk_1_1NodeController =
     [ "initCommunication", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#afcb8d3d852d06110ef3058b459ce08bd", null ],
     [ "initCommunication", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a35772bf24f9a368bb0be6a10b302b75a", null ],
     [ "isValid", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4", null ],
-    [ "nodeId", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881", null ]
+    [ "nodeId", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881", null ],
+    [ "setExternalFrameCallback", "d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aeb292720a07adce077db09d9267fc0fb", null ]
 ];

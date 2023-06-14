@@ -2,6 +2,7 @@
 #define VITROIO_SDK_NODE_CONTROLLER_H
 
 #include <mbed.h>
+#include <functional>
 
 #include <vitroio-sdk/control/node_controller.h>
 #include <vitroio-sdk/communication/canbus_frame.h>
@@ -221,6 +222,12 @@ public:
      */
     uint32_t nodeId();
 
+    /**
+     * @brief Function allows to attach a handler for frames with paramId
+     * matching VITROIO_PROTOCOL_EXTERNAL_FRAME
+     */
+    void setExternalFrameCallback(std::function<void(const CanbusFrame&)>);
+
 private:
     bool valid_;
 
@@ -240,6 +247,9 @@ private:
 
     Mutex mutex_;
 
+    //void (*externalFrameCallback)(const CanbusFrame&);
+    std::function<void(const CanbusFrame&)> externalFrameCallback;
+
     void setNodeId(uint32_t id);
 
     int onFrameReceivedCallbackHandle_;
@@ -249,6 +259,7 @@ private:
     void handleNodeIdResponseFrame(const CanbusFrame& frame);
     void handleUpgradeFrame(const CanbusFrame& frame);
     void handleProvisioningFrame(const CanbusFrame& frame);
+    void handleExternalFrame(const CanbusFrame& frame);
 
     void onNewFirmwareAvailableCallback();
 

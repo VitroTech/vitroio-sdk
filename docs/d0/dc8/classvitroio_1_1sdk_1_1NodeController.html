@@ -148,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05a320b3b7abbf87556306c33e9c7881"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">nodeId</a> ()</td></tr>
 <tr class="memdesc:a05a320b3b7abbf87556306c33e9c7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to obtain node ID assigned by gateway during initialization of communication.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a05a320b3b7abbf87556306c33e9c7881">More...</a><br /></td></tr>
 <tr class="separator:a05a320b3b7abbf87556306c33e9c7881"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb292720a07adce077db09d9267fc0fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aeb292720a07adce077db09d9267fc0fb">setExternalFrameCallback</a> (std::function&lt; void(const <a class="el" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a> &amp;)&gt;)</td></tr>
+<tr class="memdesc:aeb292720a07adce077db09d9267fc0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function allows to attach a handler for frames with paramId matching VITROIO_PROTOCOL_EXTERNAL_FRAME.  <a href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#aeb292720a07adce077db09d9267fc0fb">More...</a><br /></td></tr>
+<tr class="separator:aeb292720a07adce077db09d9267fc0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Class is a main component of the node firmware. </p>
@@ -566,6 +569,26 @@ Public Member Functions</h2></td></tr>
 <p>Function allows to obtain node ID assigned by gateway during initialization of communication. </p>
 <dl class="section note"><dt>Note</dt><dd>To obtain node ID, the communication with gateway must be initialized successfully.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Function returns node ID or 0 when the ID is not assigned. </dd></dl>
+
+</div>
+</div>
+<a id="aeb292720a07adce077db09d9267fc0fb" name="aeb292720a07adce077db09d9267fc0fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb292720a07adce077db09d9267fc0fb">&#9670;&#160;</a></span>setExternalFrameCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vitroio::sdk::NodeController::setExternalFrameCallback </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(const <a class="el" href="../../dc/de6/classvitroio_1_1sdk_1_1CanbusFrame.html">CanbusFrame</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function allows to attach a handler for frames with paramId matching VITROIO_PROTOCOL_EXTERNAL_FRAME. </p>
 
 </div>
 </div>
