@@ -30,6 +30,14 @@ TEMPLATE
 
 -->
 
+## [2.0.3] 2023-06-14
+
+### Fixed
+
+- Add a NULL pointer check that caused a system fault.
+- Provide second Edge board revision, used before making configuration of the
+  device.
+
 ## [2.0.2] 2023-05-19
 
 ### Fixed
@@ -254,7 +262,9 @@ TEMPLATE
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...HEAD
+[2.0.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.2...v2.0.3
+[2.0.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.3...v2.0.0
 [1.8.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.2...v1.8.3
