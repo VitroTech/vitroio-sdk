@@ -30,6 +30,13 @@ TEMPLATE
 
 -->
 
+## [2.0.4] 2023-06-14
+
+### Added
+
+- Added placeholder for external frame handler with ID 0x60, can be used within
+  user application.
+
 ## [2.0.3] 2023-06-14
 
 ### Fixed
@@ -262,8 +269,9 @@ TEMPLATE
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...HEAD
-[2.0.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.2...v2.0.3
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.4...HEAD
+[2.0.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...v2.0.4
+[2.0.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/VitroTech/vitro-shard-sdk/compare/v1.8.3...v2.0.0
