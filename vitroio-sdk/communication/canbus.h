@@ -24,7 +24,7 @@ namespace sdk
  * @brief Defines default communication frequency for
  * @link vitroio::sdk::Canbus Canbus @endlink.
  */
-#define VITROIO_CANBUS_DEFAULT_FREQUENCY 500000
+#define VITROIO_CANBUS_DEFAULT_FREQUENCY 1000000
 
 /**
  * @def VITROIO_CANBUS_DEFAULT_EVENT_QUEUE_SIZE
