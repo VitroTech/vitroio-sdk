@@ -27,7 +27,7 @@ namespace sdk
 
 /**
  * @def VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE
- *
+ * 
  * @brief Defines default size of internal event queue for
  * @link vitroio::sdk::NodeController NodeController @endlink.
  */
@@ -37,15 +37,15 @@ class Canbus;
 
 /**
  * @brief Class is a main component of the node firmware.
- *
+ * 
  * @details The class handles standard operations of vitroio system such like
  * firmware upgrade and initialization of communication with gateway. It
  * requires flash memory space for storing environment variables.
- *
+ * 
  * The class uses an event loop for handling events. The event queue can be
  * managed by external queue specified by user or by internal queue with thread
- * of specifed priority.
- *
+ * of specifed priority.  
+ * 
  * @note The controller occupies one of
  * @link Canbus::OnFrameReceivedCallback OnframeReceivedCallbacks @endlink
  * of Canbus object passed to the constructor.
@@ -56,21 +56,21 @@ public:
     /**
      * @brief Contructor initializes the controller and chains an internal
      * event queue to the \p targetQueue.
-     *
+     * 
      * @note Thread which handles \p targetQueue must be run before usage
      * of this class (construction of the object can be done earlier).
-     *
+     * 
      * @details Initilization includes all of necessary components.
-     *
+     * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
      * successfully. When the object is in invalid state, the behaviour is
-     * undefined.
-     *
+     * undefined. 
+     * 
      * The constructor uses
      * <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a>
      * method for connection to \p targetQueue.
-     *
+     * 
      * @param canbus Pointer to Canbus object
      * @param fwId id of firmware
      * @param fwVersion Version of firmware
@@ -87,24 +87,24 @@ public:
     explicit NodeController(
         Canbus* canbus,
         const FirmwareId& fwId,
-        const Version& fwVersion,
+        const Version& fwVersion, 
         FlashSpace environmentFlashSpace,
         FlashSpace regionAFlashSpace,
         FlashSpace regionBFlashSpace,
-        EventQueue* targetQueue,
+        EventQueue* targetQueue, 
         uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
 
     /**
      * @brief Contructor initializes the controller and creates internal event
      * loop using thread with priority \p priority.
-     *
+     * 
      * @details Initilization includes all of necessary components.
-     *
+     * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
      * successfully. When the object is in invalid state, the behaviour is
-     * undefined.
-     *
+     * undefined. 
+     * 
      * @param canbus Pointer to Canbus object
      * @param fwId id of firmware
      * @param fwVersion Version of firmware
@@ -120,24 +120,24 @@ public:
     explicit NodeController(
         Canbus* canbus,
         const FirmwareId& fwId,
-        const Version& fwVersion,
+        const Version& fwVersion, 
         FlashSpace environmentFlashSpace,
         FlashSpace regionAFlashSpace,
         FlashSpace regionBFlashSpace,
-        osPriority priority = osPriorityNormal,
+        osPriority priority = osPriorityNormal, 
         uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
-
+    
     /**
      * @brief Contructor initializes the controller and creates internal event
      * loop using thread with priority \p priority.
-     *
+     * 
      * @details Initilization includes all of necessary components.
-     *
+     * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
      * successfully. When the object is in invalid state, the behaviour is
-     * undefined.
-     *
+     * undefined. 
+     * 
      * @param canbus Pointer to Canbus object
      * @param fwId id of firmware
      * @param fwVersion Version of firmware
@@ -147,28 +147,28 @@ public:
     NodeController(
         Canbus* canbus,
         const FirmwareId& fwId,
-        const Version& fwVersion,
-        osPriority priority = osPriorityNormal,
+        const Version& fwVersion, 
+        osPriority priority = osPriorityNormal, 
         uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
 
     /**
      * @brief Contructor initializes the controller and chains an internal
      * event queue to the \p targetQueue.
-     *
+     * 
      * @note Thread which handles \p targetQueue must be run before usage
      * of this class (construction of the object can be done earlier).
-     *
+     * 
      * @details Initilization includes all of necessary components.
-     *
+     * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
      * successfully. When the object is in invalid state, the behaviour is
-     * undefined.
-     *
+     * undefined. 
+     * 
      * The constructor uses
      * <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a>
      * method for connection to \p targetQueue.
-     *
+     * 
      * @param canbus Pointer to Canbus object
      * @param fwId id of firmware
      * @param fwVersion Version of firmware
@@ -179,16 +179,16 @@ public:
     NodeController(
         Canbus* canbus,
         const FirmwareId& fwId,
-        const Version& fwVersion,
-        EventQueue* targetQueue,
+        const Version& fwVersion, 
+        EventQueue* targetQueue, 
         uint32_t eventQueueSize = VITROIO_NODE_CONTROLLER_DEFAULT_EVENT_QUEUE_SIZE);
-
+    
     ~NodeController();
 
     /**
      * @brief Function allows to check whether the controller is in valid
      * state.
-     *
+     * 
      * @note This method should be called always after creation of the object.
      */
     bool isValid();
@@ -214,11 +214,11 @@ public:
     /**
      * @brief Function allows to obtain node ID assigned by gateway during
      * initialization of communication.
-     *
+     * 
      * @note To obtain node ID, the communication with gateway must be
      * initialized successfully.
-     *
-     * @return Function returns node ID or 0 when the ID is not assigned.
+     * 
+     * @return Function returns node ID or 0 when the ID is not assigned. 
      */
     uint32_t nodeId();
 

@@ -30,6 +30,25 @@ TEMPLATE
 
 -->
 
+## [2.0.5] 2023-07-19
+
+### Added
+
+- Added third EXPECTED_CARRIER_BOARD_REV for Shard initialization
+
+### Changed
+
+- CAN bus bitrate set to 500KHz from 125KHz
+- Frame with localID request no longer has 0x0 as localID in header; now it is
+  based on Shard hardwareID, mentioned in
+  [documentation](./FIRMWARE_DEVELOPERS_GUIDE.md#implementing-target-application)
+- Shard stays in localID request loop until localID from Crystal is assigned
+
+### Fixed
+
+- Resolved problem with MbedOS HardFault from provisioning
+  process
+
 ## [2.0.4] 2023-06-14
 
 ### Added
@@ -269,7 +288,8 @@ TEMPLATE
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.4...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.5...HEAD
+[2.0.5]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...v2.0.4
 [2.0.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.1...v2.0.2
