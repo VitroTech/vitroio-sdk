@@ -30,6 +30,12 @@ TEMPLATE
 
 -->
 
+## [2.0.6] 2023-07-20
+
+### Removed
+
+- Removed third EXPECTED_CARRIER_BOARD_REV for Shard initialization
+
 ## [2.0.5] 2023-07-19
 
 ### Added
@@ -288,7 +294,8 @@ TEMPLATE
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.5...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.6...HEAD
+[2.0.6]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.5...v2.0.6
 [2.0.5]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...v2.0.4
 [2.0.3]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.2...v2.0.3
