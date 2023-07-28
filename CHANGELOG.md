@@ -30,6 +30,13 @@ TEMPLATE
 
 -->
 
+## [2.0.7] 2023-07-27
+
+### Fixed
+
+- Change logic of sending TIMESTAMP request from Shard; now it is performed
+  right after Shard initialization
+
 ## [2.0.6] 2023-07-20
 
 ### Removed
@@ -294,7 +301,8 @@ TEMPLATE
     - support for firmware upgrade
 - Initial implementation of bootloader
 
-[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.6...HEAD
+[Unreleased]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.7...HEAD
+[2.0.7]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.6...v2.0.7
 [2.0.6]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.5...v2.0.6
 [2.0.5]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/VitroTech/vitro-shard-sdk/compare/v2.0.3...v2.0.4
