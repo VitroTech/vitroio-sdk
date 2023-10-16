@@ -11,9 +11,9 @@ var classvitroio_1_1sdk_1_1IoTBlock =
     [ "get_blob_size", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a91c08601dd7dd8dad72b344911f2ce19", null ],
     [ "get_frame", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a43b5f526c868ef7bbed8a455755d3f05", null ],
     [ "get_frame_as_array", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a294a7464cccbf5d0e3cd4e0f4afbc781", null ],
-    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2", null ],
-    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a25fba5b224a1535ccb8a07bed64af171", null ],
-    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad110e16570b62200942485c485312e9c", null ],
+    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa18bada8e3a765ad391353da5ea664a1", null ],
+    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#abb085faa0a53b19a68b01eae9e40bebe", null ],
+    [ "make", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a8c958d7de8a1e92387e1ae14f38afca1", null ],
     [ "print", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a0e4e43e5360f199b517feae25699137f", null ],
     [ "send", "db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ae2da263727c8d3d841792771f8b548c1", null ]
 ];

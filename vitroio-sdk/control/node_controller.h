@@ -44,7 +44,7 @@ class Canbus;
  * 
  * The class uses an event loop for handling events. The event queue can be
  * managed by external queue specified by user or by internal queue with thread
- * of specifed priority.  
+ * of specified priority.  
  * 
  * @note The controller occupies one of
  * @link Canbus::OnFrameReceivedCallback OnframeReceivedCallbacks @endlink
@@ -60,7 +60,7 @@ public:
      * @note Thread which handles \p targetQueue must be run before usage
      * of this class (construction of the object can be done earlier).
      * 
-     * @details Initilization includes all of necessary components.
+     * @details Initialization includes all of necessary components.
      * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
@@ -98,7 +98,7 @@ public:
      * @brief Contructor initializes the controller and creates internal event
      * loop using thread with priority \p priority.
      * 
-     * @details Initilization includes all of necessary components.
+     * @details Initialization includes all of necessary components.
      * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
@@ -131,7 +131,7 @@ public:
      * @brief Contructor initializes the controller and creates internal event
      * loop using thread with priority \p priority.
      * 
-     * @details Initilization includes all of necessary components.
+     * @details Initialization includes all of necessary components.
      * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized
@@ -158,7 +158,7 @@ public:
      * @note Thread which handles \p targetQueue must be run before usage
      * of this class (construction of the object can be done earlier).
      * 
-     * @details Initilization includes all of necessary components.
+     * @details Initialization includes all of necessary components.
      * 
      * There is not guarantee that the object is in valid state. User should
      * call isValid() method to determine if the object was initialized

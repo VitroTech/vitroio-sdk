@@ -155,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Class is a main component of the node firmware. </p>
 <p >The class handles standard operations of vitroio system such like firmware upgrade and initialization of communication with gateway. It requires flash memory space for storing environment variables.</p>
-<p >The class uses an event loop for handling events. The event queue can be managed by external queue specified by user or by internal queue with thread of specifed priority. <br  />
+<p >The class uses an event loop for handling events. The event queue can be managed by external queue specified by user or by internal queue with thread of specified priority. <br  />
 </p>
 <dl class="section note"><dt>Note</dt><dd>The controller occupies one of <a class="el" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html#a31231fa94525e6b93f9d1a5836c7a4a0">OnframeReceivedCallbacks </a> of <a class="el" href="../../da/d0e/classvitroio_1_1sdk_1_1Canbus.html" title="Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type.">Canbus</a> object passed to the constructor. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -231,7 +231,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Contructor initializes the controller and chains an internal event queue to the <code>targetQueue</code>. </p>
 <dl class="section note"><dt>Note</dt><dd>Thread which handles <code>targetQueue</code> must be run before usage of this class (construction of the object can be done earlier).</dd></dl>
-<p>Initilization includes all of necessary components.</p>
+<p>Initialization includes all of necessary components.</p>
 <p >There is not guarantee that the object is in valid state. User should call <a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4" title="Function allows to check whether the controller is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <p >The constructor uses <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a> method for connection to <code>targetQueue</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -321,7 +321,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Contructor initializes the controller and creates internal event loop using thread with priority <code>priority</code>. </p>
-<p >Initilization includes all of necessary components.</p>
+<p >Initialization includes all of necessary components.</p>
 <p >There is not guarantee that the object is in valid state. User should call <a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4" title="Function allows to check whether the controller is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -384,7 +384,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Contructor initializes the controller and creates internal event loop using thread with priority <code>priority</code>. </p>
-<p >Initilization includes all of necessary components.</p>
+<p >Initialization includes all of necessary components.</p>
 <p >There is not guarantee that the object is in valid state. User should call <a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4" title="Function allows to check whether the controller is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -445,7 +445,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Contructor initializes the controller and chains an internal event queue to the <code>targetQueue</code>. </p>
 <dl class="section note"><dt>Note</dt><dd>Thread which handles <code>targetQueue</code> must be run before usage of this class (construction of the object can be done earlier).</dd></dl>
-<p>Initilization includes all of necessary components.</p>
+<p>Initialization includes all of necessary components.</p>
 <p >There is not guarantee that the object is in valid state. User should call <a class="el" href="../../d0/dc8/classvitroio_1_1sdk_1_1NodeController.html#a37ee31f014a7852affd8cff3ed915ea4" title="Function allows to check whether the controller is in valid state.">isValid()</a> method to determine if the object was initialized successfully. When the object is in invalid state, the behaviour is undefined.</p>
 <p >The constructor uses <a href="https://os.mbed.com/docs/v5.8/mbed-os-api-doxy/classevents_1_1_event_queue.html#a2a05f85dbf893b9d72657fa629ccf79d">mbed::EventQueue::chain</a> method for connection to <code>targetQueue</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>

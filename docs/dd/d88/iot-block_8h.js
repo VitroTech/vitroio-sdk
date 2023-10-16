@@ -11,6 +11,5 @@ var iot_block_8h =
     [ "NODE_ID_SIZE", "dd/d88/iot-block_8h.html#a0bf56e80198f6967d2d182481da2bc32", null ],
     [ "PARAMETER_ID_SIZE", "dd/d88/iot-block_8h.html#a7a1c1e1c18f05b3f667dfee1a6f92cfb", null ],
     [ "SHA256_DIGEST_SIZE", "dd/d88/iot-block_8h.html#a81efbc0fc101b06a914f7ff9e2fbc0e9", null ],
-    [ "TIMESTAMP_REQUEST_PARAMETER_ID", "dd/d88/iot-block_8h.html#a5b8d4b32842ccd7a329368c774e357e9", null ],
     [ "TIMESTAMP_SIZE", "dd/d88/iot-block_8h.html#a7b4282b06832a01cee279660fd4b829d", null ]
 ];
