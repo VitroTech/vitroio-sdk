@@ -36,11 +36,13 @@ var NAVTREE =
       ] ],
       [ "Typical cooperation of objects", "index.html#autotoc_md8", null ],
       [ "Closed source static library", "index.html#autotoc_md9", [
-        [ "Building", "index.html#autotoc_md10", null ],
-        [ "Using", "index.html#autotoc_md11", null ],
-        [ "Known issues", "index.html#autotoc_md12", null ]
+        [ "Building", "index.html#autotoc_md10", [
+          [ "Library info", "index.html#autotoc_md11", null ]
+        ] ],
+        [ "Using", "index.html#autotoc_md12", null ],
+        [ "Known issues", "index.html#autotoc_md13", null ]
       ] ],
-      [ "Releasing SDK", "index.html#autotoc_md13", null ]
+      [ "Releasing SDK", "index.html#autotoc_md14", null ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
@@ -74,7 +76,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa69e19e5b58402ea0c1421a79261b996"
+"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

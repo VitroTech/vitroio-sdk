@@ -44,7 +44,7 @@ namespace sdk
  *
  * The class uses an event queue for reading incoming frames. The event queue
  * can be managed by external queue specified by user or by internal queue with
- * thread of specifed priority.
+ * thread of specified priority.
  */
 class Canbus : private NonCopyable<Canbus>
 {

@@ -26,7 +26,7 @@ class FlashInterface : private NonCopyable<FlashInterface>
 {
 public:
     /**
-     * @brief Constructor intializes the interface.
+     * @brief Constructor initializes the interface.
      * 
      * @details 
      * There is not guarantee that the object is in valid state.
@@ -80,7 +80,7 @@ public:
     /**
      * @brief Function allows to obtain maximum size of sector in flash memory.
      * 
-     * @details Function can be helplful during operations on flash memory.
+     * @details Function can be helpful during operations on flash memory.
      * It can help avoid reallocating of memory - only buffer of maximum sector
      * size can be allocated and reused.
      * 

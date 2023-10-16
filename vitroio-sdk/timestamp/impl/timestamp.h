@@ -16,7 +16,7 @@ namespace impl{
 /**
  * @brief Class for maintaining timestamp tracking
  *
- * @details This class usese Timer for counting and calculation of timestamps.
+ * @details This class uses Timer for counting and calculation of timestamps.
  * @note If the timestamp is not set, either by passing its value in constructor
  * or by @ref Timestamp::set_timestamp , the value returned by
  * @ref Timestamp::get_timestamp will be time, given in ms, from boot to now.
@@ -28,7 +28,7 @@ class Timestamp{
          * @brief Initializes timestamp counting
          *
          * @param comm Communication layer to get timestamp from.
-         * @param env_if Environemt interface for timestamp saving
+         * @param env_if Environment interface for timestamp saving
          */
         static void start(Transport_layer* comm, EnvironmentInterface* env_if);
 
@@ -37,7 +37,7 @@ class Timestamp{
          *
          * @param sync_time Time between timestamp synchronization, given in hours
          * @param comm Communication layer to get timestamp from.
-         * @param env_if Environemt interface for timestamp saving
+         * @param env_if Environment interface for timestamp saving
          */
         static void start(uint32_t sync_time, Transport_layer* comm, EnvironmentInterface *env_if);
 

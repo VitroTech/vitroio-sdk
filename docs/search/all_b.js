@@ -1,7 +1,7 @@
 var searchData=
 [
   ['major_0',['major',['../de/d6b/structvitroio_1_1sdk_1_1Version.html#aea7d7aa0eb362c711a941d4bdfc84482',1,'vitroio::sdk::Version']]],
-  ['make_1',['make',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad9361c60452016218650363bc81acea2',1,'vitroio::sdk::IoTBlock::make(uint32_t data, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#ad110e16570b62200942485c485312e9c',1,'vitroio::sdk::IoTBlock::make(void *data, size_t dataLen, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a25fba5b224a1535ccb8a07bed64af171',1,'vitroio::sdk::IoTBlock::make(void *data, IoTBlock_Sizes_t size, uint32_t parameter)']]],
+  ['make_1',['make',['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa18bada8e3a765ad391353da5ea664a1',1,'vitroio::sdk::IoTBlock::make(uint32_t data, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#a8c958d7de8a1e92387e1ae14f38afca1',1,'vitroio::sdk::IoTBlock::make(void *data, size_t dataLen, uint32_t parameter)'],['../db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#abb085faa0a53b19a68b01eae9e40bebe',1,'vitroio::sdk::IoTBlock::make(void *data, IoTBlock_Sizes_t size, uint32_t parameter)']]],
   ['manageshardedge24v_2',['manageShardEdge24V',['../d9/d30/classvitroio_1_1sdk_1_1ShardEdge.html#a6268bdebca0638d9ea4d39c9133d0d39',1,'vitroio::sdk::ShardEdge']]],
   ['max_5fblock_5fsize_3',['MAX_BLOCK_SIZE',['../dd/d88/iot-block_8h.html#aa8bad2cd89820cdaf2a7f26392774014',1,'iot-block.h']]],
   ['max_5fpd_5fsize_4',['MAX_PD_SIZE',['../dd/d88/iot-block_8h.html#a6cf06caf4ae6f83638b88e7bdb0d3cc6',1,'iot-block.h']]],

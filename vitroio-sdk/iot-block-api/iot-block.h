@@ -3,6 +3,8 @@
 
 #include <vitroio-sdk/communication/canbus.h>
 #include <vitroio-sdk/communication/transport_layer.h>
+#include <vitroio-sdk/communication/impl/canbus_protocol_consts.h>
+
 
 #define AES_BLOCK_SIZE          16
 
@@ -50,8 +52,6 @@
 
 #define DATA_BLOB_SIZE          AES_IV_LEN + DATA_TO_ENCRYPT_SIZE
 #define CAN_DATA_SIZE           147
-
-#define TIMESTAMP_REQUEST_PARAMETER_ID 0x40
 
 namespace vitroio
 {
@@ -125,11 +125,11 @@ public:
      * data, parameter ID, node Id, timestamp, digest, and signature
      *
      * @param data sensor data value
-     *
      * @param parameter sensor's data type ID
+     * @return Returns 0 if IoT-Block has been created, error otherwise
      *
      */
-    void make(uint32_t data, uint32_t parameter);
+    int make(uint32_t data, uint32_t parameter);
 
     /**
      * @brief Prepare IoT block consisting of the Initialize Vector, encrypted
@@ -138,8 +138,9 @@ public:
      * @param data Pointer to data to be encrypted
      * @param dataLen Length of data given
      * @param parameter Parameter ID
+     * @return Returns 0 if IoT-Block has been created, error otherwise
      */
-    void make(void* data, size_t dataLen, uint32_t parameter);
+    int make(void* data, size_t dataLen, uint32_t parameter);
 
     /**
      * @brief Prepare IoT block consisting of the Initialize Vector, encrypted
@@ -149,8 +150,9 @@ public:
      * @param data Pointer to data to be encrypted
      * @param size IoTBlock size @ref IoTBlock_Sizes_t
      * @param parameter Parameter ID
+     * @return Returns 0 if IoT-Block has been created, error otherwise
      */
-    void make(void* data, IoTBlock_Sizes_t size, uint32_t parameter);
+    int make(void* data, IoTBlock_Sizes_t size, uint32_t parameter);
 
     /**
      * @brief Send IoT Block by chosen transport layer. Before sending, the Block has to be

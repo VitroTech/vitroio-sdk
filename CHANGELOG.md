@@ -30,6 +30,24 @@ TEMPLATE
 
 -->
 
+## [2.0.8] 2023-10-12
+
+### Added
+
+- Support for single provisioning, now can send NodeID + SingleProvisioningParamID
+  will trigger provisioning on single Shard. 
+
+### Fixed
+
+- Shard will check if provisioning request message has expected payload, 
+  if not it will return an error
+- Shard will return an error to App when ParameterId is out of 
+  permissible range
+
+### Changed
+
+- Moved all ParameterId to vitroio-sdk/communication/impl/canbus_protocol_consts.h
+
 ## [2.0.7] 2023-07-27
 
 ### Fixed

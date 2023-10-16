@@ -32,7 +32,7 @@ namespace sdk
  * 
  * @details The class uses an event loop for handling events. The event queue
  * can be managed by external queue specified by user or by internal queue with
- * thread of specifed priority.
+ * thread of specified priority.
  * 
  * @tparam MaxParams Specifies maximum number of sensors parameters that can be
  * handled

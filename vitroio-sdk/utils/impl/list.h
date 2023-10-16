@@ -77,7 +77,7 @@ private:
 
 } // namespace impl 
 
-} // namepsace sdk
+} // namespace sdk
 
 } // namespace vitroio
 

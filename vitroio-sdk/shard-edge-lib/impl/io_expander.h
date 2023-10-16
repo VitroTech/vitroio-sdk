@@ -34,6 +34,11 @@ public:
     IOExpander(PinName sda_pin, PinName scl_pin);
 
     /**
+     * @brief Destructor for IOExpander class.
+     */
+    ~IOExpander();
+
+    /**
      * @brief Function configures IOs direction of port to output
      * or input state. Each IO of given port can be configured
      * independently.
@@ -42,7 +47,7 @@ public:
      * @param port_number Port number which will be configured.
      * This variable can only take value 0x00 or 0x01.
      * @param config Direction of each IO in configured port.
-     * 0 means output, 1 means input. 
+     * 0 means output, 1 means input.
      *
      * @return Function returns 0 on success or appropriate error code
      * otherwise.
@@ -55,7 +60,7 @@ public:
      * @param address I2C address of IO Expander.
      * @param port_number Port number which will be read.
      * This variable can only take value 0x00 or 0x01.
-     * @param portState If read succesfully, this variable contains
+     * @param portState If read successfully, this variable contains
      * state of each input of read port.
      *
      * @return Function returns 0 on success or appropriate error code

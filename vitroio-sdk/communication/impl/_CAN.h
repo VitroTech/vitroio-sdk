@@ -18,7 +18,7 @@ namespace impl
  */
 
 /**
- * @brief The _CAN class is a simple extenstion of
+ * @brief The _CAN class is a simple extension of
  * <a href="https://os.mbed.com/docs/latest/apis/can.html">mbed::CAN</a> class.
  * 
  * @details The class inherits from

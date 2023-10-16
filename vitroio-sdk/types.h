@@ -32,7 +32,7 @@ struct FirmwareId
     /**
      * @brief Constructor initializes the structure.
      * 
-     * @param buffer buffer containg version as binary
+     * @param buffer buffer containing version as binary
      */
     FirmwareId(const uint8_t* buffer);
     
@@ -63,7 +63,7 @@ struct Version
     /**
      * @brief Constructor initializes the structure.
      * 
-     * @param buffer buffer containg version as binary
+     * @param buffer buffer containing version as binary
      */
     Version(const uint8_t* buffer);
 

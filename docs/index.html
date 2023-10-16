@@ -168,12 +168,18 @@ Closed source static library</h1>
 <p >Since 1.2.1 version it is possible to build closed-source Vitro Shard SDK as static library.</p>
 <h2><a class="anchor" id="autotoc_md10"></a>
 Building</h2>
-<p >Make sure to run <code>git submodule update --init --recursive</code> before building <br  />
- Build using <code>./docker_build_lib.sh</code> script. Output library and header files will be available in <code>Vitro-SDK-Lib</code> directory.</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<p >Make sure to run <code>git submodule update --init --recursive</code> before building Build using <code>./docker_build_lib.sh</code> script. Output library and header files will be available in <code>Vitro-SDK-Lib</code> directory.</p>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Library info</h3>
+<p >If you've made manual changes to the sdk code and compiled it, but aren't seeing your changes, try to copy the compiled product like this:</p>
+<ul>
+<li>first copy the two files, <code>libvitro-shard-sdkx.y.z.a</code> and <code><a class="el" href="d4/d3e/shard-sdk_8h.html">shard-sdk.h</a></code> to your desired location.</li>
+<li>then, instead of copying the <code>Vitro-SDK-Lib/vitroio-sdk</code> folder, copy the <code>vitroio-sdk</code> folder directly from the <code>vitro-shard-sdk</code> repo.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Using</h2>
 <p >Copy static library and header files from <code>Vitro-SDK-Lib</code> to directory with source code of your project.</p>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Known issues</h2>
 <blockquote class="doxtable">
 <p >&zwj;NOTE: There is a few differences in SDK older than 2.0.0. Change branch to </p>
@@ -195,7 +201,7 @@ Known issues</h2>
 </div><!-- fragment --></li>
 </ul>
 <p >This serial port is used for application console.</p>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Releasing SDK</h1>
 <p >To release the SDK from private repo to the public - take the following steps:</p>
 <ol type="1">
