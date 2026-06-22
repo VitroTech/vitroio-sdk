@@ -1,6 +1,10 @@
 <map id="debug.h" name="debug.h">
-<area shape="rect" id="node1" title="The file defines debug macros." alt="" coords="111,5,177,31"/>
-<area shape="rect" id="node2" href="$d8/dc5/io__expander_8h.html" title=" " alt="" coords="5,79,107,104"/>
-<area shape="rect" id="node3" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="142,152,231,177"/>
-<area shape="rect" id="node4" href="$dc/dce/shard__edge_8h.html" title=" " alt="" coords="181,79,280,104"/>
+<area shape="rect" id="Node000001" title="The file defines debug macros." alt="" coords="110,5,177,31"/>
+<area shape="rect" id="Node000002" href="$d8/dc5/io__expander_8h.html" title=" " alt="" coords="5,79,106,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,43,72,81,69,77,115,39"/>
+<area shape="rect" id="Node000003" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="142,153,230,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,45,185,151,180,153,149,47"/>
+<area shape="rect" id="Node000004" href="$dc/dce/shard__edge_8h.html" title=" " alt="" coords="181,79,279,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,39,217,77,214,81,168,43"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="217,119,196,154,191,151,213,116"/>
 </map>

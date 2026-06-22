@@ -1,4 +1,5 @@
 <map id="vitroio::sdk::NodeController" name="vitroio::sdk::NodeController">
-<area shape="rect" id="node1" title="Class is a main component of the node firmware." alt="" coords="21,79,197,104"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,212,31"/>
+<area shape="rect" id="Node000001" title="Class is a main component of the node firmware." alt="" coords="21,79,196,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,212,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,46,111,79,106,79,106,46"/>
 </map>

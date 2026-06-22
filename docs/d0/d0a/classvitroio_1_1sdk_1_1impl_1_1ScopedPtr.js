@@ -1,6 +1,6 @@
 var classvitroio_1_1sdk_1_1impl_1_1ScopedPtr =
 [
-    [ "Deleter", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#ad52377f799bdc6d54c631288aff09077", null ],
+    [ "Deleter", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aefcfacfbaf60a45a0bd2dd55e89072f2", null ],
     [ "ScopedPtr", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#adb954e0739bee4fdc46d8c1657f0bd8d", null ],
     [ "~ScopedPtr", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#a630c76953d09127af2e5a5b6d0772c3b", null ],
     [ "get", "d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html#aff5a5e58d2da3126d787612dc4193731", null ],

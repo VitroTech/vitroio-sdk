@@ -1,5 +1,7 @@
 <map id="vitroio::sdk::impl::Buffer::set" name="vitroio::sdk::impl::Buffer::set">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,120,77"/>
-<area shape="rect" id="node2" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606" title=" " alt="" coords="168,5,283,45"/>
-<area shape="rect" id="node3" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd" title=" " alt="" coords="168,69,283,109"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,119,79"/>
+<area shape="rect" id="Node000002" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606" title=" " alt="" coords="167,5,281,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,45,151,38,152,43,120,50"/>
+<area shape="rect" id="Node000003" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a97c0e8e2f6499b0004a4772b8d8348cd" title=" " alt="" coords="167,71,280,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,68,152,74,151,79,118,73"/>
 </map>

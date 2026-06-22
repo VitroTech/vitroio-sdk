@@ -25,26 +25,8 @@
 var NAVTREE =
 [
   [ "VitroIO SDK", "index.html", [
-    [ "vitro-shard-sdk", "index.html", [
-      [ "Introduction", "index.html#autotoc_md1", null ],
-      [ "Features", "index.html#autotoc_md2", null ],
-      [ "Dependencies", "index.html#autotoc_md3", null ],
-      [ "Usage", "index.html#autotoc_md4", null ],
-      [ "Architecture", "index.html#autotoc_md5", [
-        [ "Division into modules", "index.html#autotoc_md6", null ],
-        [ "Event queues and callbacks", "index.html#autotoc_md7", null ]
-      ] ],
-      [ "Typical cooperation of objects", "index.html#autotoc_md8", null ],
-      [ "Closed source static library", "index.html#autotoc_md9", [
-        [ "Building", "index.html#autotoc_md10", [
-          [ "Library info", "index.html#autotoc_md11", null ]
-        ] ],
-        [ "Using", "index.html#autotoc_md12", null ],
-        [ "Known issues", "index.html#autotoc_md13", null ]
-      ] ],
-      [ "Releasing SDK", "index.html#autotoc_md14", null ]
-    ] ],
-    [ "Modules", "modules.html", "modules" ],
+    [ "vitro-shard-sdk", "index.html", "index" ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -59,7 +41,7 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -76,7 +58,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"db/d23/classvitroio_1_1sdk_1_1IoTBlock.html#aa64cf1ff3b2894fdc793eddbc4a5a78a"
+"db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#afcaf7a35ba3309168cf7646cc1cb693f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

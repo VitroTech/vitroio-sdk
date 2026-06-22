@@ -30,12 +30,26 @@ TEMPLATE
 
 -->
 
+## [2.1.0] 2026-06-22
+
+### Added
+
+- Global external frame support in addition to per-node external frame support
+- Internal extension of accessible CAN methods
+- NART (No Automatic Retry Transmission) control via `setNART()` method for 
+  configurable CAN frame transmission behavior
+
+### Fixed
+
+- `NodeController::initCommunication()` no longer retries the node ID request indefinitely; now returns `VITROIO_ERR_BUS_WRITE` after 3 failed attempts to send the request frame
+- Fixed a potential null-pointer invocation in `NodeController::handleExternalFrame()` when no callback is registered for a given external frame type
+
 ## [2.0.8] 2023-10-12
 
 ### Added
 
-- Support for single provisioning, now can send NodeID + SingleProvisioningParamID
-  will trigger provisioning on single Shard. 
+- Support for single provisioning, now can send NodeID + 
+  SingleProvisioningParamID will trigger provisioning on single Shard. 
 
 ### Fixed
 
@@ -46,7 +60,8 @@ TEMPLATE
 
 ### Changed
 
-- Moved all ParameterId to vitroio-sdk/communication/impl/canbus_protocol_consts.h
+- Moved all ParameterId to 
+  vitroio-sdk/communication/impl/canbus_protocol_consts.h
 
 ## [2.0.7] 2023-07-27
 

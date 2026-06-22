@@ -1,6 +1,9 @@
 <map id="vitroio::sdk::impl::Buffer::size" name="vitroio::sdk::impl::Buffer::size">
-<area shape="rect" id="node1" title=" " alt="" coords="168,69,283,109"/>
-<area shape="rect" id="node2" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e" title=" " alt="" coords="5,5,120,45"/>
-<area shape="rect" id="node3" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599" title=" " alt="" coords="5,69,120,109"/>
-<area shape="rect" id="node4" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5" title=" " alt="" coords="5,133,120,173"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,71,280,111"/>
+<area shape="rect" id="Node000002" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a91681158fd6528a8fe22d1473c27e32e" title=" " alt="" coords="5,5,119,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,67,113,49,115,44,158,62"/>
+<area shape="rect" id="Node000003" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#ad673a5dc93fb8b471b17aa88d2332599" title=" " alt="" coords="5,71,119,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,94,119,94,119,88,151,88"/>
+<area shape="rect" id="Node000004" href="$db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a6bb1cff9096aab6e58c62fe243c127d5" title=" " alt="" coords="5,136,119,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,120,115,138,113,133,156,115"/>
 </map>

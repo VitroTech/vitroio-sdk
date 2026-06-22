@@ -1,7 +1,13 @@
 <map id="_CAN.h" name="_CAN.h">
-<area shape="rect" id="node1" title=" " alt="" coords="97,5,163,31"/>
-<area shape="rect" id="node2" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="93,79,167,104"/>
-<area shape="rect" id="node3" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,152,92,177"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="85,225,175,251"/>
-<area shape="rect" id="node5" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="168,152,249,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,5,162,31"/>
+<area shape="rect" id="Node000002" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="92,79,165,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,46,131,79,126,79,126,46"/>
+<area shape="rect" id="Node000003" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,153,92,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,117,64,154,60,150,102,113"/>
+<area shape="rect" id="Node000004" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="84,226,173,252"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="131,120,131,226,126,226,126,120"/>
+<area shape="rect" id="Node000005" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="166,153,246,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="155,114,195,150,191,154,151,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="75,187,117,224,113,228,72,191"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="183,191,143,228,140,224,180,187"/>
 </map>

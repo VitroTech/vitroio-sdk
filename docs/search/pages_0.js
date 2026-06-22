@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['vitro_2dshard_2dsdk_0',['vitro-shard-sdk',['../index.html',1,'']]]
+  ['sdk_0',['vitro-shard-sdk',['../index.html',1,'']]],
+  ['shard_20sdk_1',['vitro-shard-sdk',['../index.html',1,'']]]
 ];

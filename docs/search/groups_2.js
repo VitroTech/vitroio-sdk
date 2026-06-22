@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['interfaces_0',['Interfaces',['../d5/d4f/group__interfaces.html',1,'']]],
-  ['iot_2dblock_2dapi_1',['Iot-block-api',['../d8/d1c/group__iot-block-api.html',1,'']]]
+  ['communication_0',['Communication',['../d2/d7b/group__communication.html',1,'']]],
+  ['control_1',['Control',['../df/da7/group__control.html',1,'']]]
 ];

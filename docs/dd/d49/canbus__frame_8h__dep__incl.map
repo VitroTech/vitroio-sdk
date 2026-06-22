@@ -1,8 +1,18 @@
 <map id="canbus_frame.h" name="canbus_frame.h">
-<area shape="rect" id="node1" title=" " alt="" coords="230,5,345,31"/>
-<area shape="rect" id="node2" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="133,79,207,104"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="164,225,253,251"/>
-<area shape="rect" id="node6" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="325,79,445,104"/>
-<area shape="rect" id="node3" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,152,92,177"/>
-<area shape="rect" id="node5" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="168,152,249,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="226,5,340,31"/>
+<area shape="rect" id="Node000002" href="$d1/dd8/canbus_8h.html" title=" " alt="" coords="130,79,204,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,42,188,81,186,76,250,37"/>
+<area shape="rect" id="Node000004" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="162,226,250,252"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="286,47,280,109,273,145,260,180,242,207,222,228,218,224,238,203,255,177,268,143,275,108,281,46"/>
+<area shape="rect" id="Node000006" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="321,79,440,105"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="313,38,366,76,363,81,310,43"/>
+<area shape="rect" id="Node000003" href="$df/dce/can__layer_8h.html" title=" " alt="" coords="5,153,92,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,115,70,154,67,150,133,111"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="159,120,153,148,156,177,172,204,193,224,189,228,168,207,151,179,148,148,154,119"/>
+<area shape="rect" id="Node000005" href="$dd/d88/iot-block_8h.html" title=" " alt="" coords="166,153,246,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="183,117,202,151,197,153,178,120"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,183,180,223,178,228,88,188"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="208,194,208,226,203,226,203,194"/>
+<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="364,119,336,149,304,180,266,207,230,228,228,223,263,203,300,176,333,146,360,115"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="440,76,459,80,467,92,463,101,453,106,425,108,424,103,451,101,459,97,462,92,456,85,439,81"/>
 </map>
