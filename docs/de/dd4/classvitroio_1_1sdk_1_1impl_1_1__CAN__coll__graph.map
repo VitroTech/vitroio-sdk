@@ -1,4 +1,5 @@
 <map id="vitroio::sdk::impl::_CAN" name="vitroio::sdk::impl::_CAN">
-<area shape="rect" id="node1" title="The _CAN class is a simple extension of mbed::CAN class." alt="" coords="5,79,120,119"/>
-<area shape="rect" id="node2" title=" " alt="" coords="37,5,88,31"/>
+<area shape="rect" id="Node000001" title="The _CAN class is a simple extension of mbed::CAN class." alt="" coords="5,79,119,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,5,87,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,46,65,79,59,79,59,46"/>
 </map>

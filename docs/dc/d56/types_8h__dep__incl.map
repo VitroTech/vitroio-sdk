@@ -1,8 +1,17 @@
 <map id="types.h" name="types.h">
-<area shape="rect" id="node1" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="148,5,210,31"/>
-<area shape="rect" id="node2" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="186,79,346,104"/>
-<area shape="rect" id="node3" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="42,152,162,177"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="193,225,282,251"/>
-<area shape="rect" id="node6" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="23,79,162,104"/>
-<area shape="rect" id="node5" href="$d2/d02/timestamp_8h.html" title=" " alt="" coords="219,152,312,177"/>
+<area shape="rect" id="Node000001" title="The file contains types used by vitro&#45;shard&#45;sdk." alt="" coords="146,5,209,31"/>
+<area shape="rect" id="Node000002" href="$de/d4f/environment__interface_8h.html" title=" " alt="" coords="185,79,344,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,39,251,77,248,81,202,43"/>
+<area shape="rect" id="Node000003" href="$d6/d9f/node__controller_8h.html" title=" " alt="" coords="42,153,161,178"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="131,25,100,30,67,41,37,57,13,81,9,91,9,100,22,119,46,136,72,150,70,155,43,141,18,123,4,102,3,90,9,77,34,53,65,36,99,25,130,19"/>
+<area shape="rect" id="Node000004" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="192,226,280,252"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="225,18,259,23,296,33,331,51,358,77,368,100,367,122,357,144,341,165,299,202,259,228,256,224,296,197,337,162,352,142,361,121,363,101,354,81,327,55,294,38,258,28,224,23"/>
+<area shape="rect" id="Node000006" href="$da/d8a/upgrade__controller_8h.html" title=" " alt="" coords="24,79,161,105"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="153,43,108,81,105,77,150,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="224,114,130,155,128,150,222,109"/>
+<area shape="rect" id="Node000005" href="$d2/d02/timestamp_8h.html" title=" " alt="" coords="218,153,310,178"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="267,120,267,152,262,152,262,120"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="161,149,180,154,188,165,184,174,174,179,146,182,145,176,173,174,180,170,183,166,177,158,160,155"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="139,184,215,223,212,228,137,188"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="98,119,103,152,97,153,93,120"/>
 </map>

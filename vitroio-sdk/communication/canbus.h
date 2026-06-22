@@ -152,6 +152,28 @@ public:
      */
     int setOnFrameReceivedCallback(OnFrameReceivedCallback callback, int handle = -1);
 
+    /**
+     * @brief Function allows to set NART bit on MCR register.
+     * 
+     * @details Sets the NART (No Automatic Retry Transmission) bit on the CAN 
+     * controller's Module Configuration Register:
+     * - When @p flag is true: Transmission is one-shot; frames are sent only once 
+     *   without automatic retry on failure. This ensures predictable transmission 
+     *   timing suitable for real-time applications.
+     * - When @p flag is false: Failed transmission frames are automatically retried 
+     *   by the controller, which may introduce variable delays but improves 
+     *   reliability for noisy communication channels.
+     * 
+     * @param flag true to enable NART (one-shot transmission), false to enable 
+     * automatic retries
+     * 
+     * @note NART should be configured immediately after Canbus object construction, 
+     * before the bus becomes active. Modifying this setting while the bus is 
+     * running is strongly discouraged as it can disrupt frame transmission and 
+     * reception, potentially resulting in dropped frames and transmission failures.
+     */
+    void setNART(bool flag);
+
 private:
     static const uint32_t onFramesReceivedCallbacksCnt_ = 4;
 

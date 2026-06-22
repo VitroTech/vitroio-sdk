@@ -1,4 +1,5 @@
 <map id="vitroio::sdk::impl::FlashInterface" name="vitroio::sdk::impl::FlashInterface">
-<area shape="rect" id="node1" title="Class is a wrapper for mbed::FlashIAP module." alt="" coords="50,79,165,119"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,209,31"/>
+<area shape="rect" id="Node000001" title="Class is a wrapper for mbed::FlashIAP module." alt="" coords="50,79,164,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,209,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,46,110,79,104,79,104,46"/>
 </map>

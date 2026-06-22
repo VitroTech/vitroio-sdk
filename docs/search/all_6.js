@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['firmwareid_0',['FirmwareId',['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html#a3988874bc412e0d88c99db99ed722ad5',1,'vitroio::sdk::FirmwareId::FirmwareId(uint16_t id)'],['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html#abf8b33345d282e4712d814c176606c39',1,'vitroio::sdk::FirmwareId::FirmwareId(const uint8_t *buffer)'],['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html',1,'vitroio::sdk::FirmwareId']]],
-  ['first_1',['first',['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html#a3cbe8734c87e5393837c0abf866bad4d',1,'vitroio::sdk::impl::List']]],
-  ['flash_5finterface_2eh_2',['flash_interface.h',['../d6/d4d/flash__interface_8h.html',1,'']]],
-  ['flashinterface_3',['FlashInterface',['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#ac7362cc341d896192d6e808b241efb42',1,'vitroio::sdk::impl::FlashInterface::FlashInterface()'],['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html',1,'vitroio::sdk::impl::FlashInterface']]],
-  ['flashspace_4',['FlashSpace',['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html#ab84a3bfb3ba1e3d638caee5c0b345f78',1,'vitroio::sdk::FlashSpace::FlashSpace()'],['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html',1,'vitroio::sdk::FlashSpace']]],
-  ['free_5',['free',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f',1,'vitroio::sdk::impl::Buffer']]],
-  ['freesize_6',['freeSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606',1,'vitroio::sdk::impl::Buffer']]]
+  ['features_0',['Features',['../index.html#autotoc_md2',1,'']]],
+  ['firmwareid_1',['FirmwareId',['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html',1,'vitroio::sdk::FirmwareId'],['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html#a3988874bc412e0d88c99db99ed722ad5',1,'vitroio::sdk::FirmwareId::FirmwareId(uint16_t id)'],['../dc/d49/structvitroio_1_1sdk_1_1FirmwareId.html#abf8b33345d282e4712d814c176606c39',1,'vitroio::sdk::FirmwareId::FirmwareId(const uint8_t *buffer)']]],
+  ['first_2',['first',['../d6/d16/classvitroio_1_1sdk_1_1impl_1_1List.html#a3cbe8734c87e5393837c0abf866bad4d',1,'vitroio::sdk::impl::List']]],
+  ['flash_5finterface_2eh_3',['flash_interface.h',['../d6/d4d/flash__interface_8h.html',1,'']]],
+  ['flashinterface_4',['FlashInterface',['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html',1,'vitroio::sdk::impl::FlashInterface'],['../d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html#ac7362cc341d896192d6e808b241efb42',1,'vitroio::sdk::impl::FlashInterface::FlashInterface()']]],
+  ['flashspace_5',['FlashSpace',['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html',1,'vitroio::sdk::FlashSpace'],['../de/d1a/structvitroio_1_1sdk_1_1FlashSpace.html#ab84a3bfb3ba1e3d638caee5c0b345f78',1,'vitroio::sdk::FlashSpace::FlashSpace()']]],
+  ['free_6',['free',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a18ad54c9de9e50b5623896014f050b6f',1,'vitroio::sdk::impl::Buffer']]],
+  ['freesize_7',['freeSize',['../db/d9a/classvitroio_1_1sdk_1_1impl_1_1Buffer.html#a2e59790372d82b5d9fbc766021efb606',1,'vitroio::sdk::impl::Buffer']]]
 ];

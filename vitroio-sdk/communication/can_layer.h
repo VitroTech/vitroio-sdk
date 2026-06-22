@@ -14,7 +14,7 @@ namespace sdk {
  * @{
  */
     /**
-     * @brief This class implements CAN bus transport layer for IoT Blockss
+     * @brief This class implements CAN bus transport layer for IoT Blocks
      * 
      */
     class Can_layer: public Transport_layer {
@@ -47,6 +47,18 @@ namespace sdk {
              * @return int Status of sending
              */
             int send(uint32_t parameterId, const IoVec* iov, int iovcnt);
+
+             /**
+             * @brief Function sends given raw data without the IoT Block overhead 
+             * 
+             * @param parameterId Id of parameter sent
+             * @param data Pointer to the array containing the data to be sent. Only 8 bytes 
+             * are allowed
+             * @param nBytes Number of bytes to be sent. If more than 8bytes are used, they will be
+             * dropped
+             * @return int Status of sending
+             */
+            int sendRaw(uint32_t parameterId, uint8_t* data, uint8_t nBytes);
 
             /**
              * @brief Function sends timestamp request and returns timestamp value

@@ -1,7 +1,7 @@
 var group__control =
 [
     [ "vitroio::sdk::impl::UpgradeController", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html", [
-      [ "OnNewFirmwareAvailableCallback", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ac93e5ff6d19dedb6a04ac58a4063fe9b", null ],
+      [ "OnNewFirmwareAvailableCallback", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#aff5617ddc04f3e7a5daab524fb62ae5c", null ],
       [ "UpgradeController", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#afcaf7a35ba3309168cf7646cc1cb693f", null ],
       [ "~UpgradeController", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#afa5b06259fcdbcaed2c4730d68d0e9ad", null ],
       [ "configure", "db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html#ab3cc3bd0da0d68a286d168029f592c9c", null ],

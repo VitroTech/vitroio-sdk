@@ -1,11 +1,19 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,214,104,239"/>
-<area shape="rect" id="node2" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="165,5,315,45"/>
-<area shape="rect" id="node3" href="$da/d0e/classvitroio_1_1sdk_1_1Canbus.html" title="Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type." alt="" coords="173,70,307,95"/>
-<area shape="rect" id="node4" href="$d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html" title="Class is responsible for cycling readings of measurement data using registered sensors." alt="" coords="155,120,325,160"/>
-<area shape="rect" id="node5" href="$d0/dc8/classvitroio_1_1sdk_1_1NodeController.html" title="Class is a main component of the node firmware." alt="" coords="152,185,328,210"/>
-<area shape="rect" id="node6" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="165,235,315,275"/>
-<area shape="rect" id="node7" href="$d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html" title="Class is a wrapper for mbed::FlashIAP module." alt="" coords="183,299,297,339"/>
-<area shape="rect" id="node8" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="181,363,299,403"/>
-<area shape="rect" id="node9" href="$db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html" title="Class is responsible for handling upgrade data." alt="" coords="174,427,306,467"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,214,104,240"/>
+<area shape="rect" id="Node000001" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="164,5,314,46"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="62,198,94,128,119,89,150,56,167,44,170,49,153,60,123,93,98,130,67,201"/>
+<area shape="rect" id="Node000002" href="$da/d0e/classvitroio_1_1sdk_1_1Canbus.html" title="Class is a wrapper for mbed::CAN class and provides interface for CanbusFrame type." alt="" coords="173,70,306,96"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="68,199,102,152,124,127,150,106,174,94,177,99,153,111,128,131,106,155,73,202"/>
+<area shape="rect" id="Node000003" href="$d6/d19/classvitroio_1_1sdk_1_1MeasurementApi.html" title="Class is responsible for cycling readings of measurement data using registered sensors." alt="" coords="155,120,324,161"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="88,204,151,170,177,159,179,164,153,175,91,208"/>
+<area shape="rect" id="Node000004" href="$d0/dc8/classvitroio_1_1sdk_1_1NodeController.html" title="Class is a main component of the node firmware." alt="" coords="152,185,327,210"/>
+<area shape="poly" id="edge5_Node000000_Node000004" title=" " alt="" coords="119,214,154,209,155,214,120,219"/>
+<area shape="rect" id="Node000005" href="$d2/d9c/classvitroio_1_1sdk_1_1impl_1_1EnvironmentInterface.html" title="Class is wrapper for FlashInterface. It allows to read/write environment variables stored in flash me..." alt="" coords="164,235,314,275"/>
+<area shape="poly" id="edge6_Node000000_Node000005" title=" " alt="" coords="120,234,164,241,163,246,119,239"/>
+<area shape="rect" id="Node000006" href="$d8/d38/classvitroio_1_1sdk_1_1impl_1_1FlashInterface.html" title="Class is a wrapper for mbed::FlashIAP module." alt="" coords="183,300,296,341"/>
+<area shape="poly" id="edge7_Node000000_Node000006" title=" " alt="" coords="88,246,153,285,183,298,181,303,150,289,86,251"/>
+<area shape="rect" id="Node000007" href="$d0/d0a/classvitroio_1_1sdk_1_1impl_1_1ScopedPtr.html" title=" " alt="" coords="180,365,298,406"/>
+<area shape="poly" id="edge8_Node000000_Node000007" title=" " alt="" coords="72,252,106,302,128,328,153,350,181,366,179,371,150,355,124,331,101,305,68,255"/>
+<area shape="rect" id="Node000008" href="$db/d78/classvitroio_1_1sdk_1_1impl_1_1UpgradeController.html" title="Class is responsible for handling upgrade data." alt="" coords="174,431,305,471"/>
+<area shape="poly" id="edge9_Node000000_Node000008" title=" " alt="" coords="65,254,77,290,95,334,121,377,153,416,175,430,172,434,150,420,116,381,91,336,72,292,60,256"/>
 </map>

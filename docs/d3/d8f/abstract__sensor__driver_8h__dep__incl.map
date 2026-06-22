@@ -1,6 +1,11 @@
 <map id="abstract_sensor_driver.h" name="abstract_sensor_driver.h">
-<area shape="rect" id="node1" title=" " alt="" coords="81,5,245,31"/>
-<area shape="rect" id="node2" href="$df/d63/abstract__sensor__interface_8h.html" title=" " alt="" coords="8,79,191,104"/>
-<area shape="rect" id="node4" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="133,225,223,251"/>
-<area shape="rect" id="node3" href="$d4/d99/measurement__api_8h.html" title=" " alt="" coords="5,152,140,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,5,245,31"/>
+<area shape="rect" id="Node000002" href="$df/d63/abstract__sensor__interface_8h.html" title=" " alt="" coords="8,79,190,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,44,112,80,108,77,141,40"/>
+<area shape="rect" id="Node000004" href="$d4/d3e/shard-sdk_8h.html" title=" " alt="" coords="132,226,221,252"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="186,42,204,78,210,121,205,163,195,200,184,227,179,225,190,199,199,162,204,121,199,80,181,45"/>
+<area shape="rect" id="Node000003" href="$d4/d99/measurement__api_8h.html" title=" " alt="" coords="5,153,140,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,120,79,153,75,151,87,118"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="125,114,153,151,169,191,177,226,172,227,164,193,149,154,121,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="104,185,160,224,157,228,101,189"/>
 </map>
