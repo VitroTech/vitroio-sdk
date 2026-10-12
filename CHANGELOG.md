@@ -30,6 +30,15 @@ TEMPLATE
 
 -->
 
+
+## [2.1.1] 2026-10-08
+
+### Fixed
+
+- Restore CAN receive interrupts after transmit-error controller reset on
+  STM32/Mbed, allowing commands, OTA, and provisioning reception to continue.
+
+
 ## [2.1.0] 2026-06-22
 
 ### Added
