@@ -31,6 +31,18 @@ TEMPLATE
 -->
 
 
+## [2.1.2] 2026-11-05
+
+### Fixed
+
+- A node that received an upgrade for another firmware ID with a higher version
+  refused every later upgrade, its own included, until it restarted:
+  `breakIncorrectUpdate` was set and never cleared. It is now cleared when the
+  transfer ends, so such an upgrade is dropped like one that is not required. On a
+  bus shared by several kinds of Shard, a FUOTA of one kind no longer blocks the next
+  FUOTA of the others.
+
+
 ## [2.1.1] 2026-10-08
 
 ### Fixed
